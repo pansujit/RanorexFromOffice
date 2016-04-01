@@ -1,0 +1,1106 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{BCA1DF9A-BC2E-4192-A009-098A16D354F9}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>testtooltip</RootNamespace>
+    <AssemblyName>testtooltip</AssemblyName>
+    <RanorexVersion>5</RanorexVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <projectdefaultrepository>73096f77-57b6-452e-a951-0ce5f89be3ba</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Mobile, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Qt, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Sap, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Uia, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>b537489e-5f7f-41af-b89f-2b06c76fcc88</id>
+    </Compile>
+    <Compile Include="ClearIconInputText.cs">
+      <BoundTo>d8133524-944f-472a-ad60-bc1e14901691</BoundTo>
+      <DependentUpon>ClearIconInputText.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f7e978ea-6198-40d8-9a4e-16f4c4e00afd</id>
+    </Compile>
+    <Compile Include="ClearIconInputText.UserCode.cs">
+      <BoundTo>d8133524-944f-472a-ad60-bc1e14901691</BoundTo>
+      <DependentUpon>ClearIconInputText.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>daf5b1a0-60c7-48c1-8cd7-51211d3e8ccb</id>
+    </Compile>
+    <Compile Include="ClearInputText.cs">
+      <BoundTo>51e020d6-4749-498e-a4d8-cc416bf9f58f</BoundTo>
+      <DependentUpon>ClearInputText.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f3cad242-ba24-4294-a2a3-1aa34ac861b6</id>
+    </Compile>
+    <Compile Include="ClearInputText.UserCode.cs">
+      <BoundTo>51e020d6-4749-498e-a4d8-cc416bf9f58f</BoundTo>
+      <DependentUpon>ClearInputText.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b4ec154f-1485-480e-8db4-faec77b9892d</id>
+    </Compile>
+    <Compile Include="ClickOnCopyToClipBoard.cs">
+      <BoundTo>da160000-1cd2-419c-9219-a55ae171bb2c</BoundTo>
+      <DependentUpon>ClickOnCopyToClipBoard.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>48c8214c-7b26-416e-a588-07537cb4550a</id>
+    </Compile>
+    <Compile Include="ClickOnCopyToClipBoard.UserCode.cs">
+      <BoundTo>da160000-1cd2-419c-9219-a55ae171bb2c</BoundTo>
+      <DependentUpon>ClickOnCopyToClipBoard.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8215d0b6-67f4-4b61-9338-aed97ca21a33</id>
+    </Compile>
+    <Compile Include="ClickOnEditTranslate.cs">
+      <BoundTo>b8ab178a-0ad7-4976-ac31-76138ffb8b27</BoundTo>
+      <DependentUpon>ClickOnEditTranslate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b64d4869-3d8b-4e7a-a5b7-7366540c6bdf</id>
+    </Compile>
+    <Compile Include="ClickOnEditTranslate.UserCode.cs">
+      <BoundTo>b8ab178a-0ad7-4976-ac31-76138ffb8b27</BoundTo>
+      <DependentUpon>ClickOnEditTranslate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d8648d5a-a0dd-4c7a-8cea-d184cf3244ba</id>
+    </Compile>
+    <Compile Include="ClickOnEndEditTarget.cs">
+      <BoundTo>519234e5-a5d0-43dd-94d7-e97f3b757690</BoundTo>
+      <DependentUpon>ClickOnEndEditTarget.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b7e35f61-454f-4c97-a1ff-67c8df6021f1</id>
+    </Compile>
+    <Compile Include="ClickOnEndEditTarget.UserCode.cs">
+      <BoundTo>519234e5-a5d0-43dd-94d7-e97f3b757690</BoundTo>
+      <DependentUpon>ClickOnEndEditTarget.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>811716ed-96ff-4a04-8464-f1b27771dcc0</id>
+    </Compile>
+    <Compile Include="ClickOnHistory.cs">
+      <BoundTo>4cf49ec4-5cd6-49a3-8325-8eb4eeb4dc3c</BoundTo>
+      <DependentUpon>ClickOnHistory.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>29532466-fb06-4234-986d-33f51a4a77bc</id>
+    </Compile>
+    <Compile Include="ClickOnHistory.UserCode.cs">
+      <BoundTo>4cf49ec4-5cd6-49a3-8325-8eb4eeb4dc3c</BoundTo>
+      <DependentUpon>ClickOnHistory.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f223352f-b7e5-47af-951a-7b359bbd90bd</id>
+    </Compile>
+    <Compile Include="ClickOnInputField.cs">
+      <BoundTo>d9e50685-3869-44b5-a8d8-e68de7f7bc0f</BoundTo>
+      <DependentUpon>ClickOnInputField.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a3f8aa4d-4811-41c1-add5-a7e81fc8d3d2</id>
+    </Compile>
+    <Compile Include="ClickOnInputField.UserCode.cs">
+      <BoundTo>d9e50685-3869-44b5-a8d8-e68de7f7bc0f</BoundTo>
+      <DependentUpon>ClickOnInputField.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1a7f96e3-1d89-4d27-9b0f-d167617b13b7</id>
+    </Compile>
+    <Compile Include="ClickOnProfile.cs">
+      <BoundTo>b2f17cba-b24b-41cd-a283-49b455b7bd8b</BoundTo>
+      <DependentUpon>ClickOnProfile.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>eabee821-9162-4125-bbf9-efb27f1aff38</id>
+    </Compile>
+    <Compile Include="ClickOnProfile.UserCode.cs">
+      <BoundTo>b2f17cba-b24b-41cd-a283-49b455b7bd8b</BoundTo>
+      <DependentUpon>ClickOnProfile.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ac1d784d-d963-4e65-8045-327094d7d6e9</id>
+    </Compile>
+    <Compile Include="ClickOnTargetInputField.cs">
+      <BoundTo>e4f6672e-7f45-47e1-8f9b-88856d14ba15</BoundTo>
+      <DependentUpon>ClickOnTargetInputField.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5cdbbccc-b9f8-46b4-9a2f-7a8cd758633a</id>
+    </Compile>
+    <Compile Include="ClickOnTargetInputField.UserCode.cs">
+      <BoundTo>e4f6672e-7f45-47e1-8f9b-88856d14ba15</BoundTo>
+      <DependentUpon>ClickOnTargetInputField.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e5ab8112-e543-4aaa-be3d-d4fef8c41eb9</id>
+    </Compile>
+    <Compile Include="ClickOnTranslate.cs">
+      <BoundTo>936257a4-aca2-4743-a510-391ebe1e8a10</BoundTo>
+      <DependentUpon>ClickOnTranslate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ef0dabae-4d4e-4174-9c83-caebe44c7ce6</id>
+    </Compile>
+    <Compile Include="ClickOnTranslate.UserCode.cs">
+      <BoundTo>936257a4-aca2-4743-a510-391ebe1e8a10</BoundTo>
+      <DependentUpon>ClickOnTranslate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7c532f57-8431-4974-9755-3bb7964e6f9c</id>
+    </Compile>
+    <Compile Include="ClickOnWindowsCancel.cs">
+      <BoundTo>3a898166-c6e2-48af-8477-0798cc5b313e</BoundTo>
+      <DependentUpon>ClickOnWindowsCancel.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a2495779-c873-44c8-82bb-e4bc27d17c8f</id>
+    </Compile>
+    <Compile Include="ClickOnWindowsCancel.UserCode.cs">
+      <BoundTo>3a898166-c6e2-48af-8477-0798cc5b313e</BoundTo>
+      <DependentUpon>ClickOnWindowsCancel.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3ed27650-a21c-4373-acab-61afb1ee7187</id>
+    </Compile>
+    <Compile Include="CloseSIT.cs">
+      <BoundTo>2a1cbdc5-f4c5-492a-8fb7-cb6bda79e8eb</BoundTo>
+      <DependentUpon>CloseSIT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1a41c13d-c7d7-49d2-b2f5-ab089e6115ec</id>
+    </Compile>
+    <Compile Include="CloseSIT.UserCode.cs">
+      <BoundTo>2a1cbdc5-f4c5-492a-8fb7-cb6bda79e8eb</BoundTo>
+      <DependentUpon>CloseSIT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d99ee4fa-ea33-4eba-bb2d-2a6cc25973db</id>
+    </Compile>
+    <Compile Include="CopyandPasteBycommandline.cs">
+      <BoundTo>0f92c264-fdb9-41e4-9441-fa66c47fd6a1</BoundTo>
+      <DependentUpon>CopyandPasteBycommandline.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9549ea9e-d5c8-4f7c-ac5d-6ebe5e21fea0</id>
+    </Compile>
+    <Compile Include="CopyandPasteBycommandline.UserCode.cs">
+      <BoundTo>0f92c264-fdb9-41e4-9441-fa66c47fd6a1</BoundTo>
+      <DependentUpon>CopyandPasteBycommandline.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b8696d19-27e1-4445-afd3-2ef7566e682d</id>
+    </Compile>
+    <Compile Include="CopyIconInputText.cs">
+      <BoundTo>b26ff36e-1322-4d17-a904-870dc1da1cea</BoundTo>
+      <DependentUpon>CopyIconInputText.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>813f3f72-8652-4c40-b503-f03a1bc62581</id>
+    </Compile>
+    <Compile Include="CopyIconInputText.UserCode.cs">
+      <BoundTo>b26ff36e-1322-4d17-a904-870dc1da1cea</BoundTo>
+      <DependentUpon>CopyIconInputText.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9d081853-4a1c-4ecd-92d8-f65ca498e0d0</id>
+    </Compile>
+    <Compile Include="copyPastefromEditedTarget.cs">
+      <BoundTo>59509ca0-a926-4dee-8fa5-b5ad9abfa362</BoundTo>
+      <DependentUpon>copyPastefromEditedTarget.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a69ec546-2ebe-4be6-8b5a-60967d2cb2af</id>
+    </Compile>
+    <Compile Include="copyPastefromEditedTarget.UserCode.cs">
+      <BoundTo>59509ca0-a926-4dee-8fa5-b5ad9abfa362</BoundTo>
+      <DependentUpon>copyPastefromEditedTarget.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>613d60e3-64b6-433e-8b40-b97a4ae61dd9</id>
+    </Compile>
+    <Compile Include="HelpInSIT.cs">
+      <BoundTo>e4155f79-b3a5-4e91-805f-5d916f399d07</BoundTo>
+      <DependentUpon>HelpInSIT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>30c3ced2-009f-405f-8c4d-7885f424c0bb</id>
+    </Compile>
+    <Compile Include="HelpInSIT.UserCode.cs">
+      <BoundTo>e4155f79-b3a5-4e91-805f-5d916f399d07</BoundTo>
+      <DependentUpon>HelpInSIT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>54feeb15-329a-44e5-92bb-d812ef45c346</id>
+    </Compile>
+    <Compile Include="PresenceOfElementsInHistory.cs">
+      <BoundTo>ee774b53-18da-461b-ba17-ba3ccfbd43b2</BoundTo>
+      <DependentUpon>PresenceOfElementsInHistory.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>475bc91f-0f0f-4b63-9319-d3be7dfdcdf1</id>
+    </Compile>
+    <Compile Include="PresenceOfElementsInHistory.UserCode.cs">
+      <BoundTo>ee774b53-18da-461b-ba17-ba3ccfbd43b2</BoundTo>
+      <DependentUpon>PresenceOfElementsInHistory.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d6f1b0e4-4faf-4278-8127-5632b7b9f5f7</id>
+    </Compile>
+    <Compile Include="InputTextTM.cs">
+      <BoundTo>05f69e65-f27c-4da0-aea7-cfa8414263a6</BoundTo>
+      <DependentUpon>InputTextTM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>64b5cf73-7e5c-4f2b-a798-f6dba40c54aa</id>
+    </Compile>
+    <Compile Include="InputTextTM.UserCode.cs">
+      <BoundTo>05f69e65-f27c-4da0-aea7-cfa8414263a6</BoundTo>
+      <DependentUpon>InputTextTM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>44508d75-01ea-4124-b251-990195ea640d</id>
+    </Compile>
+    <Compile Include="InputTextNormalization.cs">
+      <BoundTo>a0f5c492-e5a2-465c-adbd-b4654e815472</BoundTo>
+      <DependentUpon>InputTextNormalization.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f6eadfcf-5681-4f45-a1e6-2cd496e3f01c</id>
+    </Compile>
+    <Compile Include="InputTextNormalization.UserCode.cs">
+      <BoundTo>a0f5c492-e5a2-465c-adbd-b4654e815472</BoundTo>
+      <DependentUpon>InputTextNormalization.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d1a9ff18-b36d-4c81-9a5a-bfe5940175a5</id>
+    </Compile>
+    <Compile Include="InputTextToInputField.cs">
+      <BoundTo>f48035b8-d11f-4c58-8dcb-a3bed5245d42</BoundTo>
+      <DependentUpon>InputTextToInputField.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1391671f-1ef7-49ff-a0cf-a3d81a3f73d3</id>
+    </Compile>
+    <Compile Include="InputTextToInputField.UserCode.cs">
+      <BoundTo>f48035b8-d11f-4c58-8dcb-a3bed5245d42</BoundTo>
+      <DependentUpon>InputTextToInputField.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>abc89393-1b27-4657-be64-d7cebd3b77cc</id>
+    </Compile>
+    <Compile Include="InputTextToInputFieldHome.cs">
+      <BoundTo>ba70e58e-6ddc-4072-9a4e-07d81b6855cc</BoundTo>
+      <DependentUpon>InputTextToInputFieldHome.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>33abe19a-15d9-4971-9952-b74590529104</id>
+    </Compile>
+    <Compile Include="InputTextToInputFieldHome.UserCode.cs">
+      <BoundTo>ba70e58e-6ddc-4072-9a4e-07d81b6855cc</BoundTo>
+      <DependentUpon>InputTextToInputFieldHome.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7846b500-5150-4b03-9ad8-a37a513fd6a8</id>
+    </Compile>
+    <Compile Include="InputTextUserDictionary.cs">
+      <BoundTo>3fd5abea-5d6c-40b0-b081-879a73e74ba1</BoundTo>
+      <DependentUpon>InputTextUserDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f61ad01f-9a61-4c2d-bf7c-092affd636a4</id>
+    </Compile>
+    <Compile Include="InputTextUserDictionary.UserCode.cs">
+      <BoundTo>3fd5abea-5d6c-40b0-b081-879a73e74ba1</BoundTo>
+      <DependentUpon>InputTextUserDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8b572e35-e88e-4b0e-b6f5-45b133748ced</id>
+    </Compile>
+    <Compile Include="InputToTheTargetFieldFoyer.cs">
+      <BoundTo>d0dd030c-909d-4139-bb8c-3a4f3721aae2</BoundTo>
+      <DependentUpon>InputToTheTargetFieldFoyer.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>06246bb4-f3d6-4514-b49c-1cc3732214a2</id>
+    </Compile>
+    <Compile Include="InputToTheTargetFieldFoyer.UserCode.cs">
+      <BoundTo>d0dd030c-909d-4139-bb8c-3a4f3721aae2</BoundTo>
+      <DependentUpon>InputToTheTargetFieldFoyer.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>88c0d84e-f002-4d57-9ca0-cebb39ec5fd3</id>
+    </Compile>
+    <Compile Include="MouseOverEditTargetEditor.cs">
+      <BoundTo>977cf508-942c-4550-8b8b-105c0e83a34d</BoundTo>
+      <DependentUpon>MouseOverEditTargetEditor.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0c2790e0-bd70-4d8e-9ce7-0a1a99b2a77a</id>
+    </Compile>
+    <Compile Include="MouseOverEditTargetEditor.UserCode.cs">
+      <BoundTo>977cf508-942c-4550-8b8b-105c0e83a34d</BoundTo>
+      <DependentUpon>MouseOverEditTargetEditor.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e6b1df5c-6f98-4e97-af1f-7315bac65f45</id>
+    </Compile>
+    <Compile Include="MouseOverEndTargetEditing.cs">
+      <BoundTo>bc4fab75-0c51-48e7-93cb-d8e0197f4535</BoundTo>
+      <DependentUpon>MouseOverEndTargetEditing.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0ab2ef10-eb65-4108-a0f5-95f738ef8015</id>
+    </Compile>
+    <Compile Include="MouseOverEndTargetEditing.UserCode.cs">
+      <BoundTo>bc4fab75-0c51-48e7-93cb-d8e0197f4535</BoundTo>
+      <DependentUpon>MouseOverEndTargetEditing.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>54b061cb-d10c-47ec-a758-a80410b61dda</id>
+    </Compile>
+    <Compile Include="MouseOvertoCopyToClipBoard.cs">
+      <BoundTo>b43d26e9-07e2-40fd-9492-faad0a5b2a62</BoundTo>
+      <DependentUpon>MouseOvertoCopyToClipBoard.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ab702325-8163-4447-867c-467190514375</id>
+    </Compile>
+    <Compile Include="MouseOvertoCopyToClipBoard.UserCode.cs">
+      <BoundTo>b43d26e9-07e2-40fd-9492-faad0a5b2a62</BoundTo>
+      <DependentUpon>MouseOvertoCopyToClipBoard.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2334fc69-134e-4401-bc38-9b5c8d9ffa0d</id>
+    </Compile>
+    <Compile Include="MouseOverToHorizintalLayout.cs">
+      <BoundTo>85ab0287-19cd-4eac-a057-87f56abfca84</BoundTo>
+      <DependentUpon>MouseOverToHorizintalLayout.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c9088fb8-89b8-4012-9876-7ad4696d9635</id>
+    </Compile>
+    <Compile Include="MouseOverToHorizintalLayout.UserCode.cs">
+      <BoundTo>85ab0287-19cd-4eac-a057-87f56abfca84</BoundTo>
+      <DependentUpon>MouseOverToHorizintalLayout.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1894f22f-030e-4e1b-864d-750d2beb42d1</id>
+    </Compile>
+    <Compile Include="MouseOverToVerticalLayout.cs">
+      <BoundTo>11a9e43d-f807-454d-8387-d2b0c8b3bd75</BoundTo>
+      <DependentUpon>MouseOverToVerticalLayout.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>02d8579b-dc3d-41bc-9d90-b232f639b838</id>
+    </Compile>
+    <Compile Include="MouseOverToVerticalLayout.UserCode.cs">
+      <BoundTo>11a9e43d-f807-454d-8387-d2b0c8b3bd75</BoundTo>
+      <DependentUpon>MouseOverToVerticalLayout.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e79ef66a-eccf-4056-862f-61aacaf1a3f0</id>
+    </Compile>
+    <Compile Include="Paste.cs">
+      <BoundTo>8f1f9c0f-3e25-456b-9fde-f99a22453301</BoundTo>
+      <DependentUpon>Paste.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7162f22f-e667-41cf-a9cb-3707b890b2d9</id>
+    </Compile>
+    <Compile Include="Paste.UserCode.cs">
+      <BoundTo>8f1f9c0f-3e25-456b-9fde-f99a22453301</BoundTo>
+      <DependentUpon>Paste.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5971b00f-05bf-4494-a6e3-b5d095f8daa4</id>
+    </Compile>
+    <Compile Include="PasteToInputField.cs">
+      <BoundTo>15de8d1b-f208-4b78-91fd-93b963293402</BoundTo>
+      <DependentUpon>PasteToInputField.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>22ee8bae-6d74-4296-88bf-ee5b3751bad5</id>
+    </Compile>
+    <Compile Include="PasteToInputField.UserCode.cs">
+      <BoundTo>15de8d1b-f208-4b78-91fd-93b963293402</BoundTo>
+      <DependentUpon>PasteToInputField.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5efad2cb-bfb5-4837-b47e-8fb428e03f4a</id>
+    </Compile>
+    <Compile Include="PresenseOfMinMaxAndCloseButtonInSIT.cs">
+      <BoundTo>2864377f-caf1-4053-81b6-785d82443cfb</BoundTo>
+      <DependentUpon>PresenseOfMinMaxAndCloseButtonInSIT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ae43f46c-3222-45eb-a85e-ef2b56a2c98f</id>
+    </Compile>
+    <Compile Include="PresenseOfMinMaxAndCloseButtonInSIT.UserCode.cs">
+      <BoundTo>2864377f-caf1-4053-81b6-785d82443cfb</BoundTo>
+      <DependentUpon>PresenseOfMinMaxAndCloseButtonInSIT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6a94af0d-b90f-452c-ba03-1732c86c4639</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>415a1e4c-74fe-4695-adcc-6f284601be29</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>22514e96-42e4-4410-be32-44bea6a9a5df</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4f205d21-a560-4bd8-8016-0c054f7b94ea</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>22514e96-42e4-4410-be32-44bea6a9a5df</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1a3775e2-03a9-4f9e-9e81-3b2aae047264</id>
+    </Compile>
+    <Compile Include="Recording4.cs">
+      <BoundTo>9f1acc83-d176-40e7-9227-fda33c0c3d8c</BoundTo>
+      <DependentUpon>Recording4.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e697b44a-2b9f-455e-b1bc-333d13c9eb86</id>
+    </Compile>
+    <Compile Include="Recording4.UserCode.cs">
+      <BoundTo>9f1acc83-d176-40e7-9227-fda33c0c3d8c</BoundTo>
+      <DependentUpon>Recording4.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>30091d30-110c-4b8d-bcd4-3dcde523257b</id>
+    </Compile>
+    <Compile Include="SelectAllInputText.cs">
+      <BoundTo>29c6e4c1-d003-4369-89c7-e5d975d2502c</BoundTo>
+      <DependentUpon>SelectAllInputText.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d231974f-2d15-47a2-9483-f3922deb711f</id>
+    </Compile>
+    <Compile Include="SelectAllInputText.UserCode.cs">
+      <BoundTo>29c6e4c1-d003-4369-89c7-e5d975d2502c</BoundTo>
+      <DependentUpon>SelectAllInputText.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dc783fdb-49d5-4871-b7d4-cbee9925c6a6</id>
+    </Compile>
+    <Compile Include="SelectAllText.cs">
+      <BoundTo>36f01fdf-616c-4123-b0d1-353d788c7426</BoundTo>
+      <DependentUpon>SelectAllText.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0fdce5b8-aad7-4eab-9f81-c5169ae61551</id>
+    </Compile>
+    <Compile Include="SelectAllText.UserCode.cs">
+      <BoundTo>36f01fdf-616c-4123-b0d1-353d788c7426</BoundTo>
+      <DependentUpon>SelectAllText.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>54799a89-5d6a-4666-9895-a68178fa905b</id>
+    </Compile>
+    <Compile Include="SelectEmptyProfile.cs">
+      <BoundTo>29473d60-e7f4-4128-8aac-6a4d99a4a284</BoundTo>
+      <DependentUpon>SelectEmptyProfile.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e01baa2d-9a7f-476b-902d-4d30988c5a25</id>
+    </Compile>
+    <Compile Include="SelectEmptyProfile.UserCode.cs">
+      <BoundTo>29473d60-e7f4-4128-8aac-6a4d99a4a284</BoundTo>
+      <DependentUpon>SelectEmptyProfile.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4bb49995-285b-4701-8873-acbc2aa95885</id>
+    </Compile>
+    <Compile Include="SelectSourceAndTarget.cs">
+      <BoundTo>642b77fc-1958-49c6-a132-2bf25263923c</BoundTo>
+      <DependentUpon>SelectSourceAndTarget.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>deb1e65e-bd3e-4e0e-a86f-d8baabd21fe0</id>
+    </Compile>
+    <Compile Include="SelectSourceAndTarget.UserCode.cs">
+      <BoundTo>642b77fc-1958-49c6-a132-2bf25263923c</BoundTo>
+      <DependentUpon>SelectSourceAndTarget.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ffbb4cef-1361-4a4e-9a7e-ff5cb1d240b8</id>
+    </Compile>
+    <Compile Include="SelectTranslationUserProfile.cs">
+      <BoundTo>501ae116-b436-4248-98f2-f9d85eeabc38</BoundTo>
+      <DependentUpon>SelectTranslationUserProfile.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3217f1d8-430a-4feb-ac74-4a2a3fdef23d</id>
+    </Compile>
+    <Compile Include="SelectTranslationUserProfile.UserCode.cs">
+      <BoundTo>501ae116-b436-4248-98f2-f9d85eeabc38</BoundTo>
+      <DependentUpon>SelectTranslationUserProfile.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>231bc53e-fb2b-414f-8fd1-7afbc68d6c95</id>
+    </Compile>
+    <Compile Include="SelectTranslatorEnFr.cs">
+      <BoundTo>3d00a474-1b00-47d8-a309-9362fab707b8</BoundTo>
+      <DependentUpon>SelectTranslatorEnFr.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>df7380a8-f2d3-4d7d-842b-132ed09f5a27</id>
+    </Compile>
+    <Compile Include="SelectTranslatorEnFr.UserCode.cs">
+      <BoundTo>3d00a474-1b00-47d8-a309-9362fab707b8</BoundTo>
+      <DependentUpon>SelectTranslatorEnFr.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f4f46cf3-62d2-48a6-906a-2134b792f335</id>
+    </Compile>
+    <Compile Include="SetZoomTozero.cs">
+      <BoundTo>26e172e7-c87a-4983-b7c2-cf82877df81b</BoundTo>
+      <DependentUpon>SetZoomTozero.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>20218f3a-c34f-449c-94ca-67dfbcd23159</id>
+    </Compile>
+    <Compile Include="SetZoomTozero.UserCode.cs">
+      <BoundTo>26e172e7-c87a-4983-b7c2-cf82877df81b</BoundTo>
+      <DependentUpon>SetZoomTozero.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4c5c74da-d8a5-4702-8c1f-b7ec9c0e2d78</id>
+    </Compile>
+    <Compile Include="StartSIT.cs">
+      <BoundTo>195e25f9-9587-4f10-acd6-34dd67ea2be6</BoundTo>
+      <DependentUpon>StartSIT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>adc2edc8-af39-4e68-b54e-1dce4800997c</id>
+    </Compile>
+    <Compile Include="StartSIT.UserCode.cs">
+      <BoundTo>195e25f9-9587-4f10-acd6-34dd67ea2be6</BoundTo>
+      <DependentUpon>StartSIT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>aad1fdf0-685f-4824-9b03-31e2ab5f6dea</id>
+    </Compile>
+    <Compile Include="SwitchLanguagesInSIT.cs">
+      <BoundTo>fa1e6dc4-e62d-40d6-a9b4-f880633b65cd</BoundTo>
+      <DependentUpon>SwitchLanguagesInSIT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>841c3ddf-fc30-4fd2-9657-fc8b239e6e2b</id>
+    </Compile>
+    <Compile Include="SwitchLanguagesInSIT.UserCode.cs">
+      <BoundTo>fa1e6dc4-e62d-40d6-a9b4-f880633b65cd</BoundTo>
+      <DependentUpon>SwitchLanguagesInSIT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cd625792-d26a-4ca0-91b6-f15f82cef373</id>
+    </Compile>
+    <Compile Include="SwitchtoMainWindow.cs">
+      <BoundTo>92259994-6ad5-4a74-810e-63872bb86d74</BoundTo>
+      <DependentUpon>SwitchtoMainWindow.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>50639e3d-8fe6-4241-aa40-7fe7a2213b46</id>
+    </Compile>
+    <Compile Include="SwitchtoMainWindow.UserCode.cs">
+      <BoundTo>92259994-6ad5-4a74-810e-63872bb86d74</BoundTo>
+      <DependentUpon>SwitchtoMainWindow.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f16f502b-5b76-4b33-91db-b9fa25179be1</id>
+    </Compile>
+    <Compile Include="Switch_Language_Icon_In_SIT.cs">
+      <BoundTo>e73230ff-cd76-4b0b-8b3f-d772ad404028</BoundTo>
+      <DependentUpon>Switch_Language_Icon_In_SIT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cf9160b5-0318-406a-b76e-45e0aebfaac1</id>
+    </Compile>
+    <Compile Include="Switch_Language_Icon_In_SIT.UserCode.cs">
+      <BoundTo>e73230ff-cd76-4b0b-8b3f-d772ad404028</BoundTo>
+      <DependentUpon>Switch_Language_Icon_In_SIT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4b3d1fdd-62d3-4b4b-b413-1575fc836b0c</id>
+    </Compile>
+    <Compile Include="testtooltipRepository.cs">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <DependentUpon>testtooltipRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>7b993620-2db5-4c17-86e2-5f9d58629d59</id>
+    </Compile>
+    <Compile Include="ValidateAfterCopyingTargetField.cs">
+      <BoundTo>4479bb87-c807-4b71-bfe7-56d6f84284c5</BoundTo>
+      <DependentUpon>ValidateAfterCopyingTargetField.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9a3d1abe-f397-44ea-a312-7d19f0893b8c</id>
+    </Compile>
+    <Compile Include="ValidateAfterCopyingTargetField.UserCode.cs">
+      <BoundTo>4479bb87-c807-4b71-bfe7-56d6f84284c5</BoundTo>
+      <DependentUpon>ValidateAfterCopyingTargetField.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e4c8416d-11af-4a9f-ad76-1bf1cc73bd77</id>
+    </Compile>
+    <Compile Include="ValidateCopyAllToClipBoard.cs">
+      <BoundTo>cf1b161e-f6c1-433c-b545-be1b19afee55</BoundTo>
+      <DependentUpon>ValidateCopyAllToClipBoard.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>97a8b9ae-b27f-4651-ab55-352f615171c7</id>
+    </Compile>
+    <Compile Include="ValidateCopyAllToClipBoard.UserCode.cs">
+      <BoundTo>cf1b161e-f6c1-433c-b545-be1b19afee55</BoundTo>
+      <DependentUpon>ValidateCopyAllToClipBoard.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c71a8e40-0a2e-4fdf-a7fe-0019a4beb2f2</id>
+    </Compile>
+    <Compile Include="ValidateEditedTargetTextfoyer.cs">
+      <BoundTo>71ccbebb-ab7d-4160-b80a-d3af82057697</BoundTo>
+      <DependentUpon>ValidateEditedTargetTextfoyer.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aa5d1c9a-b3d2-46d1-bbb8-a01b59cd4e09</id>
+    </Compile>
+    <Compile Include="ValidateEditedTargetTextfoyer.UserCode.cs">
+      <BoundTo>71ccbebb-ab7d-4160-b80a-d3af82057697</BoundTo>
+      <DependentUpon>ValidateEditedTargetTextfoyer.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c910f46e-790d-4420-b754-0588e00b1b91</id>
+    </Compile>
+    <Compile Include="ValidateEditTargetEditor.cs">
+      <BoundTo>d89b7cd5-946b-4094-82f9-ddca48437a63</BoundTo>
+      <DependentUpon>ValidateEditTargetEditor.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e92a81ca-769d-44e2-8db0-b7f4aacf9954</id>
+    </Compile>
+    <Compile Include="ValidateEditTargetEditor.UserCode.cs">
+      <BoundTo>d89b7cd5-946b-4094-82f9-ddca48437a63</BoundTo>
+      <DependentUpon>ValidateEditTargetEditor.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3fa332d8-575c-4d91-8b47-060db9f75549</id>
+    </Compile>
+    <Compile Include="ValidateEndOfTargteEditing.cs">
+      <BoundTo>5032b5a8-af90-47f6-b5eb-f9b0820321e5</BoundTo>
+      <DependentUpon>ValidateEndOfTargteEditing.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ffd4cfad-3f58-476d-974f-df3a0df7ab56</id>
+    </Compile>
+    <Compile Include="ValidateEndOfTargteEditing.UserCode.cs">
+      <BoundTo>5032b5a8-af90-47f6-b5eb-f9b0820321e5</BoundTo>
+      <DependentUpon>ValidateEndOfTargteEditing.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7be23081-0c56-40f9-bcfb-50fb59f478e6</id>
+    </Compile>
+    <Compile Include="ValidateHistoryIsPresent.cs">
+      <BoundTo>7d90b1ee-7330-42a5-8b73-70656837ea34</BoundTo>
+      <DependentUpon>ValidateHistoryIsPresent.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5136a83e-90f3-4e30-958e-d3af138a56fe</id>
+    </Compile>
+    <Compile Include="ValidateHistoryIsPresent.UserCode.cs">
+      <BoundTo>7d90b1ee-7330-42a5-8b73-70656837ea34</BoundTo>
+      <DependentUpon>ValidateHistoryIsPresent.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>340945f6-8cc1-4bb6-9ffa-d4f006952090</id>
+    </Compile>
+    <Compile Include="ValidateHorizontalLayout.cs">
+      <BoundTo>af8e1346-bc17-4c6c-bd45-05f1a62185d5</BoundTo>
+      <DependentUpon>ValidateHorizontalLayout.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1d0d91f4-66fd-47aa-935c-c984512d4d1d</id>
+    </Compile>
+    <Compile Include="ValidateHorizontalLayout.UserCode.cs">
+      <BoundTo>af8e1346-bc17-4c6c-bd45-05f1a62185d5</BoundTo>
+      <DependentUpon>ValidateHorizontalLayout.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5fc65cbb-b7a9-42c9-a2f4-702c14ae3c70</id>
+    </Compile>
+    <Compile Include="ValidateMaxZoom.cs">
+      <BoundTo>a23d1b18-8ac0-4560-8626-1278fd2558ad</BoundTo>
+      <DependentUpon>ValidateMaxZoom.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1aa7a6ed-ba5b-4d9a-9740-96dd7726330d</id>
+    </Compile>
+    <Compile Include="ValidateMaxZoom.UserCode.cs">
+      <BoundTo>a23d1b18-8ac0-4560-8626-1278fd2558ad</BoundTo>
+      <DependentUpon>ValidateMaxZoom.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c982eece-7574-447e-9434-63805df19f86</id>
+    </Compile>
+    <Compile Include="ValidateTextBonjour.cs">
+      <BoundTo>a6567f69-ddde-4cc8-84c4-257dc5be7109</BoundTo>
+      <DependentUpon>ValidateTextBonjour.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0ce17561-e043-49e4-8f6c-415732ec4e46</id>
+    </Compile>
+    <Compile Include="ValidateTextBonjour.UserCode.cs">
+      <BoundTo>a6567f69-ddde-4cc8-84c4-257dc5be7109</BoundTo>
+      <DependentUpon>ValidateTextBonjour.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6d0deca8-3c8c-4925-abfa-b1166e9d903f</id>
+    </Compile>
+    <Compile Include="setZoomToMax.cs">
+      <BoundTo>05cc6d97-cac5-4df4-b8e9-59b583d8141f</BoundTo>
+      <DependentUpon>setZoomToMax.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1c2a51d7-7df8-4d40-a8b8-7d923e731d93</id>
+    </Compile>
+    <Compile Include="setZoomToMax.UserCode.cs">
+      <BoundTo>05cc6d97-cac5-4df4-b8e9-59b583d8141f</BoundTo>
+      <DependentUpon>setZoomToMax.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c4df0f6d-4e87-4648-a724-0e6f0c1a7f37</id>
+    </Compile>
+    <Compile Include="ValidateTranslationWithNormalization.cs">
+      <BoundTo>e00f7bd1-d4c9-4f21-93b3-f7b87265a3c7</BoundTo>
+      <DependentUpon>ValidateTranslationWithNormalization.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>652fbdfa-fab2-463e-b7a9-a6183468562f</id>
+    </Compile>
+    <Compile Include="ValidateTranslationWithNormalization.UserCode.cs">
+      <BoundTo>e00f7bd1-d4c9-4f21-93b3-f7b87265a3c7</BoundTo>
+      <DependentUpon>ValidateTranslationWithNormalization.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>51d22198-7182-49f5-82a5-f694bd0dd299</id>
+    </Compile>
+    <Compile Include="ValidateTranslationWithTM.cs">
+      <BoundTo>11ce4ae5-1761-4096-a9bb-02840cc7609c</BoundTo>
+      <DependentUpon>ValidateTranslationWithTM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d3730eec-9549-42ef-baa6-78694534f2ef</id>
+    </Compile>
+    <Compile Include="ValidateTranslationWithTM.UserCode.cs">
+      <BoundTo>11ce4ae5-1761-4096-a9bb-02840cc7609c</BoundTo>
+      <DependentUpon>ValidateTranslationWithTM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2e5184eb-eab1-442a-99ee-67aebba664c3</id>
+    </Compile>
+    <Compile Include="ValidateTranslationWithUserDict.cs">
+      <BoundTo>bf913226-71a4-4891-949f-548870b58a8b</BoundTo>
+      <DependentUpon>ValidateTranslationWithUserDict.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a41861b6-6a1a-44d3-a7d1-130dad62c444</id>
+    </Compile>
+    <Compile Include="ValidateTranslationWithUserDict.UserCode.cs">
+      <BoundTo>bf913226-71a4-4891-949f-548870b58a8b</BoundTo>
+      <DependentUpon>ValidateTranslationWithUserDict.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e527bfbf-cdf4-47b3-a7b1-e2ea4a3aa438</id>
+    </Compile>
+    <Compile Include="ValidateVerticalLayout.cs">
+      <BoundTo>fb8ef45c-8b1c-4598-9c02-b332df3731f5</BoundTo>
+      <DependentUpon>ValidateVerticalLayout.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cea55bfb-6827-4fc8-97db-b45999f814e3</id>
+    </Compile>
+    <Compile Include="ValidateVerticalLayout.UserCode.cs">
+      <BoundTo>fb8ef45c-8b1c-4598-9c02-b332df3731f5</BoundTo>
+      <DependentUpon>ValidateVerticalLayout.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dcea4f37-bab7-4020-8a88-70f882bfb557</id>
+    </Compile>
+    <Compile Include="ValidationZeroZoom.cs">
+      <BoundTo>5cbe7c2c-92ea-4195-bb53-4b184af8b851</BoundTo>
+      <DependentUpon>ValidationZeroZoom.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9e53a2bd-9cf9-41c0-be3a-09e3acd8d8b3</id>
+    </Compile>
+    <Compile Include="ValidationZeroZoom.UserCode.cs">
+      <BoundTo>5cbe7c2c-92ea-4195-bb53-4b184af8b851</BoundTo>
+      <DependentUpon>ValidationZeroZoom.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>38e77b02-b057-4c78-9a91-ea97e0a0bbfd</id>
+    </Compile>
+    <None Include="app.config">
+      <id>a3fa8b01-c81f-4f21-8f59-e49ef9c9a54f</id>
+    </None>
+    <None Include="ClearIconInputText.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>d8133524-944f-472a-ad60-bc1e14901691</id>
+      <recordtableid>d28a98da-ec69-4495-82d3-d2ab8a59cf07</recordtableid>
+    </None>
+    <None Include="ClearInputText.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>51e020d6-4749-498e-a4d8-cc416bf9f58f</id>
+      <recordtableid>2120b3bf-e61c-4c1c-bed9-610991bf6df0</recordtableid>
+    </None>
+    <None Include="ClickOnCopyToClipBoard.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>da160000-1cd2-419c-9219-a55ae171bb2c</id>
+      <recordtableid>e23f1791-0e3c-4cd4-89e3-d36bdd2c1fa5</recordtableid>
+    </None>
+    <None Include="ClickOnEditTranslate.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>b8ab178a-0ad7-4976-ac31-76138ffb8b27</id>
+      <recordtableid>96a27102-e196-4219-96c6-7472ab7b3cb3</recordtableid>
+    </None>
+    <None Include="ClickOnEndEditTarget.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>519234e5-a5d0-43dd-94d7-e97f3b757690</id>
+      <recordtableid>f348f4d9-127d-4e05-a9d4-a102493d3811</recordtableid>
+    </None>
+    <None Include="ClickOnHistory.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>4cf49ec4-5cd6-49a3-8325-8eb4eeb4dc3c</id>
+      <recordtableid>381aa7d5-3c0b-43c4-9cd2-13127211df97</recordtableid>
+    </None>
+    <None Include="ClickOnInputField.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>d9e50685-3869-44b5-a8d8-e68de7f7bc0f</id>
+      <recordtableid>c9090f14-c11a-46ac-bd47-d4544a360e3d</recordtableid>
+    </None>
+    <None Include="ClickOnProfile.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>b2f17cba-b24b-41cd-a283-49b455b7bd8b</id>
+      <recordtableid>f1ba338e-2fd4-4096-9d55-787715b0eff7</recordtableid>
+    </None>
+    <None Include="ClickOnTargetInputField.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>e4f6672e-7f45-47e1-8f9b-88856d14ba15</id>
+      <recordtableid>b8ea0db0-111a-4702-b918-8b90a1c7439a</recordtableid>
+    </None>
+    <None Include="ClickOnTranslate.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>936257a4-aca2-4743-a510-391ebe1e8a10</id>
+      <recordtableid>1046babd-5d3c-4c9a-90d0-afb69f7c1343</recordtableid>
+    </None>
+    <None Include="ClickOnWindowsCancel.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>3a898166-c6e2-48af-8477-0798cc5b313e</id>
+      <recordtableid>7bcae1d0-0ff5-409c-93ea-9496710497fc</recordtableid>
+    </None>
+    <None Include="CloseSIT.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>2a1cbdc5-f4c5-492a-8fb7-cb6bda79e8eb</id>
+      <recordtableid>c5f35077-9678-4c52-9840-148de0bc05f0</recordtableid>
+    </None>
+    <None Include="CopyandPasteBycommandline.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>0f92c264-fdb9-41e4-9441-fa66c47fd6a1</id>
+      <recordtableid>6f2653e3-3bde-40e7-a33b-232dfec99d6b</recordtableid>
+    </None>
+    <None Include="CopyIconInputText.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>b26ff36e-1322-4d17-a904-870dc1da1cea</id>
+      <recordtableid>f6fb7e5c-f062-4534-ab2d-f56ed6b6223a</recordtableid>
+    </None>
+    <None Include="copyPastefromEditedTarget.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>59509ca0-a926-4dee-8fa5-b5ad9abfa362</id>
+      <recordtableid>3798758b-f006-47e9-84b3-91fc2a92af51</recordtableid>
+    </None>
+    <None Include="HelpInSIT.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>e4155f79-b3a5-4e91-805f-5d916f399d07</id>
+      <recordtableid>5a295b99-b0e5-4e4a-8a28-66df83f99202</recordtableid>
+    </None>
+    <None Include="PresenceOfElementsInHistory.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>ee774b53-18da-461b-ba17-ba3ccfbd43b2</id>
+      <recordtableid>95608af8-c09a-4a14-b164-193f2bde2fde</recordtableid>
+    </None>
+    <None Include="InputTextTM.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>05f69e65-f27c-4da0-aea7-cfa8414263a6</id>
+      <recordtableid>a2ba196f-b04a-4ec9-9a1f-80eaccacd827</recordtableid>
+    </None>
+    <None Include="InputTextNormalization.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>a0f5c492-e5a2-465c-adbd-b4654e815472</id>
+      <recordtableid>05930b2e-c55e-49ae-9953-67e4137d4ea4</recordtableid>
+    </None>
+    <None Include="InputTextToInputField.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>f48035b8-d11f-4c58-8dcb-a3bed5245d42</id>
+      <recordtableid>d75b8948-b8ca-46d8-86d0-097e7afab8cd</recordtableid>
+    </None>
+    <None Include="InputTextToInputFieldHome.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>ba70e58e-6ddc-4072-9a4e-07d81b6855cc</id>
+      <recordtableid>3bf6ba15-9705-4c23-a218-63e028bc4d7d</recordtableid>
+    </None>
+    <None Include="InputTextUserDictionary.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>3fd5abea-5d6c-40b0-b081-879a73e74ba1</id>
+      <recordtableid>d1dd9712-68a6-4741-9ad4-3eddc926c847</recordtableid>
+    </None>
+    <None Include="InputToTheTargetFieldFoyer.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>d0dd030c-909d-4139-bb8c-3a4f3721aae2</id>
+      <recordtableid>ef0d1cff-edf6-445f-9b56-c318a7ee8317</recordtableid>
+    </None>
+    <None Include="MouseOverEditTargetEditor.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>977cf508-942c-4550-8b8b-105c0e83a34d</id>
+      <recordtableid>67e006b4-69e1-4a9f-a98c-47a9d8184daf</recordtableid>
+    </None>
+    <None Include="MouseOverEndTargetEditing.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>bc4fab75-0c51-48e7-93cb-d8e0197f4535</id>
+      <recordtableid>e4e636b2-3289-46e6-84b1-0d454c568e0f</recordtableid>
+    </None>
+    <None Include="MouseOvertoCopyToClipBoard.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>b43d26e9-07e2-40fd-9492-faad0a5b2a62</id>
+      <recordtableid>78fa69a8-4691-4c11-8bfb-f0198680de06</recordtableid>
+    </None>
+    <None Include="MouseOverToHorizintalLayout.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>85ab0287-19cd-4eac-a057-87f56abfca84</id>
+      <recordtableid>9649568a-2c3a-4359-ba44-0aa3f94468c2</recordtableid>
+    </None>
+    <None Include="MouseOverToVerticalLayout.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>11a9e43d-f807-454d-8387-d2b0c8b3bd75</id>
+      <recordtableid>ad602ce9-61b2-4e1d-bf5c-8c2e7a2d92ea</recordtableid>
+    </None>
+    <None Include="Paste.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>8f1f9c0f-3e25-456b-9fde-f99a22453301</id>
+      <recordtableid>698cb6da-f9f8-4186-9af3-cdb806c1cf63</recordtableid>
+    </None>
+    <None Include="PasteToInputField.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>15de8d1b-f208-4b78-91fd-93b963293402</id>
+      <recordtableid>852b90b5-cc60-4103-8711-613cc4036d52</recordtableid>
+    </None>
+    <None Include="PresenseOfMinMaxAndCloseButtonInSIT.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>2864377f-caf1-4053-81b6-785d82443cfb</id>
+      <recordtableid>fe1d9873-5d51-40ce-9f1b-f20834093847</recordtableid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>22514e96-42e4-4410-be32-44bea6a9a5df</id>
+      <recordtableid>7e83890e-e1b3-4ec2-bd35-aa5fdb91609c</recordtableid>
+    </None>
+    <None Include="Recording4.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>9f1acc83-d176-40e7-9227-fda33c0c3d8c</id>
+      <recordtableid>5eb83cdc-2c79-44b8-b5e1-3473773a09cd</recordtableid>
+    </None>
+    <None Include="SelectAllInputText.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>29c6e4c1-d003-4369-89c7-e5d975d2502c</id>
+      <recordtableid>e24a08ba-d175-43ae-ae9d-ea804153638b</recordtableid>
+    </None>
+    <None Include="SelectAllText.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>36f01fdf-616c-4123-b0d1-353d788c7426</id>
+      <recordtableid>9c5b5ec6-544c-4f5f-9efd-2175972bb697</recordtableid>
+    </None>
+    <None Include="SelectEmptyProfile.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>29473d60-e7f4-4128-8aac-6a4d99a4a284</id>
+      <recordtableid>a4e201b1-19d6-46bc-af8f-60dd17706de5</recordtableid>
+    </None>
+    <None Include="SelectSourceAndTarget.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>642b77fc-1958-49c6-a132-2bf25263923c</id>
+      <recordtableid>39c7396b-b598-438d-b6fa-a75524c48053</recordtableid>
+    </None>
+    <None Include="SelectTranslationUserProfile.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>501ae116-b436-4248-98f2-f9d85eeabc38</id>
+      <recordtableid>a231f7a2-1e1a-47fe-8121-a2c1bd265931</recordtableid>
+    </None>
+    <None Include="SelectTranslatorEnFr.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>3d00a474-1b00-47d8-a309-9362fab707b8</id>
+      <recordtableid>f9116868-c97d-4896-9413-08b6b1ac220b</recordtableid>
+    </None>
+    <None Include="SetZoomTozero.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>26e172e7-c87a-4983-b7c2-cf82877df81b</id>
+      <recordtableid>445facbd-9645-4482-b0b5-82427a2b0f87</recordtableid>
+    </None>
+    <None Include="StartSIT.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>195e25f9-9587-4f10-acd6-34dd67ea2be6</id>
+      <recordtableid>40a4cb5f-bf48-4422-ac66-84cc8e272058</recordtableid>
+    </None>
+    <None Include="SwitchLanguagesInSIT.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>fa1e6dc4-e62d-40d6-a9b4-f880633b65cd</id>
+      <recordtableid>55cb846f-5e08-4703-acc3-b7a1acc63f9b</recordtableid>
+    </None>
+    <None Include="SwitchtoMainWindow.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>92259994-6ad5-4a74-810e-63872bb86d74</id>
+      <recordtableid>f0acc5dc-2473-4bc1-ba67-25297986da95</recordtableid>
+    </None>
+    <None Include="Switch_Language_Icon_In_SIT.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>e73230ff-cd76-4b0b-8b3f-d772ad404028</id>
+      <recordtableid>3d44ff0b-d5a2-4de6-8ebe-4738d4dc79c6</recordtableid>
+    </None>
+    <None Include="testtooltipRepository.rximg">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <DependentUpon>testtooltipRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>93808eeb-bf91-4c14-8bc6-c014d9831025</id>
+    </None>
+    <None Include="testtooltipRepository.rxrep">
+      <id>73096f77-57b6-452e-a951-0ce5f89be3ba</id>
+      <repoid>82a0660a-ea18-463f-89aa-4894af904f52</repoid>
+      <reporootid>3d3bee4c-89c7-4194-9165-dd22b4579401</reporootid>
+    </None>
+    <None Include="ValidateAfterCopyingTargetField.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>4479bb87-c807-4b71-bfe7-56d6f84284c5</id>
+      <recordtableid>b55827d1-d601-443c-8071-45336151bf0a</recordtableid>
+    </None>
+    <None Include="ValidateCopyAllToClipBoard.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>cf1b161e-f6c1-433c-b545-be1b19afee55</id>
+      <recordtableid>f0b47df9-2151-444b-a180-748db439a066</recordtableid>
+    </None>
+    <None Include="ValidateEditedTargetTextfoyer.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>71ccbebb-ab7d-4160-b80a-d3af82057697</id>
+      <recordtableid>c3b3780a-2ab4-4a8b-93ae-3328b0b14049</recordtableid>
+    </None>
+    <None Include="ValidateEditTargetEditor.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>d89b7cd5-946b-4094-82f9-ddca48437a63</id>
+      <recordtableid>94510d1f-6d23-4ef3-9418-266f4d9b4413</recordtableid>
+    </None>
+    <None Include="ValidateEndOfTargteEditing.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>5032b5a8-af90-47f6-b5eb-f9b0820321e5</id>
+      <recordtableid>c915a203-e245-4182-88e0-8ab282f56b08</recordtableid>
+    </None>
+    <None Include="ValidateHistoryIsPresent.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>7d90b1ee-7330-42a5-8b73-70656837ea34</id>
+      <recordtableid>4939ecd3-1d8b-405e-8bda-cd280e3e4bca</recordtableid>
+    </None>
+    <None Include="ValidateHorizontalLayout.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>af8e1346-bc17-4c6c-bd45-05f1a62185d5</id>
+      <recordtableid>77c70bd6-7238-4776-9c9c-80e2b0a782c7</recordtableid>
+    </None>
+    <None Include="ValidateMaxZoom.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>a23d1b18-8ac0-4560-8626-1278fd2558ad</id>
+      <recordtableid>1c3790bb-934d-44ad-b5d3-4d2bfafa708b</recordtableid>
+    </None>
+    <None Include="ValidateTextBonjour.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>a6567f69-ddde-4cc8-84c4-257dc5be7109</id>
+      <recordtableid>260d8963-e34d-480d-acc0-077ddcb79ac4</recordtableid>
+    </None>
+    <None Include="setZoomToMax.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>05cc6d97-cac5-4df4-b8e9-59b583d8141f</id>
+      <recordtableid>ae52d6e9-3e5d-4197-bdb0-f5845f78eca0</recordtableid>
+    </None>
+    <None Include="ValidateTranslationWithNormalization.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>e00f7bd1-d4c9-4f21-93b3-f7b87265a3c7</id>
+      <recordtableid>4abde20f-5847-4f31-9f5c-837e051b3d4b</recordtableid>
+    </None>
+    <None Include="ValidateTranslationWithTM.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>11ce4ae5-1761-4096-a9bb-02840cc7609c</id>
+      <recordtableid>d72e0afb-09a6-44ad-b5c1-918ddab97de0</recordtableid>
+    </None>
+    <None Include="ValidateTranslationWithUserDict.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>bf913226-71a4-4891-949f-548870b58a8b</id>
+      <recordtableid>a8a5bfeb-3fc9-4543-8596-51d87313787b</recordtableid>
+    </None>
+    <None Include="ValidateVerticalLayout.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>fb8ef45c-8b1c-4598-9c02-b332df3731f5</id>
+      <recordtableid>ea8bf27b-caf8-4e6a-9824-d3a7a4230d8a</recordtableid>
+    </None>
+    <None Include="ValidationZeroZoom.rxrec">
+      <BoundTo>73096f77-57b6-452e-a951-0ce5f89be3ba</BoundTo>
+      <id>5cbe7c2c-92ea-4195-bb53-4b184af8b851</id>
+      <recordtableid>6a7a7e85-dee4-40e1-a032-0b2252236261</recordtableid>
+    </None>
+    <Content Include="testtooltip.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>61879604-17af-48ed-a9e3-5b319a00f1ad</id>
+    </Content>
+    <Content Include="testtooltip.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>7c90f534-bbad-4793-993b-2b096ceba191</id>
+    </Content>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\helloproj\DictionaryManager.csproj">
+      <Project>{617D8024-A717-4DBF-9462-95641B3C4FD3}</Project>
+      <Name>DictionaryManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LanguageManager\LanguageManager.csproj">
+      <Project>{424D3B59-32E9-4123-BE9D-21B802D0EAA1}</Project>
+      <Name>LanguageManager</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

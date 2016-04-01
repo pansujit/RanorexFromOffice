@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.5.19886"
+id="d1dd9712-68a6-4741-9ad4-3eddc926c847"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		InputTextUserDictionary
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="InputTextUserDictionary"
+	namespace="testtooltip"/>
+	<variables/>
+	<recorditems>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="5309e1dd-4480-430a-b631-331160b5a49a"
+		KeySequence="house of wood"
+		presstime="100ms">
+			<comment/>
+			<bindings/>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	name="testtooltipRepository"
+	id="82a0660a-ea18-463f-89aa-4894af904f52"
+	rxversion="5.4.5.19886"
+	relativepath="testtooltipRepository.rxrep">
+		<codegen
+		classname="testtooltipRepository"
+		namespace="testtooltip"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="3d3bee4c-89c7-4194-9165-dd22b4579401"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		InputTextUserDictionary.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

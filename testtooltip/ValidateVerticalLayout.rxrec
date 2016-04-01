@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.5.19886"
+id="ea8bf27b-caf8-4e6a-9824-d3a7a4230d8a"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		ValidateVerticalLayout
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateVerticalLayout"
+	namespace="testtooltip"/>
+	<variables/>
+	<recorditems>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="e7dd9bf5-22bb-472a-82fd-f99454c64299"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="5ce14396-7b0f-4aaa-b3d1-81b039930148">
+				<element
+				role="tooltip"
+				prefcap="tooltip"
+				capabilities="uiautomation"
+				flavor="uia"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="4"
+				rect="919,204,89,30"
+				snapElem="">
+					<attribute
+					name="text"
+					type="System.String">
+						Vertical layout
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						ToolTip
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						ToolTip
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						WPF
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						tool tip
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Vertical layout
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						9120
+					</attribute>
+					<limitation
+					name="WPF Legacy"
+					technology="WPF"
+					helpUrl="http://www.ranorex.com/support/user-guide-20/technology-instrumentation/general-troubleshooting.html#wpf-uia-tree">
+						You are accessing WPF elements via the UIA plug-in. UI element identification capabilities for this window are limited. Consider using the native WPF plug-in.
+					</limitation>
+				</element>
+				<path>
+					/tooltip[@name='Vertical layout']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Vertical layout
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="testtooltipRepository"
+	id="82a0660a-ea18-463f-89aa-4894af904f52"
+	rxversion="5.4.5.19886"
+	relativepath="testtooltipRepository.rxrep">
+		<codegen
+		classname="testtooltipRepository"
+		namespace="testtooltip"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="3d3bee4c-89c7-4194-9165-dd22b4579401"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateVerticalLayout.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

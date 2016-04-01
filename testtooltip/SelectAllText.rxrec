@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.5.19886"
+id="9c5b5ec6-544c-4f5f-9efd-2175972bb697"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		SelectAllText
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SelectAllText"
+	namespace="testtooltip"/>
+	<variables/>
+	<recorditems>
+		<keyitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="90415d05-c3a7-417f-a374-8e46464923f5"
+		action="Press"
+		presstime="100ms"
+		data="A, Control"
+		scancode="16"
+		setModifiers="True">
+			<comment/>
+			<bindings/>
+		</keyitem>
+	</recorditems>
+	<repository
+	name="testtooltipRepository"
+	id="82a0660a-ea18-463f-89aa-4894af904f52"
+	rxversion="5.4.5.19886"
+	relativepath="testtooltipRepository.rxrep">
+		<codegen
+		classname="testtooltipRepository"
+		namespace="testtooltip"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="3d3bee4c-89c7-4194-9165-dd22b4579401"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SelectAllText.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.5.19886"
+id="05930b2e-c55e-49ae-9953-67e4137d4ea4"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		InputTextNormalization
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="InputTextNormalization"
+	namespace="testtooltip"/>
+	<variables/>
+	<recorditems>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="b2b4741e-ac1c-4ae7-be44-c0c9d6f45453"
+		KeySequence="thsi"
+		presstime="100ms">
+			<comment/>
+			<bindings/>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	name="testtooltipRepository"
+	id="82a0660a-ea18-463f-89aa-4894af904f52"
+	rxversion="5.4.5.19886"
+	relativepath="testtooltipRepository.rxrep">
+		<codegen
+		classname="testtooltipRepository"
+		namespace="testtooltip"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="3d3bee4c-89c7-4194-9165-dd22b4579401"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		InputTextNormalization.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

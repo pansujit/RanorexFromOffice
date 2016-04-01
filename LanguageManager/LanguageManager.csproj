@@ -1,0 +1,338 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{424D3B59-32E9-4123-BE9D-21B802D0EAA1}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LanguageManager</RootNamespace>
+    <AssemblyName>LanguageManager</AssemblyName>
+    <RanorexVersion>5</RanorexVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <projectdefaultrepository>88bccb69-5ef9-4580-9417-74df1d77513c</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Mobile, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Qt, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Sap, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Uia, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EndIEAndSystranLanguageManager.rxrec">
+      <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
+      <id>5ca65325-e8c4-485b-985c-164680620eef</id>
+      <recordtableid>6f9db614-ebc6-447e-a7fb-847f056689b2</recordtableid>
+    </None>
+    <None Include="EndSystranLnaguageManager.rxrec">
+      <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
+      <id>7dfff785-33a7-4aeb-8a2e-a4924826641c</id>
+      <recordtableid>6bf37090-fb5a-4e3f-aa8f-caf26be2eca9</recordtableid>
+    </None>
+    <None Include="LanguageManagerRepository.rximg">
+      <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
+      <DependentUpon>LanguageManagerRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>88cc8690-8359-4d7a-a503-d8b62fec45ef</id>
+    </None>
+    <None Include="LanguageManagerRepository.rxrep">
+      <id>88bccb69-5ef9-4580-9417-74df1d77513c</id>
+      <repoid>f7f01b4b-6921-4458-a092-e2ea2f9aae0f</repoid>
+      <reporootid>f799ee33-a5fc-4d12-a32c-afa8e13029ab</reporootid>
+    </None>
+    <None Include="License_Add_Product_Key.rxrec">
+      <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
+      <id>c30cce4e-29fe-4a23-a4ee-abcef1939309</id>
+      <recordtableid>346db4cc-524a-4e66-a252-a4d763af8444</recordtableid>
+    </None>
+    <None Include="License_page_Verification.rxrec">
+      <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
+      <id>3cc591c1-fe6c-4390-a394-1bd1474c74c8</id>
+      <recordtableid>ffb2126c-01d5-446d-9a55-c6f804785821</recordtableid>
+    </None>
+    <None Include="Linguistic_Resources_Dictionary_Check.rxrec">
+      <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
+      <id>0ca0b5ca-4096-4ffc-a126-8d3940396ccc</id>
+      <recordtableid>2fccfabf-f8c9-440b-801d-143fdcdd3da8</recordtableid>
+    </None>
+    <None Include="Linguistic_Resources_Normalization_Check.rxrec">
+      <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
+      <id>c7f08283-ae53-4c80-9171-7e94f95d9508</id>
+      <recordtableid>231efb7b-7776-4064-853d-a4af2a7c2650</recordtableid>
+    </None>
+    <None Include="NavigateToSystranStore.rxrec">
+      <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
+      <id>f63609f4-2bbf-4dfc-8265-a1fdfff64667</id>
+      <recordtableid>4ea59595-a0a0-4788-8def-202ab1211337</recordtableid>
+    </None>
+    <None Include="Profile_With_Existing_ProfileId.rxrec">
+      <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
+      <id>90dc8a34-133a-4d2e-b233-abcf5107f23e</id>
+      <recordtableid>2f265d1f-29b0-4627-b35d-424b41d3d3fa</recordtableid>
+    </None>
+    <None Include="Profile_With_Existing_ReadOnly_ProfileId.rxrec">
+      <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
+      <id>bacfb586-b4ee-4aa7-95f3-e345b11de03f</id>
+      <recordtableid>5fef994e-81bc-4888-8a6c-97d050f7347c</recordtableid>
+    </None>
+    <None Include="Profile_With_TM.rxrec">
+      <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
+      <id>10fc95f2-71cd-4746-a61d-5d0830148588</id>
+      <recordtableid>cd648e2b-70ae-4859-ad51-b3c9a0493798</recordtableid>
+    </None>
+    <None Include="Profile_With_UserDict.rxrec">
+      <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
+      <id>a0f89b06-b405-4ca3-a584-41498382ed1a</id>
+      <recordtableid>937b01fb-e059-4849-bb21-9008513662f4</recordtableid>
+    </None>
+    <None Include="Profile_With_UserDict_And_TM.rxrec">
+      <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
+      <id>2a7ccc80-d989-4788-8d7f-8de2f4cd61cf</id>
+      <recordtableid>6411a4b9-6c59-4603-9d4c-98f06dc85a27</recordtableid>
+    </None>
+    <None Include="StartIEAndSystranLangManager.rxrec">
+      <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
+      <id>83ee4f1b-3c5a-4efe-8754-4322492b18da</id>
+      <recordtableid>0f6afdb7-5eff-4213-a1a5-949cd5fb4ac7</recordtableid>
+    </None>
+    <None Include="StartOnlyLanguageManager.rxrec">
+      <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
+      <id>036df337-615a-4357-9cff-610c75ac5a3a</id>
+      <recordtableid>0fdca477-2dd9-4016-be44-1998f1037b7f</recordtableid>
+    </None>
+    <None Include="VerifyTheProfilePage.rxrec">
+      <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
+      <id>cfa0a6d4-52c3-487e-9c30-bc8eb291e6ef</id>
+      <recordtableid>44bd6f20-911d-42cf-b811-cdfc616b313c</recordtableid>
+    </None>
+    <Content Include="LanguageManager.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>77a72c5e-5f02-4519-a88e-73d5f59d1fba</id>
+    </Content>
+    <Compile Include="AssemblyInfo.cs">
+      <id>851e327e-cc47-4ab0-94af-4dcb71e6c65d</id>
+    </Compile>
+    <Compile Include="EndIEAndSystranLanguageManager.cs">
+      <BoundTo>5ca65325-e8c4-485b-985c-164680620eef</BoundTo>
+      <DependentUpon>EndIEAndSystranLanguageManager.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1e9d2eae-fc9d-4069-8d3d-3a97b629dee8</id>
+    </Compile>
+    <Compile Include="EndIEAndSystranLanguageManager.UserCode.cs">
+      <BoundTo>5ca65325-e8c4-485b-985c-164680620eef</BoundTo>
+      <DependentUpon>EndIEAndSystranLanguageManager.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e624b145-fc4d-42b2-8d86-917357750fc1</id>
+    </Compile>
+    <Compile Include="EndSystranLnaguageManager.cs">
+      <BoundTo>7dfff785-33a7-4aeb-8a2e-a4924826641c</BoundTo>
+      <DependentUpon>EndSystranLnaguageManager.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d57ec63f-e799-4cef-8a64-dfefcc57fef8</id>
+    </Compile>
+    <Compile Include="EndSystranLnaguageManager.UserCode.cs">
+      <BoundTo>7dfff785-33a7-4aeb-8a2e-a4924826641c</BoundTo>
+      <DependentUpon>EndSystranLnaguageManager.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0ca8cbb8-4754-4a69-8300-00791dd1a65c</id>
+    </Compile>
+    <Compile Include="LanguageManagerRepository.cs">
+      <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
+      <DependentUpon>LanguageManagerRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>24e19a39-930a-4ac5-9776-f0e8318339fc</id>
+    </Compile>
+    <Compile Include="License_Add_Product_Key.cs">
+      <BoundTo>c30cce4e-29fe-4a23-a4ee-abcef1939309</BoundTo>
+      <DependentUpon>License_Add_Product_Key.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3a0ae3bd-6006-4b32-b8b2-a8a859ea30fe</id>
+    </Compile>
+    <Compile Include="License_Add_Product_Key.UserCode.cs">
+      <BoundTo>c30cce4e-29fe-4a23-a4ee-abcef1939309</BoundTo>
+      <DependentUpon>License_Add_Product_Key.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>daae721a-6eb8-4b7b-b1f7-a3a518cf4f05</id>
+    </Compile>
+    <Compile Include="License_page_Verification.cs">
+      <BoundTo>3cc591c1-fe6c-4390-a394-1bd1474c74c8</BoundTo>
+      <DependentUpon>License_page_Verification.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b26c2ca7-e001-4e1d-b549-0b1bc3ee1a4c</id>
+    </Compile>
+    <Compile Include="License_page_Verification.UserCode.cs">
+      <BoundTo>3cc591c1-fe6c-4390-a394-1bd1474c74c8</BoundTo>
+      <DependentUpon>License_page_Verification.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f26f5794-8bd4-4bc1-8e77-c30e93c0414a</id>
+    </Compile>
+    <Compile Include="Linguistic_Resources_Dictionary_Check.cs">
+      <BoundTo>0ca0b5ca-4096-4ffc-a126-8d3940396ccc</BoundTo>
+      <DependentUpon>Linguistic_Resources_Dictionary_Check.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d169b340-1b5e-41e9-89d8-eba0f6b76f38</id>
+    </Compile>
+    <Compile Include="Linguistic_Resources_Dictionary_Check.UserCode.cs">
+      <BoundTo>0ca0b5ca-4096-4ffc-a126-8d3940396ccc</BoundTo>
+      <DependentUpon>Linguistic_Resources_Dictionary_Check.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cb9a7e63-ab64-4a5a-bf6a-4052fe9748e1</id>
+    </Compile>
+    <Compile Include="Linguistic_Resources_Normalization_Check.cs">
+      <BoundTo>c7f08283-ae53-4c80-9171-7e94f95d9508</BoundTo>
+      <DependentUpon>Linguistic_Resources_Normalization_Check.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>af314923-5cb5-4527-8da8-6f10eb65f427</id>
+    </Compile>
+    <Compile Include="Linguistic_Resources_Normalization_Check.UserCode.cs">
+      <BoundTo>c7f08283-ae53-4c80-9171-7e94f95d9508</BoundTo>
+      <DependentUpon>Linguistic_Resources_Normalization_Check.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a422a140-3866-4f26-95d3-4fafcb544d44</id>
+    </Compile>
+    <Compile Include="NavigateToSystranStore.cs">
+      <BoundTo>f63609f4-2bbf-4dfc-8265-a1fdfff64667</BoundTo>
+      <DependentUpon>NavigateToSystranStore.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6a034c7d-dae6-423f-b83d-4fee96991436</id>
+    </Compile>
+    <Compile Include="NavigateToSystranStore.UserCode.cs">
+      <BoundTo>f63609f4-2bbf-4dfc-8265-a1fdfff64667</BoundTo>
+      <DependentUpon>NavigateToSystranStore.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b7319355-e682-49ee-abc7-8670fe3b9cf6</id>
+    </Compile>
+    <Compile Include="Profile_With_Existing_ProfileId.cs">
+      <BoundTo>90dc8a34-133a-4d2e-b233-abcf5107f23e</BoundTo>
+      <DependentUpon>Profile_With_Existing_ProfileId.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>42a5c849-333e-4876-a67e-dd2b79773cff</id>
+    </Compile>
+    <Compile Include="Profile_With_Existing_ProfileId.UserCode.cs">
+      <BoundTo>90dc8a34-133a-4d2e-b233-abcf5107f23e</BoundTo>
+      <DependentUpon>Profile_With_Existing_ProfileId.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e0b82531-082f-4450-bb8a-aa9fd149f1c4</id>
+    </Compile>
+    <Compile Include="Profile_With_Existing_ReadOnly_ProfileId.cs">
+      <BoundTo>bacfb586-b4ee-4aa7-95f3-e345b11de03f</BoundTo>
+      <DependentUpon>Profile_With_Existing_ReadOnly_ProfileId.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3054b7d2-c630-4214-94b3-345bcdfcc765</id>
+    </Compile>
+    <Compile Include="Profile_With_Existing_ReadOnly_ProfileId.UserCode.cs">
+      <BoundTo>bacfb586-b4ee-4aa7-95f3-e345b11de03f</BoundTo>
+      <DependentUpon>Profile_With_Existing_ReadOnly_ProfileId.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>93fe7ffe-cdfd-4fea-87dd-d865fe4761c6</id>
+    </Compile>
+    <Compile Include="Profile_With_TM.cs">
+      <BoundTo>10fc95f2-71cd-4746-a61d-5d0830148588</BoundTo>
+      <DependentUpon>Profile_With_TM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>eda91636-1f2a-4157-9154-0dfdc4748b52</id>
+    </Compile>
+    <Compile Include="Profile_With_TM.UserCode.cs">
+      <BoundTo>10fc95f2-71cd-4746-a61d-5d0830148588</BoundTo>
+      <DependentUpon>Profile_With_TM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>95d98e00-0ed1-4ad4-9aba-d62c23c8d79f</id>
+    </Compile>
+    <Compile Include="Profile_With_UserDict.cs">
+      <BoundTo>a0f89b06-b405-4ca3-a584-41498382ed1a</BoundTo>
+      <DependentUpon>Profile_With_UserDict.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f7cd2ae2-94fc-430c-91da-2182d7a0d75f</id>
+    </Compile>
+    <Compile Include="Profile_With_UserDict.UserCode.cs">
+      <BoundTo>a0f89b06-b405-4ca3-a584-41498382ed1a</BoundTo>
+      <DependentUpon>Profile_With_UserDict.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c9b08d48-9f6c-4c5b-baa7-8fc0edcf6bf1</id>
+    </Compile>
+    <Compile Include="Profile_With_UserDict_And_TM.cs">
+      <BoundTo>2a7ccc80-d989-4788-8d7f-8de2f4cd61cf</BoundTo>
+      <DependentUpon>Profile_With_UserDict_And_TM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d2e7db21-0270-4c73-83e8-55efc6f978d6</id>
+    </Compile>
+    <Compile Include="Profile_With_UserDict_And_TM.UserCode.cs">
+      <BoundTo>2a7ccc80-d989-4788-8d7f-8de2f4cd61cf</BoundTo>
+      <DependentUpon>Profile_With_UserDict_And_TM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>22a5c924-bcab-4afe-94ac-63979cf5eb5b</id>
+    </Compile>
+    <Compile Include="StartIEAndSystranLangManager.cs">
+      <BoundTo>83ee4f1b-3c5a-4efe-8754-4322492b18da</BoundTo>
+      <DependentUpon>StartIEAndSystranLangManager.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>98638eb4-0568-41ce-95b1-e33e70a97ba1</id>
+    </Compile>
+    <Compile Include="StartIEAndSystranLangManager.UserCode.cs">
+      <BoundTo>83ee4f1b-3c5a-4efe-8754-4322492b18da</BoundTo>
+      <DependentUpon>StartIEAndSystranLangManager.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>de3e0724-d65e-4780-a664-b263516dfdad</id>
+    </Compile>
+    <Compile Include="StartOnlyLanguageManager.cs">
+      <BoundTo>036df337-615a-4357-9cff-610c75ac5a3a</BoundTo>
+      <DependentUpon>StartOnlyLanguageManager.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>887fe0b9-f77d-49da-ae7e-495160f56b8c</id>
+    </Compile>
+    <Compile Include="StartOnlyLanguageManager.UserCode.cs">
+      <BoundTo>036df337-615a-4357-9cff-610c75ac5a3a</BoundTo>
+      <DependentUpon>StartOnlyLanguageManager.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>68e9e85e-25c1-4e36-9f38-e8856053a528</id>
+    </Compile>
+    <Compile Include="VerifyTheProfilePage.cs">
+      <BoundTo>cfa0a6d4-52c3-487e-9c30-bc8eb291e6ef</BoundTo>
+      <DependentUpon>VerifyTheProfilePage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>af153ee2-60dd-4219-9af7-7d731db030dc</id>
+    </Compile>
+    <Compile Include="VerifyTheProfilePage.UserCode.cs">
+      <BoundTo>cfa0a6d4-52c3-487e-9c30-bc8eb291e6ef</BoundTo>
+      <DependentUpon>VerifyTheProfilePage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3e047beb-0237-477a-892d-4cc944927d74</id>
+    </Compile>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+</Project>

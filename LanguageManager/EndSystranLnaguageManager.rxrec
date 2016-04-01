@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.5.19886"
+id="6bf37090-fb5a-4e3f-aa8f-caf26be2eca9"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		EndSystranLnaguageManager
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="EndSystranLnaguageManager"
+	namespace="LanguageManager"/>
+	<variables/>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="d777fcf8-a844-4787-925c-f52432a21ea0"
+		method="CloseWindow"
+		graceperiod="0ms">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="4c289af1-9f6c-43aa-915d-3957017e5399">
+				<element
+				role="form"
+				prefcap="form"
+				capabilities="nativewindow"
+				flavor="win32"
+				visible="False"
+				valid="False"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="3"
+				rect="0,0,0,0"
+				snapElem="">
+					<attribute
+					name="active"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="state"
+					type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Normal
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Chrome_WidgetWin_1
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						2953272
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Version=5.4.5.19886, Culture=neutral, PublicKeyToken=b798506b574ebc9a">
+						LeftToRightReading
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Version=5.4.5.19886, Culture=neutral, PublicKeyToken=b798506b574ebc9a">
+						Tiled
+					</attribute>
+					<dynamicattribute
+					name="AccessibleDefaultAction"
+					type="System.String"
+					description="The default action of the accessible object."/>
+					<dynamicattribute
+					name="AccessibleDescription"
+					type="System.String"
+					description="The description of the accessible object."
+					truncationlength="-1"/>
+					<dynamicattribute
+					name="AccessibleHelp"
+					type="System.String"
+					description="The help string of the accessible object."
+					truncationlength="-1"/>
+					<dynamicattribute
+					name="AccessibleHelpTopic"
+					type="System.String"
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."/>
+					<dynamicattribute
+					name="AccessibleKeyboardShortcut"
+					type="System.String"
+					description="The keyboard shortcut of the accessible object."/>
+					<dynamicattribute
+					name="AccessibleName"
+					type="System.String"
+					description="The name of the accessible object."
+					readonly="False"
+					truncationlength="-1"/>
+					<dynamicattribute
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+					description="The role of the accessible object."/>
+					<dynamicattribute
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+					description="The state of the accessible object."/>
+					<dynamicattribute
+					name="AccessibleValue"
+					type="System.String"
+					description="The value of the accessible object."
+					readonly="False"
+					truncationlength="-1"/>
+					<dynamicaction
+					displayName="AccessibleDoDefaultAction"
+					description="Invokes the default action of the accessible object."/>
+					<limitation
+					name="ChromeAddon"
+					technology="Chrome"
+					helpUrl="/user-guide-20/instrumentation-wizard/google-chrome.html">
+						Please make sure that you have the Ranorex Extension installed and enabled in your Chrome browser. Otherwise Ranorex UI element identification capabilities for Chrome are limited.
+					</limitation>
+				</element>
+				<path>
+					/form[@title='SYSTRAN Language Manager']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	name="LanguageManagerRepository"
+	id="f7f01b4b-6921-4458-a092-e2ea2f9aae0f"
+	rxversion="5.4.5.19886"
+	relativepath="LanguageManagerRepository.rxrep">
+		<codegen
+		classname="LanguageManagerRepository"
+		namespace="LanguageManager"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="f799ee33-a5fc-4d12-a32c-afa8e13029ab"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		EndSystranLnaguageManager.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

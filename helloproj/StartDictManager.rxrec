@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.5.19886"
+id="5421c1fd-a67e-4f0a-948b-385e4d19afa1"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		StartDictManager
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartDictManager"
+	namespace="helloproj"/>
+	<variables/>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		optional="False"
+		maximized="False">
+			<comment/>
+			<bindings/>
+			<filename>
+				C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SystranDictionaryManager.exe
+			</filename>
+			<workingdir>
+				C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications
+			</workingdir>
+			<args/>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	name="DictionaryManagerRepository"
+	id="41603f73-4510-4bc9-b3e8-f063a78cebda"
+	rxversion="5.4.5.19886"
+	relativepath="DictionaryManagerRepository.rxrep">
+		<codegen
+		classname="DictionaryManagerRepository"
+		namespace="helloproj"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="e2cfde25-ff44-4911-af4b-7eb8f2effe47"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartDictManager.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

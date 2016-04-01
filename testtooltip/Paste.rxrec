@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.5.19886"
+id="698cb6da-f9f8-4186-9af3-cdb806c1cf63"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		Paste
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Paste"
+	namespace="testtooltip"/>
+	<variables/>
+	<recorditems>
+		<keyitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="80edf709-8d97-4613-b6c3-4e989fb7be65"
+		action="Press"
+		presstime="100ms"
+		data="V, Control"
+		scancode="47"
+		setModifiers="True">
+			<comment/>
+			<bindings/>
+		</keyitem>
+	</recorditems>
+	<repository
+	name="testtooltipRepository"
+	id="82a0660a-ea18-463f-89aa-4894af904f52"
+	rxversion="5.4.5.19886"
+	relativepath="testtooltipRepository.rxrep">
+		<codegen
+		classname="testtooltipRepository"
+		namespace="testtooltip"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="3d3bee4c-89c7-4194-9165-dd22b4579401"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Paste.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.5.19886"
+id="c915a203-e245-4182-88e0-8ab282f56b08"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		ValidateEndOfTargteEditing
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateEndOfTargteEditing"
+	namespace="testtooltip"/>
+	<variables/>
+	<recorditems>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="e3f98aeb-5524-402c-9daa-3a0381132881"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="c95e6ed7-1fde-4c79-a173-133d2c924379">
+				<element
+				role="tooltip"
+				prefcap="tooltip"
+				capabilities="uiautomation"
+				flavor="uia"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="3"
+				rect="1450,632,200,33"
+				snapElem="">
+					<attribute
+					name="text"
+					type="System.String">
+						Ends editing of the translation
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						ToolTip
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						ToolTip
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						WPF
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						tool tip
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Ends editing of the translation
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						4188
+					</attribute>
+					<limitation
+					name="WPF Legacy"
+					technology="WPF"
+					helpUrl="http://www.ranorex.com/support/user-guide-20/technology-instrumentation/general-troubleshooting.html#wpf-uia-tree">
+						You are accessing WPF elements via the UIA plug-in. UI element identification capabilities for this window are limited. Consider using the native WPF plug-in.
+					</limitation>
+				</element>
+				<path>
+					/tooltip[@name~'^Ends\ editing\ of\ the\ trans']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Ends editing of the translation
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="testtooltipRepository"
+	id="82a0660a-ea18-463f-89aa-4894af904f52"
+	rxversion="5.4.5.19886"
+	relativepath="testtooltipRepository.rxrep">
+		<codegen
+		classname="testtooltipRepository"
+		namespace="testtooltip"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="3d3bee4c-89c7-4194-9165-dd22b4579401"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateEndOfTargteEditing.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.5.19886"
+id="ae52d6e9-3e5d-4197-bdb0-f5845f78eca0"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		setZoomToMax
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SetZoomToMax"
+	namespace="testtooltip"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="8d871959-6ee0-46ad-8b32-dc920565464d"
+		action="Down"
+		button="Left"
+		movetime="300ms"
+		sx="1186"
+		sy="308"
+		loc="5;8">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="8fb8afa2-5d66-42e8-9a23-1217bc11cd2a">
+				<element
+				role="unknown"
+				prefcap="unknown"
+				capabilities="wpfelement"
+				flavor="wpf"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="0"
+				rect="1181,300,10,16"
+				snapElem="">
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.Border
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						System.Windows.Controls.Border
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						Border
+					</attribute>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.Border.ActualHeight property of type Double."/>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.Border.ActualWidth property of type Double."/>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Border.AllowDrop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Background"
+					type="System.Windows.Media.Brush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Border.Background property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Border.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Border.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Border.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="BorderBrush"
+					type="System.Windows.Media.Brush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Border.BorderBrush property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Border.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Border.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Border.ClipToBounds property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Border.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.Border.DataContext property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Border.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Border.FlowDirection property of type FlowDirection."
+					readonly="False"/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Border.Focusable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Border.ForceCursor property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.Border.Height property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Border.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Border.IsHitTestVisible property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Border.IsManipulationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Border.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.Border.MaxHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.Border.MaxWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.Border.MinHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.Border.MinWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.Border.Opacity property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Border.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Border.OverridesDefaultStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Border.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Border.RenderTransformOrigin property of type Point."
+					readonly="False"/>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Border.SnapsToDevicePixels property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.Border.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.Border.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF System.Windows.Controls.Border.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.Border.UseLayoutRounding property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Border.VerticalAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.Border.Visibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.Border.Width property of type Double."
+					readonly="False"/>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title~'^SYSTRAN\ Interactive\ Trans' and @processname='SYSTRAN.InteractiveTranslator']/container/element[1]/container/element[7]/container[@automationid='root']/element/element[1]/element/container/container[1]/container[2]/slider[@automationid='mZoomSlider']/container[@automationid='Root']/container[@automationid='HorizontalTemplate']/slider[@automationid='PART_Track']/grip[@automationid='HorizontalThumb']/container/element[1]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="c5e2b805-a0ff-4b83-a2a0-42592ff53464">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAwAEgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoZxmF
++SMAkYJFQtK0UiRr0OOWbJOfqf8AGrNFUnYTVyt5zkr86KN2Dx1HPP40szOs24MNoXoc4GTjJ5qx
+Va9vorLZ5qud+cbQO3/66HJLUcYSk+Vbh50hHymM4DHdg4OMdOfenxSMxk3MvHIHTAxVL+3bX/nn
+N+Q/xqez1KG8lMcayAhd3zAf4+9T7SL0Ro8PUirtDhOSoZnQYByccDp780C5fei5Rt2ORjB57c/4
+1aoq+ZdjGz7hRRRUFBTD8zEZwBT6YflY5GVNACEbRlT06iqGqHN7p5/6af1WrzMNpCj61Q1Mg3mn
+4/56f1Wpnsb4f+J9/wCQ/J3ZzzVZby3g1y4llk2pt2ZwTyMZH6GlltftV7Gm9o5Ejdkcfwtlfz6n
+imWUfnazOl5bRq/l7imMqTkfMM+vP50SWwqTSUr9i9/bOn/8/H/jjf4Uf2zp/wDz8f8Ajjf4VP8A
+YrT/AJ9YP+/Yo+xWn/PrB/37FUYkH9s6f/z8f+ON/hRU/wBitP8An1g/79iigCeiiigAqle6ebpo
+2SYxGMkggZ9Pf2q7RSavoyoycHzRMkIdOvVlurxpE8hzl8/L8ye5qO5na/mgW3jEU21nilkfYyMD
+hlxg59x3Fa8kMUrI0kSOyHKllBKn29Krrp8S3n2hXcfOZNgxt3FdpPTP601oEpOTuy3RRRQSFFFF
+AH//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="6e1ed037-0b82-4b44-8950-d00548fe8e32"
+		action="Up"
+		button="Left"
+		movetime="300ms"
+		sx="1269"
+		sy="310"
+		loc="88;10">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="8fb8afa2-5d66-42e8-9a23-1217bc11cd2a">
+				<path>
+					/form[@wpfnative='True' and @title~'^SYSTRAN\ Interactive\ Trans' and @processname='SYSTRAN.InteractiveTranslator']/container/element[1]/container/element[7]/container[@automationid='root']/element/element[1]/element/container/container[1]/container[2]/slider[@automationid='mZoomSlider']/container[@automationid='Root']/container[@automationid='HorizontalTemplate']/slider[@automationid='PART_Track']/grip[@automationid='HorizontalThumb']/container/element[1]
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="testtooltipRepository"
+	id="82a0660a-ea18-463f-89aa-4894af904f52"
+	rxversion="5.4.5.19886"
+	relativepath="testtooltipRepository.rxrep">
+		<codegen
+		classname="testtooltipRepository"
+		namespace="testtooltip"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="3d3bee4c-89c7-4194-9165-dd22b4579401"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		setZoomToMax.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

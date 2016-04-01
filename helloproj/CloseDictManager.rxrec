@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.5.19886"
+id="ac75f911-821c-496c-9c55-af0835483337"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		CloseDictManager
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseDictManager"
+	namespace="helloproj"/>
+	<variables/>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="56a18bbf-311e-4ce7-b554-d0d4530be555"
+		method="CloseWindow"
+		graceperiod="100ms">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="f7845a00-81de-4706-9389-3fd5aeca1233">
+				<path>
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	name="DictionaryManagerRepository"
+	id="41603f73-4510-4bc9-b3e8-f063a78cebda"
+	rxversion="5.4.5.19886"
+	relativepath="DictionaryManagerRepository.rxrep">
+		<codegen
+		classname="DictionaryManagerRepository"
+		namespace="helloproj"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="e2cfde25-ff44-4911-af4b-7eb8f2effe47"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseDictManager.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

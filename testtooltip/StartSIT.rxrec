@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.5.19886"
+id="40a4cb5f-bf48-4422-ac66-84cc8e272058"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		StartSIT
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartSIT"
+	namespace="testtooltip"/>
+	<variables/>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		optional="False"
+		maximized="False">
+			<comment/>
+			<bindings/>
+			<filename>
+				C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SYSTRAN.InteractiveTranslator.exe
+			</filename>
+			<workingdir>
+				C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications
+			</workingdir>
+			<args/>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	name="testtooltipRepository"
+	id="82a0660a-ea18-463f-89aa-4894af904f52"
+	rxversion="5.4.5.19886"
+	relativepath="testtooltipRepository.rxrep">
+		<codegen
+		classname="testtooltipRepository"
+		namespace="testtooltip"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="3d3bee4c-89c7-4194-9165-dd22b4579401"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartSIT.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.5.19886"
+id="0f6afdb7-5eff-4213-a1a5-949cd5fb4ac7"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		StartIEAndSystranLangManager
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartIEAndSystranLangManager"
+	namespace="LanguageManager"/>
+	<variables/>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		optional="False"
+		maximized="False">
+			<comment/>
+			<bindings/>
+			<filename>
+				C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\language-manager\SYSTRAN-Desktop-Language-Manager.exe
+			</filename>
+			<workingdir>
+				C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\language-manager
+			</workingdir>
+			<args>
+				--force-renderer-accessibility
+			</args>
+		</runapprecorditem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="2000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<runapprecorditem
+		enabled="True"
+		optional="False"
+		maximized="False">
+			<comment/>
+			<bindings/>
+			<filename>
+				C:\Program Files\Internet Explorer\iexplore.exe
+			</filename>
+			<workingdir>
+				C:\Program Files\Internet Explorer
+			</workingdir>
+			<args/>
+		</runapprecorditem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="500ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="d7550ce2-743e-490d-89b7-0f7628dbe6d5"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="328"
+		sy="34"
+		loc="232;3">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="c7430e8b-09e2-4c39-b80f-3a411a192bea">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="nativewindow"
+				flavor="win32"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="1"
+				rect="96,31,803,15"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						http://www.dell.com/
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Edit
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						1049150
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						8612
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						iexplore
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Version=5.4.5.19886, Culture=neutral, PublicKeyToken=b798506b574ebc9a">
+						LeftToRightReading
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Version=5.4.5.19886, Culture=neutral, PublicKeyToken=b798506b574ebc9a">
+						Overlapped, MaximizeBox, ClipChildren, ClipSiblings, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						http://www.dell.com/
+					</attribute>
+					<dynamicattribute
+					name="AccessibleDefaultAction"
+					type="System.String"
+					description="The default action of the accessible object."/>
+					<dynamicattribute
+					name="AccessibleDescription"
+					type="System.String"
+					description="The description of the accessible object."
+					truncationlength="-1"/>
+					<dynamicattribute
+					name="AccessibleHelp"
+					type="System.String"
+					description="The help string of the accessible object."
+					truncationlength="-1"/>
+					<dynamicattribute
+					name="AccessibleHelpTopic"
+					type="System.String"
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."/>
+					<dynamicattribute
+					name="AccessibleKeyboardShortcut"
+					type="System.String"
+					description="The keyboard shortcut of the accessible object."/>
+					<dynamicattribute
+					name="AccessibleName"
+					type="System.String"
+					description="The name of the accessible object."
+					readonly="False"
+					truncationlength="-1"/>
+					<dynamicattribute
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+					description="The role of the accessible object."/>
+					<dynamicattribute
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+					description="The state of the accessible object."/>
+					<dynamicattribute
+					name="AccessibleValue"
+					type="System.String"
+					description="The value of the accessible object."
+					readonly="False"
+					truncationlength="-1"/>
+					<dynamicaction
+					displayName="AccessibleDoDefaultAction"
+					description="Invokes the default action of the accessible object."/>
+				</element>
+				<path>
+					/form[@title~'^Dell\ Official\ Site\ -\ The\ ']/?/?/form[@controlid='40966']/?/?/text[@class='Edit']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="3ed2166c-db43-476d-bd8b-0296cd2a8dba">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		duration="400ms"
+		searchpropertyid="19cc29ab-ea45-4f53-98cb-d085547bc2e9"
+		KeySequence="http://localhost:3500/"
+		presstime="100ms">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="c7430e8b-09e2-4c39-b80f-3a411a192bea">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="nativewindow"
+				flavor="win32"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="1"
+				rect="96,31,803,15"
+				snapElem="">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						http://www.dell.com/
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Edit
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						1049150
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						8612
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						iexplore
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Version=5.4.5.19886, Culture=neutral, PublicKeyToken=b798506b574ebc9a">
+						LeftToRightReading
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Version=5.4.5.19886, Culture=neutral, PublicKeyToken=b798506b574ebc9a">
+						Overlapped, MaximizeBox, ClipChildren, ClipSiblings, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						http://www.dell.com/
+					</attribute>
+					<dynamicattribute
+					name="AccessibleDefaultAction"
+					type="System.String"
+					description="The default action of the accessible object."/>
+					<dynamicattribute
+					name="AccessibleDescription"
+					type="System.String"
+					description="The description of the accessible object."
+					truncationlength="-1"/>
+					<dynamicattribute
+					name="AccessibleHelp"
+					type="System.String"
+					description="The help string of the accessible object."
+					truncationlength="-1"/>
+					<dynamicattribute
+					name="AccessibleHelpTopic"
+					type="System.String"
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."/>
+					<dynamicattribute
+					name="AccessibleKeyboardShortcut"
+					type="System.String"
+					description="The keyboard shortcut of the accessible object."/>
+					<dynamicattribute
+					name="AccessibleName"
+					type="System.String"
+					description="The name of the accessible object."
+					readonly="False"
+					truncationlength="-1"/>
+					<dynamicattribute
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+					description="The role of the accessible object."/>
+					<dynamicattribute
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+					description="The state of the accessible object."/>
+					<dynamicattribute
+					name="AccessibleValue"
+					type="System.String"
+					description="The value of the accessible object."
+					readonly="False"
+					truncationlength="-1"/>
+					<dynamicaction
+					displayName="AccessibleDoDefaultAction"
+					description="Invokes the default action of the accessible object."/>
+				</element>
+				<path>
+					/form[@title~'^Dell\ Official\ Site\ -\ The\ ']/?/?/form[@controlid='40966']/?/?/text[@class='Edit']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="86fcbe8f-4f03-4cfe-b058-01f040af1445"
+		KeySequence="{Return}"
+		presstime="100ms">
+			<comment/>
+			<bindings/>
+		</keysequenceitem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="2000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	name="LanguageManagerRepository"
+	id="f7f01b4b-6921-4458-a092-e2ea2f9aae0f"
+	rxversion="5.4.5.19886"
+	relativepath="LanguageManagerRepository.rxrep">
+		<codegen
+		classname="LanguageManagerRepository"
+		namespace="LanguageManager"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="f799ee33-a5fc-4d12-a32c-afa8e13029ab"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartIEAndSystranLangManager.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

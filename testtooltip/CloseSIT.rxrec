@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.5.19886"
+id="c5f35077-9678-4c52-9840-148de0bc05f0"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		CloseSIT
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseSIT"
+	namespace="testtooltip"/>
+	<variables/>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="e23b353d-1b6c-442c-8d1a-7ef53e9b8cc6"
+		method="CloseWindow"
+		graceperiod="0ms">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="6d13c992-2af1-4533-8c43-cc4cbb3fae35">
+				<path>
+					/form[@name~'^SYSTRAN\ Interactive\ Trans']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	name="testtooltipRepository"
+	id="82a0660a-ea18-463f-89aa-4894af904f52"
+	rxversion="5.4.5.19886"
+	relativepath="testtooltipRepository.rxrep">
+		<codegen
+		classname="testtooltipRepository"
+		namespace="testtooltip"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="3d3bee4c-89c7-4194-9165-dd22b4579401"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseSIT.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

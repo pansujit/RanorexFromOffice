@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.5.19886"
+id="0fdca477-2dd9-4016-be44-1998f1037b7f"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		StartOnlyLanguageManager
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartOnlyLanguageManager"
+	namespace="LanguageManager"/>
+	<variables/>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		optional="False"
+		maximized="False">
+			<comment/>
+			<bindings/>
+			<filename>
+				C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\language-manager\SYSTRAN-Desktop-Language-Manager.exe
+			</filename>
+			<workingdir>
+				C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\language-manager
+			</workingdir>
+			<args>
+				--force-renderer-accessibility
+			</args>
+		</runapprecorditem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="2000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	name="LanguageManagerRepository"
+	id="f7f01b4b-6921-4458-a092-e2ea2f9aae0f"
+	rxversion="5.4.5.19886"
+	relativepath="LanguageManagerRepository.rxrep">
+		<codegen
+		classname="LanguageManagerRepository"
+		namespace="LanguageManager"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="f799ee33-a5fc-4d12-a32c-afa8e13029ab"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartOnlyLanguageManager.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

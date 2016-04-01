@@ -1,0 +1,836 @@
+﻿<repository
+name="LanguageManagerRepository"
+id="f7f01b4b-6921-4458-a092-e2ea2f9aae0f"
+rxversion="5.4.5.19886">
+	<codegen
+	classname="LanguageManagerRepository"
+	namespace="LanguageManager"/>
+	<rootfolder
+	name="Root"
+	id="f799ee33-a5fc-4d12-a32c-afa8e13029ab"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="SYSTRANLanguageManager"
+		id="4c289af1-9f6c-43aa-915d-3957017e5399"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='SYSTRAN Language Manager']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ButtonRefresh"
+			id="057d5c94-6b70-4791-a8e0-803f44dc3e56"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='SYSTRAN Language Manager']/element/container/element[3]/button[@accessiblename=' Refresh']"
+			addcaps="button,accessible"
+			refimgid="c0c472a9-877b-479c-99d4-a5e2db735c4e">
+				/form[@title='SYSTRAN Language Manager']/?/?/container[@accessiblename='SYSTRAN Language Manager']/?/?/button[@accessiblename='&#61473;&#160;Refresh']
+			</item>
+			<item
+			name="Close"
+			id="65813c61-6901-430e-b4e9-5696898cc41e"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='SYSTRAN Language Manager']/titlebar/button[@accessiblename='Close']"
+			addcaps="button,accessible"
+			refimgid="dcca9d7b-aaf8-4372-a8da-5cb00a8afcd6">
+				/form[@title='SYSTRAN Language Manager']/?/?/button[@accessiblename='Close']
+			</item>
+			<item
+			name="Element122647568"
+			id="137a55e2-aac8-4eac-8942-792bdaad45ec"
+			searchtimeout="30000ms"
+			capname="unknown"
+			refpath="/form[@title='SYSTRAN Language Manager']/element[@controlid='122647568']"
+			addcaps="unknown,nativewindow"
+			refimgid="4f4f65be-8a09-41c6-87b7-06c42eeb870a">
+				/form[@title='SYSTRAN Language Manager']/element[@controlid='122647568']
+			</item>
+			<item
+			name="SYSTRANStore"
+			id="c30db001-120e-4183-9239-167246d8d998"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='SYSTRAN Language Manager']/element/container/element[@accessiblerole='Alert']/link/text[@accessiblename='SYSTRAN Store']"
+			addcaps="text,accessible"
+			refimgid="b51860ef-b564-4648-aaf7-71816ce68213">
+				/form[@title='SYSTRAN Language Manager']/?/?/container[@accessiblename='SYSTRAN Language Manager']/?/?/link[@accessiblename='SYSTRAN Store']/text[@accessiblename='SYSTRAN Store']
+			</item>
+			<basepath>
+				/form[@title='SYSTRAN Language Manager']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH6SURBVDhPdZLfa1JhGMc39gfsD+jPqMVkN91F
+f8COtHMxFJxGCDEmJLuK4d2mo7LBoBiVnGRH2K+8aFukF8vmfrSNdvSIjDBWgQurFdWZfnueVz3z
+uOMLH0Gf5/t5H1+eLgDdNvTUarVxIksUiHnCYdPX3S7g4Enu6ykGn+7hciQjGHiwidjOMZUBqnsa
+vVYBFS4Z1Rr6puuhTqSL31hycEHw96x6ofkKsfvpB5Vh+f359jFLFjknBDx2awOT+VgRQT7x958t
+NebnH4NLvSzoWddPzMKwwtN1Pmf0N2M0wbVHWZ7iqIs+xh3335mC2bclTKwWMbaUx52FHAKLHxB+
+OAO32w2n0ynw+XxQFIUFYEG2GW6nP/TSDHWCBQW7MHMj8so21AoLeEkws1HC9dlti8D5OIN/hoEn
+c3PweL2QJEmEbvv9mFcT4k1Y4CiWf4sv7UfXdRFwuVyIRqNQVRVKPI7JqTCGhuT6BNRn7sBVWqK7
+KzrUvS/YKn0Xj5TP5+GnG5sjNwkGgyiXy3UBNXr41VvHv6UeQtM00RyOTONNOg2NZIdaDqtr6wiF
+QqJmbiJJDm4+2zcFcmwfoyRVXsQtN7eSSqUMU9CQLL8unC/VwL0ERka84vbTX+fvVKlUjGQyaciy
+XLUIGvSS6Ig3bo02NBAI2N7OSJKU+A+wmeZ/A6OVHAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		name="DellOfficialSiteThePowerToDoMor"
+		id="5210798d-e2d9-43c8-8341-d64747302fbe"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Dell Official Site - The Power To Do More | Dell - Internet Explorer']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ClientCaption"
+			id="57fee0cd-803a-4b01-baae-96cd3edeb941"
+			searchtimeout="30000ms"
+			capname="unknown"
+			refpath="/form[@title~'^Dell\ Official\ Site\ -\ The\ ']/element[@class='Client Caption']"
+			addcaps="unknown,nativewindow"
+			refimgid="3fdbd12c-18a0-406e-a54c-7f8a4a944da8">
+				/form[@title~'^Dell\ Official\ Site\ -\ The\ ']/element[@class='Client Caption']
+			</item>
+			<item
+			name="Edit"
+			id="c7430e8b-09e2-4c39-b80f-3a411a192bea"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title~'^Dell\ Official\ Site\ -\ The\ ']/element[@class='WorkerW']/form/element[@controlid='41477']/text[@class='Edit']"
+			addcaps="text,nativewindow"
+			refimgid="854324e3-ee69-4909-9205-fc9049176182">
+				/form[@title~'^Dell\ Official\ Site\ -\ The\ ']/?/?/form[@controlid='40966']/?/?/text[@class='Edit']
+			</item>
+			<item
+			name="DragToTaskbarToPinSite"
+			id="88bb78c7-66fe-4d69-9aa9-841bf50a6f1c"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title~'^SYSTRAN\ Language\ Manager\ ']/element[@class='WorkerW']/form/element[@controlid='41477']/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Drag\ to\ taskbar\ to\ pin\ si']"
+			addcaps="button,nativeitem,checkable"
+			refimgid="ed7b4c78-caa5-4bf7-a995-96b8c3fa57d9">
+				/form[@title~'^Dell\ Official\ Site\ -\ The\ ']/?/?/form[@controlid='40966']/element[@controlid='41477']/toolbar[@instance='0']/button[@text~'^Drag\ to\ taskbar\ to\ pin\ si']
+			</item>
+			<basepath>
+				/form[@title~'^Dell\ Official\ Site\ -\ The\ ']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Explorer"
+		id="b82bc4ce-63af-4827-a642-ea589595d42b"
+		searchtimeout="30000ms"
+		capname="menubar"
+		refpath="/menubar[@processname='explorer']"
+		addcaps="menubar,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="SYSTRANLanguageManagerInternetExpl"
+			id="3bff98a3-6199-4a5e-b66e-501f282eff6c"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/menubar[@processname='explorer']/form/container/element/toolbar/button[@accessiblename~'^SYSTRAN\ Language\ Manager\ ']"
+			addcaps="button,accessible"
+			refimgid="f7f58bd9-5bbf-440e-9f69-0ae8ae9e078a">
+				/menubar[@processname='explorer']/form[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^SYSTRAN\ Language\ Manager\ ']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="SYSTRANLanguageManagerInternetExpl"
+		id="2c3f3d67-9f38-4f16-9506-faa30c929d1b"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='SYSTRAN Language Manager - Internet Explorer']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Edit"
+			id="151cb618-08ef-48ae-ad3e-c5e377c7242b"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title~'^SYSTRAN\ Language\ Manager\ ']/element[@class='WorkerW']/form/element[@controlid='41477']/text[@class='Edit']"
+			addcaps="text,nativewindow"
+			refimgid="4b12c44f-3a15-4cee-8b6d-68683d1ef5a3">
+				/form[@title~'^SYSTRAN\ Language\ Manager\ ']/?/?/form[@controlid='40966']/?/?/text[@class='Edit']
+			</item>
+			<item
+			name="ClientCaption"
+			id="18bee10a-e489-4149-b324-5af5b85e98ee"
+			searchtimeout="30000ms"
+			capname="unknown"
+			refpath="/form[@title~'^SYSTRAN\ Language\ Manager\ ']/element[@class='Client Caption']"
+			addcaps="unknown,nativewindow"
+			refimgid="38c6149d-5669-4398-a599-894d27f0c749">
+				/form[@title~'^SYSTRAN\ Language\ Manager\ ']/element[@class='Client Caption']
+			</item>
+			<basepath>
+				/form[@title~'^SYSTRAN\ Language\ Manager\ ']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="SYSTRANLanguageManager1"
+		id="0b282e6c-ae7f-4b08-bb24-4e6b3249eb04"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='localhost:3500']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="SpanTagRefresh"
+			id="56e65335-aba5-40f2-9444-10af6046c690"
+			searchtimeout="30000ms"
+			capname="spantag"
+			refpath="/dom[@domain='localhost:3500']//button[#'refreshProfile']/span[@innertext=' Refresh']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="b549409b-7278-4ac0-9cc2-7dccb04b6f47">
+				/dom[@domain='localhost:3500']//button[#'refreshProfile']/span[@innertext='&#160;Refresh']
+			</item>
+			<item
+			name="SpanTagAdd"
+			id="70a944cc-7e51-4463-8a21-3a2f857a2300"
+			searchtimeout="30000ms"
+			capname="spantag"
+			refpath="/dom[@domain='localhost:3500']//button[#'addProfile']/span[@innertext=' Add']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="52eb5bd6-e716-4ff0-bcbf-e3fd67d3baa5">
+				/dom[@domain='localhost:3500']//button[#'addProfile']/span[@innertext='&#160;Add']
+			</item>
+			<item
+			name="Search"
+			id="4efa5b3b-7dbc-4cbe-9ea7-30fc13a241c2"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='localhost:3500']//div[#'profileTable_filter']/label/input[@type='search']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="1066bd63-da75-449a-b297-697cbd74380a">
+				/dom[@domain='localhost:3500']//div[#'profileTable_filter']/?/?/input[@type='search']
+			</item>
+			<item
+			name="SomeBTag"
+			id="cdea1b4c-a733-424f-a718-736092f4bb5a"
+			searchtimeout="30000ms"
+			capname="btag"
+			refpath="/dom[@domain='localhost:3500']//div[#'s2id_sourceButton']/a/span[2]/b"
+			addcaps="unknown,webelement,btag"
+			refimgid="25cc6e9c-1b00-4df6-8212-471328e0dfb1">
+				/dom[@domain='localhost:3500']//div[#'s2id_sourceButton']//b
+			</item>
+			<item
+			name="Select2ResultLabel3"
+			id="218a2c4d-6bc7-4ec4-a7da-038ef3d75d98"
+			searchtimeout="30000ms"
+			capname="divtag"
+			refpath="/dom[@domain='localhost:3500']//div[#'select2-result-label-3']"
+			addcaps="unknown,webelement,divtag"
+			refimgid="4acb43fd-e279-48fc-84a7-43e48b79bb64">
+				/dom[@domain='localhost:3500']//div[#'select2-result-label-3']
+			</item>
+			<item
+			name="SomeBTag1"
+			id="2e9335c0-9a7b-49af-8521-133aaf19ae08"
+			searchtimeout="30000ms"
+			capname="btag"
+			refpath="/dom[@domain='localhost:3500']//div[#'s2id_targetButton']/a/span[2]/b"
+			addcaps="unknown,webelement,btag"
+			refimgid="2a6086fd-deaa-4d72-99e1-155d5b0025b8">
+				/dom[@domain='localhost:3500']//div[#'s2id_targetButton']//b
+			</item>
+			<item
+			name="Select2ResultLabel4"
+			id="1ed1677a-10e8-4657-826e-ce409bbc7509"
+			searchtimeout="30000ms"
+			capname="divtag"
+			refpath="/dom[@domain='localhost:3500']//div[#'select2-result-label-4']"
+			addcaps="unknown,webelement,divtag"
+			refimgid="a86cb7e4-d267-484b-9bd3-bd2304758f1e">
+				/dom[@domain='localhost:3500']//div[#'select2-result-label-4']
+			</item>
+			<item
+			name="SelectLanguagesSubmit"
+			id="ad00f709-79a7-43e5-a56e-3c1f9d92583a"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='localhost:3500']//button[#'selectLanguagesSubmit']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="78dda868-db90-4a5d-945b-1544063be8df">
+				/dom[@domain='localhost:3500']//button[#'selectLanguagesSubmit']
+			</item>
+			<item
+			name="InputNewProfileName"
+			id="41996b51-bb06-4d9a-9108-96b158a89dc5"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='localhost:3500']//input[#'inputNewProfileName']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="c6e1a74d-4117-487f-becd-0b827a17fc54">
+				/dom[@domain='localhost:3500']//input[#'inputNewProfileName']
+			</item>
+			<item
+			name="InputProfileId"
+			id="a5233ce4-09c0-4c20-9f83-d95406e431f1"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='localhost:3500']//input[#'inputProfileId']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="ddcb0bc3-cb43-4d6b-88f3-e5c1b2c038ac">
+				/dom[@domain='localhost:3500']//input[#'inputProfileId']
+			</item>
+			<item
+			name="Checkbox"
+			id="86865eb5-39bc-48ce-b242-c496704f23c9"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='localhost:3500']//div[#'userDictSelection']/div/div[1]/label/input[@type='checkbox']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="8c08614f-bb55-44b8-8efe-2905b66720f8">
+				/dom[@domain='localhost:3500']//div[#'userDictSelection']/div/div[1]/?/?/input[@type='checkbox']
+			</item>
+			<item
+			name="SubmitAddProfile"
+			id="5809620f-756c-428e-a8a7-e94d1602b2cd"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='localhost:3500']//button[#'submitAddProfile']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="2339a4bf-c6cf-45d2-8eee-55c80d9f02f6">
+				/dom[@domain='localhost:3500']//button[#'submitAddProfile']
+			</item>
+			<item
+			name="ProfileWithTm"
+			id="f367118d-53f5-4d6c-9bb6-e9ef0c505170"
+			searchtimeout="30000ms"
+			capname="tdtag"
+			refpath="/dom[@domain='localhost:3500']//table[#'profileTable']/tbody/tr[1]/td[@innertext='profile_with_tm']"
+			addcaps="unknown,webelement,tdtag"
+			refimgid="22d0492b-99a6-41b2-ba83-df239a79b7e8">
+				/dom[@domain='localhost:3500']//table[#'profileTable']//td[@innertext='profile_with_tm']
+			</item>
+			<item
+			name="ATagDelete"
+			id="ecf75698-1543-4786-9cd0-30cd8c458142"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:3500']//table[#'profileTable']/tbody/tr[1]/td[7]/a[@innertext=' Delete']"
+			addcaps="unknown,webelement,atag"
+			refimgid="8aee4069-d2c1-4249-a46a-e7ab701f383f">
+				/dom[@domain='localhost:3500']//table[#'profileTable']/tbody/tr[1]/td[7]/a[@innertext='&#160;Delete']
+			</item>
+			<item
+			name="ButtonTagOK"
+			id="c97e462e-5c98-4605-ae45-207a424b31c0"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='localhost:3500']/body/div[9]/div/div/div[2]/button[@innertext='OK']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="cbb62695-c46e-41b9-b60e-bf5bc850a1a3">
+				/dom[@domain='localhost:3500']/body/div[9]/div/div/div[2]/button[@innertext='OK']
+			</item>
+			<item
+			name="AddProfile"
+			id="634149ab-f447-4fb7-b4ff-444b918e5c6b"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='localhost:3500']//button[#'addProfile']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="af062569-f15a-47e1-896d-c7c403f56de7">
+				/dom[@domain='localhost:3500']//button[#'addProfile']
+			</item>
+			<item
+			name="Checkbox1"
+			id="23fc9158-02ac-4b19-ad36-6f8ccdde1ab9"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='localhost:3500']//div[#'userDictSelection']/div/div[2]/label/input[@type='checkbox']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="1be30a8d-82f8-4bb0-9f65-fcae9fea35d2">
+				/dom[@domain='localhost:3500']//div[#'userDictSelection']/div/div[2]/?/?/input[@type='checkbox']
+			</item>
+			<item
+			name="ProfileWithUserDict"
+			id="565c3b9e-a20b-496b-ada8-eb54fe739b50"
+			searchtimeout="30000ms"
+			capname="tdtag"
+			refpath="/dom[@domain='localhost:3500']//table[#'profileTable']/tbody/tr[1]/td[@innertext='Profile_With_UserDict']"
+			addcaps="unknown,webelement,tdtag"
+			refimgid="bf9666d1-0816-48df-b6da-683be07d9d7e">
+				/dom[@domain='localhost:3500']//table[#'profileTable']//td[@innertext='Profile_With_UserDict']
+			</item>
+			<item
+			name="ProfileWithUserDictAndTM"
+			id="0d32c490-0f99-459a-b461-27254b5aa2c3"
+			searchtimeout="30000ms"
+			capname="tdtag"
+			refpath="/dom[1]//table[#'profileTable']/tbody/tr[1]/td[@innertext='Profile_With_UserDict_And_TM']"
+			addcaps="unknown,webelement,tdtag"
+			refimgid="c06746df-37bf-4914-b319-0ff88654e9d6">
+				/dom[@domain='localhost:3500']//table[#'profileTable']//td[@innertext~'^Profile_With_UserDict_And']
+			</item>
+			<item
+			name="ProfileIdHelp"
+			id="ec54bb7e-4a5e-4b71-a24e-55271ac27c9c"
+			searchtimeout="30000ms"
+			capname="spantag"
+			refpath="/dom[@domain='localhost:3500']//span[#'profileIdHelp']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="946116c2-c6ef-44e8-890e-effa53c58a55">
+				/dom[@domain='localhost:3500']//span[#'profileIdHelp']
+			</item>
+			<item
+			name="Close"
+			id="8d609d08-bebb-475f-974d-76a56e704c02"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='localhost:3500']//div[#'addProfileModal']/div/div/div[3]/button[@innertext='Close']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="9c6a4150-4dfa-45b1-8b6f-6cfa435ae6b2">
+				/dom[@domain='localhost:3500']//div[#'addProfileModal']/div/div/div[3]/button[@innertext='Close']
+			</item>
+			<item
+			name="LinguisticResources"
+			id="dec782c7-0576-4ab4-ad39-38cf6846ff16"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:3500']//li[#'linguisticResourcesNavBar']/a[@innertext='Linguistic Resources']"
+			addcaps="unknown,webelement,atag"
+			refimgid="057d44e6-0668-4d03-8f77-f5bca0cb7aa1">
+				/dom[@domain='localhost:3500']//li[#'linguisticResourcesNavBar']/a[@innertext='Linguistic Resources']
+			</item>
+			<item
+			name="Dictionaries"
+			id="c6282c9e-140e-4b75-a2d3-e17acfbf7554"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:3500']//li[#'linguisticResourcesNavBar']/ul/li[1]/a[@innertext='Dictionaries']"
+			addcaps="unknown,webelement,atag"
+			refimgid="85e6fc23-b0d5-4f6a-927a-dfb28172ff3a">
+				/dom[@domain='localhost:3500']//li[#'linguisticResourcesNavBar']//a[@innertext='Dictionaries']
+			</item>
+			<item
+			name="Dictionaries1"
+			id="06d122e6-e267-4ee8-bea9-05dd6d41fd11"
+			searchtimeout="30000ms"
+			capname="h3tag"
+			refpath="/dom[@domain='localhost:3500']//div[#'dictionaryContent']/h3[@innertext='Dictionaries']"
+			addcaps="unknown,webelement,h3tag"
+			refimgid="4ac37664-5b1e-467c-b90f-ed33a74a8951">
+				/dom[@domain='localhost:3500']//div[#'dictionaryContent']/h3[@innertext='Dictionaries']
+			</item>
+			<item
+			name="Normalizations"
+			id="e34a084a-e4e1-48fd-9070-f6f308a416ad"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:3500']//li[#'linguisticResourcesNavBar']/ul/li[2]/a[@innertext='Normalizations']"
+			addcaps="unknown,webelement,atag"
+			refimgid="8a0d89ff-14f8-4666-8735-f542a8e8e8ea">
+				/dom[@domain='localhost:3500']//li[#'linguisticResourcesNavBar']//a[@innertext='Normalizations']
+			</item>
+			<item
+			name="Normalizations1"
+			id="98eefab4-cf31-4937-b4b1-056701031fd7"
+			searchtimeout="30000ms"
+			capname="h3tag"
+			refpath="/dom[@domain='localhost:3500']//div[#'normalizationContent']/h3[@innertext='Normalizations']"
+			addcaps="unknown,webelement,h3tag"
+			refimgid="4d7c1438-6f91-44de-972b-05dcf892d9f7">
+				/dom[@domain='localhost:3500']//div[#'normalizationContent']/h3[@innertext='Normalizations']
+			</item>
+			<item
+			name="Licenses"
+			id="952c2cf0-6c56-4ff3-b545-a9755697937a"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:3500']//li[#'licencesNavBar']/a[@innertext='Licenses']"
+			addcaps="unknown,webelement,atag"
+			refimgid="d14c6666-cd0a-4778-a6ac-3d039d8f06be">
+				/dom[@domain='localhost:3500']//li[#'licencesNavBar']/a[@innertext='Licenses']
+			</item>
+			<item
+			name="Licenses1"
+			id="4bd45166-72f7-41ab-9420-b2e9293880c4"
+			searchtimeout="30000ms"
+			capname="h3tag"
+			refpath="/dom[@domain='localhost:3500']//div[#'licenseContent']/h3[@innertext='Licenses']"
+			addcaps="unknown,webelement,h3tag"
+			refimgid="3a2d801a-6e3f-4ee6-9fa1-b8261e92295d">
+				/dom[@domain='localhost:3500']//div[#'licenseContent']/h3[@innertext='Licenses']
+			</item>
+			<item
+			name="AddProductKeyButton"
+			id="e27fb162-ddff-4423-8519-11002a82271c"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='localhost:3500']//button[#'addProductKeyButton']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="e8badd4a-2335-49fe-a8ed-aa1083af2dad">
+				/dom[@domain='localhost:3500']//button[#'addProductKeyButton']
+			</item>
+			<item
+			name="AddAProductKey"
+			id="21951eee-db38-4a88-8670-619a0eb87915"
+			searchtimeout="30000ms"
+			capname="h3tag"
+			refpath="/dom[@domain='localhost:3500']//div[#'addProductKeyModal']/div/div/div[1]/h3[@innertext='Add a product key']"
+			addcaps="unknown,webelement,h3tag"
+			refimgid="3584e600-6806-4056-b227-bf5a77ec17de">
+				/dom[@domain='localhost:3500']//div[#'addProductKeyModal']/div/div/div[1]/h3[@innertext='Add a product key']
+			</item>
+			<item
+			name="Close1"
+			id="cffc7619-1f13-4bd3-930f-5bd80dd45556"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='localhost:3500']//div[#'addProductKeyModal']/div/div/div[3]/button[@innertext='Close']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="8b8ff782-44a0-433a-8cbd-ea4fc4762b37">
+				/dom[@domain='localhost:3500']//div[#'addProductKeyModal']/div/div/div[3]/button[@innertext='Close']
+			</item>
+			<item
+			name="SubmitAddProductKey"
+			id="8c7aab88-8568-42a7-9c03-32bb70563549"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='localhost:3500']//button[#'submitAddProductKey']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="de269901-c546-4f87-b7b9-aaea655ee778">
+				/dom[@domain='localhost:3500']//button[#'submitAddProductKey']
+			</item>
+			<item
+			name="TrsRegistration"
+			id="700af4dd-65a5-4702-9ba5-073d64d02743"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:3500']//a[#'trsRegistration']"
+			addcaps="unknown,webelement,atag"
+			refimgid="64fc2b0a-7e3d-467a-9d4d-de84a695ed97">
+				/dom[@domain='localhost:3500']//a[#'trsRegistration']
+			</item>
+			<basepath>
+				/dom[@domain='localhost:3500']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Iexplore"
+		id="24ba4c47-1958-41e4-97aa-082227673d79"
+		searchtimeout="30000ms"
+		capname="contextmenu"
+		refpath="/contextmenu[@processname='iexplore']"
+		addcaps="contextmenu,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Open"
+			id="c4bc6559-cb91-4743-b41d-8beaa5f97c13"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/contextmenu[@processname='iexplore']/contextmenu/menuitem[@accessiblename='Open']"
+			addcaps="menuitem,accessible"
+			refimgid="d9427094-ff6e-4465-a229-781e88126376">
+				/contextmenu[@processname='iexplore']/?/?/menuitem[@accessiblename='Open']
+			</item>
+			<basepath>
+				/contextmenu[@processname='iexplore']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		name="TranslationResources"
+		id="25b51433-0345-4a65-b956-e8d92dfa5fd3"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Translation Resources']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Close"
+			id="8af509f2-0fdb-4785-95c0-041b32ca4eee"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Translation Resources']/titlebar/button[@accessiblename='Close']"
+			addcaps="button,accessible"
+			refimgid="a8c7503f-d7d1-4051-8435-94a55ffcac20">
+				/form[@title='Translation Resources']/?/?/button[@accessiblename='Close']
+			</item>
+			<item
+			name="Link"
+			id="0baf1af5-9d77-45c8-9f04-8013d981b29a"
+			searchtimeout="30000ms"
+			capname="link"
+			refpath="/form[@title='Translation Resources']/element[@controlid='124158920']/container[@accessiblename='Translation Resources']/container[1]/link[@accessiblerole='Link']"
+			addcaps="link,accessible"
+			refimgid="ed8a0560-e553-4a9a-8c5d-bed79378721a">
+				/form[@title='Translation Resources']/?/?/container[@accessiblename='Translation Resources']/?/?/link[@url='https://trs.systran.net/']
+			</item>
+			<basepath>
+				/form[@title='Translation Resources']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH6SURBVDhPdZLfa1JhGMc39gfsD+jPqMVkN91F
+f8COtHMxFJxGCDEmJLuK4d2mo7LBoBiVnGRH2K+8aFukF8vmfrSNdvSIjDBWgQurFdWZfnueVz3z
+uOMLH0Gf5/t5H1+eLgDdNvTUarVxIksUiHnCYdPX3S7g4Enu6ykGn+7hciQjGHiwidjOMZUBqnsa
+vVYBFS4Z1Rr6puuhTqSL31hycEHw96x6ofkKsfvpB5Vh+f359jFLFjknBDx2awOT+VgRQT7x958t
+NebnH4NLvSzoWddPzMKwwtN1Pmf0N2M0wbVHWZ7iqIs+xh3335mC2bclTKwWMbaUx52FHAKLHxB+
+OAO32w2n0ynw+XxQFIUFYEG2GW6nP/TSDHWCBQW7MHMj8so21AoLeEkws1HC9dlti8D5OIN/hoEn
+c3PweL2QJEmEbvv9mFcT4k1Y4CiWf4sv7UfXdRFwuVyIRqNQVRVKPI7JqTCGhuT6BNRn7sBVWqK7
+KzrUvS/YKn0Xj5TP5+GnG5sjNwkGgyiXy3UBNXr41VvHv6UeQtM00RyOTONNOg2NZIdaDqtr6wiF
+QqJmbiJJDm4+2zcFcmwfoyRVXsQtN7eSSqUMU9CQLL8unC/VwL0ERka84vbTX+fvVKlUjGQyaciy
+XLUIGvSS6Ig3bo02NBAI2N7OSJKU+A+wmeZ/A6OVHAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		name="SYSTRANDictionaryManager"
+		id="0d485828-8bc3-45c9-85fc-77dd2fcaba0e"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='SYSTRAN Dictionary Manager']"
+		addcaps="form,control,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Minimize"
+			id="b9aee420-aa0e-495c-8ec0-87dbc8ad5e3d"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title~'^SYSTRAN\ Dictionary\ Manage']/titlebar/button[@accessiblename='Minimize']"
+			addcaps="button,accessible"
+			refimgid="dc31a2a9-fd0b-48cd-af97-038e5b38d388">
+				/form[@title~'^SYSTRAN\ Dictionary\ Manage']/?/?/button[@accessiblename='Minimize']
+			</item>
+			<basepath>
+				/form[@title~'^SYSTRAN\ Dictionary\ Manage']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGjSURBVDhPnVJLS0JhEM3+gPv+RlkZbdq1iyC8
+ZosuBEJtCmrRwkWLIltlFBTuCisINyFC0GsRhJrZy0WlKJE9DEyJSky908z4XV/pwg4c5mPOnDPf
+/bhNtQAAzYqiWLD6sYaRTqReyPWBBg0OJm7fvsCwcQWtix5m94oPtgIvKDPMYrwSaGzJ5hXQ2bxF
+Yy2eRJKAszfCVgCman5yyp9hnc0DF08fvLa8v4m3wRCXsPP2RPkA0fOQYiNh5/K1QiN+ZnIkafnB
+DkOJojC8HSShLvKKwjfoWfXTLaK03dK17GNzG9LuicHsfgSmXPcwsXvHde4gAutnz3yrTC4vogqg
+gHN1u8qOhUPoGxkHSZKY/fIodM7vVfXGIBaLcUC4OmBgSIZ4PC52AKTTaTYlk0nRAchms9yjAKeC
+jbXTR+i1BziAhFSq9IgE6lVDDdBHEt+iVUBDAQT1H2hf8sK0O9R4AJ7N9NrqGzQcQMBPCQ46rv8f
+QMAQ11H4nQWTycS1Ho1GI1dhLQGDtSTIsgwOhwPcbjdYrVYeNhgMx8hJPM9gjUqSBL+NMq6qJi0v
+JwAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		name="TestWindowsRunningOracleVMVirtu"
+		id="bf55a141-e235-4e1e-908e-7193024d2531"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='test_windows [Running] - Oracle VM VirtualBox']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="QWidget"
+			id="942c007d-8f2f-4344-a7c5-f585ef8ff203"
+			searchtimeout="30000ms"
+			capname="unknown"
+			refpath="/form[@title~'^test_windows\ \[Running]\ -\ ']/element[@class='QWidget' and @instance='1']/element/element[@class='QWidget' and @instance='0']"
+			addcaps="unknown,nativewindow"
+			refimgid="cf8ee2bc-1000-40c5-a325-34d2c629273c">
+				/form[@title~'^test_windows\ \[Running]\ -\ ']/element[@instance='1']/?/?/element[@instance='0']
+			</item>
+			<basepath>
+				/form[@title~'^test_windows\ \[Running]\ -\ ']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANySURBVDhPVZJbTJMHHMW/171uyZLNpyV7MLux
+DZeAwtBNNEYNKGBl435RW7fSzmTWTS4TViibhZVeQEJpoaNcdCpjMOWyYCN4IXbraCuCDilzjE8i
+0E4HQn/7YE8+nJf/w+/8z8kRlPJ8f0dbC2fbnM9IumPP/YCzhVm0yd7HkCfD8l3ZMzqS8/Go0O78
+Hq/Xi1arRRRFbDYbRqNxHTJz8DlWi9+B7nI6sxLp+MnMbzd68Lt712WpLkNYc1epVNTU1OB2uzGb
+zajV6nWAeOJNwo0fsdSgpKP4GKlN0Shb91LTVsKQ6yK1hor/AXK5fN25rKwMhUJBbGwsa3ex/iCM
+1CKqEtAZNFi9Gtrnc6ibSuSzwWgyS7cjmGuqCQQCOBwOQqEQwWAQn8+HQV+J2FMID65z9UAc6jN5
+XFtsoPzBJg6PvUKa+yVS9ZEIx1N3YU7fjCVvKxb1PiwaqaySbM6bVIT8TpaHu+gqyOGwYz+3V2yY
+5regnHyV5JHnSSh/DaG9NJ/weSUMfQu/OwhPXoK/B2G2H4IeRO0xGi0VGIeLGQ9bsAV3opneSIbn
+BZIqX0eoT4nh1r536U6LpztzN30pW/EpUnjc1QhP5rievpuSBg0jM5ckgIkL/yajEyNQTLyITC8B
+TijkZFtukVTnZX+tj+yGUYz2H/ixUI1LtoOrVRV80f4JC6tjTNOGf7UWeyie44ENpBneQNjzeS2f
+upapugstM3Duz1W+HHhCknmK+UcPuWK1MjM5QejpLONDQ/ys1yMu3sEyH8WhugiED082s6sHMkag
+8D60zoNnSYq/Ar92d1MaE4O3v5+JaR+6+HgGJWCnNLqJ5QuU2zIQogqaiWiCvVJnBbfBKELfY5hY
+hOabQc5kZa0DZu/doy4jgymPB/vRozh6bciOJCBE5DfxchVEnYN06QvdNAyEoHP8Kf67IiaZjBsd
+HfzzaA5tXByuxkZ6Tp/mpr0K7aEkhLczJUApvCWVnjgARXfgFylG/fACYy4XF6V1rin4MCB90sdl
+g4GlhT8goKPVlIsQmWZlQ+EKG02rbOsMUzAKl+cgutwtOVsJh8Zh8Qr8VQn3i6RsX8G17dD7Hi0n
+oxDiE9JGI3OsbC6ws6OoiXR9E0UmO0nyEr7O3oPTdgqnORdndTLOb3bi1MbhPLWFFs0m8g9s8/wH
+zKzcAoijrCAAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>
