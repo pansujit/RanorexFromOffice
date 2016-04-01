@@ -18,7 +18,7 @@ reportlevel="Info;20">
 		name="Systran_Interactive_Translator"
 		id="b6927f6f-464e-4a17-a8e1-d4976ee84cdd">
 			<testcase
-			name="SimpleTranslationEnFr"
+			name="Simple_Translation_En_Fr"
 			id="55dcc96c-6bd9-471e-ad6b-5032e0215697">
 				<testmodule
 				name="StartSIT"
@@ -67,7 +67,7 @@ reportlevel="Info;20">
 				type="Recording"/>
 			</testcase>
 			<testcase
-			name="SelectHistoryIsPresent"
+			name="Select_History_Is_Present"
 			id="fe2ae65a-9415-443e-b440-f488338afec4">
 				<testmodule
 				name="StartSIT"
@@ -204,7 +204,7 @@ reportlevel="Info;20">
 				type="Recording"/>
 			</testcase>
 			<testcase
-			name="SimpleTranslationWithoutProfile"
+			name="Simple_Translation_Without_Profile"
 			id="e63d1368-9bde-4bfd-ab9f-712ffc51567b">
 				<testmodule
 				name="StartSIT"
@@ -253,7 +253,7 @@ reportlevel="Info;20">
 				type="Recording"/>
 			</testcase>
 			<testcase
-			name="VerticalLayoutIsPresent"
+			name="Vertical_Layout_Is_Present"
 			id="70f89297-a8e4-4e87-99ef-f9b71b8e3547">
 				<testmodule
 				name="StartSIT"
@@ -282,7 +282,7 @@ reportlevel="Info;20">
 				type="Recording"/>
 			</testcase>
 			<testcase
-			name="HorizontalLayoutIsPresent"
+			name="Horizontal_Layout_Is_Present"
 			id="0d7749f3-1a35-449a-9b15-31efd4043e13">
 				<testmodule
 				name="StartSIT"
@@ -311,7 +311,7 @@ reportlevel="Info;20">
 				type="Recording"/>
 			</testcase>
 			<testcase
-			name="CopyTargetTextIcon"
+			name="Copy_Target_Text_Icon"
 			id="aaba473a-c83a-4f9b-8511-e02d83beca21">
 				<testmodule
 				name="StartSIT"
@@ -365,7 +365,7 @@ reportlevel="Info;20">
 				type="Recording"/>
 			</testcase>
 			<testcase
-			name="EditTargetEditor"
+			name="Edit_Target_Editor_Icon"
 			id="d5240adb-93a2-44d2-b6be-d7a9e732fada">
 				<testmodule
 				name="StartSIT"
@@ -419,7 +419,7 @@ reportlevel="Info;20">
 				type="Recording"/>
 			</testcase>
 			<testcase
-			name="EndEditTargetEditor"
+			name="End_Edit_Target_Editor_Icon"
 			id="2cfd513b-de1e-46af-93ca-c3642d2edf64">
 				<testmodule
 				name="StartSIT"
@@ -468,7 +468,7 @@ reportlevel="Info;20">
 				type="Recording"/>
 			</testcase>
 			<testcase
-			name="CopyTextFromTargetArea"
+			name="Copy_Text_From_Target_Area"
 			id="5885db9a-0f46-4b55-a9da-72ac789c4706">
 				<testmodule
 				name="StartSIT"
@@ -532,7 +532,7 @@ reportlevel="Info;20">
 				type="Recording"/>
 			</testcase>
 			<testcase
-			name="CopyEditedTextFromTargetField"
+			name="Copy_Edited_Text_From_Target_Field"
 			id="23dd54fa-b2b0-41d5-bbf5-cff6a265bc7d">
 				<testmodule
 				name="StartSIT"
@@ -2345,11 +2345,55 @@ reportlevel="Info;20">
 		<testconfiguration
 		name="TestRun">
 			<testcase
+			id="02e88924-679d-4d83-88a3-8c6374b84ca7"/>
+			<testcase
+			id="0d7749f3-1a35-449a-9b15-31efd4043e13"/>
+			<testcase
 			id="0f339511-f33b-4a17-bc2a-4d995198a14c"/>
+			<testcase
+			id="176677ef-d1e5-41d3-ab97-330b71e523a6"/>
+			<testcase
+			id="2295fcc0-735e-4cf8-83ef-a58d0239d75b"/>
+			<testcase
+			id="23dd54fa-b2b0-41d5-bbf5-cff6a265bc7d"/>
+			<testcase
+			id="2cfd513b-de1e-46af-93ca-c3642d2edf64"/>
 			<testcase
 			id="55dcc96c-6bd9-471e-ad6b-5032e0215697"/>
 			<testcase
+			id="5885db9a-0f46-4b55-a9da-72ac789c4706"/>
+			<testcase
+			id="606f36df-9dec-430f-bc73-e6924ef7d509"/>
+			<testcase
+			id="70f89297-a8e4-4e87-99ef-f9b71b8e3547"/>
+			<testcase
+			id="75f2c502-50de-4367-a208-77a15780171c"/>
+			<testcase
+			id="8d8f68b7-e624-4b05-b979-d80c8880fe50"/>
+			<testcase
+			id="9b9b1689-bacb-4c26-98d2-1a24c4200470"/>
+			<testcase
+			id="aaba473a-c83a-4f9b-8511-e02d83beca21"/>
+			<testcase
+			id="aeba3273-993d-40eb-af15-7fd77897c9a8"/>
+			<testcase
 			id="b6927f6f-464e-4a17-a8e1-d4976ee84cdd"/>
+			<testcase
+			id="b69a2142-b5c6-42ff-9c27-05ed5579f0ee"/>
+			<testcase
+			id="bce16f01-7a8d-45df-848e-9a71d80b61e7"/>
+			<testcase
+			id="ca3305b5-7803-4e0a-b0dd-adc93080036a"/>
+			<testcase
+			id="d5240adb-93a2-44d2-b6be-d7a9e732fada"/>
+			<testcase
+			id="d880a0bc-1762-43cd-b17c-382a8ae53957"/>
+			<testcase
+			id="d9bfad05-eae1-4ad7-81fb-05aecd0d8f58"/>
+			<testcase
+			id="e63d1368-9bde-4bfd-ab9f-712ffc51567b"/>
+			<testcase
+			id="fe2ae65a-9415-443e-b440-f488338afec4"/>
 		</testconfiguration>
 	</testconfigurations>
 	<references>
