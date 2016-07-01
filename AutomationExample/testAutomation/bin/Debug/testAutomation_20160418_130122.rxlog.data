@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="e32db169e988863"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="1"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/18/2016 1:01:22 PM"
+		timestampiso="2016-04-18T11:01:22"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="53.71s"
+			durationms="53707"
+			type="test suite"
+			rid="3753b6f24ed650f2"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="1"
+			testsuitename="testAutomation"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="3">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="47.68s"
+				durationms="47680"
+				type="test case"
+				rid="da405b8e068cd19"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="1"
+				testcasename="Install_Application"
+				testcaseid="69830991-4846-4205-bf03-4a3ce440654d"
+				datasource="Test_Connector"
+				iterationcount="2"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="47.67s"
+					durationms="47665"
+					type="test case iteration"
+					rid="1a26018bf922d49a"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Install_Application"
+					iteration="1">
+					<datarow>
+						<field
+							name="Edition">
+							SYSTRAN 8 TRANSLATOR Professional en-fr
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="47.63s"
+						durationms="47634"
+						type="test module"
+						rid="ac6e8bcc0310957"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="SelectFolderForInstallation"
+						moduleid="17bf0119-2d26-4d48-b285-149460b6a213"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<errmsg>
+							Failed to find item 'testAutomationRepository.WizardForm.Finish'.
+						</errmsg>
+						<varbindings>
+							<varbinding
+								name="SearchName"
+								value="SYSTRAN 8 TRANSLATOR Professional en-fr"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.213"
+							timeRelativeToTestModuleStartTime="00:00.015"
+							timeWallClock="13:01:28"
+							time="00:06.213"
+							level="Info"
+							category="Data"
+							errimg="images_testAutomation_20160418_130122\testAutomation_20160418_130122_f6c0d623_trace.jpg"
+							errthumb="images_testAutomation_20160418_130122\testAutomation_20160418_130122_f6c0d623_trace_thumb.jpg">
+							<message>
+								Current variable values:<br/>$SearchName = 'SYSTRAN 8 TRANSLATOR Professional en-fr'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:53.660"
+							timeRelativeToTestModuleStartTime="00:47.462"
+							timeWallClock="13:02:16"
+							time="00:53.660"
+							level="Error"
+							category="Module"
+							errimg="images_testAutomation_20160418_130122\testAutomation_20160418_130122_510cc2bf_trace.jpg"
+							errthumb="images_testAutomation_20160418_130122\testAutomation_20160418_130122_510cc2bf_trace_thumb.jpg">
+							<message>
+								Failed to find item 'testAutomationRepository.WizardForm.Finish'.<br/>No element found for path '?/?/button[@accessiblename='Finish']' within 30s.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.WizardFormAppFolder.get_Finish() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\testAutomationRepository.cs:line 1123
+   at testAutomation.SelectFolderForInstallation.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\SelectFolderForInstallation.cs:line 76
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\SelectFolderForInstallation.cs"
+								codeline="76"
+								type="repoitem"
+								path="/form[@controlname='WizardForm']/?/?/button[@accessiblename='Finish']"
+								fullname="testAutomationRepository.WizardForm.Finish"
+								id="fdd4d0ceb2b04b9995b570f908052fa3"
+								timeout="60000"
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test case iteration"
+					rid="e2aa0ba66f271bc"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Install_Application"
+					iteration="2">
+					<datarow>
+						<field
+							name="Edition">
+							SYSTRAN 8 TRANSLATOR Essential en-fr
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

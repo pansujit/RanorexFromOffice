@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1bbd68a40985287e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/15/2016 7:09:48 PM"
+		timestampiso="2016-04-15T17:09:48"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1m"
+			durationms="61054"
+			type="test suite"
+			rid="3f6a281378955378"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="testAutomation"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="3">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="1m"
+				durationms="60368"
+				type="test case"
+				rid="407be6465887790"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="8101e436-afed-4ee8-be14-e529c4b0a519"
+				datasource="TestConnector"
+				iterationcount="1"
+				maxchildren="0">
+				<params>
+					<param
+						name="NewParameter">
+					</param>
+				</params>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="1m"
+					durationms="60352"
+					type="test case iteration"
+					rid="11be369ab529a46c"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="1">
+					<datarow>
+						<field
+							name="SearchName">
+							SYSTRAN 8 TRANSLATOR Professional en-fr
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="13.86s"
+						durationms="13862"
+						type="test case setup"
+						rid="2f3edbfdd72c43c"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="13.85s"
+							durationms="13846"
+							type="test module"
+							rid="ef893d32040dba0"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartFirefoxSystran"
+							moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+					</activity>
+					<activity
+						result="Failed"
+						duration="43.18s"
+						durationms="43180"
+						type="test module"
+						rid="151b87f184999c50"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="ClickOnPackage"
+						moduleid="3861d624-9f27-4601-9e27-85b13c37b5c1"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<errmsg>
+							Failed to find item 'testAutomationRepository.Packages.ATagDownload'.
+						</errmsg>
+						<varbindings>
+							<varbinding
+								name="SearchName"
+								value="SYSTRAN 8 TRANSLATOR Professional en-fr"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.751"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="19:10:03"
+							time="00:14.751"
+							level="Info"
+							category="Data"
+							errimg="images_testAutomation_20160415_190948\testAutomation_20160415_190948_cce641ab_trace.jpg"
+							errthumb="images_testAutomation_20160415_190948\testAutomation_20160415_190948_cce641ab_trace_thumb.jpg">
+							<message>
+								Current variable values:<br/>$SearchName = 'SYSTRAN 8 TRANSLATOR Professional en-fr'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:57.838"
+							timeRelativeToTestModuleStartTime="00:43.086"
+							timeWallClock="19:10:46"
+							time="00:57.838"
+							level="Error"
+							category="Module"
+							errimg="images_testAutomation_20160415_190948\testAutomation_20160415_190948_889c3e0a_trace.jpg"
+							errthumb="images_testAutomation_20160415_190948\testAutomation_20160415_190948_889c3e0a_trace_thumb.jpg">
+							<message>
+								Failed to find item 'testAutomationRepository.Packages.ATagDownload'.<br/>No element found for path '/dom[@caption='Packages' and @page='packageManagement' and @path='/packageManagement' and @browsername='Mozilla']//div[@id='packageContent']/div[2]/div[1]/div/div/div[22]/div/div/div/a[2]' within 1m.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.PackagesAppFolder.get_ATagDownload() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\testAutomationRepository.cs:line 522
+   at testAutomation.ClickOnPackage.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\ClickOnPackage.cs:line 144
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\ClickOnPackage.cs"
+								codeline="144"
+								type="repoitem"
+								path="/dom[@caption='Packages' and @page='packageManagement' and @path='/packageManagement' and @browsername='Mozilla']//div[@id='packageContent']/div[2]/div[1]/div/div/div[22]/div/div/div/a[2]"
+								fullname="testAutomationRepository.Packages.ATagDownload"
+								id="b54eac50e324415a86d6153bf8fdc404"
+								timeout="60000"
+								loglvl="Error"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="3279ms"
+						durationms="3279"
+						type="test case teardown"
+						rid="72320fda3a3651a"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="3279ms"
+							durationms="3279"
+							type="test module"
+							rid="13c462ddcddcee60"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StopFirefox"
+							moduleid="0b27bb73-d878-4d7c-85a0-20191b52183e"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

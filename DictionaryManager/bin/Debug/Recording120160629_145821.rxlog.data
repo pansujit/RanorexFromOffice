@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="52a4d0520243898"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/29/2016 2:58:22 PM"
+		timestampiso="2016-06-29T12:58:22"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.244"
+			timeRelativeToTestModuleStartTime="00:00.244"
+			timeWallClock="14:58:23"
+			time="00:00.244"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SystranDictionaryManager.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\Recording1.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.274"
+			timeRelativeToTestModuleStartTime="00:00.274"
+			timeWallClock="14:58:23"
+			time="00:00.274"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANDictionaryManager.File' at 22;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='File']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.File"
+				id="a4f63ca3a64a4e2383879c12bf04aa7a"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.934"
+			timeRelativeToTestModuleStartTime="00:03.934"
+			timeWallClock="14:58:26"
+			time="00:03.934"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120160629_145821_379e1af6_trace.jpg"
+			errthumb=".\Recording120160629_145821_379e1af6_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SystranDictionaryManager1.MenuPopup' at 50;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='SystranDictionaryManager' and @controltypename='DropDownForm']/?/?/contextmenu[@accessiblerole='MenuPopup']"
+				fullname="DictionaryManagerRepository.SystranDictionaryManager1.MenuPopup"
+				id="1a3b1d72425240eba2b2ee7326be1e69"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.639"
+			timeRelativeToTestModuleStartTime="00:04.639"
+			timeWallClock="14:58:27"
+			time="00:04.639"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120160629_145821_494c6a30_trace.jpg"
+			errthumb=".\Recording120160629_145821_494c6a30_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'DictionaryPropertiesBaseForm.TextEditorEditArea' at 192;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='DictionaryPropertiesBaseForm']/element[@controlname='cbDictType']/text[@automationid='[Editor] Edit Area']"
+				fullname="DictionaryManagerRepository.DictionaryPropertiesBaseForm.TextEditorEditArea"
+				id="ba00da3f2982489a85b4d3bfc57bce6c"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.996"
+			timeRelativeToTestModuleStartTime="00:10.996"
+			timeWallClock="14:58:33"
+			time="00:10.996"
+			level="Error"
+			category="User"
+			errimg=".\Recording120160629_145821_5c8cd863_trace.jpg"
+			errthumb=".\Recording120160629_145821_5c8cd863_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

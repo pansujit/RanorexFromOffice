@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="305a8585cc61b42"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/29/2016 3:36:59 PM"
+		timestampiso="2016-06-29T13:36:59"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.232"
+			timeRelativeToTestModuleStartTime="00:00.233"
+			timeWallClock="15:36:59"
+			time="00:00.232"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewDictionaryBase.TextFields.DictName' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='DictionaryPropertiesBaseForm']/element[@controlname='txtDictName']"
+				fullname="DictionaryManagerRepository.NewDictionaryBase.TextFields.DictName"
+				id="432474829cfc40b5bcb30834de5ed0b6"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\Recording2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.319"
+			timeRelativeToTestModuleStartTime="00:01.319"
+			timeWallClock="15:37:00"
+			time="00:01.319"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Hello'.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\Recording2.cs"
+				codeline="86"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

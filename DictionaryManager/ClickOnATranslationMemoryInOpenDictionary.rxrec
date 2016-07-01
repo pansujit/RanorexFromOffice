@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="a818b1e2-7b00-4220-82c6-de81ea472919"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		ClickOnATranslationMemoryInOpenDictionary
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ClickOnATranslationMemoryInOpenDictionary"
+	namespace="DictionaryManager"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="3ea1d3f2-070d-456a-8911-fb22d9e69aaf"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="2618"
+		sy="195"
+		loc="151;4">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="3dabf126-bf3e-4c8c-85e7-0a9a3bb8574f">
+				<element
+				role="treeitem"
+				prefcap="treeitem"
+				capabilities="accessible"
+				flavor="msaa"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="1"
+				rect="2467,191,207,16"
+				snapElem="">
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="expanded"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						[EN-FR] UserTranslationMemory
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						[EN-FR] UserTranslationMemory
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						OutlineItem
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Selected, Collapsed, Focusable, Selectable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+						1
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/?/?/tree[@accessiblename='French']/treeitem[@accessiblename~'^\[EN-FR]\ UserTranslationMe']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="DictionaryManagerRepository"
+	id="1690ff42-4e44-4ddc-9c10-920ebe70dfad"
+	rxversion="6.0"
+	relativepath="DictionaryManagerRepository.rxrep">
+		<codegen
+		classname="DictionaryManagerRepository"
+		namespace="DictionaryManager"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="623ccc2d-6519-4df5-aa39-655f8d9d3a18"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ClickOnATranslationMemoryInOpenDictionary.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

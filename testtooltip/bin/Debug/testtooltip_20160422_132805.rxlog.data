@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="a729058f4d755c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="2"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/22/2016 1:28:05 PM"
+		timestampiso="2016-04-22T11:28:05"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="0ms"
+			durationms="0"
+			type="test suite"
+			rid="11ef287e005376e0"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="2"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="testtooltip"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="0ms"
+				durationms="0"
+				type="test case"
+				rid="f9bb8e95648df40"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="2"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="Global-Desktop-Test"
+				testcaseid="dcd41f78-b1fe-438f-8211-f350028d77b3"
+				datasource="testExcelConnector"
+				iterationcount="2"
+				maxchildren="35">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="0ms"
+					durationms="0"
+					type="test case iteration"
+					rid="51707a7a536df5b"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Global-Desktop-Test"
+					iteration="1">
+					<datarow>
+						<field
+							name="Edition">
+							&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="0ms"
+						durationms="0"
+						type="test case"
+						rid="4d8cd5dfd423764"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Download_Desktop_8_Package"
+						testcaseid="1f32b6bd-0491-4981-9192-418cacdeb46c"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="12.59s"
+							durationms="12590"
+							type="test module"
+							rid="e824d5f68e71d10"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartFirefoxSystran (testAutomation)"
+							moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="18.71s"
+							durationms="18712"
+							type="test module"
+							rid="57ab5742a8f89c0"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="ClickOnPackage (testAutomation)"
+							moduleid="3861d624-9f27-4601-9e27-85b13c37b5c1"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings>
+								<varbinding
+									name="SearchName"
+									value="●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●"/>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:13.495"
+								timeRelativeToTestModuleStartTime="00:00.000"
+								timeWallClock="13:28:19"
+								time="00:13.495"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$SearchName = '&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;'
+								</message>
+								<metainfo
+									loglvl="Info"/>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="0ms"
+							durationms="0"
+							type="test module"
+							rid="24fd971b2c87a892"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StopFirefox (testAutomation)"
+							moduleid="0b27bb73-d878-4d7c-85a0-20191b52183e"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

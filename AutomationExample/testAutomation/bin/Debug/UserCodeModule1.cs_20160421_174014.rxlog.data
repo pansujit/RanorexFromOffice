@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="c9cd1d7ea09f4e8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/21/2016 5:40:19 PM"
+		timestampiso="2016-04-21T15:40:19"
+		timeoutfactor="1"
+		module="UserCodeModule1">
+		<detail>
+			UserCodeModule1
+		</detail>
+		<errmsg>
+			Parsing RxPath 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\language-manager\SYSTRAN-Desktop-Language-Manager.exe' failed.
+line 1:2 mismatched character '\' expecting ':'
+line 1:22 no viable alternative at character '\'
+line 1:43 no viable alternative at character '\'
+line 1:60 no viable alternative at character '\'
+line 1:0 no viable alternative at input 'C'&#10;
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.297"
+			timeRelativeToTestModuleStartTime="00:00.297"
+			timeWallClock="17:40:19"
+			time="00:00.297"
+			level="Error"
+			category="Module"
+			errimg=".\UserCodeModule1.cs_20160421_174014_7102f566_trace.jpg"
+			errthumb=".\UserCodeModule1.cs_20160421_174014_7102f566_trace_thumb.jpg">
+			<message>
+				Parsing RxPath 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\language-manager\SYSTRAN-Desktop-Language-Manager.exe' failed.<br/>line 1:2 mismatched character '\' expecting ':'<br/>line 1:22 no viable alternative at character '\'<br/>line 1:43 no viable alternative at character '\'<br/>line 1:60 no viable alternative at character '\'<br/>line 1:0 no viable alternative at input 'C'&#10;
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.RxPath..ctor(String path)
+   at Ranorex.Core.Element.FromPath(String path)
+   at Ranorex.Core.Element.op_Implicit(String path)
+   at testAutomation.UserCodeModule1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\UserCodeModule1.cs:line 50
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\UserCodeModule1.cs"
+				codeline="50"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

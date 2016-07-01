@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="f7364453-7b07-4304-abe9-5fa7890084f0"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		ClickOnNew
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ClickOnNew"
+	namespace="DictionaryManager"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="5bf14535-c672-475c-9ded-0107a2baf7cb"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="b22e43ad-2075-427a-a6fc-a6e04f66bd29">
+				<path>
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='File']/menuitem[@accessiblename='New']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="500ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	name="DictionaryManagerRepository"
+	id="1690ff42-4e44-4ddc-9c10-920ebe70dfad"
+	rxversion="6.0"
+	relativepath="DictionaryManagerRepository.rxrep">
+		<codegen
+		classname="DictionaryManagerRepository"
+		namespace="DictionaryManager"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="623ccc2d-6519-4df5-aa39-655f8d9d3a18"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ClickOnNew.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

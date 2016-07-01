@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="e1e6dbdfa8b7f80"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="1"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/18/2016 2:22:59 PM"
+		timestampiso="2016-04-18T12:22:59"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="2.8m"
+			durationms="170936"
+			type="test suite"
+			rid="28aff099d81d68d8"
+			totalerrorcount="1"
+			totalwarningcount="1"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="1"
+			testsuitename="testAutomation"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="3">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="2.8m"
+				durationms="169434"
+				type="test case"
+				rid="16b370df8939594c"
+				totalerrorcount="1"
+				totalwarningcount="1"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="1"
+				testcasename="Install_Application"
+				testcaseid="69830991-4846-4205-bf03-4a3ce440654d"
+				datasource="Test_Connector"
+				iterationcount="2"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="2.8m"
+					durationms="169419"
+					type="test case iteration"
+					rid="90831b6bc19310f"
+					totalerrorcount="1"
+					totalwarningcount="1"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Install_Application"
+					iteration="1">
+					<datarow>
+						<field
+							name="Edition">
+							SYSTRAN 8 TRANSLATOR Professional en-fr
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="2.8m"
+						durationms="169372"
+						type="test module"
+						rid="16c9936827770ed2"
+						totalerrorcount="1"
+						totalwarningcount="1"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="SelectFolderForInstallation"
+						moduleid="17bf0119-2d26-4d48-b285-149460b6a213"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="SearchName"
+								value="SYSTRAN 8 TRANSLATOR Professional en-fr"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.720"
+							timeRelativeToTestModuleStartTime="00:00.015"
+							timeWallClock="14:23:01"
+							time="00:01.720"
+							level="Info"
+							category="Data"
+							errimg="images_testAutomation_20160418_142259\testAutomation_20160418_142259_8e73933f_trace.jpg"
+							errthumb="images_testAutomation_20160418_142259\testAutomation_20160418_142259_8e73933f_trace_thumb.jpg">
+							<message>
+								Current variable values:<br/>$SearchName = 'SYSTRAN 8 TRANSLATOR Professional en-fr'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:46.277"
+							timeRelativeToTestModuleStartTime="01:44.572"
+							timeWallClock="14:24:46"
+							time="01:46.277"
+							level="Warn"
+							category="Automation"
+							errimg="images_testAutomation_20160418_142259\testAutomation_20160418_142259_96dffb46_trace.jpg"
+							errthumb="images_testAutomation_20160418_142259\testAutomation_20160418_142259_96dffb46_trace_thumb.jpg">
+							<message>
+								Could not get a valid element rectangle from '{Text:}', since the element is no longer valid.
+							</message>
+							<metainfo
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\SelectFolderForInstallation.cs"
+								codeline="82"
+								loglvl="Warn"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:50.936"
+							timeRelativeToTestModuleStartTime="02:49.231"
+							timeWallClock="14:25:50"
+							time="02:50.936"
+							level="Error"
+							category="User"
+							errimg="images_testAutomation_20160418_142259\testAutomation_20160418_142259_82a3a0a3_trace.jpg"
+							errthumb="images_testAutomation_20160418_142259\testAutomation_20160418_142259_82a3a0a3_trace_thumb.jpg">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test case iteration"
+					rid="14a1ed5eb6b96fd4"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Install_Application"
+					iteration="2">
+					<datarow>
+						<field
+							name="Edition">
+							SYSTRAN 8 TRANSLATOR Essential en-fr
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

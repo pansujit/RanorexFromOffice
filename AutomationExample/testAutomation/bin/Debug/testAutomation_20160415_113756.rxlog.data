@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="fcb6da9d727c000"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/15/2016 11:37:56 AM"
+		timestampiso="2016-04-15T09:37:56"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="15.08s"
+			durationms="15083"
+			type="test suite"
+			rid="2699c1f5e7489e0"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="testAutomation"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="2">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="15.08s"
+				durationms="15082"
+				type="test case"
+				rid="1b986a14ce383ed"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="Uninstall_Application"
+				testcaseid="67c0e640-ed50-4a17-8d1b-c39d55322a11"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="46ms"
+					durationms="46"
+					type="test case setup"
+					rid="1345909649057b38"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="31ms"
+						durationms="31"
+						type="test module"
+						rid="989db700365194"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="LocatingFolder"
+						moduleid="b4ef6e13-52e8-4a18-800c-667fef2e408f"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings/>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="15.02s"
+					durationms="15019"
+					type="test module"
+					rid="939ff050caa9fc"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="ClickOnUninstall"
+					moduleid="befbd714-b159-456d-afeb-2ef6857441c7"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

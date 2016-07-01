@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4d1c1c8fb79b760"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/5/2016 5:27:38 PM"
+		timestampiso="2016-04-05T15:27:38"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Failed to find item 'LanguageManagerRepository.GlowWindow.SomeContainer.BtnArrow'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.328"
+			timeRelativeToTestModuleStartTime="00:00.329"
+			timeWallClock="17:27:39"
+			time="00:00.328"
+			level="Info"
+			category="Application"
+			errimg=".\Recording120160405_172735_a7846472_trace.jpg"
+			errthumb=".\Recording120160405_172735_a7846472_trace_thumb.jpg">
+			<message>
+				Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SYSTRAN.QuickFileTranslator.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\Recording1.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.384"
+			timeRelativeToTestModuleStartTime="00:00.385"
+			timeWallClock="17:27:39"
+			time="00:00.384"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120160405_172735_a7846472_trace.jpg"
+			errthumb=".\Recording120160405_172735_a7846472_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'GlowWindow.SomeContainer.BtnArrow' at 3;1.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[5]/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']/?/?/container/element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[1]/container/element[3]//combobox[@automationid='mSourceLangComboBox']/?/?/element[@automationid='ContentPresenterBorder']/?/?/checkbox[@automationid='DropDownToggle']/container/element[8]/element[@automationid='BtnArrow']"
+				fullname="LanguageManagerRepository.GlowWindow.SomeContainer.BtnArrow"
+				id="c0b70514e2004ce09547af0754770cb7"
+				timeout="90000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.412"
+			timeRelativeToTestModuleStartTime="00:33.413"
+			timeWallClock="17:28:12"
+			time="00:33.412"
+			level="Error"
+			category="Module"
+			errimg=".\Recording120160405_172735_f6bb09d9_trace.jpg"
+			errthumb=".\Recording120160405_172735_f6bb09d9_trace_thumb.jpg">
+			<message>
+				Failed to find item 'LanguageManagerRepository.GlowWindow.SomeContainer.BtnArrow'.<br/>No element found for path '/form[5]/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']/?/?/container/element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[1]/container/element[3]//combobox[@automationid='mSourceLangComboBox']/?/?/element[@automationid='ContentPresenterBorder']/?/?/checkbox[@automationid='DropDownToggle']/container/element[8]/element[@automationid='BtnArrow']' within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at LanguageManager.LanguageManagerRepositoryFolders.SomeContainerFolder.get_BtnArrow() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\LanguageManagerRepository.cs:line 2067
+   at LanguageManager.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\Recording1.cs:line 87
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\Recording1.cs"
+				codeline="87"
+				type="repoitem"
+				path="/form[5]/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']/?/?/container/element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[1]/container/element[3]//combobox[@automationid='mSourceLangComboBox']/?/?/element[@automationid='ContentPresenterBorder']/?/?/checkbox[@automationid='DropDownToggle']/container/element[8]/element[@automationid='BtnArrow']"
+				fullname="LanguageManagerRepository.GlowWindow.SomeContainer.BtnArrow"
+				id="c0b70514e2004ce09547af0754770cb7"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="1"/>
+		</item>
+	</activity>
+</report>

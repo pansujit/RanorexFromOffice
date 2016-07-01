@@ -32,5 +32,47 @@ namespace testtooltip
             // Your recording specific initialization code goes here.
         }
 
+        public void Mouse_Click_English1()
+        {
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANInteractiveTranslator2.English1' at 38;5.", repo.SYSTRANInteractiveTranslator2.English1Info);
+            repo.SYSTRANInteractiveTranslator2.English1.Click("38;5");
+        }
+
+        public void Mouse_Click_BtnArrowBackground11()
+        {
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANInteractiveTranslator1.SomeContainer1.BtnArrowBackground1' at 19;12.", repo.SYSTRANInteractiveTranslator1.SomeContainer1.BtnArrowBackground1Info);
+            repo.SYSTRANInteractiveTranslator1.SomeContainer1.BtnArrowBackground1.Click("19;12");
+        }
+
+        public void Mouse_Click_French()
+        {
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANInteractiveTranslator2.French' at 44;12.", repo.SYSTRANInteractiveTranslator2.FrenchInfo);
+            repo.SYSTRANInteractiveTranslator2.French.Click("44;12");
+        }
+
+        public void Mouse_Click_BtnArrowBackground()
+        {
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANInteractiveTranslator1.SomeContainer1.BtnArrowBackground' at 12;14.", repo.SYSTRANInteractiveTranslator1.SomeContainer1.BtnArrowBackgroundInfo);
+            repo.SYSTRANInteractiveTranslator1.SomeContainer1.BtnArrowBackground.Click("12;14");
+        }
+
+        public void Mouse_Click_English()
+        {
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANInteractiveTranslator2.English' at 62;8.", repo.SYSTRANInteractiveTranslator2.EnglishInfo);
+            repo.SYSTRANInteractiveTranslator2.English.Click("62;8");
+        }
+
+        public void Mouse_Click_BtnArrowBackground1()
+        {
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANInteractiveTranslator1.SomeContainer1.BtnArrowBackground1' at 12;15.", repo.SYSTRANInteractiveTranslator1.SomeContainer1.BtnArrowBackground1Info);
+            repo.SYSTRANInteractiveTranslator1.SomeContainer1.BtnArrowBackground1.Click("12;15");
+        }
+
+        public void Mouse_Click_English2()
+        {
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANInteractiveTranslator2.English' at 62;8.", repo.SYSTRANInteractiveTranslator2.EnglishInfo);
+            repo.SYSTRANInteractiveTranslator2.English.Click("62;8");
+        }
+
     }
 }

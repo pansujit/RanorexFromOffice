@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3fd661bbb23ffec"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="7/1/2016 9:41:41 AM"
+		timestampiso="2016-07-01T07:41:41"
+		timeoutfactor="1"
+		module="ValidateConfidenceIntervalOfAnEntryInUserDictionary">
+		<detail>
+			ValidateConfidenceIntervalOfAnEntryInUserDictionary
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.315"
+			timeRelativeToTestModuleStartTime="00:00.316"
+			timeWallClock="09:41:41"
+			time="00:00.315"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANDictionaryManager.OpenDictionary.DictionariesName.ENFRUserDictionary' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mView']/?/?/treeitem[@accessiblename&lt;'UserDict']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.OpenDictionary.DictionariesName.ENFRUserDictionary"
+				id="17c1ac0bcc0045cca22744d61c974af4"
+				timeout="70000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateConfidenceIntervalOfAnEntryInUserDictionary.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.522"
+			timeRelativeToTestModuleStartTime="00:02.523"
+			timeWallClock="09:41:43"
+			time="00:02.522"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse None Move item 'SYSTRANDictionaryManager.ValidateConfidenceInUserDictionary.Confidence' at 42;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//table[@controlname='mEntriesView']/row[@accessiblename='-1']/cell[@accessiblename='Confidence']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateConfidenceInUserDictionary.Confidence"
+				id="7e3fb121999544eab4bddba2aa071f74"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateConfidenceIntervalOfAnEntryInUserDictionary.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.440"
+			timeRelativeToTestModuleStartTime="00:03.441"
+			timeWallClock="09:41:44"
+			time="00:03.440"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='35%') on item 'toolTip.ToolTip35Percent'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/tooltip[@text='35%']"
+				fullname="DictionaryManagerRepository.toolTip.ToolTip35Percent.Self"
+				id="612408840e1f485cb78d82bbf99b9c8b"
+				timeout="30000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateConfidenceIntervalOfAnEntryInUserDictionary.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.763"
+			timeRelativeToTestModuleStartTime="00:03.764"
+			timeWallClock="09:41:45"
+			time="00:03.763"
+			level="Warn"
+			category="WinForms">
+			<message>
+				This control (from process 'SystranDictionaryManager') seems to be a Windows Forms control, but was not recognized as such, possibly due to a security limitation. UI element identification capabilities for this control may be limited.<br/>If this control is a WinForms control, please make sure that the automating process has the rights to access the automated application. Otherwise, please ignore this limitation.<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/technology-instrumentation/general-troubleshooting.html#c3250<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateConfidenceIntervalOfAnEntryInUserDictionary.cs"
+				codeline="91"
+				loglvl="Warn"
+				itemindex="2"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.775"
+			timeRelativeToTestModuleStartTime="00:03.776"
+			timeWallClock="09:41:45"
+			time="00:03.775"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'DictionaryManagerRepository.toolTip.ToolTip35Percent.Self' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/tooltip[@text='35%']"
+				fullname="DictionaryManagerRepository.toolTip.ToolTip35Percent.Self"
+				id="612408840e1f485cb78d82bbf99b9c8b"
+				timeout="30000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateConfidenceIntervalOfAnEntryInUserDictionary.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="2"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,157 @@
+The query can concern one or more specific accounts, accounts with a particular identification, or a particular type. The objective of the query may be to obtain one or more types of balance. 
+	The account owner can request information based on the following elements:
+- account identification
+- account type (this element could be used to refine the query when the account identification represents, for example, a group of accounts)
+- currency of the account (this is used to refine the query when the account identification represents, for example, a group of accounts in various currencies, or when it is a multi-currency account with one single identifier)
+- balance type (if not present, all balances are requested)
+- balance value date (if not present in the Get message, the Return message will contain the latest available balance) 
+This message will be replied to by a Return Account Nostro message. 
+Note that the Get Account Nostro message does not allow the definition of output criteria (the elements that should be returned by the account servicer). Therefore, the particular agreements between the account owner and its account servicer will stipulate the default content of the Return Account Nostro message. 
+
+ 
+	Return Account Nostro
+	Scope
+	The Nostro variant messages have been defined to cover the basic information flows between an account owner and its account servicer. 
+	The Return Account Nostro message is sent by an account servicer to an account owner. 
+	It is used to provide information on the balance(s) of one or more accounts that the account servicer holds for the account owner. 
+	The Return Account Nostro message can be sent as a response to a related Get Account Nostro message (pull mode) or initiated by the account servicer (push mode). The push of information can take place either at prearranged times or as a warning or alarm when a problem has occurred.
+Usage
+	At any time during the operating hours of the system, the account owner can query the account servicer administrator to get information about the account(s) that the latter maintains for the account owner. As an example, this may be necessary in order to perform the appropriate liquidity management and the funds transfers between accounts. 
+	The account owner can request information about accounts through a series of criteria, corresponding to the known information stored at the account servicer. The query can concern one or more specific accounts, accounts of a particular identification, or a particular type. The objective of the query may be to obtain one or more types of balance. 
+	The account servicer may also send a Return Account Nostro message with pre-defined information, at times previously agreed with the account owner, or to warn the account owner about a particular problem that may have arisen and which needs the account owner-s attention. 
+	The message from the account servicer can contain information based on the following elements:
+- account identification
+- account type (this is used when the account identification represents, for example, a group of accounts) 
+- currency of the account (this is used when the account identification represents, for example, a group of accounts in various currencies, or when it is a multi-currency account with one single identifier)
+- balance amount
+- type of balance
+- balance value date 
+	Note that the Get Account Nostro message does not allow the defintion of output criteria (the elements that should be returned by the account servicer). Therefore, the particular agreements between the account owner and its account servicer will stipulate the default content of the Return Account Nostro message. 
+	
+ 
+	Get Transaction Nostro
+	Scope
+The Nostro variant messages have been defined to cover the basic information flows between an account owner and its account servicer. 
+The Get Transaction Nostro message is sent by an account owner to the account servicer. 
+It is used to request information about payment instructions held at the account servicer. Payment instructions are either sent by the account owner, debiting or crediting its account at the account servicer or received by the account servicer, crediting or debiting the account owner-s account.
+Usage
+Following normal business flows, transactions registered by the account servicer may be queued for later settlement (because of insufficient available funds, or because of risk or liquidity limits, etc). A transaction may experience a series of successive statuses. These can be transient statuses (such as pending or related types) and final statuses (such as rejected, revoked and/or settled). 
+Account owners need to have information about the payments queue(s) and must have the ability to take action (that is, to cancel or modify the transaction(s) to be settled). Note, however, that actions from an account owner will always concern transactions in a transient status. 
+For this reason, at any time, the account owner can query the account servicer to get information about transactions, whatever the status they are in. 
+These requests will either concern all transactions, all transactions with a particular status, or a specific transaction. 
+The account owner can request information about transactions through a series of criteria, corresponding to the known information stored by the account servicer. 
+The account owner can request information based on the following elements:
+- provenance or destination of the payment (payment to/payment from)
+- transaction reference 
+- payment instruction reference 
+- payment instruction status, as registered by the account owner
+- interbank settlement amount and/or currency
+- credit/debit indicator 
+- SWIFT FIN payment message used for the payment instruction
+- account identification (entries booked to a specific account)
+- entry amount and/or currency
+- entry debit/credit indicator (if absent, all entries should be reported)
+- status of the entry (pending, booked, ...)
+- entry date and time
+An element that is particular to the Get/Return Transaction pair is the Statement Report. When a Get Transaction Nostro message is sent requesting a statement report, the related Return Transaction Nostro message will provide a predefined set of return criteria per transaction. The information returned contains the following details of each transaction:
+- value date
+- entry date
+- debit/credit indicator
+- entry amount
+- payment message type
+- payment type
+- entry reference
+- transaction reference
+- supplementary details
+Note that, apart from the Statement Report element, the Get Transaction Nostro message does not allow the definition of output criteria (the elements that should be returned by the account servicer). Therefore, the particular agreements between the account owner and its account servicer will stipulate the default content of the Return Transaction Nostro message.
+The Get Transaction Nostro message will be replied to by a Return Transaction Nostro message. 
+	
+ 
+	Return Transaction Nostro
+	Scope
+The Nostro variant messages have been defined to cover the basic information flows between an account owner and its account servicer.
+The Return Transaction Nostro message is sent by an account servicer to an account owner. 
+It is used to provide information on transactions and booked entries held by the account servicer.
+The Return Transaction Nostro message can be sent as a response to a related Get Transaction Nostro message (pull mode) or initiated by the account servicer (push mode). The push of information can take place either at prearranged times or as a warning or alarm when a problem has occurred.
+Usage
+Following normal business flows, transactions registered by the account servicer may be queued for later settlement (because of insufficient available funds, or because of risk or liquidity limits, etc). A transaction may experience a series of successive statuses. These can be transient statuses (such as pending or related types) and final statuses (such as rejected or settled). 
+Account owners need to have information about the payments queue(s) and must have the ability to take action (that is, to cancel or modify the transaction(s) to be settled). Note, however, that actions from an account owner will always concern transactions in a transient status.
+For this reason, at any time, the account owner can query the account servicer to get information about transactions, whatever the status they are in.
+These requests will either concern all transactions, all transactions with a particular status, or a specific transaction. 
+The account owner can request information about transactions through a series of criteria, corresponding to the known information stored by the account servicer. Based on the criteria received within the request, the account servicer will select items that will match with the request and report them to the requestor.
+The account servicer may also send a Return Transaction Nostro message with pre-defined information at times previously agreed with the account owner or to warn the account owner about a particular problem that may have arisen and which needs the account owner's attention.
+The message from the account servicer can contain information based on the following elements:
+- provenance or destination of the payment (payment to/payment from)
+- transaction reference 
+- transfer value date
+- payment instruction reference
+- payment instruction status, as registered by the account servicer
+- instructed amount and/or currency
+- interbank settlement amount and/or currency
+- credit/debit indicator of the payment instruction/transaction
+- message used for the payment instruction
+- priority of the payment transaction
+- period in which the payment instruction should be processed (processing validity time)
+- instructions given, related to the processing of the transaction
+- type of payment instructed
+- account identification (entries booked to a specific account)
+- entry amount and/or currency
+- entry debit/credit indicator (if absent, all entries should be reported)
+- status of the entry (pending, booked, ?)
+- entry date and time
+- currency of the account
+- type of account
+- entry reference
+- entry date
+- transfer reason
+- details related to the status of the payment instruction
+An element that is particular to the Get/Return Transaction pair is the Statement Report. When a Get Transaction Nostro message is sent requesting a statement report, the related Return Transaction Nostro message will provide a predefined set of return criteria per transaction. The information returned contains the following details of each tranasction:
+- value date
+- entry date
+- debit/credit code
+- entry amount
+- method of payment (payment instrument or message type)
+- entry reference
+- transaction reference
+- supplementary details
+Note that, apart from the Statement Report element, the Get Transaction Nostro message does not allow the definition of output criteria (the elements that should be returned by the account servicer). Therefore, the particular agreements between the account owner and its account servicer will stipulate the default content of the Return Transaction Nostro message.
+Additional information on the generic design of the Get/Return messages can be found in the section How to Use the Cash Management Messages.
+	
+ 
+Registering with SWIFT Partner Solutions
+
+SWIFT : Leadership in secure global financial communication
+SWIFT is the industry-owned co-operative providing secure, reliable and standardised messaging between financial institutions. The SWIFT network is used by more than 7,000 financial institutions (banks, broker-dealers and fund managers) and their market infrastructures in 200 countries.
+SWIFT consistently delivers quantifiable business value and proven technical excellence to its members through its comprehensive messaging standards, the security, reliability and 'five nines' availability of its messaging platform and its role in advancing STP. The guiding principles of SWIFT are clear: to offer the financial services industry a common platform of advanced technology and access to shared solutions through which each member can build its competitive edge.
+SWIFT helps its customers reduce costs, improve automation and manage risk. Today, in addition to its 3,000 member banks, SWIFT users include both sub-members and participants such as brokers, investment managers, securities deposit and clearing organizations, and stock exchanges. 
+SWIFT's mission is:
+- Work in partnership with its members to provide low-cost, competitive financial processing and communication services of the highest security and reliability.
+- Contribute significantly to the commercial success of its members through greater automation of the end-to-end financial transaction process, based on its leading expertise in message processing and financial standards setting.
+- Capitalise on its position as an international open forum for the world's financial institutions to address industry-level threats, issues and opportunities.
+- Employ and recruit the best people, invest in the most beneficial resources, and become a leading global organisation respected for its professionalism, effectiveness, vision and management.
+
+SWIFT Partner Solutions: Partnering with vendors and third parties
+SWIFT's Partner Solutions Department helps our customers achieve end-to-end automation, through cost-effective third party solutions which are SWIFT-compatible and easy to implement, focussing on S.W.I.F.T-readiness, traffic automation and STP.
+1.	What services can we offer vendors?
+Partner Solutions is responsible for establishing and maintaining business relations at all levels between SWIFT and third party solutions and products providers. Based on mutual business interests and complementary product or service offerings, a relationships framework exists within
+SWIFT to establish the appropriate level of co-operation. Partner Solutions facilitates and co-ordinates these relationships and assesses and agrees with its partners the possibilities for joint co-operation.
+A wide range of facilities is available to the vendor community. This varies from documentation and information, to software and test facilities, and access to a very comprehensive and extensive set of education courses. Partner Solutions is responsible for the co-ordination and order processing of all information and documentation that can be provided by SWIFT to Registered Partners.
+2.	Who are we?
+The Partner Solutions department is represented in all major SWIFT Offices. Regional Partner Solutions managers are responsible for the day-to-day relation with the partners in their region. The Partner Solutions Headquarter team, based in Brussels, guarantees a worldwide co-ordinated and strategic approach.
+3.	Who can engage in Partner Solutions Programme?
+The Partner Solutions programme is open to all vendors who provide or want to provide SWIFT-related solutions, products and or services targeted at the support of the business of the financial community of SWIFT customers and that gives rise to an actual or mutual measured co-operation between vendors and SWIFT.
+Currently we work with over 300 Partners worldwide representing over 600 products and solutions offered to financial institutions.
+Typically we work with:
+-	Application providers: providers to the SWIFT User Community of financial software from front office to back-office applications, including middleware vendors;
+-	Interface vendors: providers of SWIFT Interface devices, required for users to connect to the SWIFT network;
+-	Solution providers: companies specialized in offering professional services to the financial industry: typically business consultants and systems integrators.
+
+4.	How does Partner Solutions work with Registered Partners?
+The relationship between Partner Solutions and Registered Partners operates on many different business levels: partnership, programmes, facilities, information and awareness, and projects.
+With our programmes, we aim at SWIFT-enabling third party solutions and applications. The programmes are available to third parties that provide or wish to provide SWIFT-related solutions and services and where there is an actual or mutual cooperation.
+These are some of the ways that we can assist Partners in implementing SWIFT products and services and make their capabilities known to the market.
+- We provide several tools and information channels to keep you up-to-date on the SWIFT products, standards, projects and services, as well as to assist you in integrating these products into your applications.
+- Through seminars and publications we inform mutual customers about the SWIFT capabilities and opportunities of your products and services. The major event is Sibos, where SWIFT, you and our joint customers meet annually.
+- Our permanently on-line Solutions Directory is available to inform customers about SWIFT-compatible solutions. This global directory of SWIFT registered Partner products and solutions is available on www.swift.com/partners. All Registered Partners are invited to present their solutions in the Solutions Directory, and are required to keep their information up to date.
+- We qualify interface products provided by third parties to ensure the application is fully compliant and capable for users to connect to the SWIFT network.
+- We provide a range of training solutions that are designed for all levels and needs. SWIFT label holders can bene

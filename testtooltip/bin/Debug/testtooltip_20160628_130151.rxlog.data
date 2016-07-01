@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1b64d53ad8db268"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/28/2016 1:01:51 PM"
+		timestampiso="2016-06-28T11:01:51"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.2m"
+			durationms="73227"
+			type="test suite"
+			rid="927804e8fd2d57"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="testtooltip"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="1.2m"
+				durationms="73211"
+				type="folder"
+				rid="e4702d2518d0e07"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				foldername="Install_Uninstall_System">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="1.2m"
+					durationms="73211"
+					type="test case"
+					rid="1129487ee7623570"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					testcasename="License_Key_Add"
+					testcaseid="44945689-df3f-40e6-aec0-f18c64917e2f"
+					maxchildren="0">
+					<params/>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="12.98s"
+						durationms="12978"
+						type="test module"
+						rid="12f4a198e437706e"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="StartFirefoxSystran (testAutomation)"
+						moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings/>
+					</activity>
+					<activity
+						result="Failed"
+						duration="1m"
+						durationms="60185"
+						type="test module"
+						rid="1446597f3e62972b"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="CopyLicense (testAutomation)"
+						moduleid="d75a25e9-91d4-427c-809f-2cb2d4036d6d"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<errmsg>
+							Failed to find item 'testAutomationRepository.TranslationResources.Licenses'.
+						</errmsg>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="01:13.351"
+							timeRelativeToTestModuleStartTime="01:00.107"
+							timeWallClock="13:03:05"
+							time="01:13.351"
+							level="Error"
+							category="Module"
+							errimg="images_testtooltip_20160628_130151\testtooltip_20160628_130151_9bc608b9_trace.jpg"
+							errthumb="images_testtooltip_20160628_130151\testtooltip_20160628_130151_9bc608b9_trace_thumb.jpg">
+							<message>
+								Failed to find item 'testAutomationRepository.TranslationResources.Licenses'.<br/>No element found for path '/dom[@caption='Translation Resources']//div[#'navBar']//a[@innertext='Licenses']' within 1m.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.TranslationResourcesAppFolder.get_Licenses() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\testAutomationRepository.cs:line 485
+   at testAutomation.CopyLicense.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\CopyLicense.cs:line 50
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\CopyLicense.cs"
+								codeline="50"
+								type="repoitem"
+								path="/dom[@caption='Translation Resources']//div[#'navBar']//a[@innertext='Licenses']"
+								fullname="testAutomationRepository.TranslationResources.Licenses"
+								id="e5d90bd634884db5b0b7902f90dd36a8"
+								timeout="60000"
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

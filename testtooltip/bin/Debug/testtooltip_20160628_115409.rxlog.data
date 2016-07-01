@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="7b3490aeac35b7"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/28/2016 11:54:09 AM"
+		timestampiso="2016-06-28T09:54:09"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="2.3m"
+			durationms="137367"
+			type="test suite"
+			rid="188a03b7088dcec"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="testtooltip"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="2.3m"
+				durationms="137352"
+				type="folder"
+				rid="1739fb8c49997334"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				foldername="Install_Uninstall_System">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="2.3m"
+					durationms="137336"
+					type="test case"
+					rid="d8665075fa625f2"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					testcasename="License_Key_Add"
+					testcaseid="44945689-df3f-40e6-aec0-f18c64917e2f"
+					maxchildren="0">
+					<params/>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="12.53s"
+						durationms="12528"
+						type="test module"
+						rid="258e8d148e98fa88"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="StartFirefoxSystran (testAutomation)"
+						moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings/>
+					</activity>
+					<activity
+						result="Success"
+						duration="6882ms"
+						durationms="6882"
+						type="test module"
+						rid="265d2b1b9183867c"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="CopyLicense (testAutomation)"
+						moduleid="d75a25e9-91d4-427c-809f-2cb2d4036d6d"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings/>
+					</activity>
+					<activity
+						result="Failed"
+						duration="1.9m"
+						durationms="116831"
+						type="test module"
+						rid="15d1e7a09003d873"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Add_Licence (testSolution)"
+						moduleid="671a784a-dac8-47f0-992c-71e532fc5ad7"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<errmsg>
+							Failed to find item 'testSolutionRepository.SYSTRANLanguageManager.LicenseListContent.OnlineActivation'.
+						</errmsg>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:20.723"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="11:54:30"
+							time="00:20.723"
+							level="Info"
+							category="Application"
+							errimg="images_testtooltip_20160628_115409\testtooltip_20160628_115409_7fd98d17_trace.jpg"
+							errthumb="images_testtooltip_20160628_115409\testtooltip_20160628_115409_7fd98d17_trace_thumb.jpg">
+							<message>
+								Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\language-manager\SYSTRAN-Desktop-Language-Manager.exe' with arguments '--force-renderer-accessibility' in normal mode.
+							</message>
+							<metainfo
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testSolution\testSolution\Add_Licence.cs"
+								codeline="49"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:23.802"
+							timeRelativeToTestModuleStartTime="00:03.079"
+							timeWallClock="11:54:33"
+							time="00:23.802"
+							level="Info"
+							category="Application"
+							errimg="images_testtooltip_20160628_115409\testtooltip_20160628_115409_f9c11099_trace.jpg"
+							errthumb="images_testtooltip_20160628_115409\testtooltip_20160628_115409_f9c11099_trace_thumb.jpg">
+							<message>
+								Run application 'C:\Program Files\Internet Explorer\iexplore.exe' with arguments '' in normal mode.
+							</message>
+							<metainfo
+								itemindex="2"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testSolution\testSolution\Add_Licence.cs"
+								codeline="56"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:17.461"
+							timeRelativeToTestModuleStartTime="01:56.738"
+							timeWallClock="11:56:27"
+							time="02:17.461"
+							level="Error"
+							category="Module"
+							errimg="images_testtooltip_20160628_115409\testtooltip_20160628_115409_fe7fba53_trace.jpg"
+							errthumb="images_testtooltip_20160628_115409\testtooltip_20160628_115409_fe7fba53_trace_thumb.jpg">
+							<message>
+								Failed to find item 'testSolutionRepository.SYSTRANLanguageManager.LicenseListContent.OnlineActivation'.<br/>No element found for path '/dom[@domain='localhost:3500']//div[#'licenseListContent']/div[1]/div[12]/?/?/button[@innertext='Online Activation']' within 1.5m.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testSolution.testSolutionRepositoryFolders.LicenseListContentFolder.get_OnlineActivation() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testSolution\testSolution\testSolutionRepository.cs:line 443
+   at testSolution.Add_Licence.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testSolution\testSolution\Add_Licence.cs:line 84
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testSolution\testSolution\Add_Licence.cs"
+								codeline="84"
+								type="repoitem"
+								path="/dom[@domain='localhost:3500']//div[#'licenseListContent']/div[1]/div[12]/?/?/button[@innertext='Online Activation']"
+								fullname="testSolutionRepository.SYSTRANLanguageManager.LicenseListContent.OnlineActivation"
+								id="361067bf65774272a7f03ecccfb7972e"
+								timeout="90000"
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

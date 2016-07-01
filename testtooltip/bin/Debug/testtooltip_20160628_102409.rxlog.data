@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="8b4993ef82ffc5e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/28/2016 10:24:09 AM"
+		timestampiso="2016-06-28T08:24:09"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="36.6s"
+			durationms="36602"
+			type="test suite"
+			rid="f36b255e73120f0"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="testtooltip"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="36.54s"
+				durationms="36540"
+				type="folder"
+				rid="22b290f416709c87"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				foldername="Install_Uninstall_System">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="35.74s"
+					durationms="35743"
+					type="test case"
+					rid="6ae5828ebdf7c94"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					testcasename="Download_Desktop_8_Package"
+					testcaseid="1f32b6bd-0491-4981-9192-418cacdeb46c"
+					datasource="SearchEditions"
+					iterationcount="1"
+					maxchildren="0">
+					<params/>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="35.74s"
+						durationms="35743"
+						type="test case iteration"
+						rid="27d1847053c67e6c"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Download_Desktop_8_Package"
+						iteration="1">
+						<datarow>
+							<field
+								name="Edition">
+								SYSTRAN 8 TRANSLATOR Professional en-fr
+							</field>
+						</datarow>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="11.93s"
+							durationms="11933"
+							type="test module"
+							rid="8de07c675aaabf2"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartFirefoxSystran (testAutomation)"
+							moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Failed"
+							duration="23.72s"
+							durationms="23716"
+							type="test module"
+							rid="5d4c37845efe0ce"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="ClickOnPackage (testAutomation)"
+							moduleid="3861d624-9f27-4601-9e27-85b13c37b5c1"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<errmsg>
+								Failed to find item 'testAutomationRepository.Packages.FilterPackage'.
+							</errmsg>
+							<varbindings>
+								<varbinding
+									name="SearchName"
+									value="SYSTRAN 8 TRANSLATOR Professional en-fr"/>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:13.853"
+								timeRelativeToTestModuleStartTime="00:00.000"
+								timeWallClock="10:24:23"
+								time="00:13.853"
+								level="Info"
+								category="Data"
+								errimg="images_testtooltip_20160628_102409\testtooltip_20160628_102409_724e8048_trace.jpg"
+								errthumb="images_testtooltip_20160628_102409\testtooltip_20160628_102409_724e8048_trace_thumb.jpg">
+								<message>
+									Current variable values:<br/>$SearchName = 'SYSTRAN 8 TRANSLATOR Professional en-fr'
+								</message>
+								<metainfo
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:37.444"
+								timeRelativeToTestModuleStartTime="00:23.591"
+								timeWallClock="10:24:47"
+								time="00:37.444"
+								level="Error"
+								category="Module"
+								errimg="images_testtooltip_20160628_102409\testtooltip_20160628_102409_e5108872_trace.jpg"
+								errthumb="images_testtooltip_20160628_102409\testtooltip_20160628_102409_e5108872_trace_thumb.jpg">
+								<message>
+									Failed to find item 'testAutomationRepository.Packages.FilterPackage'.<br/>No element found for path '/dom[@caption='Packages' and @page='packageManagement' and @path='/packageManagement' and @browsername='Mozilla']//input[#'filterPackage']' within 1m.
+								</message>
+								<metainfo
+									stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.PackagesAppFolder.get_FilterPackage() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\testAutomationRepository.cs:line 555
+   at testAutomation.ClickOnPackage.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\ClickOnPackage.cs:line 81
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\ClickOnPackage.cs"
+									codeline="81"
+									type="repoitem"
+									path="/dom[@caption='Packages' and @page='packageManagement' and @path='/packageManagement' and @browsername='Mozilla']//input[#'filterPackage']"
+									fullname="testAutomationRepository.Packages.FilterPackage"
+									id="96786d306f0c4bb2869b295d801ba9f3"
+									timeout="60000"
+									loglvl="Error"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

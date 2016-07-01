@@ -1,0 +1,813 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="e2819c88-d34c-4a32-8a84-a2a525f4355a"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		SelectAutoSource
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SelectAutoSource"
+	namespace="testtooltip"/>
+	<variables/>
+	<recorditems>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="1000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="daa91c92-c77b-43bc-8618-c4060835c184"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="2074"
+		sy="271"
+		loc="20;12">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="38389839-f8f6-4670-a2ff-a21b4729f664">
+				<element
+				role="unknown"
+				prefcap="unknown"
+				capabilities="wpfelement, wpfdebug"
+				flavor="wpf"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="4"
+				rect="2054,259,27,25"
+				snapElem="">
+					<attribute
+					name="automationid"
+					type="System.String">
+						BtnArrowBackground
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.FrameworkElement
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						System.Windows.Shapes.Rectangle
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						BtnArrowBackground
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						Rectangle
+					</attribute>
+					<attribute
+					name="dependencyobjecttypelineage"
+					type="System.String[]">
+						System.Windows.Shapes.Rectangle;System.Windows.Shapes.Shape;System.Windows.FrameworkElement;System.Windows.UIElement;System.Windows.Media.Visual;
+					</attribute>
+					<attribute
+					name="ranorexobjectid"
+					type="System.Guid">
+						bc878087-2576-496a-ad77-51e82854cd6c
+					</attribute>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Rectangle.ActualHeight property of type Double."/>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Rectangle.ActualWidth property of type Double."/>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF System.Windows.Shapes.Rectangle.AllowDrop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF System.Windows.Shapes.Rectangle.ClipToBounds property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF System.Windows.Shapes.Rectangle.DataContext property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="Fill"
+					type="System.Windows.Media.Brush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.Fill property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.FlowDirection property of type FlowDirection."
+					readonly="False"/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF System.Windows.Shapes.Rectangle.Focusable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF System.Windows.Shapes.Rectangle.ForceCursor property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Rectangle.Height property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF System.Windows.Shapes.Rectangle.IsHitTestVisible property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Shapes.Rectangle.IsManipulationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Rectangle.MaxHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Rectangle.MaxWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Rectangle.MinHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Rectangle.MinWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Rectangle.Opacity property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF System.Windows.Shapes.Rectangle.OverridesDefaultStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="RadiusX"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Rectangle.RadiusX property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="RadiusY"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Rectangle.RadiusY property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.RenderTransformOrigin property of type Point."
+					readonly="False"/>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF System.Windows.Shapes.Rectangle.SnapsToDevicePixels property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Stretch"
+					type="System.Windows.Media.Stretch, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.Stretch property of type Stretch."
+					readonly="False"/>
+					<dynamicattribute
+					name="Stroke"
+					type="System.Windows.Media.Brush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.Stroke property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="StrokeDashArray"
+					type="System.Windows.Media.DoubleCollection, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.StrokeDashArray property of type DoubleCollection."
+					readonly="False"/>
+					<dynamicattribute
+					name="StrokeDashCap"
+					type="System.Windows.Media.PenLineCap, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.StrokeDashCap property of type PenLineCap."
+					readonly="False"/>
+					<dynamicattribute
+					name="StrokeDashOffset"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Rectangle.StrokeDashOffset property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="StrokeEndLineCap"
+					type="System.Windows.Media.PenLineCap, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.StrokeEndLineCap property of type PenLineCap."
+					readonly="False"/>
+					<dynamicattribute
+					name="StrokeLineJoin"
+					type="System.Windows.Media.PenLineJoin, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.StrokeLineJoin property of type PenLineJoin."
+					readonly="False"/>
+					<dynamicattribute
+					name="StrokeMiterLimit"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Rectangle.StrokeMiterLimit property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="StrokeStartLineCap"
+					type="System.Windows.Media.PenLineCap, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.StrokeStartLineCap property of type PenLineCap."
+					readonly="False"/>
+					<dynamicattribute
+					name="StrokeThickness"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Rectangle.StrokeThickness property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF System.Windows.Shapes.Rectangle.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF System.Windows.Shapes.Rectangle.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF System.Windows.Shapes.Rectangle.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF System.Windows.Shapes.Rectangle.UseLayoutRounding property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.VerticalAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Shapes.Rectangle.Visibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF System.Windows.Shapes.Rectangle.Width property of type Double."
+					readonly="False"/>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title~'^SYSTRAN\ Interactive\ Trans' and @processname='SYSTRAN.InteractiveTranslator']/container/element[1]/container/element[7]/container[@automationid='root']/element/element[1]/element/container/container[1]/container[@automationid='mTranslationOptionsPanel']//combobox[@automationid='mSourceLangComboBox']/container/container/checkbox[@automationid='PART_DropDownToggle']/container[@automationid='ToggleButtonRootGrid']/?/?/element[@automationid='BtnArrowBackground']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="5324e3fb-753f-493f-869a-269a0295dea1">
+				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
+vg/41JRRcLEe2b/npH/3wf8AGipKKLhY/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="71f22f72-0a57-4b39-8fe9-6d304a7503ac"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="2052"
+		sy="296"
+		loc="70;8">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="7201bb2f-3204-400b-b142-8b38adc504da">
+				<element
+				role="text"
+				prefcap="text"
+				capabilities="wpfelement, wpfdebug"
+				flavor="wpf"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="0"
+				rect="1982,288,94,16"
+				snapElem="">
+					<attribute
+					name="caption"
+					type="System.String">
+						Auto
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Auto
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.TextBlock
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						System.Windows.Controls.TextBlock
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<attribute
+					name="dependencyobjecttypelineage"
+					type="System.String[]">
+						System.Windows.Controls.TextBlock;System.Windows.FrameworkElement;System.Windows.UIElement;System.Windows.Media.Visual;
+					</attribute>
+					<attribute
+					name="ranorexobjectid"
+					type="System.Guid">
+						8949e11f-2df7-48a5-a08e-9ebac764f835
+					</attribute>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.ActualHeight property of type Double."/>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.ActualWidth property of type Double."/>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.AllowDrop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Background"
+					type="System.Windows.Media.Brush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Background property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BaselineOffset"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.BaselineOffset property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.ClipToBounds property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.DataContext property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.FlowDirection property of type FlowDirection."
+					readonly="False"/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.Focusable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="FontSize"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.FontSize property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.ForceCursor property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Foreground"
+					type="System.Windows.Media.Brush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Foreground property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Height property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsHitTestVisible property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHyphenationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsHyphenationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.IsManipulationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="LineHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.LineHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="LineStackingStrategy"
+					type="System.Windows.LineStackingStrategy, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.LineStackingStrategy property of type LineStackingStrategy."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MaxHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MaxWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MinHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.MinWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Opacity property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.OverridesDefaultStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.RenderTransformOrigin property of type Point."
+					readonly="False"/>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.SnapsToDevicePixels property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextAlignment"
+					type="System.Windows.TextAlignment, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextAlignment property of type TextAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextDecorations"
+					type="System.Windows.TextDecorationCollection, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextDecorations property of type TextDecorationCollection."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextEffects"
+					type="System.Windows.Media.TextEffectCollection, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextEffects property of type TextEffectCollection."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextTrimming"
+					type="System.Windows.TextTrimming, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextTrimming property of type TextTrimming."
+					readonly="False"/>
+					<dynamicattribute
+					name="TextWrapping"
+					type="System.Windows.TextWrapping, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.TextWrapping property of type TextWrapping."
+					readonly="False"/>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF System.Windows.Controls.TextBlock.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF System.Windows.Controls.TextBlock.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF System.Windows.Controls.TextBlock.UseLayoutRounding property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.VerticalAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF System.Windows.Controls.TextBlock.Visibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF System.Windows.Controls.TextBlock.Width property of type Double."
+					readonly="False"/>
+					<dynamicaction
+					displayName="GetPositionFromPoint"
+					description="The WPF System.Windows.Controls.TextBlock.GetPositionFromPoint method.">
+						<argument
+						displayName="point"
+						description="A method argument of type Point."
+						type="System.Windows.Point, WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<argument
+						displayName="snapToText"
+						description="A method argument of type Boolean."
+						type="System.Boolean"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Windows.Documents.TextPointer, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeBaselineOffset"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeBaselineOffset method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeInlines"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeInlines method.">
+						<argument
+						displayName="manager"
+						description="A method argument of type XamlDesignerSerializationManager."
+						type="System.Windows.Markup.XamlDesignerSerializationManager, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"/>
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShouldSerializeText"
+					description="The WPF System.Windows.Controls.TextBlock.ShouldSerializeText method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+				</element>
+				<path>
+					/contextmenu[@processname='SYSTRAN.InteractiveTranslator' and @win32ownerwindowlevel='1']//container[@automationid='DropDownScrollViewer']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/list[@automationid='ItemsPresenter']/container/container[1]/container/list[@automationid='ItemsPresenter']/container/listitem[1]/element[@automationid='Bd']/?/?/text[@caption='Auto']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="09e2cabd-9d51-4cd3-a9b3-4aa1f0329922">
+				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
+UUAFFFFABRRRQAyT78X+9/Q0+iigAooooA//2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="testtooltipRepository"
+	id="82a0660a-ea18-463f-89aa-4894af904f52"
+	rxversion="6.0"
+	relativepath="testtooltipRepository.rxrep">
+		<codegen
+		classname="testtooltipRepository"
+		namespace="testtooltip"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="3d3bee4c-89c7-4194-9165-dd22b4579401"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SelectAutoSource.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

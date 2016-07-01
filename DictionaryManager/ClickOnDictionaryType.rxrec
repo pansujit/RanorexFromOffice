@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="c1569691-b576-4cf3-9bed-8c8d4fde2500"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		ClickOnDictionaryType
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ClickOnDictionaryType"
+	namespace="DictionaryManager"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="96a534a1-5230-4573-b829-d260f332df85"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="46e47ad4-75ce-466a-b37c-99e3ce6019f0">
+				<element
+				role="button"
+				prefcap="button"
+				capabilities="uiautomation, uiautomationinvoke"
+				flavor="uia"
+				visible="True"
+				valid="False"
+				enabled="False"
+				hasfocus="False"
+				dontcache="False"
+				index="1"
+				rect="0,0,0,0"
+				snapElem="">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+				</element>
+				<path>
+					/form[@controlname='DictionaryPropertiesBaseForm']/element[@controlname='cbDictType']/button[@automationid='[Editor] dropdown button']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="DictionaryManagerRepository"
+	id="1690ff42-4e44-4ddc-9c10-920ebe70dfad"
+	rxversion="6.0"
+	relativepath="DictionaryManagerRepository.rxrep">
+		<codegen
+		classname="DictionaryManagerRepository"
+		namespace="DictionaryManager"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="623ccc2d-6519-4df5-aa39-655f8d9d3a18"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ClickOnDictionaryType.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

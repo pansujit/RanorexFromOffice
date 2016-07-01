@@ -1,0 +1,830 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="36a012eccf323f08"
+		totalerrorcount="2"
+		totalwarningcount="0"
+		totalsuccesscount="7"
+		totalfailedcount="3"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/22/2016 12:21:44 PM"
+		timestampiso="2016-04-22T10:21:44"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="9m"
+			durationms="542189"
+			type="test suite"
+			rid="20083575a6083b2a"
+			totalerrorcount="2"
+			totalwarningcount="0"
+			totalsuccesscount="7"
+			totalfailedcount="3"
+			totalblockedcount="0"
+			testsuitename="testtooltip"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="9m"
+				durationms="541456"
+				type="test case"
+				rid="169944d46b3ab8a2"
+				totalerrorcount="2"
+				totalwarningcount="0"
+				totalsuccesscount="7"
+				totalfailedcount="3"
+				totalblockedcount="0"
+				testcasename="Global-Desktop-Test"
+				testcaseid="dcd41f78-b1fe-438f-8211-f350028d77b3"
+				datasource="testExcelConnector"
+				iterationcount="2"
+				maxchildren="34">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="6.3m"
+					durationms="378660"
+					type="test case iteration"
+					rid="a94256600f8514"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="4"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Global-Desktop-Test"
+					iteration="1">
+					<datarow>
+						<field
+							name="Edition">
+							&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="2.3m"
+						durationms="138044"
+						type="test case"
+						rid="e8e530fa8ec1c20"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Download_Desktop_8_Package"
+						testcaseid="1f32b6bd-0491-4981-9192-418cacdeb46c"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="15.71s"
+							durationms="15709"
+							type="test module"
+							rid="62f12e536ac765b"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartFirefoxSystran (testAutomation)"
+							moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="2m"
+							durationms="122273"
+							type="test module"
+							rid="167b160c24c472"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="ClickOnPackage (testAutomation)"
+							moduleid="3861d624-9f27-4601-9e27-85b13c37b5c1"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings>
+								<varbinding
+									name="SearchName"
+									value="●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●"/>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:16.691"
+								timeRelativeToTestModuleStartTime="00:00.000"
+								timeWallClock="12:22:01"
+								time="00:16.691"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$SearchName = '&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;'
+								</message>
+								<metainfo
+									loglvl="Info"/>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="0ms"
+							durationms="0"
+							type="test module"
+							rid="25bc2fc882b40"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StopFirefox (testAutomation)"
+							moduleid="0b27bb73-d878-4d7c-85a0-20191b52183e"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="29.29s"
+						durationms="29288"
+						type="test case"
+						rid="a96d01abf15a928"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Uninstall_Desktop_8_Application"
+						testcaseid="6b716c4f-87da-4455-ab38-8888931fad59"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="2059ms"
+							durationms="2059"
+							type="test module"
+							rid="13c91b30fd0d75a2"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseAllApplications (testAutomation)"
+							moduleid="1f16ca4d-46f5-48e2-9b73-1507eaf3f82e"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="46ms"
+							durationms="46"
+							type="test module"
+							rid="11627b361608ea63"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="LocatingFolderForUninstallation (testAutomation)"
+							moduleid="b4ef6e13-52e8-4a18-800c-667fef2e408f"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="18.12s"
+							durationms="18118"
+							type="test module"
+							rid="3310e4600067856"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="ClickOnUninstall (testAutomation)"
+							moduleid="befbd714-b159-456d-afeb-2ef6857441c7"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="2012ms"
+							durationms="2012"
+							type="test module"
+							rid="60f6fa6dfcf8ef0"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseAllApplications (testAutomation)"
+							moduleid="1f16ca4d-46f5-48e2-9b73-1507eaf3f82e"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="5023ms"
+							durationms="5023"
+							type="test module"
+							rid="e07edc4c21a02bf"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="DeleteAllFolders (testAutomation)"
+							moduleid="0d10b971-4b5d-4786-80f8-83de294a3f77"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="2012ms"
+							durationms="2012"
+							type="test module"
+							rid="832c535b65f42"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseFolder (testAutomation)"
+							moduleid="221f8929-9e4f-46ee-9ae0-2c2cd92a28dd"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="1.4m"
+						durationms="82402"
+						type="test case"
+						rid="d5edf2feae9a28"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Install_Desktop_8_Application"
+						testcaseid="2fc0cdfd-86f1-41ab-a19f-43dcc587efe6"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="1.3m"
+							durationms="78357"
+							type="test module"
+							rid="8ec0d2ebbcc29c2"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="SelectFolderForInstallation (testAutomation)"
+							moduleid="17bf0119-2d26-4d48-b285-149460b6a213"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings>
+								<varbinding
+									name="SearchName"
+									value="●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●"/>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="02:48.269"
+								timeRelativeToTestModuleStartTime="00:00.000"
+								timeWallClock="12:24:32"
+								time="02:48.269"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$SearchName = '&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;'
+								</message>
+								<metainfo
+									loglvl="Info"/>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="2030ms"
+							durationms="2030"
+							type="test module"
+							rid="b4c255340504968"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseAllApplications (testAutomation)"
+							moduleid="1f16ca4d-46f5-48e2-9b73-1507eaf3f82e"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="2012ms"
+							durationms="2012"
+							type="test module"
+							rid="3cad446777b6778"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseFolder (testAutomation)"
+							moduleid="221f8929-9e4f-46ee-9ae0-2c2cd92a28dd"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="2.1m"
+						durationms="128877"
+						type="test case"
+						rid="21e3437ac39ec826"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="TestCase3"
+						testcaseid="44945689-df3f-40e6-aec0-f18c64917e2f"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="2.1m"
+							durationms="128830"
+							type="test module"
+							rid="178897671a2840"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CreateOrGetLicense (testAutomation)"
+							moduleid="9e3a318c-f413-42d3-8ff9-2be04b1a5cf0"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="0ms"
+							durationms="0"
+							type="test module"
+							rid="2a41e9153eabf6b4"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StopFirefox (testAutomation)"
+							moduleid="0b27bb73-d878-4d7c-85a0-20191b52183e"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="2.7m"
+					durationms="162780"
+					type="test case iteration"
+					rid="287a54e331e558a0"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesscount="2"
+					totalfailedcount="2"
+					totalblockedcount="0"
+					testcasename="Global-Desktop-Test"
+					iteration="2">
+					<datarow>
+						<field
+							name="Edition">
+							&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="1.2m"
+						durationms="71682"
+						type="test case"
+						rid="1553e47534f7d7e0"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Download_Desktop_8_Package"
+						testcaseid="1f32b6bd-0491-4981-9192-418cacdeb46c"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="13.27s"
+							durationms="13273"
+							type="test module"
+							rid="4fa7f82fc8582fe"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartFirefoxSystran (testAutomation)"
+							moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="58.41s"
+							durationms="58408"
+							type="test module"
+							rid="2d1346ee2380db58"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="ClickOnPackage (testAutomation)"
+							moduleid="3861d624-9f27-4601-9e27-85b13c37b5c1"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings>
+								<varbinding
+									name="SearchName"
+									value="●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●"/>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="06:32.823"
+								timeRelativeToTestModuleStartTime="00:00.000"
+								timeWallClock="12:28:17"
+								time="06:32.823"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$SearchName = '&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;'
+								</message>
+								<metainfo
+									loglvl="Info"/>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="0ms"
+							durationms="0"
+							type="test module"
+							rid="a6cf7f9e6a9f874"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StopFirefox (testAutomation)"
+							moduleid="0b27bb73-d878-4d7c-85a0-20191b52183e"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="29.42s"
+						durationms="29423"
+						type="test case"
+						rid="1ac74c563e9c1d9f"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Uninstall_Desktop_8_Application"
+						testcaseid="6b716c4f-87da-4455-ab38-8888931fad59"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="2012ms"
+							durationms="2012"
+							type="test module"
+							rid="1ac3577a704d9b24"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseAllApplications (testAutomation)"
+							moduleid="1f16ca4d-46f5-48e2-9b73-1507eaf3f82e"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="15ms"
+							durationms="15"
+							type="test module"
+							rid="1204bc2701445890"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="LocatingFolderForUninstallation (testAutomation)"
+							moduleid="b4ef6e13-52e8-4a18-800c-667fef2e408f"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="18.35s"
+							durationms="18347"
+							type="test module"
+							rid="7b4bb56c6698abf"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="ClickOnUninstall (testAutomation)"
+							moduleid="befbd714-b159-456d-afeb-2ef6857441c7"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="2012ms"
+							durationms="2012"
+							type="test module"
+							rid="152758aa3250958e"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseAllApplications (testAutomation)"
+							moduleid="1f16ca4d-46f5-48e2-9b73-1507eaf3f82e"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="5023ms"
+							durationms="5023"
+							type="test module"
+							rid="d62aff487e8e70c"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="DeleteAllFolders (testAutomation)"
+							moduleid="0d10b971-4b5d-4786-80f8-83de294a3f77"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="2012ms"
+							durationms="2012"
+							type="test module"
+							rid="f0b2b5e978c60"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseFolder (testAutomation)"
+							moduleid="221f8929-9e4f-46ee-9ae0-2c2cd92a28dd"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+					</activity>
+					<activity
+						result="Failed"
+						duration="1m"
+						durationms="61549"
+						type="test case"
+						rid="2c313bd1e324d4e5"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="1"
+						totalblockedcount="0"
+						testcasename="Install_Desktop_8_Application"
+						testcaseid="2fc0cdfd-86f1-41ab-a19f-43dcc587efe6"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="1m"
+							durationms="61549"
+							type="test module"
+							rid="1803dd411df0b760"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="SelectFolderForInstallation (testAutomation)"
+							moduleid="17bf0119-2d26-4d48-b285-149460b6a213"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<errmsg>
+								Failed to find item 'testAutomationRepository.WizardForm.Next'.
+							</errmsg>
+							<varbindings>
+								<varbinding
+									name="SearchName"
+									value="●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●"/>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="08:00.671"
+								timeRelativeToTestModuleStartTime="00:00.000"
+								timeWallClock="12:29:45"
+								time="08:00.671"
+								level="Info"
+								category="Data"
+								errimg="images_testtooltip_20160422_122144\testtooltip_20160422_122144_136b0c9e_trace.jpg"
+								errthumb="images_testtooltip_20160422_122144\testtooltip_20160422_122144_136b0c9e_trace_thumb.jpg">
+								<message>
+									Current variable values:<br/>$SearchName = '&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;'
+								</message>
+								<metainfo
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="09:02.065"
+								timeRelativeToTestModuleStartTime="01:01.393"
+								timeWallClock="12:30:46"
+								time="09:02.065"
+								level="Error"
+								category="Module"
+								errimg="images_testtooltip_20160422_122144\testtooltip_20160422_122144_668896d9_trace.jpg"
+								errthumb="images_testtooltip_20160422_122144\testtooltip_20160422_122144_668896d9_trace_thumb.jpg">
+								<message>
+									Failed to find item 'testAutomationRepository.WizardForm.Next'.<br/>No element found for path '/form[@controlname='WizardForm']/?/?/button[@accessiblename='Next &gt;']' within 1m.
+								</message>
+								<metainfo
+									stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.WizardFormAppFolder.get_Next() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\testAutomationRepository.cs:line 1086
+   at testAutomation.SelectFolderForInstallation.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\SelectFolderForInstallation.cs:line 65
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\SelectFolderForInstallation.cs"
+									codeline="65"
+									type="repoitem"
+									path="/form[@controlname='WizardForm']/?/?/button[@accessiblename='Next >']"
+									fullname="testAutomationRepository.WizardForm.Next"
+									id="f933339e402e488ab32eb7f609fc1232"
+									timeout="60000"
+									loglvl="Error"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Failed"
+						duration="109ms"
+						durationms="109"
+						type="test case"
+						rid="f960bbbbcafa58"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="1"
+						totalblockedcount="0"
+						testcasename="TestCase3"
+						testcaseid="44945689-df3f-40e6-aec0-f18c64917e2f"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="109ms"
+							durationms="109"
+							type="test module"
+							rid="11bafba662635ef4"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CreateOrGetLicense (testAutomation)"
+							moduleid="9e3a318c-f413-42d3-8ff9-2be04b1a5cf0"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<errmsg>
+								Failed to run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\language-manager\SYSTRAN-Desktop-Language-Manager.exe'.
+							</errmsg>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="09:02.236"
+								timeRelativeToTestModuleStartTime="00:00.015"
+								timeWallClock="12:30:46"
+								time="09:02.236"
+								level="Error"
+								category="Module"
+								errimg="images_testtooltip_20160422_122144\testtooltip_20160422_122144_58f3f08d_trace.jpg"
+								errthumb="images_testtooltip_20160422_122144\testtooltip_20160422_122144_58f3f08d_trace_thumb.jpg">
+								<message>
+									Failed to run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\language-manager\SYSTRAN-Desktop-Language-Manager.exe'.<br/>The system cannot find the file specified
+								</message>
+								<metainfo
+									stacktrace="   at Ranorex.Host.RunApplication(String fileName, String arguments, String workingDirectory, Boolean maximized)
+   at testAutomation.CreateOrGetLicense.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\CreateOrGetLicense.cs:line 51
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\CreateOrGetLicense.cs"
+									codeline="51"
+									loglvl="Error"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

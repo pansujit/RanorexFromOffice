@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="c6062ba790d48cb"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="2"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/27/2016 5:46:37 PM"
+		timestampiso="2016-06-27T15:46:37"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="0ms"
+			durationms="0"
+			type="test suite"
+			rid="c3ee62540bc8df7"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="2"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="testtooltip"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="0ms"
+				durationms="0"
+				type="test case"
+				rid="978876ef97568e0"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="2"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="Global-Desktop-Test"
+				testcaseid="dcd41f78-b1fe-438f-8211-f350028d77b3"
+				datasource="testExcelConnector"
+				iterationcount="2"
+				maxchildren="6">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="0ms"
+					durationms="0"
+					type="test case iteration"
+					rid="25688101637f5fdf"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Global-Desktop-Test"
+					iteration="1">
+					<datarow>
+						<field
+							name="Edition">
+							&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="39.83s"
+						durationms="39834"
+						type="test case"
+						rid="c74622f2a8add"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="TestCase3"
+						testcaseid="44945689-df3f-40e6-aec0-f18c64917e2f"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="17.44s"
+							durationms="17442"
+							type="test module"
+							rid="285a5dcec2c8df4"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartFirefoxSystran (testAutomation)"
+							moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="5979ms"
+							durationms="5979"
+							type="test module"
+							rid="cf3ea124f4ea66d"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CopyLicense (testAutomation)"
+							moduleid="d75a25e9-91d4-427c-809f-2cb2d4036d6d"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="15.13s"
+							durationms="15125"
+							type="test module"
+							rid="6b5a772a5af4e44"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="Add_Licence (testSolution)"
+							moduleid="671a784a-dac8-47f0-992c-71e532fc5ad7"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:25.778"
+								timeRelativeToTestModuleStartTime="00:00.003"
+								timeWallClock="17:47:02"
+								time="00:25.778"
+								level="Info"
+								category="Application">
+								<message>
+									Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\language-manager\SYSTRAN-Desktop-Language-Manager.exe' with arguments '--force-renderer-accessibility' in normal mode.
+								</message>
+								<metainfo
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testSolution\testSolution\Add_Licence.cs"
+									codeline="49"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:28.851"
+								timeRelativeToTestModuleStartTime="00:03.076"
+								timeWallClock="17:47:06"
+								time="00:28.851"
+								level="Info"
+								category="Application">
+								<message>
+									Run application 'C:\Program Files\Internet Explorer\iexplore.exe' with arguments '' in normal mode.
+								</message>
+								<metainfo
+									itemindex="2"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testSolution\testSolution\Add_Licence.cs"
+									codeline="56"
+									loglvl="Info"/>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="4ms"
+							durationms="4"
+							type="test module"
+							rid="1b7626db6a99e69"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseIE (testSolution)"
+							moduleid="ab847cf6-09b7-4745-81d0-2ce778e199d7"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="0ms"
+						durationms="0"
+						type="test module"
+						rid="103bd3064994ac94"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="UserCodeModule2 (testAutomation)"
+						moduleid="13939d5a-c006-428e-83bf-bf3ac1af1ceb"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings/>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

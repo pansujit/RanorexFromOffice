@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="432ade9fdaa291b"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="4"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/5/2016 5:46:44 PM"
+		timestampiso="2016-04-05T15:46:44"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="3140ms"
+			durationms="3140"
+			type="test suite"
+			rid="1b615d1daba9a7c0"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="4"
+			testsuitename="QFT"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="2286ms"
+				durationms="2286"
+				type="test case"
+				rid="1c0e06b7bd6ad9c"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="4"
+				testcasename="TestCase"
+				testcaseid="8f5703c3-88b5-4528-b802-451fd0c24d98"
+				datasource="LocationValue"
+				iterationcount="5"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="2272ms"
+					durationms="2272"
+					type="test case iteration"
+					rid="1d9ea646c7600188"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="1">
+					<datarow>
+						<field
+							name="Location">
+							C:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\translateFile
+						</field>
+						<field
+							name="fileFormat">
+							*.docx
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="2207ms"
+						durationms="2207"
+						type="test module"
+						rid="2737a317fc8ba9"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Recording1"
+						moduleid="7b5581e5-ca0e-4934-8fae-315d09b12231"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<errmsg>
+							Failed to move to location '93;4' within element '{Unknown:}'.
+						</errmsg>
+						<varbindings>
+							<varbinding
+								name="varLocation"
+								value="C:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\translateFile"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.087"
+							timeRelativeToTestModuleStartTime="00:00.005"
+							timeWallClock="17:46:45"
+							time="00:01.087"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varLocation = 'C:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\translateFile'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.157"
+							timeRelativeToTestModuleStartTime="00:00.075"
+							timeWallClock="17:46:45"
+							time="00:01.157"
+							level="Info"
+							category="Application"
+							errimg="images_QFT_20160405_174644\QFT_20160405_174644_38df7ad7_trace.jpg"
+							errthumb="images_QFT_20160405_174644\QFT_20160405_174644_38df7ad7_trace_thumb.jpg">
+							<message>
+								Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SYSTRAN.QuickFileTranslator.exe' with arguments '' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\Recording1.cs"
+								codeline="95"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.304"
+							timeRelativeToTestModuleStartTime="00:00.222"
+							timeWallClock="17:46:45"
+							time="00:01.304"
+							level="Info"
+							category="Mouse"
+							errimg="images_QFT_20160405_174644\QFT_20160405_174644_3bdc5d4a_trace.jpg"
+							errthumb="images_QFT_20160405_174644\QFT_20160405_174644_3bdc5d4a_trace_thumb.jpg">
+							<message>
+								Mouse Left Click item 'SYSTRANQuickFileTranslator.SomeElement' at 93;4.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[2]/container/element[3]/container/container[1]/text[@automationid='mSourceRootFolderTextBox']/?/?/container[@automationid='PART_InnerGrid']/container[@automationid='PART_ContentHost']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/element[1]"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.SomeElement"
+								id="56d5c070c9b048db9e2a96759f1b1e83"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\Recording1.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:03.128"
+							timeRelativeToTestModuleStartTime="00:02.046"
+							timeWallClock="17:46:47"
+							time="00:03.128"
+							level="Error"
+							category="Module"
+							errimg="images_QFT_20160405_174644\QFT_20160405_174644_62eaea5e_trace.jpg"
+							errthumb="images_QFT_20160405_174644\QFT_20160405_174644_62eaea5e_trace_thumb.jpg">
+							<message>
+								Failed to move to location '93;4' within element '{Unknown:}'.<br/>The pointer cannot be moved to point '{X=-2481,Y=322}' since it is outside of the visible desktop.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Adapter.Click(Location location)
+   at QFT.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\Recording1.cs:line 100
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\Recording1.cs"
+								codeline="100"
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[2]/container/element[3]/container/container[1]/text[@automationid='mSourceRootFolderTextBox']/?/?/container[@automationid='PART_InnerGrid']/container[@automationid='PART_ContentHost']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/element[1]"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.SomeElement"
+								id="56d5c070c9b048db9e2a96759f1b1e83"
+								timeout="60000"
+								loglvl="Error"
+								itemindex="1"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test case iteration"
+					rid="d928312db7e4f40"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="2">
+					<datarow>
+						<field
+							name="Location">
+						</field>
+						<field
+							name="fileFormat">
+							*.txt
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test case iteration"
+					rid="191817a075c4a8b2"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="3">
+					<datarow>
+						<field
+							name="Location">
+						</field>
+						<field
+							name="fileFormat">
+							*.html
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test case iteration"
+					rid="258f4f188ae98c2"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="4">
+					<datarow>
+						<field
+							name="Location">
+						</field>
+						<field
+							name="fileFormat">
+							*.htm
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test case iteration"
+					rid="210c37eccebb28ec"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="5">
+					<datarow>
+						<field
+							name="Location">
+						</field>
+						<field
+							name="fileFormat">
+							*.xhtml
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

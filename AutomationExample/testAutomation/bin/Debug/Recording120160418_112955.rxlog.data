@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4c37f505968d335"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/18/2016 11:29:58 AM"
+		timestampiso="2016-04-18T09:29:58"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.311"
+			timeRelativeToTestModuleStartTime="00:00.312"
+			timeWallClock="11:29:58"
+			time="00:00.311"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PackagesMozillaFirefox.Downloads' at 20;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Packages\ -\ Mozilla\ Firefo']/?/?/button[@accessiblename='Downloads']"
+				fullname="testAutomationRepository.PackagesMozillaFirefox.Downloads"
+				id="c99862fe9e174fe8831e68dcd1effce2"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.571"
+			timeRelativeToTestModuleStartTime="00:01.572"
+			timeWallClock="11:30:00"
+			time="00:01.571"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Valid='True') on item 'PackagesMozillaFirefox.Downloads'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Packages\ -\ Mozilla\ Firefo']/?/?/button[@accessiblename='Downloads']"
+				fullname="testAutomationRepository.PackagesMozillaFirefox.Downloads"
+				id="c99862fe9e174fe8831e68dcd1effce2"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.659"
+			timeRelativeToTestModuleStartTime="00:01.660"
+			timeWallClock="11:30:00"
+			time="00:01.659"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Valid' of element for item 'testAutomationRepository.PackagesMozillaFirefox.Downloads' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Packages\ -\ Mozilla\ Firefo']/?/?/button[@accessiblename='Downloads']"
+				fullname="testAutomationRepository.PackagesMozillaFirefox.Downloads"
+				id="c99862fe9e174fe8831e68dcd1effce2"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.760"
+			timeRelativeToTestModuleStartTime="00:01.761"
+			timeWallClock="11:30:00"
+			time="00:01.760"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Downloads') on item 'PackagesMozillaFirefox.Downloads'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Packages\ -\ Mozilla\ Firefo']/?/?/button[@accessiblename='Downloads']"
+				fullname="testAutomationRepository.PackagesMozillaFirefox.Downloads"
+				id="c99862fe9e174fe8831e68dcd1effce2"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.853"
+			timeRelativeToTestModuleStartTime="00:01.854"
+			timeWallClock="11:30:00"
+			time="00:01.853"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'testAutomationRepository.PackagesMozillaFirefox.Downloads' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Packages\ -\ Mozilla\ Firefo']/?/?/button[@accessiblename='Downloads']"
+				fullname="testAutomationRepository.PackagesMozillaFirefox.Downloads"
+				id="c99862fe9e174fe8831e68dcd1effce2"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="2"/>
+		</item>
+	</activity>
+</report>

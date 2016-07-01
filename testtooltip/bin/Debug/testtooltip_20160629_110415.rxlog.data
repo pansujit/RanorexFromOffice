@@ -1,0 +1,945 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f916b438fbd6630"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/29/2016 11:04:15 AM"
+		timestampiso="2016-06-29T09:04:15"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="23.88s"
+			durationms="23875"
+			type="test suite"
+			rid="29a2b96e9a61aa9a"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="testtooltip"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="23.86s"
+				durationms="23859"
+				type="folder"
+				rid="18d75d6005afa678"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				foldername="Dictionary_Manager">
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="23.86s"
+					durationms="23856"
+					type="test case"
+					rid="1def9112f339c26e"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="File_Create_User_Dictionary"
+					testcaseid="220bd462-d746-45a9-be0e-22b95f1b64be"
+					maxchildren="0">
+					<params/>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="222ms"
+						durationms="222"
+						type="test case setup"
+						rid="16d66f7e6c1b7d"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="180ms"
+							durationms="180"
+							type="test module"
+							rid="1488b76d05e8131c"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartDictManager (DictionaryManager)"
+							moduleid="5421c1fd-a67e-4f0a-948b-385e4d19afa1"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.271"
+								timeRelativeToTestModuleStartTime="00:00.006"
+								timeWallClock="11:04:16"
+								time="00:00.271"
+								level="Info"
+								category="Application">
+								<message>
+									Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SystranDictionaryManager.exe' with arguments '' in normal mode.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\StartDictManager.cs"
+									codeline="82"
+									loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="4409ms"
+						durationms="4409"
+						type="test module"
+						rid="3dcaab8595d4228"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="SelectNewFromMenuDict (DictionaryManager)"
+						moduleid="fed27d7c-9488-4ba5-ae02-75fbbb151835"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.451"
+							timeRelativeToTestModuleStartTime="00:00.003"
+							timeWallClock="11:04:16"
+							time="00:00.451"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANDictionaryManager.File' at CenterLeft.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='File']"
+								fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.File"
+								id="fc52f8c5fc9c44eca41d8c29303ea8b2"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\SelectNewFromMenuDict.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:04.105"
+							timeRelativeToTestModuleStartTime="00:03.657"
+							timeWallClock="11:04:19"
+							time="00:04.105"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SystranDictionaryManager1.MenuPopup' at 16;12.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@processname='SystranDictionaryManager' and @controltypename='DropDownForm']/?/?/contextmenu[@accessiblerole='MenuPopup']"
+								fullname="DictionaryManagerRepository.SystranDictionaryManager1.MenuPopup"
+								id="43244df9523348c8bfb081bfa2880e0a"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\SelectNewFromMenuDict.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="782ms"
+						durationms="782"
+						type="test module"
+						rid="1c3da10e72be8992"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="ClickOnDictType (DictionaryManager)"
+						moduleid="317a1fda-76a1-4e9c-a0b7-b8c1d05556f2"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:04.861"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="11:04:20"
+							time="00:04.861"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Down item 'DictionaryPropertiesBaseForm.ButtonEditorDropdownButton' at 8;8.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='DictionaryPropertiesBaseForm']/element[@controlname='cbDictType']/button[@automationid='[Editor] dropdown button']"
+								fullname="DictionaryManagerRepository.DictionaryPropertiesBaseForm.ButtonEditorDropdownButton"
+								id="1c011f33182f456e963bbe0ab2b84e0a"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\ClickOnDictType.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="765ms"
+						durationms="765"
+						type="test module"
+						rid="d82964958fb7904"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="SelectDictUserDictionary (DictionaryManager)"
+						moduleid="fcdb93d8-c8ad-41cf-b57e-ee4074fdff5f"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.645"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="11:04:21"
+							time="00:05.645"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SystranDictionaryManager1.ListItemValuelistValueListItem2' at 206;6.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@processname='SystranDictionaryManager' and @controltypename='DropDownForm']/?/?/listitem[@automationid='[valuelist] ValueListItem 2']"
+								fullname="DictionaryManagerRepository.SystranDictionaryManager1.ListItemValuelistValueListItem2"
+								id="730cdbd9e9d04323a1d188e41aa1a641"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\SelectDictUserDictionary.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="4937ms"
+						durationms="4937"
+						type="test module"
+						rid="e897cb705c3f0"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="CreateDictionary (DictionaryManager)"
+						moduleid="15dac2b0-2ace-4fb4-b5ca-21147abeda91"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.415"
+							timeRelativeToTestModuleStartTime="00:00.003"
+							timeWallClock="11:04:22"
+							time="00:06.415"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DictionaryPropertiesBaseForm.TextEditorEditArea' at 81;7.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='DictionaryPropertiesBaseForm']/element[@controlname='txtDictName']/text[@automationid='[Editor] Edit Area']"
+								fullname="DictionaryManagerRepository.DictionaryPropertiesBaseForm.TextEditorEditArea"
+								id="904d0c8abb2b45b6b520c5061e8b199b"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\CreateDictionary.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.153"
+							timeRelativeToTestModuleStartTime="00:00.741"
+							timeWallClock="11:04:22"
+							time="00:07.153"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'NewDict' with focus on 'DictionaryPropertiesBaseForm.TxtDictName'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='DictionaryPropertiesBaseForm']/element[@controlname='txtDictName']"
+								fullname="DictionaryManagerRepository.DictionaryPropertiesBaseForm.TxtDictName"
+								id="3dc5d80aa5ff4865820741a95122387e"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\CreateDictionary.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:08.056"
+							timeRelativeToTestModuleStartTime="00:01.644"
+							timeWallClock="11:04:23"
+							time="00:08.056"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DictionaryPropertiesBaseForm.TextEditorEditArea1' at 62;9.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='DictionaryPropertiesBaseForm']/element[@controlname='txtAuthor']/text[@automationid='[Editor] Edit Area']"
+								fullname="DictionaryManagerRepository.DictionaryPropertiesBaseForm.TextEditorEditArea1"
+								id="536f7b9532d14e61820f061525a4baf8"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\CreateDictionary.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:08.809"
+							timeRelativeToTestModuleStartTime="00:02.397"
+							timeWallClock="11:04:24"
+							time="00:08.809"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'sujit' with focus on 'DictionaryPropertiesBaseForm.TxtAuthor'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='DictionaryPropertiesBaseForm']/element[@controlname='txtAuthor']"
+								fullname="DictionaryManagerRepository.DictionaryPropertiesBaseForm.TxtAuthor"
+								id="c2683cab77d446a885fc2473eb0088c3"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\CreateDictionary.cs"
+								codeline="94"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.491"
+							timeRelativeToTestModuleStartTime="00:03.079"
+							timeWallClock="11:04:25"
+							time="00:09.491"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DictionaryPropertiesBaseForm.ButtonEditorDropdownButton2' at 9;13.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='DictionaryPropertiesBaseForm']/?/?/button[@automationid='[Editor] dropdown button']"
+								fullname="DictionaryManagerRepository.DictionaryPropertiesBaseForm.ButtonEditorDropdownButton2"
+								id="b01bc692ac864aaab960308f829ca076"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\CreateDictionary.cs"
+								codeline="98"
+								itemindex="4"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.593"
+							timeRelativeToTestModuleStartTime="00:04.181"
+							timeWallClock="11:04:26"
+							time="00:10.593"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SystranDictionaryManager1.ListItemValuelistValueListItem0' at 153;10.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@processname='SystranDictionaryManager' and @controltypename='DropDownForm']/?/?/listitem[@automationid='[valuelist] ValueListItem 0']"
+								fullname="DictionaryManagerRepository.SystranDictionaryManager1.ListItemValuelistValueListItem0"
+								id="b1dc373e0d66436c841053b257fdb84d"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\CreateDictionary.cs"
+								codeline="102"
+								itemindex="5"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="1479ms"
+						durationms="1479"
+						type="test module"
+						rid="df6650b188679dc"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="SelectTargetDictFrench (DictionaryManager)"
+						moduleid="7de15295-cb11-4f6a-976b-7618a1c4edb1"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.353"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="11:04:27"
+							time="00:11.353"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DictionaryPropertiesBaseForm.ButtonEditorDropdownButton1' at 6;6.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='DictionaryPropertiesBaseForm']/element[@controlname='cbTrgLang']/button[@automationid='[Editor] dropdown button']"
+								fullname="DictionaryManagerRepository.DictionaryPropertiesBaseForm.ButtonEditorDropdownButton1"
+								id="9497a5b2c42349f2aa3160dd0b81166d"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\SelectTargetDictFrench.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.096"
+							timeRelativeToTestModuleStartTime="00:00.744"
+							timeWallClock="11:04:27"
+							time="00:12.096"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SystranDictionaryManager1.ListItemValuelistValueListItem0' at 98;7.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@processname='SystranDictionaryManager' and @controltypename='DropDownForm']/?/?/listitem[@automationid='[valuelist] ValueListItem 0']"
+								fullname="DictionaryManagerRepository.SystranDictionaryManager1.ListItemValuelistValueListItem0"
+								id="b1dc373e0d66436c841053b257fdb84d"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\SelectTargetDictFrench.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="1576ms"
+						durationms="1576"
+						type="test module"
+						rid="7fcf2f7f787ab70"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="ClickCreateDictionaryOk (DictionaryManager)"
+						moduleid="04148e55-c785-44b2-9757-51f0f7a7c267"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.836"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="11:04:28"
+							time="00:12.836"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DictionaryPropertiesBaseForm.ButtonOK' at 17;13.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@controlname='DictionaryPropertiesBaseForm']/?/?/button[@accessiblename='OK']"
+								fullname="DictionaryManagerRepository.DictionaryPropertiesBaseForm.ButtonOK"
+								id="11ca7e80ac75424da58576c27164c6de"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\ClickCreateDictionaryOk.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.858"
+							timeRelativeToTestModuleStartTime="00:01.024"
+							timeWallClock="11:04:29"
+							time="00:13.858"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 500ms.
+							</message>
+							<metainfo
+								itemindex="1"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\ClickCreateDictionaryOk.cs"
+								codeline="86"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="1890ms"
+						durationms="1890"
+						type="test module"
+						rid="9bf794c6b76a08c"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="SelectOprnFromMenuDict (DictionaryManager)"
+						moduleid="1ec11d49-26cb-4d0d-8383-81c9108d30b1"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.415"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="11:04:30"
+							time="00:14.415"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANDictionaryManager.File' at 21;13.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='File']"
+								fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.File"
+								id="fc52f8c5fc9c44eca41d8c29303ea8b2"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\SelectOprnFromMenuDict.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.567"
+							timeRelativeToTestModuleStartTime="00:01.154"
+							timeWallClock="11:04:31"
+							time="00:15.567"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SystranDictionaryManager1.MenuPopup' at 37;36.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@processname='SystranDictionaryManager' and @controltypename='DropDownForm']/?/?/contextmenu[@accessiblerole='MenuPopup']"
+								fullname="DictionaryManagerRepository.SystranDictionaryManager1.MenuPopup"
+								id="43244df9523348c8bfb081bfa2880e0a"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\SelectOprnFromMenuDict.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="1959ms"
+						durationms="1959"
+						type="test module"
+						rid="18261ba807fd34f6"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="ClickOnUserDictionaries (DictionaryManager)"
+						moduleid="57bdc419-1ee8-4b59-822d-1356be49a70b"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.307"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="11:04:32"
+							time="00:16.307"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANDictionaryManager.UserDictionaries' at 9;6.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mView']/?/?/treeitem[@accessiblename='User Dictionaries']"
+								fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.UserDictionaries"
+								id="afa6b7288c18459285439594f4fc71df"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\ClickOnUserDictionaries.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.319"
+							timeRelativeToTestModuleStartTime="00:01.014"
+							timeWallClock="11:04:33"
+							time="00:17.319"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANDictionaryManager.SdmWindowOpen.TreeItemENFRNewDict' at 48;8.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mView']/?/?/treeitem[@accessiblename='[EN-FR] NewDict']"
+								fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.SdmWindowOpen.TreeItemENFRNewDict"
+								id="8462ab6d7409438ba4f808463aae6bd0"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\ClickOnUserDictionaries.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="1877ms"
+						durationms="1877"
+						type="test module"
+						rid="2f8f9605100d4c0"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="ValidateCreateDictionary (DictionaryManager)"
+						moduleid="aed90b4e-c812-460d-8531-8b29a402768c"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:18.269"
+							timeRelativeToTestModuleStartTime="00:00.003"
+							timeWallClock="11:04:34"
+							time="00:18.269"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text='Dictionary type:') on item 'SYSTRANDictionaryManager.SdmWindowOpen.DictionaryType'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/?/?/container[@controlname='mDictionaryPropertiesView.ClientArea']/text[@caption='Dictionary type:']"
+								fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.SdmWindowOpen.DictionaryType"
+								id="b779f7b450ef47dfb0d86e41c5f68e90"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\ValidateCreateDictionary.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:18.715"
+							timeRelativeToTestModuleStartTime="00:00.449"
+							timeWallClock="11:04:34"
+							time="00:18.715"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'DictionaryManagerRepository.SYSTRANDictionaryManager.SdmWindowOpen.DictionaryType' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/?/?/container[@controlname='mDictionaryPropertiesView.ClientArea']/text[@caption='Dictionary type:']"
+								fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.SdmWindowOpen.DictionaryType"
+								id="b779f7b450ef47dfb0d86e41c5f68e90"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\ValidateCreateDictionary.cs"
+								codeline="83"
+								loglvl="Success"
+								itemindex="0"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:18.857"
+							timeRelativeToTestModuleStartTime="00:00.591"
+							timeWallClock="11:04:34"
+							time="00:18.857"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text='User Dictionaries') on item 'SYSTRANDictionaryManager.SdmWindowOpen.UserDictionaries'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/?/?/container[@controlname='mDictionaryPropertiesView.ClientArea']/text[@caption='User Dictionaries']"
+								fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.SdmWindowOpen.UserDictionaries"
+								id="96ada9262d4c43bf9e7ff51712cc9dd8"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\ValidateCreateDictionary.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.112"
+							timeRelativeToTestModuleStartTime="00:00.846"
+							timeWallClock="11:04:34"
+							time="00:19.112"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'DictionaryManagerRepository.SYSTRANDictionaryManager.SdmWindowOpen.UserDictionaries' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/?/?/container[@controlname='mDictionaryPropertiesView.ClientArea']/text[@caption='User Dictionaries']"
+								fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.SdmWindowOpen.UserDictionaries"
+								id="96ada9262d4c43bf9e7ff51712cc9dd8"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\ValidateCreateDictionary.cs"
+								codeline="87"
+								loglvl="Success"
+								itemindex="1"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.260"
+							timeRelativeToTestModuleStartTime="00:00.994"
+							timeWallClock="11:04:35"
+							time="00:19.260"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text='Author:') on item 'SYSTRANDictionaryManager.SdmWindowOpen.Author'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/?/?/container[@controlname='mDictionaryPropertiesView.ClientArea']/text[@caption='Author:']"
+								fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.SdmWindowOpen.Author"
+								id="210df204cad04fdda318328242c37327"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\ValidateCreateDictionary.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.517"
+							timeRelativeToTestModuleStartTime="00:01.251"
+							timeWallClock="11:04:35"
+							time="00:19.517"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'DictionaryManagerRepository.SYSTRANDictionaryManager.SdmWindowOpen.Author' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/?/?/container[@controlname='mDictionaryPropertiesView.ClientArea']/text[@caption='Author:']"
+								fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.SdmWindowOpen.Author"
+								id="210df204cad04fdda318328242c37327"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\ValidateCreateDictionary.cs"
+								codeline="91"
+								loglvl="Success"
+								itemindex="2"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.694"
+							timeRelativeToTestModuleStartTime="00:01.428"
+							timeWallClock="11:04:35"
+							time="00:19.694"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text='sujit') on item 'SYSTRANDictionaryManager.SdmWindowOpen.Sujit'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/?/?/container[@controlname='mDictionaryPropertiesView.ClientArea']/text[@caption='sujit']"
+								fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.SdmWindowOpen.Sujit"
+								id="3e3ec447b2c34cf2bd53de96b11336fe"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\ValidateCreateDictionary.cs"
+								codeline="94"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.994"
+							timeRelativeToTestModuleStartTime="00:01.728"
+							timeWallClock="11:04:35"
+							time="00:19.994"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'DictionaryManagerRepository.SYSTRANDictionaryManager.SdmWindowOpen.Sujit' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/?/?/container[@controlname='mDictionaryPropertiesView.ClientArea']/text[@caption='sujit']"
+								fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.SdmWindowOpen.Sujit"
+								id="3e3ec447b2c34cf2bd53de96b11336fe"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\ValidateCreateDictionary.cs"
+								codeline="95"
+								loglvl="Success"
+								itemindex="3"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="1708ms"
+						durationms="1708"
+						type="test module"
+						rid="f4fd1d0f4b41d31"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="DeleteUserDictionary (DictionaryManager)"
+						moduleid="2e07f4a6-6335-4b78-8d99-fbfc39152054"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:20.147"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="11:04:35"
+							time="00:20.147"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANDictionaryManager.SdmWindowOpen.PushButton' at 13;15.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']//toolbar[@accessiblename='Toolbar']/button[@accessiblerole='PushButton' and @text='' and @accessibledescription~'^Delete\ selected\ dictionar']"
+								fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.SdmWindowOpen.PushButton"
+								id="4ec9cfdca0414b1daa01b899f92b47de"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\DeleteUserDictionary.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:21.120"
+							timeRelativeToTestModuleStartTime="00:00.975"
+							timeWallClock="11:04:36"
+							time="00:21.120"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ConfirmDictionaryDelete.ButtonYes' at 43;0.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Confirm Dictionary delete']/button[@text='&amp;Yes']"
+								fullname="DictionaryManagerRepository.ConfirmDictionaryDelete.ButtonYes"
+								id="efc42e7095d542edad1af74260711a15"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\DeleteUserDictionary.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="2223ms"
+						durationms="2223"
+						type="test case teardown"
+						rid="282716af9c50c46"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="2221ms"
+							durationms="2221"
+							type="test module"
+							rid="2c2c074cc9d836d0"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseDictManager (DictionaryManager)"
+							moduleid="ac75f911-821c-496c-9c55-af0835483337"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:21.858"
+								timeRelativeToTestModuleStartTime="00:00.002"
+								timeWallClock="11:04:37"
+								time="00:21.858"
+								level="Info"
+								category="Application">
+								<message>
+									Closing application containing item 'SYSTRANDictionaryManager'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']"
+									fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.Self"
+									id="f7845a0081de470693893fd5aeca1233"
+									timeout="30000"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\helloproj\CloseDictManager.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

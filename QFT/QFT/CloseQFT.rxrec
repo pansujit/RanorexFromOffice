@@ -1,0 +1,642 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.6.0"
+id="ed5161d2-756c-4034-8b0b-5bfa529cbda9"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		CloseQFT
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseQFT"
+	namespace="QFT"/>
+	<variables/>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="8c6bc11f-d6c3-4804-b6e1-a64cd2a2fd3f"
+		method="CloseWindow"
+		graceperiod="0ms">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="63294ffd-a186-4465-b9d6-556a6c441362">
+				<element
+				role="form"
+				prefcap="form"
+				capabilities="nativewindow, wpfwin32element, wpfelement, wpfdebug"
+				flavor="wpf"
+				visible="False"
+				valid="False"
+				enabled="False"
+				hasfocus="False"
+				dontcache="False"
+				minattr="3"
+				index="23"
+				rect="0,0,0,0"
+				snapElem="">
+					<attribute
+					name="active"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						HwndWrapper[SYSTRAN.QuickFileTranslator.exe;;266fc953-a9f9-4368-a3c5-e2682d2f03d4]
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						3939502
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Version=5.4.6.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a">
+						LeftToRightReading
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Version=5.4.6.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a">
+						Tiled
+					</attribute>
+					<attribute
+					name="wpfnative"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.ContentControl
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						SYSTRAN.QuickFileTranslator.MainWindow
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						MainWindow
+					</attribute>
+					<attribute
+					name="dependencyobjecttypelineage"
+					type="System.String[]">
+						SYSTRAN.QuickFileTranslator.MainWindow;MahApps.Metro.Controls.MetroWindow;System.Windows.Window;System.Windows.Controls.ContentControl;System.Windows.Controls.Control;System.Windows.FrameworkElement;System.Windows.UIElement;System.Windows.Media.Visual;
+					</attribute>
+					<attribute
+					name="ranorexobjectid"
+					type="System.Guid">
+						e4e58dd1-cc34-4567-928d-e24d04bc4c3b
+					</attribute>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.ActualHeight property of type Double."/>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.ActualWidth property of type Double."/>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.AllowDrop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="AllowsTransparency"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.AllowsTransparency property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Background"
+					type="System.Windows.Media.Brush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.Background property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BaseUri"
+					type="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.BaseUri property of type Uri."
+					readonly="False"/>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="BorderBrush"
+					type="System.Windows.Media.Brush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.BorderBrush property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.ClipToBounds property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Content"
+					type="System.Object"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.Content property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContentStringFormat"
+					type="System.String"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.ContentStringFormat property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.DataContext property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="EnableDWMDropShadow"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.EnableDWMDropShadow property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.FlowDirection property of type FlowDirection."
+					readonly="False"/>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.Focusable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="FontSize"
+					type="System.Double"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.FontSize property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.ForceCursor property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Foreground"
+					type="System.Windows.Media.Brush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.Foreground property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="GlowBrush"
+					type="System.Windows.Media.SolidColorBrush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.GlowBrush property of type SolidColorBrush."
+					readonly="False"/>
+					<dynamicattribute
+					name="HasContent"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.HasContent property of type Boolean."/>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.Height property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="HorizontalContentAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.HorizontalContentAlignment property of type HorizontalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Icon"
+					type="System.Windows.Media.ImageSource, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.Icon property of type ImageSource."
+					readonly="False"/>
+					<dynamicattribute
+					name="IconBitmapScalingMode"
+					type="System.Windows.Media.BitmapScalingMode, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.IconBitmapScalingMode property of type BitmapScalingMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="IconEdgeMode"
+					type="System.Windows.Media.EdgeMode, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.IconEdgeMode property of type EdgeMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="IgnoreTaskbarOnMaximize"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.IgnoreTaskbarOnMaximize property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsActive"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.IsActive property of type Boolean."/>
+					<dynamicattribute
+					name="IsCloseButtonEnabled"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.IsCloseButtonEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.IsHitTestVisible property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.IsManipulationEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsMaxRestoreButtonEnabled"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.IsMaxRestoreButtonEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsMinButtonEnabled"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.IsMinButtonEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsTabStop"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.IsTabStop property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsWindowDraggable"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.IsWindowDraggable property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="Left"
+					type="System.Double"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.Left property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.MaxHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.MaxWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.MinHeight property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.MinWidth property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="NonActiveBorderBrush"
+					type="System.Windows.Media.Brush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.NonActiveBorderBrush property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="NonActiveGlowBrush"
+					type="System.Windows.Media.SolidColorBrush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.NonActiveGlowBrush property of type SolidColorBrush."
+					readonly="False"/>
+					<dynamicattribute
+					name="NonActiveWindowTitleBrush"
+					type="System.Windows.Media.Brush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.NonActiveWindowTitleBrush property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.Opacity property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverrideDefaultWindowCommandsBrush"
+					type="System.Windows.Media.SolidColorBrush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.OverrideDefaultWindowCommandsBrush property of type SolidColorBrush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.OverridesDefaultStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.RenderTransformOrigin property of type Point."
+					readonly="False"/>
+					<dynamicattribute
+					name="ResizeMode"
+					type="System.Windows.ResizeMode, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.ResizeMode property of type ResizeMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="SaveWindowPosition"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.SaveWindowPosition property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ShowActivated"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.ShowActivated property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ShowCloseButton"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.ShowCloseButton property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ShowIconOnTitleBar"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.ShowIconOnTitleBar property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ShowInTaskbar"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.ShowInTaskbar property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ShowKeyboardCues"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.ShowKeyboardCues property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ShowMaxRestoreButton"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.ShowMaxRestoreButton property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ShowMinButton"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.ShowMinButton property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ShowSystemMenuOnRightClick"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.ShowSystemMenuOnRightClick property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="ShowTitleBar"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.ShowTitleBar property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="SizeToContent"
+					type="System.Windows.SizeToContent, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.SizeToContent property of type SizeToContent."
+					readonly="False"/>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.SnapsToDevicePixels property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="TabIndex"
+					type="System.Int32"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.TabIndex property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="TaskbarItemInfo"
+					type="System.Windows.Shell.TaskbarItemInfo, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.TaskbarItemInfo property of type TaskbarItemInfo."
+					readonly="False"/>
+					<dynamicattribute
+					name="TitlebarHeight"
+					type="System.Int32"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.TitlebarHeight property of type Int32."
+					readonly="False"/>
+					<dynamicattribute
+					name="TitleCaps"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.TitleCaps property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="TitleForeground"
+					type="System.Windows.Media.Brush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.TitleForeground property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Top"
+					type="System.Double"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.Top property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="Topmost"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.Topmost property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.UseLayoutRounding property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="UseNoneWindowStyle"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.UseNoneWindowStyle property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.VerticalAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="VerticalContentAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.VerticalContentAlignment property of type VerticalAlignment."
+					readonly="False"/>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.Visibility property of type Visibility."
+					readonly="False"/>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.Width property of type Double."
+					readonly="False"/>
+					<dynamicattribute
+					name="WindowState"
+					type="System.Windows.WindowState, PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.WindowState property of type WindowState."
+					readonly="False"/>
+					<dynamicattribute
+					name="WindowTitleBrush"
+					type="System.Windows.Media.Brush, PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.WindowTitleBrush property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="WindowTransitionsEnabled"
+					type="System.Boolean"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.WindowTransitionsEnabled property of type Boolean."
+					readonly="False"/>
+					<dynamicattribute
+					name="XmlNamespaceMaps"
+					type="System.Collections.Hashtable"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.XmlNamespaceMaps property of type Hashtable."
+					readonly="False"/>
+					<dynamicaction
+					displayName="HideOverlay"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.HideOverlay method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="HideOverlayAsync"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.HideOverlayAsync method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Threading.Tasks.Task"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="InitializeComponent"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.InitializeComponent method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="IsOverlayVisible"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.IsOverlayVisible method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Boolean"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="OnApplyTemplate"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.OnApplyTemplate method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShowOverlay"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.ShowOverlay method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="ShowOverlayAsync"
+					description="The WPF SYSTRAN.QuickFileTranslator.MainWindow.ShowOverlayAsync method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Threading.Tasks.Task"/>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	name="QFTRepository"
+	id="4b60c6d7-fbf7-42c8-93b8-c0540cd77548"
+	rxversion="5.4.6.0"
+	relativepath="QFTRepository.rxrep">
+		<codegen
+		classname="QFTRepository"
+		namespace="QFT"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="92f22dce-57ca-4d90-9658-0f48e1d101a4"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseQFT.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

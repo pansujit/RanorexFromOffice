@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="15f28af0af3b2e74"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/28/2016 2:53:41 PM"
+		timestampiso="2016-06-28T12:53:41"
+		timeoutfactor="1"
+		module="StartIESystran">
+		<detail>
+			StartIESystran
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.779"
+			timeRelativeToTestModuleStartTime="00:07.779"
+			timeWallClock="14:53:48"
+			time="00:07.779"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{InputTag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\StartIESystran.cs"
+				codeline="66"
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.277"
+			timeRelativeToTestModuleStartTime="00:10.277"
+			timeWallClock="14:53:51"
+			time="00:10.277"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{InputTag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\StartIESystran.cs"
+				codeline="70"
+				loglvl="Warn"/>
+		</item>
+	</activity>
+</report>

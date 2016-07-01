@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="228fbe27dbb5e210"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/5/2016 6:01:57 PM"
+		timestampiso="2016-04-05T16:01:57"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="4395ms"
+			durationms="4395"
+			type="test suite"
+			rid="910df487d92480"
+			totalerrorcount="0"
+			totalwarningcount="1"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="QFT"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="3615ms"
+				durationms="3615"
+				type="test case"
+				rid="1c312f3d0a40a53"
+				totalerrorcount="0"
+				totalwarningcount="1"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="8f5703c3-88b5-4528-b802-451fd0c24d98"
+				datasource="myConnector"
+				iterationcount="1"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="3604ms"
+					durationms="3604"
+					type="test case iteration"
+					rid="699534063317244"
+					totalerrorcount="0"
+					totalwarningcount="1"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="1">
+					<datarow>
+						<field
+							name="Location">
+							C:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\translateFile
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="3539ms"
+						durationms="3539"
+						type="test module"
+						rid="14dbee807265146"
+						totalerrorcount="0"
+						totalwarningcount="1"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Recording1"
+						moduleid="7b5581e5-ca0e-4934-8fae-315d09b12231"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.030"
+							timeRelativeToTestModuleStartTime="00:00.004"
+							timeWallClock="18:01:58"
+							time="00:01.030"
+							level="Warn"
+							category="Data">
+							<message>
+								The following module variables are not bound to a data column:<br/>varLocation
+							</message>
+							<metainfo
+								loglvl="Warn"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.102"
+							timeRelativeToTestModuleStartTime="00:00.076"
+							timeWallClock="18:01:58"
+							time="00:01.102"
+							level="Info"
+							category="Application">
+							<message>
+								Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SYSTRAN.QuickFileTranslator.exe' with arguments '' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\Recording1.cs"
+								codeline="95"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.272"
+							timeRelativeToTestModuleStartTime="00:00.246"
+							timeWallClock="18:01:58"
+							time="00:01.272"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANQuickFileTranslator.SomeElement' at 93;4.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[2]/container/element[3]/container/container[1]/text[@automationid='mSourceRootFolderTextBox']/?/?/container[@automationid='PART_InnerGrid']/container[@automationid='PART_ContentHost']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/element[1]"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.SomeElement"
+								id="56d5c070c9b048db9e2a96759f1b1e83"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\Recording1.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:03.713"
+							timeRelativeToTestModuleStartTime="00:02.687"
+							timeWallClock="18:02:01"
+							time="00:03.713"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key 'Ctrl+A' Press.
+							</message>
+							<metainfo
+								itemindex="2"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\Recording1.cs"
+								codeline="103"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:03.890"
+							timeRelativeToTestModuleStartTime="00:02.864"
+							timeWallClock="18:02:01"
+							time="00:03.890"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$varLocation'.
+							</message>
+							<metainfo
+								itemindex="3"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\Recording1.cs"
+								codeline="107"
+								loglvl="Info"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

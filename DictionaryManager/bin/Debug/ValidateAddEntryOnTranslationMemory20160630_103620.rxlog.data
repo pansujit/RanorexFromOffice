@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="8e477a072a6a50"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/30/2016 10:36:22 AM"
+		timestampiso="2016-06-30T08:36:22"
+		timeoutfactor="1"
+		module="ValidateAddEntryOnTranslationMemory">
+		<detail>
+			ValidateAddEntryOnTranslationMemory
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.251"
+			timeRelativeToTestModuleStartTime="00:00.251"
+			timeWallClock="10:36:22"
+			time="00:00.251"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (AccessibleDescription='Number of entries: 1') on item 'SYSTRANDictionaryManager.ValidateAddEntryUserDictionary.NumberOfEntries1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']/?/?/form[@controlid='1']//container[@accessiblename='DockTop']/toolbar[@accessiblename='Toolbar']/element[@accessiblename='Number of entries: 1']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateAddEntryUserDictionary.NumberOfEntries1"
+				id="e8700c7716c14da0b6ca48c6974ec008"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateAddEntryOnTranslationMemory.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.312"
+			timeRelativeToTestModuleStartTime="00:01.312"
+			timeWallClock="10:36:23"
+			time="00:01.312"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'AccessibleDescription' of element for item 'DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateAddEntryUserDictionary.NumberOfEntries1' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']/?/?/form[@controlid='1']//container[@accessiblename='DockTop']/toolbar[@accessiblename='Toolbar']/element[@accessiblename='Number of entries: 1']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateAddEntryUserDictionary.NumberOfEntries1"
+				id="e8700c7716c14da0b6ca48c6974ec008"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateAddEntryOnTranslationMemory.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="0"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.421"
+			timeRelativeToTestModuleStartTime="00:01.421"
+			timeWallClock="10:36:23"
+			time="00:01.421"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='&lt;ts fsize='8.25' nval=''/&gt; This is the test.') on item 'SYSTRANDictionaryManager.ValidateAddEntryTranslationMemory.EnglishSourceLanguage'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//table[@controlname='mEntriesView']/row[@accessiblename='-1']/cell[@accessiblename='English (Source language)']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateAddEntryTranslationMemory.EnglishSourceLanguage"
+				id="246ad616e23541ee9de89e48adf1d4c0"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateAddEntryOnTranslationMemory.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.796"
+			timeRelativeToTestModuleStartTime="00:01.796"
+			timeWallClock="10:36:24"
+			time="00:01.796"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateAddEntryTranslationMemory.EnglishSourceLanguage' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//table[@controlname='mEntriesView']/row[@accessiblename='-1']/cell[@accessiblename='English (Source language)']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateAddEntryTranslationMemory.EnglishSourceLanguage"
+				id="246ad616e23541ee9de89e48adf1d4c0"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateAddEntryOnTranslationMemory.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.905"
+			timeRelativeToTestModuleStartTime="00:01.905"
+			timeWallClock="10:36:24"
+			time="00:01.905"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='&lt;ts fsize='8.25' nval=''/&gt;C'est est test.') on item 'SYSTRANDictionaryManager.ValidateAddEntryTranslationMemory.FrenchTargetLanguage'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//table[@controlname='mEntriesView']/row[@accessiblename='-1']/cell[@accessiblename='French (Target language)']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateAddEntryTranslationMemory.FrenchTargetLanguage"
+				id="2765365d131c43ed820f9b5115d85d2a"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateAddEntryOnTranslationMemory.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.234"
+			timeRelativeToTestModuleStartTime="00:02.234"
+			timeWallClock="10:36:24"
+			time="00:02.234"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateAddEntryTranslationMemory.FrenchTargetLanguage' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//table[@controlname='mEntriesView']/row[@accessiblename='-1']/cell[@accessiblename='French (Target language)']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateAddEntryTranslationMemory.FrenchTargetLanguage"
+				id="2765365d131c43ed820f9b5115d85d2a"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateAddEntryOnTranslationMemory.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="2"/>
+		</item>
+	</activity>
+</report>

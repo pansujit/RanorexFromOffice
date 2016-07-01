@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5c112c218a144da"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/21/2016 11:00:46 AM"
+		timestampiso="2016-04-21T09:00:46"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.290"
+			timeRelativeToTestModuleStartTime="00:00.300"
+			timeWallClock="11:00:46"
+			time="00:00.290"
+			level="Info"
+			category="Invoke Action">
+			<message>
+				Invoking EnsureVisible() on item 'Licenses.TranslationServerIncludingFirstBidir'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='trs.systran.net']//div[#'licenseListContent']//div//div[@innertext~'Professional']"
+				fullname="testAutomationRepository.Licenses.TranslationServerIncludingFirstBidir"
+				id="e6e602a2dd54487a88af86bbeebf506c"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.910"
+			timeRelativeToTestModuleStartTime="00:00.920"
+			timeWallClock="11:00:46"
+			time="00:00.910"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Licenses.TranslationServerIncludingFirstBidir' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='trs.systran.net']//div[#'licenseListContent']//div//div[@innertext~'Professional']"
+				fullname="testAutomationRepository.Licenses.TranslationServerIncludingFirstBidir"
+				id="e6e602a2dd54487a88af86bbeebf506c"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.950"
+			timeRelativeToTestModuleStartTime="00:02.960"
+			timeWallClock="11:00:49"
+			time="00:02.950"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Licenses.TranslationServerIncludingFirstBidir' at 96;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='trs.systran.net']//div[#'licenseListContent']//div//div[@innertext~'Professional']"
+				fullname="testAutomationRepository.Licenses.TranslationServerIncludingFirstBidir"
+				id="e6e602a2dd54487a88af86bbeebf506c"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.870"
+			timeRelativeToTestModuleStartTime="00:03.880"
+			timeWallClock="11:00:49"
+			time="00:03.870"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Professional') on item 'Licenses.Professional'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='trs.systran.net']//div[#'licenseListContent']//div[@innertext='Professional']"
+				fullname="testAutomationRepository.Licenses.Professional"
+				id="0f3887c510694caa9db6d6216f9a14aa"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.050"
+			timeRelativeToTestModuleStartTime="00:04.060"
+			timeWallClock="11:00:50"
+			time="00:04.050"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'testAutomationRepository.Licenses.Professional' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='trs.systran.net']//div[#'licenseListContent']//div[@innertext='Professional']"
+				fullname="testAutomationRepository.Licenses.Professional"
+				id="0f3887c510694caa9db6d6216f9a14aa"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\Recording1.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3"/>
+		</item>
+	</activity>
+</report>

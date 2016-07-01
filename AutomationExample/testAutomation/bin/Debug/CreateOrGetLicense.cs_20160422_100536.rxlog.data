@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="dad8b8c2e095940"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/22/2016 10:05:40 AM"
+		timestampiso="2016-04-22T08:05:40"
+		timeoutfactor="1"
+		module="CreateOrGetLicense">
+		<detail>
+			CreateOrGetLicense
+		</detail>
+		<errmsg>
+			Failed to find item 'testAutomationRepository.SYSTRANLanguageManager.Delete'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="01:10.145"
+			timeRelativeToTestModuleStartTime="01:10.146"
+			timeWallClock="10:06:50"
+			time="01:10.145"
+			level="Error"
+			category="Module"
+			errimg=".\CreateOrGetLicense.cs_20160422_100536_263ccb4d_trace.jpg"
+			errthumb=".\CreateOrGetLicense.cs_20160422_100536_263ccb4d_trace_thumb.jpg">
+			<message>
+				Failed to find item 'testAutomationRepository.SYSTRANLanguageManager.Delete'.<br/>No element found for path '/dom[@domain='localhost:3500']//div[#'licenseListContent']/div/div[13]//a[@innertext='Delete']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.SYSTRANLanguageManagerAppFolder.get_Delete() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\testAutomationRepository.cs:line 1435
+   at testAutomation.CreateOrGetLicense.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\CreateOrGetLicense.cs:line 64
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\CreateOrGetLicense.cs"
+				codeline="64"
+				type="repoitem"
+				path="/dom[@domain='localhost:3500']//div[#'licenseListContent']/div/div[13]//a[@innertext='Delete']"
+				fullname="testAutomationRepository.SYSTRANLanguageManager.Delete"
+				id="ff3bd1948c26478887053065565415a8"
+				timeout="60000"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

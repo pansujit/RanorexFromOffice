@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="117bf6f8b1319794"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/30/2016 10:39:28 AM"
+		timestampiso="2016-06-30T08:39:28"
+		timeoutfactor="1"
+		module="ValidateATranslationMemory">
+		<detail>
+			ValidateATranslationMemory
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.312"
+			timeRelativeToTestModuleStartTime="00:00.312"
+			timeWallClock="10:39:28"
+			time="00:00.312"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='[EN-FR] UserTranslationMemory') on item 'SYSTRANDictionaryManager.OpenDictionary.DictionariesName.ENFRTranslationMemory'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mView']/?/?/treeitem[@accessiblename&lt;'UserTranslationMemory']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.OpenDictionary.DictionariesName.ENFRTranslationMemory"
+				id="3dabf126bf3e4c8c85e70a9a3bb8574f"
+				timeout="90000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateATranslationMemory.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.684"
+			timeRelativeToTestModuleStartTime="00:01.684"
+			timeWallClock="10:39:29"
+			time="00:01.684"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'DictionaryManagerRepository.SYSTRANDictionaryManager.OpenDictionary.DictionariesName.ENFRTranslationMemory' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mView']/?/?/treeitem[@accessiblename&lt;'UserTranslationMemory']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.OpenDictionary.DictionariesName.ENFRTranslationMemory"
+				id="3dabf126bf3e4c8c85e70a9a3bb8574f"
+				timeout="90000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateATranslationMemory.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="0"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.809"
+			timeRelativeToTestModuleStartTime="00:01.809"
+			timeWallClock="10:39:30"
+			time="00:01.809"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Sujit') on item 'SYSTRANDictionaryManager.ValidateUserDictionary.Sujit'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mDictionaryPropertiesView']/?/?/text[@caption='Sujit']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateUserDictionary.Sujit"
+				id="ebf579e889b7414b98ad0da47bab7ae7"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateATranslationMemory.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.386"
+			timeRelativeToTestModuleStartTime="00:02.386"
+			timeWallClock="10:39:30"
+			time="00:02.386"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateUserDictionary.Sujit' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mDictionaryPropertiesView']/?/?/text[@caption='Sujit']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateUserDictionary.Sujit"
+				id="ebf579e889b7414b98ad0da47bab7ae7"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateATranslationMemory.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.496"
+			timeRelativeToTestModuleStartTime="00:02.496"
+			timeWallClock="10:39:30"
+			time="00:02.496"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Translation Memories') on item 'SYSTRANDictionaryManager.ValidateTranslationMemory.TranslationMemories'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']/container[@controltypename='WindowDockingArea' and @instance='8']/?/?/container[@controlname='sdm.window.open']/element[@controlname='mDictionaryPropertiesView']/?/?/text[@caption='Translation Memories']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateTranslationMemory.TranslationMemories"
+				id="323a8aad573a4b5f94769d60ac6de934"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateATranslationMemory.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.761"
+			timeRelativeToTestModuleStartTime="00:02.761"
+			timeWallClock="10:39:31"
+			time="00:02.761"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateTranslationMemory.TranslationMemories' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']/container[@controltypename='WindowDockingArea' and @instance='8']/?/?/container[@controlname='sdm.window.open']/element[@controlname='mDictionaryPropertiesView']/?/?/text[@caption='Translation Memories']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateTranslationMemory.TranslationMemories"
+				id="323a8aad573a4b5f94769d60ac6de934"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateATranslationMemory.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="2"/>
+		</item>
+	</activity>
+</report>

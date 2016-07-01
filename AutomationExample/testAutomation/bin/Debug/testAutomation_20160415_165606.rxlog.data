@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5a1f90ff34b8bca"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/15/2016 4:56:06 PM"
+		timestampiso="2016-04-15T14:56:06"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="38.39s"
+			durationms="38389"
+			type="test suite"
+			rid="e70f031e3f07934"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="testAutomation"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="3">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="37.5s"
+				durationms="37500"
+				type="test case"
+				rid="c0d51464eb653f6"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="8101e436-afed-4ee8-be14-e529c4b0a519"
+				datasource="TestConnector"
+				iterationcount="1"
+				maxchildren="0">
+				<params>
+					<param
+						name="NewParameter">
+					</param>
+				</params>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="37.5s"
+					durationms="37500"
+					type="test case iteration"
+					rid="71091aec4c261cf"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="1">
+					<datarow>
+						<field
+							name="SearchName">
+							SYSTRAN 8 TRANSLATOR Professional en-fr
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="11.84s"
+						durationms="11838"
+						type="test case setup"
+						rid="8d42328afac9fec"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="11.84s"
+							durationms="11838"
+							type="test module"
+							rid="33c694733f50b5a"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartFirefoxSystran"
+							moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+					</activity>
+					<activity
+						result="Failed"
+						duration="15.47s"
+						durationms="15471"
+						type="test module"
+						rid="18ffa23e9f0bced8"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="ClickOnPackage"
+						moduleid="3861d624-9f27-4601-9e27-85b13c37b5c1"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<errmsg>
+							Sorry, we couldn't find C:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\SYSTRAN 8 TRANSLATOR Professional en-fr.xlsx. Is it possible it was moved, renamed or deleted?
+						</errmsg>
+						<varbindings>
+							<varbinding
+								name="SearchName"
+								value="SYSTRAN 8 TRANSLATOR Professional en-fr"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.914"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="16:56:19"
+							time="00:12.914"
+							level="Info"
+							category="Data"
+							errimg="images_testAutomation_20160415_165606\testAutomation_20160415_165606_a407b28e_trace.jpg"
+							errthumb="images_testAutomation_20160415_165606\testAutomation_20160415_165606_a407b28e_trace_thumb.jpg">
+							<message>
+								Current variable values:<br/>$SearchName = 'SYSTRAN 8 TRANSLATOR Professional en-fr'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:28.292"
+							timeRelativeToTestModuleStartTime="00:15.377"
+							timeWallClock="16:56:34"
+							time="00:28.292"
+							level="Error"
+							category="Module"
+							errimg="images_testAutomation_20160415_165606\testAutomation_20160415_165606_cbf2ca11_trace.jpg"
+							errthumb="images_testAutomation_20160415_165606\testAutomation_20160415_165606_cbf2ca11_trace_thumb.jpg">
+							<message>
+								Sorry, we couldn't find C:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\SYSTRAN 8 TRANSLATOR Professional en-fr.xlsx. Is it possible it was moved, renamed or deleted?
+							</message>
+							<metainfo
+								stacktrace="   at Excel.Workbooks.Open(String Filename, Object UpdateLinks, Object ReadOnly, Object Format, Object Password, Object WriteResPassword, Object IgnoreReadOnlyRecommended, Object Origin, Object Delimiter, Object Editable, Object Notify, Object Converter, Object AddToMru)
+   at testAutomation.ClickOnPackage.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\ClickOnPackage.cs:line 94
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\ClickOnPackage.cs"
+								codeline="94"
+								loglvl="Error"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="10.14s"
+						durationms="10144"
+						type="test case teardown"
+						rid="1c72655ed9d1b501"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="10.14s"
+							durationms="10144"
+							type="test module"
+							rid="97c7d9abd562024"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StopFirefox"
+							moduleid="0b27bb73-d878-4d7c-85a0-20191b52183e"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

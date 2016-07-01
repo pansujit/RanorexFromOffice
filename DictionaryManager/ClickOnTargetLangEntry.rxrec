@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="7be67a70-b3f7-495f-b4c6-b47a9a8c3d64"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		ClickOnTargetLangEntry
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ClickOnTargetLangEntry"
+	namespace="DictionaryManager"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="b37a3a56-cc9f-41d5-a913-f9fc0e1fcb58"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="68b39653-b7a5-4c9e-bc73-9de4eb77cc55">
+				<path>
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//table[@controlname='mEntriesView']/row[@accessiblename='0']/cell[@accessiblename='French (Target language)']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="DictionaryManagerRepository"
+	id="1690ff42-4e44-4ddc-9c10-920ebe70dfad"
+	rxversion="6.0"
+	relativepath="DictionaryManagerRepository.rxrep">
+		<codegen
+		classname="DictionaryManagerRepository"
+		namespace="DictionaryManager"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="623ccc2d-6519-4df5-aa39-655f8d9d3a18"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ClickOnTargetLangEntry.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

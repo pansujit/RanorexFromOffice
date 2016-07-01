@@ -1,0 +1,760 @@
+﻿<repository
+name="testAutomationRepository"
+id="19c02194-f7d8-4970-bfb2-1583c9aaeb63"
+rxversion="6.0">
+	<codegen
+	classname="testAutomationRepository"
+	namespace="testAutomation"/>
+	<rootfolder
+	name="Root"
+	id="370aef2b-a6a1-4915-bd69-493132b16183"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="SignIn"
+		id="093aa11c-9314-43bd-85b0-89b5ace21505"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='trs.systran.net' and @caption='Sign in']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="ContinueWith"
+			id="68966b3e-4b1e-44f6-94b7-76f357257b84"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='trs.systran.net' and @caption='Sign in']//div[#'main']/div/div/a[@innertext='Continue with ']"
+			addcaps="unknown,webelement,atag"
+			refimgid="e22722f1-dc47-48fc-9263-6ad3e482fe8a">
+				/dom[@caption='Sign in']//div[#'main']//a[@innertext='Continue with ']
+			</item>
+			<basepath>
+				/dom[@caption='Sign in']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="SYSTRANAccountsSignIn"
+		id="75d7e3de-e277-4fe1-9bf5-f6ee77ad6f0b"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='login.systran.net']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="Usrnm"
+			id="4b032f82-d437-4341-9d5d-f64776c034c8"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='login.systran.net']//input[#'usrnm']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="73b373dc-fe3c-4852-8a38-c9f8186b88fb">
+				/dom[@domain='login.systran.net']//input[#'usrnm']
+			</item>
+			<item
+			name="Psswd"
+			id="165130f5-d0d5-4391-95f1-0f016f4c88c5"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='login.systran.net']//input[#'psswd']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="6020a013-3d08-4647-8586-7ef7728629bf">
+				/dom[@domain='login.systran.net']//input[#'psswd']
+			</item>
+			<item
+			name="SubmitLogin"
+			id="919b7359-893c-40bd-a5d1-052cda767882"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='login.systran.net']//input[#'submit_login']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="9a01643f-0371-467d-a51e-f5badc726572">
+				/dom[@domain='login.systran.net']//input[#'submit_login']
+			</item>
+			<basepath>
+				/dom[@domain='login.systran.net']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="TranslationResources"
+		id="fc6abb1a-2d49-4d9f-aac6-63a484199323"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='trs.systran.net' and @caption='Translation Resources']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="Packages"
+			id="bef985b8-11a5-4641-9827-896c77b0ec8b"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='trs.systran.net' and @caption='Translation Resources']//div[#'navBar']/ul[1]/li[2]/a[@innertext='Packages']"
+			addcaps="unknown,webelement,atag"
+			refimgid="351226c6-2567-4606-a81f-e9ce1b3ca3fd">
+				/dom[@caption='Translation Resources']//div[#'navBar']//a[@innertext='Packages']
+			</item>
+			<item
+			name="Licenses"
+			id="e5d90bd6-3488-4db5-b0b7-902f90dd36a8"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='trs.systran.net' and @caption='Translation Resources']//div[#'navBar']/ul[1]/li[5]/a[@innertext='Licenses']"
+			addcaps="unknown,webelement,atag"
+			refimgid="550c0d4c-288d-4b15-9a77-1d1972b8b5d2">
+				/dom[@caption='Translation Resources']//div[#'navBar']//a[@innertext='Licenses']
+			</item>
+			<basepath>
+				/dom[@caption='Translation Resources']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Packages"
+		id="ca88c4c2-cdc1-4a90-88e3-32f481f41631"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="FilterPackage"
+			id="96786d30-6f0c-4bb2-869b-295d801ba9f3"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="b7871239-7da6-4e98-9c54-29f8f547721c">
+				/dom[@caption='Packages' and @page='packageManagement' and @path='/packageManagement']//input[#'filterPackage']
+			</item>
+			<item
+			name="getVersion"
+			id="00bc1e88-1fa7-45f9-97b1-c8c2d7a95534"
+			searchtimeout="30000ms"
+			capname="divtag"
+			addcaps="unknown,webelement,divtag"
+			refimgid="918570a7-e1f8-482a-9ea0-987672f6cb2e">
+				/dom[@caption='Packages' and @page='packageManagement' and @path='/packageManagement']//div[#'main']/div/div[2]/div[1]/div/div/div[2]/div[2]
+			</item>
+			<item
+			name="ATagDownload"
+			id="b54eac50-e324-415a-86d6-153bf8fdc404"
+			searchtimeout="30000ms"
+			capname="itag"
+			addcaps="unknown,webelement,atag"
+			refimgid="aa601ac0-596d-4472-8a24-89e18158f121">
+				/dom[@caption='Packages' and @page='packageManagement' and @path='/packageManagement']//div[@id='packageContent']/div[2]/div[1]/div/div/div[23]/div/div/div/a[2]/i
+			</item>
+			<basepath>
+				/dom[@caption='Packages' and @page='packageManagement' and @path='/packageManagement']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="EnterNameOfFileToSaveTo"
+		id="7fd806c1-0051-4809-8797-022072c63766"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Enter name of file to save to…']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ButtonSave"
+			id="b37f86f5-9e78-47aa-8f3d-2ff9e64864a3"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title~'^Enter\ name\ of\ file\ to\ sav']/button[@text='&amp;Save']"
+			addcaps="button,nativewindow"
+			refimgid="c0de0958-80bd-47ff-9a48-bbc9dfae1693">
+				/form[@title~'^Enter\ name\ of\ file\ to\ sav']/button[@text='&amp;Save']
+			</item>
+			<item
+			name="Text1001"
+			id="b1957a08-3a50-4258-9dbc-8c0c21c413cf"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title~'^Enter\ name\ of\ file\ to\ sav']/element[@class='DUIViewWndClassName']/container/element[@class='FloatNotifySink' and @instance='0']/combobox/text[@controlid='1001']"
+			addcaps="text,nativewindow"
+			refimgid="5837b7ab-f782-405b-86f8-559ad17be9a9">
+				/form[@title~'^Enter\ name\ of\ file\ to\ sav']/element[@class='DUIViewWndClassName']//combobox[@class='ComboBox']/text[@controlid='1001']
+			</item>
+			<basepath>
+				/form[@title~'^Enter\ name\ of\ file\ to\ sav']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMGSURBVDhPrZNZSJRhFIb/osWwCcusnM1m7PtH
+kogyG+sibbF1xiUlHaMsmnEsM2TKtBIVaXOp0EBMUwopmxZcsqwQJjNjEsTU3EpzRh2lsoVIi9D/
+7Rv9L4rqrhfeq+88L+ecj8P8d+2v6ZfsNdnyIk2D/bsfv+d2P/nARZreWvXVvdkBZQ1CvuxPDaTJ
+twcXmLS+uTXDJKcGymtPsfb+ADZXv4dPpQ1+xhYUmts/lRhzjtPySRMUrw6N69zXOulYUmL8mD7V
+gJICNYIzj0J0vQ2yUitmGrsgyTEjmob29DxEfam2ikcnVBEi2dihIeiLY2FLWwRLzkIoEzMgOl+G
+qYXNmJHfBKf0Oiw9VobPQ0/xpS8Tg88Eah5nmNpd4uxeHUHvIRqQzMJySo72OD9cTI2Bc3otXJKr
+seDIPbjqipFfcQcYOos+M3OOxxnm5R6ZzRLJwhrDoj+BxeAFd5zUBYGNM0JsuAuX6JsQaC7BITAL
+tyoLwX3IRWuF3MbjDNMYLhp9s5PAEsWiJZxF8uaVWBJmgGNEPhw1eZimzsR0/1RMV8bix+dicB9P
+oCJ/NZeSwkweD6jbIh57FUrQQ7t4vk6BaxofzPeLgVh1GJu0OjhviIdguR5uKzT41rEeo1YWrdeF
+w+OwXaV+bk0t2wi6wghe02Va9CzeGDxgSWRRtU8BdVAwZnuEIzlhNUbqhBg2O+FFmmsljzPMFaU8
+wbyGoE1N0E0DuncRFG3wRKjCG1L5VrjIAyCXrUXrVXd8vC1C52kZbgSRJB5nmBih0LlymfRdvS8f
+Ek7H2cOidLsnDqzyRuZWL/QdZzGU7g5rPEG5yo17pHLw5fEJZbMLdzzwkHL2Tuzj2HfSHWHfC/3e
+KIL+WDqalqA5UMTV+EuyeOw3zdLPmZNRQmTfa5UEDetpkIqgPZCgM4SCQQS3Voq5g8JZBbT2rzcx
+hXqxnJmSaHAWNBbJpCPlCjFX5inkLivEX8+Qea+CnQS5tGYV9Qw78C/ZHyXUXtTrqP2pfajdqQXU
+vxwSw/wEmUuNDCsjulkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="SYSTRAN8TRANSLATOR"
+		id="47ef1190-c397-4a39-8132-62513cd8b419"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='SYSTRAN 8 TRANSLATOR']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="SystemItemNameDisplay"
+			id="e750e4b9-9bd5-4370-be40-191018c19f94"
+			searchtimeout="30000ms"
+			capname="listitem"
+			addcaps="text,uiautomation,uiautomationvalue"
+			refimgid="f49919da-9c32-48a4-80a4-d8d60053ff6b">
+				/form[@title='SYSTRAN 8 TRANSLATOR']//element[@instance='1']/container[@caption='ShellView']/?/?/listitem[@text='unins000.exe']
+			</item>
+			<basepath>
+				/form[@title='SYSTRAN 8 TRANSLATOR']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJgSURBVDhPbdLdT1JxHMdxt/6Mrvov6jqtWdM1
+59gSRcpKXaXMIrWNpdVKarTWRa25ddN0ZS7EGWoRD4LIc6gIAnIEAUF3QnkeCH06/kDopN/te3XO
+630eaw4nE5LIk+GXhVRIgoRfjDg1grhPjD3vM8TcT0C7hrC7JkJ0dYCKLPcLCToaYOJUOiLBQUaG
+4sEOUrvv8XvzOTasg8inFSjmFyqbS8kRtAqpMq0OCWRnyAIFsn5zN9b0j5CJfUUhp2KO/UA+NYuQ
+tQ9lVp1/A6UI4DPcwLJ6AOGVYQJzCRmye5PYsghOCGz/HyjAo2uHXXkfwV8iAtP0GJI7HxAw9RwP
+JMMvKjiXnsKfYgoudQtsih4ELA8ITITfYX/rNTaNt48HEsGRCs7GJ1DIR+H4yYF1vgt+o4DAGCUG
+7XnMPEIvNhY735Zpafb9Tys4RX9EJq7HyvcmmOXXQOm7Cdx1PWQ+4z1s2+8ygZvsu4hRwxW8HxkF
+HXgD+2wjjNNcbCx0VGDIegs0TcOr7WAHaK+IhaNeMWwzl2CQNsOjaiUwaOIjsMQlAc/CdXZgZ32Q
+hUOOIVimL0I/2Qi3gkOgf5GDTW0TCbg1fHYg4hCysN/WD9NUHXSf67HOvItDSGkaybbN+7Cu5rED
+oWUBC/uMvTBJa6H7VAfXXAkebf3YKlyqNnYgYLvDwh5dJwlox88fC/g0V+BUtHjLtDTUUqfCrW2H
+U90Gp4rHLJ8ENOOX4ZjjMD8Vj1zVqWxl8FWvU8ntK9PquBXNp+3yhg6z7ILMKK1Nfhs9Z/jy6myX
+XdZwpnzKCVNT8xdABXLpcMcU7QAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		name="SYSTRAN8TRANSLATORUninstall"
+		id="2042364c-910a-4c6e-9535-803cc7103239"
+		searchtimeout="30000ms"
+		capname="form"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ButtonYes"
+			id="47d3212d-60e5-4e0c-b002-194d26b6a33d"
+			searchtimeout="30000ms"
+			capname="button"
+			addcaps="button,nativewindow"
+			refimgid="a21569dc-00ba-47fb-8dca-0204b12467e7">
+				/form[@title~'^SYSTRAN\ 8\ ']/button[@text='&amp;Yes']
+			</item>
+			<item
+			name="Text65535"
+			id="eab0f43f-fc8c-43ea-8253-9de4159c14aa"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title~'^SYSTRAN\ 8\ TRANSLATOR\ Esse']/text[@controlid='65535']"
+			addcaps="text,nativewindow"
+			refimgid="e94e6f88-22ba-42e5-9963-6bafa54de82b">
+				/form[@title~'^SYSTRAN\ 8\ ']/text[@controlid='65535']
+			</item>
+			<item
+			name="ButtonOK"
+			id="2d1e2768-fc15-465c-bb60-036471b96196"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='SYSTRAN 8 TRANSLATOR Essential hi-en Uninstall']/button[@text='OK']"
+			addcaps="button,nativewindow"
+			refimgid="bd87c3ac-8aae-4b94-8093-bd711eafebf5">
+				/form[@title~'^SYSTRAN\ 8\ ']/button[@text='OK']
+			</item>
+			<item
+			name="SystemItemNameDisplay"
+			id="30559a8e-89f1-4973-94ea-7bdc8654bff1"
+			searchtimeout="30000ms"
+			capname="listitem"
+			addcaps="text,uiautomation,uiautomationvalue"
+			refimgid="fef9c004-b0e3-4db6-b5b2-f1e80285d135">
+				/form[@title~'^SYSTRAN\ 8\ ']//element[@instance='1']/container[@caption='ShellView']/container[@class='DirectUIHWND']/listitem[@text&gt;'SYSTRAN 8 TRANSLATOR ']
+			</item>
+			<item
+			name="ListItem0"
+			id="87a68644-1d61-4a2a-8355-4e3a493b8ef8"
+			searchtimeout="30000ms"
+			capname="listitem"
+			addcaps="listitem,uiautomation,uiautomationinvoke,uiautomationvalue"
+			refimgid="ee1663da-8158-49b6-8087-8266a84db0fd">
+				/form[@title~'^SYSTRAN\ 8\ ']//element[@instance='1']/container[@caption='ShellView']/container[@class='DirectUIHWND']/listitem[@automationid='0']
+			</item>
+			<basepath>
+				/form[@title~'^SYSTRAN\ 8\ ']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALfSURBVDhPfZFrSFNhGMdPkYWEEfQt/FAgrZkZ
+ZdmyzGzmpdQtUku7T5kJpYk6nZondJQKNmc1VzbNMhXU1HLe0uxC4SUF7TYvWZosMLTUZJmxf++5
+YJDhH14O57zP7/c873uo/8VisSwb+zETVtkzWnavy9T8fHA8b9Zicee3Fw6B195qG3nrnvsKTurW
+uXW8+DU6RyYLAVjxpfNDYOvcl8NGBnC52o5jBFLU9EHVNAh52Tt46DrxxjSZzZfPT8eniUgGZATp
+jz9i+JuZNOQSb+hjv8fX9P4mr2t4hKKqMmQ2j67IzzWpw+uGBt6bjxT1zI29NbsVUVVG9JimYJr4
+idiHvdiR0w7jiwdvWzThGpp2W0LRJ91WNmaFjrfkRKCxqxdj07+geTYEkaZtTsQs5ihfJmdQ2GFC
+W8sDPMmRd8d6r3OkFN52tvrzPk2MQGt4iaA73TCOTmOIjJ9Y249t2X9Frtc70Nw/htYKLTKDt08r
+PAUuVJy/wCbZV5CkPiEya1Ux8EwpgCjrGZ5+GGfP/vm7GWoykVjH/ZXQMBkS99sj1kuo4G+BS6pE
+2HH50AakB2zEpcBN0McdRqM+HYZaA+j6AfjkdcFHqYWSwBf9hYjzEKzmUS5p0vVNGQEOUIdshvaU
+M/Tynbgd4co+0yJD4K+6iwvBbqSBA1RSIRLE61fxKJdUqbA8I3DjnCA/fBeKI91REeuFh4kH2HUz
+bAc0R7eAaXTO224Fj3Ih1vxMIsgmBbmnt6PgDBFE7cX9OC/UJPnCkOyHorN7WAmpsUSLbK15lIvq
+oDArM8iR7aCTMQJXlDAChTcrqEvxRwWRsRKZaDbQ3n4pj3JJkwhcyAXeJ/YpnUzEnr/0vBiVRGAg
+ggZawk7BSAojdpcTZBFH/pOYfY7Lr51yluSf2VVQEiX+WhlPBARsoKWop6WWygSfNJqmFvPlC+eG
+3MmqNNrTvVp5QFObIjFWK/2C+C0+FPUHsrLSafR1VXYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="OpeningSYSTRAN8TRANSLATORProfessiona"
+		id="5731371a-f975-4ecb-875c-b3e7a81baf4d"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Opening SYSTRAN 8 TRANSLATOR Professional en-fr-1.0.7.1.x86.exe']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="SaveFile"
+			id="056c503c-3003-4d5b-b427-bbf27807737b"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title~'^Opening\ SYSTRAN\ 8\ TRANSLA']/button[@accessiblename='Save File']"
+			addcaps="button,accessible"
+			refimgid="8adb7cb8-d225-4f18-b8f4-e5a729b2922b">
+				/form[@title~'^Opening\ SYSTRAN\ 8\ TRANSLA']/button[@accessiblename='Save File']
+			</item>
+			<basepath>
+				/form[@title~'^Opening\ SYSTRAN\ 8\ TRANSLA']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMGSURBVDhPrZNZSJRhFIb/osWwCcusnM1m7PtH
+kogyG+sibbF1xiUlHaMsmnEsM2TKtBIVaXOp0EBMUwopmxZcsqwQJjNjEsTU3EpzRh2lsoVIi9D/
+7Rv9L4rqrhfeq+88L+ecj8P8d+2v6ZfsNdnyIk2D/bsfv+d2P/nARZreWvXVvdkBZQ1CvuxPDaTJ
+twcXmLS+uTXDJKcGymtPsfb+ADZXv4dPpQ1+xhYUmts/lRhzjtPySRMUrw6N69zXOulYUmL8mD7V
+gJICNYIzj0J0vQ2yUitmGrsgyTEjmob29DxEfam2ikcnVBEi2dihIeiLY2FLWwRLzkIoEzMgOl+G
+qYXNmJHfBKf0Oiw9VobPQ0/xpS8Tg88Eah5nmNpd4uxeHUHvIRqQzMJySo72OD9cTI2Bc3otXJKr
+seDIPbjqipFfcQcYOos+M3OOxxnm5R6ZzRLJwhrDoj+BxeAFd5zUBYGNM0JsuAuX6JsQaC7BITAL
+tyoLwX3IRWuF3MbjDNMYLhp9s5PAEsWiJZxF8uaVWBJmgGNEPhw1eZimzsR0/1RMV8bix+dicB9P
+oCJ/NZeSwkweD6jbIh57FUrQQ7t4vk6BaxofzPeLgVh1GJu0OjhviIdguR5uKzT41rEeo1YWrdeF
+w+OwXaV+bk0t2wi6wghe02Va9CzeGDxgSWRRtU8BdVAwZnuEIzlhNUbqhBg2O+FFmmsljzPMFaU8
+wbyGoE1N0E0DuncRFG3wRKjCG1L5VrjIAyCXrUXrVXd8vC1C52kZbgSRJB5nmBih0LlymfRdvS8f
+Ek7H2cOidLsnDqzyRuZWL/QdZzGU7g5rPEG5yo17pHLw5fEJZbMLdzzwkHL2Tuzj2HfSHWHfC/3e
+KIL+WDqalqA5UMTV+EuyeOw3zdLPmZNRQmTfa5UEDetpkIqgPZCgM4SCQQS3Voq5g8JZBbT2rzcx
+hXqxnJmSaHAWNBbJpCPlCjFX5inkLivEX8+Qea+CnQS5tGYV9Qw78C/ZHyXUXtTrqP2pfajdqQXU
+vxwSw/wEmUuNDCsjulkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="WizardForm"
+		id="2b91ff72-7c40-4fd7-ab88-e312f6cc8c3e"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@controlname='WizardForm']"
+		addcaps="form,nativewindow,delphicontrol"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Next"
+			id="f933339e-402e-488a-b32e-b7f609fc1232"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='WizardForm']/element[@controlname='NextButton']/button[@accessiblename='Next >']"
+			addcaps="button,accessible"
+			refimgid="4546db57-8587-4cfa-9357-c47f43f817a7">
+				/form[@controlname='WizardForm']/?/?/button[@accessiblename='Next &gt;']
+			</item>
+			<item
+			name="IAcceptTheAgreement"
+			id="91ef9015-90d1-47d9-acf2-c5dffcab9e08"
+			searchtimeout="30000ms"
+			capname="radiobutton"
+			refpath="/form[@controlname='WizardForm']/element[@controlname='OuterNotebook']/element[@controlname='InnerPage']/element/element[@controlname='LicensePage']/element[@controlname='LicenseAcceptedRadio']/radiobutton[@accessiblename='I accept the agreement']"
+			addcaps="radiobutton,accessible"
+			refimgid="89053d61-408f-4b5f-8502-4654d43ca566">
+				/form[@controlname='WizardForm']/element[@controlname='OuterNotebook']//element[@controlname='LicenseAcceptedRadio']/radiobutton[@accessiblename='I accept the agreement']
+			</item>
+			<item
+			name="CreateADesktopIcon"
+			id="540cf860-48b9-4116-bc26-90f3d1eddef9"
+			searchtimeout="30000ms"
+			capname="checkbox"
+			refpath="/form[@controlname='WizardForm']/element[@controlname='OuterNotebook']/element[@controlname='InnerPage']/element/element[@controlname='SelectTasksPage']/element[@controlname='TasksList']/tree/checkbox[@accessiblename='Create a &amp;desktop icon']"
+			addcaps="checkbox,accessible,accessibletreeitem"
+			refimgid="f919ba2d-f1c2-4282-b5e4-70b48e34bb30">
+				/form[@controlname='WizardForm']/element[@controlname='OuterNotebook']//element[@controlname='SelectTasksPage']/?/?/tree[@accessiblename~'^Select\ the\ additional\ tas']/checkbox[@accessiblename='Create a &amp;desktop icon']
+			</item>
+			<item
+			name="Install"
+			id="f1f3b9ac-0d8b-49b5-8456-1b3497e000ed"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='WizardForm']/element[@controlname='NextButton']/button[@accessiblename='Install']"
+			addcaps="button,accessible"
+			refimgid="bd8c5271-4ad9-43a5-97ca-583eb49a5e69">
+				/form[@controlname='WizardForm']/?/?/button[@accessiblename='Install']
+			</item>
+			<item
+			name="Finish"
+			id="fdd4d0ce-b2b0-4b99-95b5-70f908052fa3"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@controlname='WizardForm']/element[@controlname='NextButton']/button[@accessiblename='Finish']"
+			addcaps="button,accessible"
+			refimgid="cba6705c-fd6a-4451-ae49-f80608b2c331">
+				/form[@controlname='WizardForm']/?/?/button[@accessiblename='Finish']
+			</item>
+			<basepath>
+				/form[@controlname='WizardForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJZSURBVDhPjZBdSJNRHMYndONFN0F3QVFZ822R
+ZZY6QddSc9O5clF+1CTUMUkrtPJtNgd+5C5qy6ZEuUmwTMgSXOGKMKJPh9AuKi+SQYkRYUhIlsx3
+T+c97/FF+/7B/+Z/nud3DkfxN2KxmIaMnYyJrf4PUqiw9r9BsuuFPMaeMMi+j0X+DAlVLy7+PPNC
+7DGL/p5CX5gGe0KTWMynmTm6T+sIiS9ZweIycQNt5bqx4RuRFPfIkhsbh8ap4HtUQFbXKN3NfP4Y
+GXSatWKPtofd1q8PO6z48DZMw+V9r5ZIxLEHJZF3ZBKjE1/wpNMKWWAzcM+oYCwE9aUQDc7MzUPt
+Cf0iej/9DYIgYMBxAHye8hEV8HvWBS5btXjub5GDXU8nqGh6Ngp990t5n94ehE3PoSGPE2h5AUe+
+0tu6l0OzkYPDoMQ1hwXvXo9SyfjULFofRKiA13F0GnQJO1lVwl6woflc0SacP7gFnsPbcbUyHd4q
+NS6WJYM/lEPLpZXVaNunQosxEad2JySyqoRdrzS3F6mIIAkecwq6icB/NAs367IxyOswdNaAKxVp
+cJdug9OkQrVmzWpWlSAfkt1ODi4UJ6GTCMTb/TVZ6K/LoYKg3UCFC5KajPUrWVXiuDZhrWh2FW9F
+V/kOeC1qXK/RoL8+B4EzeiIoxO2TubLkSPrG5awqYUpdFe/cvxmuEkngs2Sgt1aDW/W5kqCpEHcb
+C2RJZqZiGasuRTxwlSWf9lWpo73HdtHCHVs+7hHBfYeRSk6YUuNZ/J/E+Wu1JQFeNy0KhpoMU2zP
+UCh+AAzLuZ2bTStwAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="DeleteFile"
+		id="696e833e-cf5b-41db-9776-40430bbc28aa"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Delete File']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ButtonYes"
+			id="525f5674-b92b-4e60-9a57-add75fa75f22"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Delete File']/button[@text='&amp;Yes']"
+			addcaps="button,nativewindow"
+			refimgid="450cfea3-f3de-4ad9-b20c-52d1220a3111">
+				/form[@title='Delete File']/button[@text='&amp;Yes']
+			</item>
+			<basepath>
+				/form[@title='Delete File']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJ+SURBVDhPxZPdS1NxGMfP39KFd3XVheFFhAjd
+CEEmFQuszJe0kHLZnYpRISrDpGXTQkozlXw5pnObzrM21HRn7pjmjnPqjh7d3It7OzZBv/38uQxC
+r3vgwwO/53w/zznwO8z/Lxd3u8ptuw/xWwEWTLf+QcUfzlOPnlySQ40VezVU22lQWdNwcLAPRVGO
+mTPcPBUqX5+tgGs8H3Mj5PAEvM5axINmxAJGRP1fEZY7EfS2ILD2hkqoIJlwIxl3YXfHTuBpV8JT
+pBuR2P6IuK8N0a13iMg6RDaaEZE0CHme0wWMxKuxpzhJoAdKqBsJAu2BDhqMbbbS0I7UhPCqBgFP
+HYLuGmzNV0D4I0jGJ6AEU8FgF+L+DrLxPdl4GHxFgg0ILr+E31UD30IlZEENr70Egv4GGO9MOZIx
+K93cOCVQKm1uPOFElBkF3GO/I6/PClU3h/yOHkqf6Rk8tjw4h66DWZkqwy8i6F4UEUruUXYB+Ajz
++8BwGGiXj9B5D1DPbyJDO4pRfSlmB3PBeCYeIh7m0OxYOhZY5SjaxRBe//CjenIDaouX8oiTKIcC
+41DJkcBte4BIYAwvyGsL2wlw61E0TEvIajUjU0d4a0ZWixm57BKuDKxR0rUcDINF4NlrYERLMXZ8
+LMpNP/FZDEPD+3GpeQyDFg1Ycy36yff2GqqQ3TmLy188SP+0hPNN4xhhCzAzkAPGNV5IL0Z2p4Cn
+nIyi4WUqYLl6rPNlWJsuxsrkXWR+cJwiINfRqc/DhVYHys0SJUNrQlvXY8z05xCuUs5p7cjXr1LO
+1HHo7ymEvFCP1B/BMKVDy7iom6BUGDx/B6kqGhBxttFCudO7mJozzG/+lo4EFnYJzAAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		name="SYSTRANLanguageManager"
+		id="87651c18-525b-4cf0-b3ce-6d57e1f16fc9"
+		searchtimeout="5000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='localhost:3500']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="Licenses"
+			id="1d08394a-fee3-41dd-980c-b7d13e8ec293"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:3500']//span[#'errorMessage']/a[@innertext='Licenses']"
+			addcaps="unknown,webelement,atag"
+			refimgid="96c0a96c-890c-4c65-b05b-903054c24b4d">
+				/dom[@domain='localhost:3500']//span[#'errorMessage']/a[@innertext='Licenses']
+			</item>
+			<item
+			name="AddProductKeyButton"
+			id="93a78946-6262-46a2-9ebe-e19e3406e05d"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='localhost:3500']//button[#'addProductKeyButton']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="0b1dc741-fbe8-4b1c-9228-82fbd346e527">
+				/dom[@domain='localhost:3500']//button[#'addProductKeyButton']
+			</item>
+			<item
+			name="InputProductKey"
+			id="d107223d-da42-4c87-8355-438aa3fa2c30"
+			searchtimeout="30000ms"
+			capname="textareatag"
+			refpath="/dom[@domain='localhost:3500']//textarea[#'inputProductKey']"
+			addcaps="unknown,webelement,textareatag"
+			refimgid="d331d28d-c0ff-489b-8e93-a51b04daa833">
+				/dom[@domain='localhost:3500']//textarea[#'inputProductKey']
+			</item>
+			<item
+			name="SubmitAddProductKey"
+			id="aeeea990-bf92-4bc8-a0cf-6729e323a42f"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='localhost:3500']//button[#'submitAddProductKey']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="9ceedf40-8763-495a-b9a4-a2a48adad6fc">
+				/dom[@domain='localhost:3500']//button[#'submitAddProductKey']
+			</item>
+			<item
+			name="OnlineActivation"
+			id="c236a67d-72d8-41f4-b5f2-62feb274d372"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='localhost:3500']//div[#'licenseListContent']/div/div[12]/div/button[@innertext='Online Activation']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="71eb8400-db93-4981-90b1-17a1616b5e17">
+				/dom[@domain='localhost:3500']//div[#'licenseListContent']/div/div[12]/?/?/button[@innertext='Online Activation']
+			</item>
+			<item
+			name="ProductKey"
+			id="54ec2410-79e3-4f87-8b4a-c94a916ae797"
+			searchtimeout="5000ms"
+			capname="textareatag"
+			refpath="/dom[@domain='localhost:3500' and @caption='SYSTRAN Language Manager' and @page='licenses']//textarea[#'productKey_']"
+			addcaps="unknown,webelement,textareatag"
+			refimgid="f583cccc-4b99-47b3-a4a2-7594c8d96ad1">
+				/dom[@domain='localhost:3500']//textarea[#'productKey_']
+			</item>
+			<item
+			name="ButtonTagOK"
+			id="851cc47b-557f-47f3-8deb-799a7c5ea8af"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='localhost:3500' and @caption='SYSTRAN Language Manager' and @page='licenses']/body/div[6]/div/div/div[2]/button[@innertext='OK']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="02ee7cc4-693c-4075-9113-1e425b703a16">
+				/dom[@domain='localhost:3500']/body/div[6]/div/div/div[2]/button[@innertext='OK']
+			</item>
+			<item
+			name="Delete"
+			id="334dd851-cd9f-4440-bad5-f67725ce2210"
+			searchtimeout="30000ms"
+			capname="atag"
+			addcaps="unknown,webelement,atag"
+			refimgid="70e06dc5-6e36-41ad-93c5-44587d274a14">
+				/dom[@domain='localhost:3500']//div[#'licenseListContent']/div/div[13]/?/?/div/a[@innertext='Delete']
+			</item>
+			<item
+			name="Licenses1"
+			id="2257135e-21d8-4297-89db-e25afaa8be4b"
+			searchtimeout="10000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:3500']//li[#'licencesNavBar']/a[@innertext='Licenses']"
+			addcaps="unknown,webelement,atag"
+			refimgid="888a6ca9-4858-4936-911f-835a27b7a35e">
+				/dom[@domain='localhost:3500']//li[#'licencesNavBar']/a[@innertext='Licenses']
+			</item>
+			<basepath>
+				/dom[@domain='localhost:3500']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="ConfirmSaveAs"
+		id="93f24892-b257-4141-85bf-b3a1b8f9cb56"
+		searchtimeout="5000ms"
+		capname="form"
+		refpath="/form[@title='Confirm Save As']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ButtonYes"
+			id="18355e23-1735-4234-8433-70320258427f"
+			searchtimeout="5000ms"
+			capname="button"
+			refpath="/form[@title='Confirm Save As']/container/element[@class='CtrlNotifySink' and @instance='0']/button[@text='&amp;Yes']"
+			addcaps="button,nativewindow"
+			refimgid="5f2a31b5-8d5e-413c-bbbb-5d256b12d7b5">
+				/form[@title='Confirm Save As']/?/?/element[@instance='0']/button[@text='&amp;Yes']
+			</item>
+			<basepath>
+				/form[@title='Confirm Save As']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMGSURBVDhPrZNZSJRhFIb/osWwCcusnM1m7PtH
+kogyG+sibbF1xiUlHaMsmnEsM2TKtBIVaXOp0EBMUwopmxZcsqwQJjNjEsTU3EpzRh2lsoVIi9D/
+7Rv9L4rqrhfeq+88L+ecj8P8d+2v6ZfsNdnyIk2D/bsfv+d2P/nARZreWvXVvdkBZQ1CvuxPDaTJ
+twcXmLS+uTXDJKcGymtPsfb+ADZXv4dPpQ1+xhYUmts/lRhzjtPySRMUrw6N69zXOulYUmL8mD7V
+gJICNYIzj0J0vQ2yUitmGrsgyTEjmob29DxEfam2ikcnVBEi2dihIeiLY2FLWwRLzkIoEzMgOl+G
+qYXNmJHfBKf0Oiw9VobPQ0/xpS8Tg88Eah5nmNpd4uxeHUHvIRqQzMJySo72OD9cTI2Bc3otXJKr
+seDIPbjqipFfcQcYOos+M3OOxxnm5R6ZzRLJwhrDoj+BxeAFd5zUBYGNM0JsuAuX6JsQaC7BITAL
+tyoLwX3IRWuF3MbjDNMYLhp9s5PAEsWiJZxF8uaVWBJmgGNEPhw1eZimzsR0/1RMV8bix+dicB9P
+oCJ/NZeSwkweD6jbIh57FUrQQ7t4vk6BaxofzPeLgVh1GJu0OjhviIdguR5uKzT41rEeo1YWrdeF
+w+OwXaV+bk0t2wi6wghe02Va9CzeGDxgSWRRtU8BdVAwZnuEIzlhNUbqhBg2O+FFmmsljzPMFaU8
+wbyGoE1N0E0DuncRFG3wRKjCG1L5VrjIAyCXrUXrVXd8vC1C52kZbgSRJB5nmBih0LlymfRdvS8f
+Ek7H2cOidLsnDqzyRuZWL/QdZzGU7g5rPEG5yo17pHLw5fEJZbMLdzzwkHL2Tuzj2HfSHWHfC/3e
+KIL+WDqalqA5UMTV+EuyeOw3zdLPmZNRQmTfa5UEDetpkIqgPZCgM4SCQQS3Voq5g8JZBbT2rzcx
+hXqxnJmSaHAWNBbJpCPlCjFX5inkLivEX8+Qea+CnQS5tGYV9Qw78C/ZHyXUXtTrqP2pfajdqQXU
+vxwSw/wEmUuNDCsjulkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Licenses"
+		id="a4acb732-f92c-4254-9e4f-6a2ab6bd2781"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[1]"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="ProductKeyCopiedToClipboard"
+			id="ac3530e5-e929-4e69-a1e9-d8b98b63aee7"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[1]//div[#'licenseListContent']/div[2]/div[14]/div/div[2]/div/button[@title~'^Product\ Key\ copied\ to\ cli']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="7ada3cda-9175-4367-8c56-94a023d7b8b8">
+				/dom[1]//div[#'licenseListContent']/div[2]/div[14]//button[@title~'^Product\ Key\ copied\ to\ cli']
+			</item>
+			<item
+			name="Delete"
+			id="9fb0d455-b285-42c2-aac5-e381112bc2ef"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:3500' and @caption='SYSTRAN Language Manager' and @page='licenses']//div[#'licenseListContent']/div/div[13]/div/div/a[@innertext='Delete']"
+			addcaps="unknown,webelement,atag"
+			refimgid="fa764164-c014-4078-bcd6-bd61cbb69035">
+				/dom[1]//div[#'licenseListContent']/div/div[13]//a[@innertext='Delete']
+			</item>
+			<item
+			name="Cancel"
+			id="35eb0e84-2fcf-46a2-9d8c-f888c4220156"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='localhost:3500' and @caption='SYSTRAN Language Manager' and @page='licenses']/body/div[6]/div/div/div[2]/button[@innertext='Cancel']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="e7e7b27b-ca3c-4fcd-a8d8-c1cf00808214">
+				/dom[1]/body/div[6]/div/div/div[2]/button[@innertext='Cancel']
+			</item>
+			<basepath>
+				/dom[1]
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables>
+		<var
+		name="NewVariable"
+		id="c81ff574-46b9-4820-88b7-54ba72980c91">
+			570
+		</var>
+	</variables>
+</repository>

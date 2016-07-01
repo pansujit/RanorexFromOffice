@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2dd8950067c2860"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/28/2016 9:54:29 AM"
+		timestampiso="2016-06-28T07:54:29"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.3m"
+			durationms="78104"
+			type="test suite"
+			rid="2c498d2c334370b"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="testAutomation"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="1.3m"
+				durationms="77386"
+				type="test case"
+				rid="55b41b48b2b35fe"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="8101e436-afed-4ee8-be14-e529c4b0a519"
+				datasource="Test_Connector"
+				iterationcount="1"
+				maxchildren="2">
+				<params>
+					<param
+						name="NewParameter">
+					</param>
+				</params>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="1.3m"
+					durationms="77386"
+					type="test case iteration"
+					rid="788449e5ccd35d9"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="1">
+					<datarow>
+						<field
+							name="Edition">
+							SYSTRAN 8 TRANSLATOR Professional en-fr
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="13.04s"
+						durationms="13043"
+						type="test module"
+						rid="90e0d36071c9306"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="StartFirefoxSystran"
+						moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings/>
+					</activity>
+					<activity
+						result="Failed"
+						duration="1.1m"
+						durationms="64296"
+						type="test module"
+						rid="38fe2db628ce580"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="ClickOnPackage"
+						moduleid="3861d624-9f27-4601-9e27-85b13c37b5c1"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<errmsg>
+							Failed to find item 'testAutomationRepository.Packages.FilterPackage'.
+						</errmsg>
+						<varbindings>
+							<varbinding
+								name="SearchName"
+								value="SYSTRAN 8 TRANSLATOR Professional en-fr"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.775"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="09:54:44"
+							time="00:14.775"
+							level="Info"
+							category="Data"
+							errimg="images_testAutomation_20160628_095429\testAutomation_20160628_095429_3bc34726_trace.jpg"
+							errthumb="images_testAutomation_20160628_095429\testAutomation_20160628_095429_3bc34726_trace_thumb.jpg">
+							<message>
+								Current variable values:<br/>$SearchName = 'SYSTRAN 8 TRANSLATOR Professional en-fr'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:18.931"
+							timeRelativeToTestModuleStartTime="01:04.156"
+							timeWallClock="09:55:48"
+							time="01:18.931"
+							level="Error"
+							category="Module"
+							errimg="images_testAutomation_20160628_095429\testAutomation_20160628_095429_f4c1637f_trace.jpg"
+							errthumb="images_testAutomation_20160628_095429\testAutomation_20160628_095429_f4c1637f_trace_thumb.jpg">
+							<message>
+								Failed to find item 'testAutomationRepository.Packages.FilterPackage'.<br/>No element found for path '/dom[@caption='Packages' and @page='packageManagement' and @path='/packageManagement' and @browsername='Mozilla']//input[#'filterPackage']' within 1m.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.PackagesAppFolder.get_FilterPackage() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\testAutomationRepository.cs:line 555
+   at testAutomation.ClickOnPackage.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\ClickOnPackage.cs:line 81
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\ClickOnPackage.cs"
+								codeline="81"
+								type="repoitem"
+								path="/dom[@caption='Packages' and @page='packageManagement' and @path='/packageManagement' and @browsername='Mozilla']//input[#'filterPackage']"
+								fullname="testAutomationRepository.Packages.FilterPackage"
+								id="96786d306f0c4bb2869b295d801ba9f3"
+								timeout="60000"
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

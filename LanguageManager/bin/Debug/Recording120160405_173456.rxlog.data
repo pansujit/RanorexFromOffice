@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2ed3b6ce9cb8623"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/5/2016 5:35:00 PM"
+		timestampiso="2016-04-05T15:35:00"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Failed to move to location '45;7' within element '{Unknown:}'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.345"
+			timeRelativeToTestModuleStartTime="00:00.346"
+			timeWallClock="17:35:00"
+			time="00:00.345"
+			level="Info"
+			category="Application"
+			errimg=".\Recording120160405_173456_10528883_trace.jpg"
+			errthumb=".\Recording120160405_173456_10528883_trace_thumb.jpg">
+			<message>
+				Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SYSTRAN.QuickFileTranslator.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\Recording1.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.395"
+			timeRelativeToTestModuleStartTime="00:00.396"
+			timeWallClock="17:35:00"
+			time="00:00.395"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120160405_173456_10528883_trace.jpg"
+			errthumb=".\Recording120160405_173456_10528883_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SYSTRANQuickFileTranslator.SomeContainer.SomeElement' at 45;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[2]/container/element[3]/container/container[1]/text[@automationid='mSourceRootFolderTextBox']/?/?/container[@automationid='PART_InnerGrid']/container[@automationid='PART_ContentHost']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/element[1]"
+				fullname="LanguageManagerRepository.SYSTRANQuickFileTranslator.SomeContainer.SomeElement"
+				id="768ba444069d44f88c48f4b5f8447c3d"
+				timeout="90000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.198"
+			timeRelativeToTestModuleStartTime="00:02.199"
+			timeWallClock="17:35:02"
+			time="00:02.198"
+			level="Error"
+			category="Module"
+			errimg=".\Recording120160405_173456_ed5f986a_trace.jpg"
+			errthumb=".\Recording120160405_173456_ed5f986a_trace_thumb.jpg">
+			<message>
+				Failed to move to location '45;7' within element '{Unknown:}'.<br/>The pointer cannot be moved to point '{X=-2529,Y=325}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Adapter.Click(Location location)
+   at LanguageManager.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\Recording1.cs:line 87
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\Recording1.cs"
+				codeline="87"
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[2]/container/element[3]/container/container[1]/text[@automationid='mSourceRootFolderTextBox']/?/?/container[@automationid='PART_InnerGrid']/container[@automationid='PART_ContentHost']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/element[1]"
+				fullname="LanguageManagerRepository.SYSTRANQuickFileTranslator.SomeContainer.SomeElement"
+				id="768ba444069d44f88c48f4b5f8447c3d"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="1"/>
+		</item>
+	</activity>
+</report>

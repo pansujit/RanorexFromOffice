@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="c14c15ad-8f52-4295-a1e8-18dc34086212"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		ValidateConfidenceIntervalOfAnEntryInUserDictionary
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateConfidenceIntervalOfAnEntryInUserDictionary"
+	namespace="DictionaryManager"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="961cbe7e-d7aa-4ddd-8477-b8dcc642ddd6"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="2925"
+		sy="199"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="17c1ac0b-cc00-45cc-a227-44d61c974af4">
+				<element
+				role="treeitem"
+				prefcap="treeitem"
+				capabilities="accessible"
+				flavor="msaa"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="1"
+				rect="2832,191,187,16"
+				snapElem="">
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="expanded"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						[EN-FR] ConfidenceUserDict
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						[EN-FR] ConfidenceUserDict
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						OutlineItem
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Selected, Expanded, Focusable, Selectable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+						1
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mView']/?/?/treeitem[@accessiblename&lt;'UserDict']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="f2021f40-2e64-474b-b93e-7921f8844f1d"
+		action="Move"
+		button="None"
+		movetime="300ms"
+		sx="2418"
+		sy="215"
+		loc="42;14">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="7e3fb121-9995-44ea-b4bd-dba2aa071f74">
+				<element
+				role="cell"
+				prefcap="cell"
+				capabilities="accessible"
+				flavor="msaa"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="6"
+				rect="2376,201,79,24"
+				snapElem="">
+					<attribute
+					name="isheader"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						35
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Edit
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Confidence
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Cell
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable, Selectable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+						35
+					</attribute>
+				</element>
+				<path>
+					/form///table[@controlname='mEntriesView']/row[@accessiblename='-1']/cell[@accessiblename='Confidence']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="e31d50ce-94be-4722-a908-b7258ba4b653">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAECAQIDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDcoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKAKsDkygE5B9asJJHJu2YO1ip47iqMDfvVqxFJuVv3hfDkfdwF9veqYFjK+g/Ko5J4oz
+hgSf9lC38hScuGC/e2kjr7elULqQWjbRMhlx8wOQM/5/x9cxJtbDirmlHLHIPkwce2KcGUk4A4OD
+x/n1rOsJAxkIkDZCk47HmrSNw5/2/wD2VaoTVtyyF3dFFMV0bO3acHHHrVe5eQxoqXCRI2VkLEDA
+9QfWq0zRsJDbTeXFFGFUA43Ebie/tinp1YtTSyvoPypwXd0UVWSQmNSepAplzI5jRUuEhQ/LIWIG
+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
+Av2AtWBIGSMfmKsWp/cLVf8AsyLIPpVyJNiBR2pAOz/nFGf84oooAM/5xRn/ADiiigAz/nFU7/qn
+41cqnqHVPxoAp0UUUAFFFFABRRRQBsUUZHrRketABRRketGR60AFFGR60ZHrQAUUZHrRketABRRk
+etGR60AFAoyPWkBHrQAtFGR60ZHrQAUUZHrRketABRRketGR60AFFGR60ZHrQAUCjI9aQEetAC0U
+ZHrRketABRRketGR60AFU9Q6p+NXMj1qnf8AVPxoAp0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="dd30be1c-af1b-46ad-8b3e-e468b0414eb7"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="61240884-0e1f-485c-b78d-82bbf99b9c8b">
+				<element
+				role="tooltip"
+				prefcap="tooltip"
+				capabilities="nativewindow"
+				flavor="win32"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="4"
+				rect="2418,233,35,20"
+				snapElem="">
+					<attribute
+					name="text"
+					type="System.String">
+						35%
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						WindowsForms10.tooltips_class32.app.0.5c39d4_r15_ad1
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						198358
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						3728
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						SystranDictionaryManager
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a">
+						RightScrollBar, Left, TopMost, ToolWindow, Layered
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a">
+						Overlapped, ClipSiblings, Visible, Popup
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						35%
+					</attribute>
+					<dynamicattribute
+					name="AccessibleDefaultAction"
+					type="System.String"
+					description="The default action of the accessible object."/>
+					<dynamicattribute
+					name="AccessibleDescription"
+					type="System.String"
+					description="The description of the accessible object."
+					truncationlength="-1"/>
+					<dynamicattribute
+					name="AccessibleHelp"
+					type="System.String"
+					description="The help string of the accessible object."
+					truncationlength="-1"/>
+					<dynamicattribute
+					name="AccessibleHelpTopic"
+					type="System.String"
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."/>
+					<dynamicattribute
+					name="AccessibleKeyboardShortcut"
+					type="System.String"
+					description="The keyboard shortcut of the accessible object."/>
+					<dynamicattribute
+					name="AccessibleName"
+					type="System.String"
+					description="The name of the accessible object."
+					readonly="False"
+					truncationlength="-1">
+						35%
+					</dynamicattribute>
+					<dynamicattribute
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+					description="The role of the accessible object.">
+						ToolTip
+					</dynamicattribute>
+					<dynamicattribute
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+					description="The state of the accessible object.">
+						Focusable
+					</dynamicattribute>
+					<dynamicattribute
+					name="AccessibleValue"
+					type="System.String"
+					description="The value of the accessible object."
+					readonly="False"
+					truncationlength="-1"/>
+					<dynamicaction
+					displayName="AccessibleDoDefaultAction"
+					description="Invokes the default action of the accessible object."/>
+					<limitation
+					name="PotentiallyWinForms"
+					technology="WinForms"
+					helpUrl="/user-guide-20/technology-instrumentation/general-troubleshooting.html#c3250">
+						This control (from process 'SystranDictionaryManager') seems to be a Windows Forms control, but was not recognized as such, possibly due to a security limitation. UI element identification capabilities for this control may be limited.
+If this control is a WinForms control, please make sure that the automating process has the rights to access the automated application. Otherwise, please ignore this limitation.
+					</limitation>
+				</element>
+				<path>
+					/tooltip[@text='35%']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				35%
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="DictionaryManagerRepository"
+	id="1690ff42-4e44-4ddc-9c10-920ebe70dfad"
+	rxversion="6.0"
+	relativepath="DictionaryManagerRepository.rxrep">
+		<codegen
+		classname="DictionaryManagerRepository"
+		namespace="DictionaryManager"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="623ccc2d-6519-4df5-aa39-655f8d9d3a18"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateConfidenceIntervalOfAnEntryInUserDictionary.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

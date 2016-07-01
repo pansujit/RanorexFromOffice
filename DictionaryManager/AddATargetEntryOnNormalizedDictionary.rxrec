@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="90913e46-d665-430d-99da-1c0cc8dfb8a2"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		AddATargetEntryOnNormalizedDictionary
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddATargetEntryOnNormalizedDictionary"
+	namespace="DictionaryManager"/>
+	<variables/>
+	<recorditems>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="3f2a490b-46e6-4cb7-a871-46621c7a9d6f"
+		KeySequence="great"
+		presstime="100ms">
+			<comment/>
+			<bindings/>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	name="DictionaryManagerRepository"
+	id="1690ff42-4e44-4ddc-9c10-920ebe70dfad"
+	rxversion="6.0"
+	relativepath="DictionaryManagerRepository.rxrep">
+		<codegen
+		classname="DictionaryManagerRepository"
+		namespace="DictionaryManager"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="623ccc2d-6519-4df5-aa39-655f8d9d3a18"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddATargetEntryOnNormalizedDictionary.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

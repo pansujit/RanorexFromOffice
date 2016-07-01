@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4a44f2bcc2d0796"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/15/2016 3:16:12 PM"
+		timestampiso="2016-04-15T13:16:12"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.296"
+			timeRelativeToTestModuleStartTime="00:00.296"
+			timeWallClock="15:16:13"
+			time="00:00.296"
+			level="Info"
+			category="Website"
+			errimg=".\Recording120160415_151609_d8420a20_trace.jpg"
+			errthumb=".\Recording120160415_151609_d8420a20_trace_thumb.jpg">
+			<message>
+				Opening web site 'https://trs.systran.net' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.421"
+			timeRelativeToTestModuleStartTime="00:00.421"
+			timeWallClock="15:16:13"
+			time="00:00.421"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120160415_151609_f80b831c_trace.jpg"
+			errthumb=".\Recording120160415_151609_f80b831c_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SignIn.ContinueWith' at 218;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='Sign in']//div[#'main']//a[@innertext='Continue with ']"
+				fullname="testAutomationRepository.SignIn.ContinueWith"
+				id="68966b3e4b1e44f694b776f357257b84"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.260"
+			timeRelativeToTestModuleStartTime="00:22.260"
+			timeWallClock="15:16:35"
+			time="00:22.260"
+			level="Error"
+			category="User"
+			errimg=".\Recording120160415_151609_b93a4a93_trace.jpg"
+			errthumb=".\Recording120160415_151609_b93a4a93_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

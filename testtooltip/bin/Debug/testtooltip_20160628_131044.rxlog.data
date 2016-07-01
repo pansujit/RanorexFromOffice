@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4719bf0e47af6b"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/28/2016 1:10:44 PM"
+		timestampiso="2016-06-28T11:10:44"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.2m"
+			durationms="72207"
+			type="test suite"
+			rid="7a381fbfac3bd00"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="testtooltip"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="1.2m"
+				durationms="72191"
+				type="folder"
+				rid="3d237eebbe50150"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				foldername="Install_Uninstall_System">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="1.2m"
+					durationms="72191"
+					type="test case"
+					rid="2b4cd00a0e3afbe6"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					testcasename="License_Key_Add"
+					testcaseid="44945689-df3f-40e6-aec0-f18c64917e2f"
+					maxchildren="0">
+					<params/>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="13.28s"
+						durationms="13284"
+						type="test module"
+						rid="25bfd17a8de5d5c1"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="StartFirefoxSystran (testAutomation)"
+						moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings/>
+					</activity>
+					<activity
+						result="Success"
+						duration="8747ms"
+						durationms="8747"
+						type="test module"
+						rid="15dac3cece5caa38"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="CopyLicense (testAutomation)"
+						moduleid="d75a25e9-91d4-427c-809f-2cb2d4036d6d"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings/>
+					</activity>
+					<activity
+						result="Failed"
+						duration="50.1s"
+						durationms="50096"
+						type="test module"
+						rid="117d349cfc6ca270"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="CreateOrGetLicense (testAutomation)"
+						moduleid="9e3a318c-f413-42d3-8ff9-2be04b1a5cf0"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<errmsg>
+							Failed to find item 'testAutomationRepository.SYSTRANLanguageManager.Delete'.
+						</errmsg>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="01:12.285"
+							timeRelativeToTestModuleStartTime="00:49.987"
+							timeWallClock="13:11:57"
+							time="01:12.285"
+							level="Error"
+							category="Module"
+							errimg="images_testtooltip_20160628_131044\testtooltip_20160628_131044_f5a20014_trace.jpg"
+							errthumb="images_testtooltip_20160628_131044\testtooltip_20160628_131044_f5a20014_trace_thumb.jpg">
+							<message>
+								Failed to find item 'testAutomationRepository.SYSTRANLanguageManager.Delete'.<br/>No element found for path '/dom[@domain='localhost:3500']//div[#'licenseListContent']/div/div[4]//a[@innertext='Delete']' within 35s.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.SYSTRANLanguageManagerAppFolder.get_Delete() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\testAutomationRepository.cs:line 1483
+   at testAutomation.CreateOrGetLicense.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\CreateOrGetLicense.cs:line 85
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\CreateOrGetLicense.cs"
+								codeline="85"
+								type="repoitem"
+								path="/dom[@domain='localhost:3500']//div[#'licenseListContent']/div/div[4]//a[@innertext='Delete']"
+								fullname="testAutomationRepository.SYSTRANLanguageManager.Delete"
+								id="334dd851cd9f4440bad5f67725ce2210"
+								timeout="35000"
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

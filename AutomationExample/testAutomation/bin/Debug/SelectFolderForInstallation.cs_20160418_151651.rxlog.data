@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1a09c18ea209d326"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/18/2016 3:16:53 PM"
+		timestampiso="2016-04-18T13:16:53"
+		timeoutfactor="1"
+		module="SelectFolderForInstallation">
+		<detail>
+			SelectFolderForInstallation
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.266"
+			timeRelativeToTestModuleStartTime="00:00.266"
+			timeWallClock="15:16:54"
+			time="00:00.266"
+			level="Warn"
+			category="Data"
+			errimg=".\SelectFolderForInstallation.cs_20160418_151651_a77b49a5_trace.jpg"
+			errthumb=".\SelectFolderForInstallation.cs_20160418_151651_a77b49a5_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>SearchName
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.099"
+			timeRelativeToTestModuleStartTime="00:08.099"
+			timeWallClock="15:17:01"
+			time="00:08.099"
+			level="Error"
+			category="User"
+			errimg=".\SelectFolderForInstallation.cs_20160418_151651_3c5a4904_trace.jpg"
+			errthumb=".\SelectFolderForInstallation.cs_20160418_151651_3c5a4904_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

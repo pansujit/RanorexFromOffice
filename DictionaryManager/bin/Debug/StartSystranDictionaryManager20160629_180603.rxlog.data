@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="9d41a4f61adf446"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/29/2016 6:06:05 PM"
+		timestampiso="2016-06-29T16:06:05"
+		timeoutfactor="1"
+		module="StartSystranDictionaryManager">
+		<detail>
+			StartSystranDictionaryManager
+		</detail>
+		<errmsg>
+			Action 'close' failed on element '{Form:SYSTRAN Dictionary Manager}'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.229"
+			timeRelativeToTestModuleStartTime="00:00.230"
+			timeWallClock="18:06:05"
+			time="00:00.229"
+			level="Info"
+			category="Application"
+			errimg=".\StartSystranDictionaryManager20160629_180603_ece0806a_trace.jpg"
+			errthumb=".\StartSystranDictionaryManager20160629_180603_ece0806a_trace_thumb.jpg">
+			<message>
+				Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SystranDictionaryManager.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\StartSystranDictionaryManager.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.258"
+			timeRelativeToTestModuleStartTime="00:00.258"
+			timeWallClock="18:06:05"
+			time="00:00.258"
+			level="Info"
+			category="Application"
+			errimg=".\StartSystranDictionaryManager20160629_180603_ece0806a_trace.jpg"
+			errthumb=".\StartSystranDictionaryManager20160629_180603_ece0806a_trace_thumb.jpg">
+			<message>
+				Closing application containing item 'SYSTRANDictionaryManager'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.Self"
+				id="819b32cddcbf459793e7c5e27440e8e1"
+				timeout="30000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\StartSystranDictionaryManager.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.749"
+			timeRelativeToTestModuleStartTime="00:02.750"
+			timeWallClock="18:06:07"
+			time="00:02.749"
+			level="Error"
+			category="Module"
+			errimg=".\StartSystranDictionaryManager20160629_180603_d67e3660_trace.jpg"
+			errthumb=".\StartSystranDictionaryManager20160629_180603_d67e3660_trace_thumb.jpg">
+			<message>
+				Action 'close' failed on element '{Form:SYSTRAN Dictionary Manager}'.<br/>Failed to get response from control within 2000 milliseconds.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Element.InvokeAction(String name, Object[] args)
+   at Ranorex.Host.CloseApplication(Element containedElement, Duration gracePeriod)
+   at DictionaryManager.StartSystranDictionaryManager.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\StartSystranDictionaryManager.cs:line 87
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\StartSystranDictionaryManager.cs"
+				codeline="87"
+				loglvl="Error"
+				itemindex="1"/>
+		</item>
+	</activity>
+</report>

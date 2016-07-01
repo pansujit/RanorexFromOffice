@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="25a773dae8e231d0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/14/2016 3:05:07 PM"
+		timestampiso="2016-04-14T13:05:07"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="21.65s"
+			durationms="21653"
+			type="test suite"
+			rid="a1302c77ecdcc00"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="testAutomation"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="21.64s"
+				durationms="21636"
+				type="test case"
+				rid="1564b04c79837ed6"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="8101e436-afed-4ee8-be14-e529c4b0a519"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="14.19s"
+					durationms="14185"
+					type="test module"
+					rid="16f55a96b5a84b6e"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="StartFirefox"
+					moduleid="1651b2aa-5c89-4fef-8728-9a59cceaccd1"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Success"
+					duration="7416ms"
+					durationms="7416"
+					type="test module"
+					rid="5890efd122429b"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="ClickOnPackage"
+					moduleid="3861d624-9f27-4601-9e27-85b13c37b5c1"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Success"
+					duration="11ms"
+					durationms="11"
+					type="test module"
+					rid="c558dafa3affe30"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="StopFirefox"
+					moduleid="1c247488-8ac5-482c-815a-06aafea2613c"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

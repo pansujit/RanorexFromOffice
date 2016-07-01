@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
-rxversion="5.4.5.19886"
+rxversion="6.0"
 id="c915a203-e245-4182-88e0-8ab282f56b08"
 embeddedrepository="false"
 mode="Desktop">
@@ -31,13 +31,13 @@ mode="Desktop">
 		enabled="True"
 		optional="False"
 		duration="100ms"
-		searchpropertyid="e3f98aeb-5524-402c-9daa-3a0381132881"
+		searchpropertyid="5e11dcdd-ed97-43ba-a3fa-c46cca3cf6f8"
 		action="AttributeEqual">
 			<comment/>
 			<bindings/>
 			<info
 			sourcename="ElementTree"
-			id="c95e6ed7-1fde-4c79-a173-133d2c924379">
+			id="d9c77d59-ff95-4036-aee9-ff87c759d057">
 				<element
 				role="tooltip"
 				prefcap="tooltip"
@@ -48,13 +48,13 @@ mode="Desktop">
 				enabled="True"
 				hasfocus="False"
 				dontcache="False"
-				index="3"
-				rect="1450,632,200,33"
+				index="1"
+				rect="2603,662,164,33"
 				snapElem="">
 					<attribute
 					name="text"
 					type="System.String">
-						Ends editing of the translation
+						Close translation editing
 					</attribute>
 					<attribute
 					name="classname"
@@ -104,7 +104,7 @@ mode="Desktop">
 					<attribute
 					name="name"
 					type="System.String">
-						Ends editing of the translation
+						Close translation editing
 					</attribute>
 					<attribute
 					name="orientation"
@@ -114,7 +114,7 @@ mode="Desktop">
 					<attribute
 					name="processid"
 					type="System.Int32">
-						4188
+						10208
 					</attribute>
 					<limitation
 					name="WPF Legacy"
@@ -124,21 +124,21 @@ mode="Desktop">
 					</limitation>
 				</element>
 				<path>
-					/tooltip[@name~'^Ends\ editing\ of\ the\ trans']
+					/tooltip[@name='Close translation editing']
 				</path>
 			</info>
 			<matchname>
 				Text
 			</matchname>
 			<matchvalue>
-				Ends editing of the translation
+				Close translation editing
 			</matchvalue>
 		</validationitem>
 	</recorditems>
 	<repository
 	name="testtooltipRepository"
 	id="82a0660a-ea18-463f-89aa-4894af904f52"
-	rxversion="5.4.5.19886"
+	rxversion="6.0"
 	relativepath="testtooltipRepository.rxrep">
 		<codegen
 		classname="testtooltipRepository"

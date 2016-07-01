@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="17b0a01d447ac94a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/28/2016 4:35:54 PM"
+		timestampiso="2016-06-28T14:35:54"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="5021ms"
+			durationms="5021"
+			type="test suite"
+			rid="22ee08efc8b47519"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="testtooltip"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="5021ms"
+				durationms="5021"
+				type="folder"
+				rid="59772de6501713"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				foldername="Systran_Interactive_Translator">
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="5005ms"
+					durationms="5005"
+					type="test case"
+					rid="8a8d0bb13c28ff0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Help_In_SIT"
+					testcaseid="ca3305b5-7803-4e0a-b0dd-adc93080036a"
+					maxchildren="0">
+					<params/>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="187ms"
+						durationms="187"
+						type="test case setup"
+						rid="1240b0d3359ed66c"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="156ms"
+							durationms="156"
+							type="test module"
+							rid="c73efa019eae580"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartSIT"
+							moduleid="40a4cb5f-bf48-4422-ac66-84cc8e272058"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.218"
+								timeRelativeToTestModuleStartTime="00:00.000"
+								timeWallClock="16:35:54"
+								time="00:00.218"
+								level="Info"
+								category="Application">
+								<message>
+									Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SYSTRAN.InteractiveTranslator.exe' with arguments '' in normal mode.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\StartSIT.cs"
+									codeline="82"
+									loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="3529ms"
+						durationms="3529"
+						type="test module"
+						rid="fc0c94e940d21c4"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="HelpInSIT"
+						moduleid="5a295b99-b0e5-4e4a-8a28-66df83f99202"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.390"
+							timeRelativeToTestModuleStartTime="00:00.015"
+							timeWallClock="16:35:54"
+							time="00:00.390"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text='Help') on item 'SYSTRANInteractiveTranslator1.Help'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Interactive\ Trans' and @processname='SYSTRAN.InteractiveTranslator']/container//element[@automationid='PART_RightWindowCommands']/list/list/container/element[3]/container/element[@automationid='PART_ContentPresenter']/button/?/?/element[@automationid='PART_ContentControlEx']/?/?/element[@automationid='PART_ContentPresenter']/?/?/text[@caption='Help']"
+								fullname="testtooltipRepository.SYSTRANInteractiveTranslator1.Help"
+								id="de45bbef166c419382b741461c7309b1"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\HelpInSIT.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.882"
+							timeRelativeToTestModuleStartTime="00:01.508"
+							timeWallClock="16:35:55"
+							time="00:01.882"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'testtooltipRepository.SYSTRANInteractiveTranslator1.Help' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Interactive\ Trans' and @processname='SYSTRAN.InteractiveTranslator']/container//element[@automationid='PART_RightWindowCommands']/list/list/container/element[3]/container/element[@automationid='PART_ContentPresenter']/button/?/?/element[@automationid='PART_ContentControlEx']/?/?/element[@automationid='PART_ContentPresenter']/?/?/text[@caption='Help']"
+								fullname="testtooltipRepository.SYSTRANInteractiveTranslator1.Help"
+								id="de45bbef166c419382b741461c7309b1"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\HelpInSIT.cs"
+								codeline="83"
+								loglvl="Success"
+								itemindex="0"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.031"
+							timeRelativeToTestModuleStartTime="00:01.657"
+							timeWallClock="16:35:56"
+							time="00:02.031"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANInteractiveTranslator1.Help' at 6;10.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Interactive\ Trans' and @processname='SYSTRAN.InteractiveTranslator']/container//element[@automationid='PART_RightWindowCommands']/list/list/container/element[3]/container/element[@automationid='PART_ContentPresenter']/button/?/?/element[@automationid='PART_ContentControlEx']/?/?/element[@automationid='PART_ContentPresenter']/?/?/text[@caption='Help']"
+								fullname="testtooltipRepository.SYSTRANInteractiveTranslator1.Help"
+								id="de45bbef166c419382b741461c7309b1"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\HelpInSIT.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.869"
+							timeRelativeToTestModuleStartTime="00:02.494"
+							timeWallClock="16:35:56"
+							time="00:02.869"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text='http://support.systran.net/desktop/tutorial/systran-interactive-translator/') on item 'HowToPerformTranslationsAndLookupT.Address'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title~'^How\ to\ perform\ translatio']/element[@class='WorkerW']/form[@controlid='40966']//text"
+								fullname="testtooltipRepository.HowToPerformTranslationsAndLookupT.Address"
+								id="95f28e75a2d34ef9af404adf48bc359a"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\HelpInSIT.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:03.747"
+							timeRelativeToTestModuleStartTime="00:03.373"
+							timeWallClock="16:35:57"
+							time="00:03.747"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'testtooltipRepository.HowToPerformTranslationsAndLookupT.Address' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title~'^How\ to\ perform\ translatio']/element[@class='WorkerW']/form[@controlid='40966']//text"
+								fullname="testtooltipRepository.HowToPerformTranslationsAndLookupT.Address"
+								id="95f28e75a2d34ef9af404adf48bc359a"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\HelpInSIT.cs"
+								codeline="91"
+								loglvl="Success"
+								itemindex="2"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="1289ms"
+						durationms="1289"
+						type="test case teardown"
+						rid="62f4a10e04cabc"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="1289ms"
+							durationms="1289"
+							type="test module"
+							rid="10f7872696ee71ad"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseSIT"
+							moduleid="c5f35077-9678-4c52-9840-148de0bc05f0"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:03.903"
+								timeRelativeToTestModuleStartTime="00:00.000"
+								timeWallClock="16:35:57"
+								time="00:03.903"
+								level="Info"
+								category="Application">
+								<message>
+									Closing application containing item 'SYSTRANInteractiveTranslator'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@name~'^SYSTRAN\ Interactive\ Trans']"
+									fullname="testtooltipRepository.SYSTRANInteractiveTranslator.Self"
+									id="6d13c9922af145338c43cc4cbb3fae35"
+									timeout="30000"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\CloseSIT.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:04.122"
+								timeRelativeToTestModuleStartTime="00:00.218"
+								timeWallClock="16:35:58"
+								time="00:04.122"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 1000ms.
+								</message>
+								<metainfo
+									itemindex="1"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\CloseSIT.cs"
+									codeline="86"
+									loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

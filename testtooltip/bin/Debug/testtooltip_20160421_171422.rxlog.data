@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="34f6293b208b762"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="2"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/21/2016 5:14:22 PM"
+		timestampiso="2016-04-21T15:14:22"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="19.38s"
+			durationms="19378"
+			type="test suite"
+			rid="7987180492cb33e"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="2"
+			totalblockedcount="0"
+			testsuitename="testtooltip"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="19.36s"
+				durationms="19364"
+				type="test case"
+				rid="4e73c61dccbb350"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="2"
+				totalblockedcount="0"
+				testcasename="Global-Desktop-Test"
+				testcaseid="dcd41f78-b1fe-438f-8211-f350028d77b3"
+				maxchildren="4">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="19.36s"
+					durationms="19363"
+					type="test case"
+					rid="b5b25c3f7c820c0"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					testcasename="TestCase3"
+					testcaseid="44945689-df3f-40e6-aec0-f18c64917e2f"
+					maxchildren="0">
+					<params/>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="19.33s"
+						durationms="19329"
+						type="test module"
+						rid="83eeb35e8a791e4"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="StartFirefoxSystran (testAutomation)"
+						moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.316"
+							timeRelativeToTestModuleStartTime="00:19.147"
+							timeWallClock="17:14:41"
+							time="00:19.316"
+							level="Error"
+							category="User"
+							errimg="images_testtooltip_20160421_171422\testtooltip_20160421_171422_687d8665_trace.jpg"
+							errthumb="images_testtooltip_20160421_171422\testtooltip_20160421_171422_687d8665_trace_thumb.jpg">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

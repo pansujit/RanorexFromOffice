@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="8909402363e818"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/14/2016 4:16:52 PM"
+		timestampiso="2016-04-14T14:16:52"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.367"
+			timeRelativeToTestModuleStartTime="00:00.367"
+			timeWallClock="16:16:52"
+			time="00:00.367"
+			level="Warn"
+			category="Data"
+			errimg=".\Recording120160414_161648_4e7228a1_trace.jpg"
+			errthumb=".\Recording120160414_161648_4e7228a1_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>testVar
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.392"
+			timeRelativeToTestModuleStartTime="00:00.392"
+			timeWallClock="16:16:52"
+			time="00:00.392"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120160414_161648_4e7228a1_trace.jpg"
+			errthumb=".\Recording120160414_161648_4e7228a1_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'TranslationResources.Packages' at 50;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='Translation Resources']//div[#'navBar']//a[@innertext='Packages']"
+				fullname="testAutomationRepository.TranslationResources.Packages"
+				id="bef985b811a546419827896c77b0ec8b"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.180"
+			timeRelativeToTestModuleStartTime="00:12.180"
+			timeWallClock="16:17:04"
+			time="00:12.180"
+			level="Error"
+			category="User"
+			errimg=".\Recording120160414_161648_52b71c7d_trace.jpg"
+			errthumb=".\Recording120160414_161648_52b71c7d_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

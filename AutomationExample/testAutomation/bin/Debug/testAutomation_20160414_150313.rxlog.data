@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="cfbac11d24f53f8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/14/2016 3:03:13 PM"
+		timestampiso="2016-04-14T13:03:13"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="7115ms"
+			durationms="7115"
+			type="test suite"
+			rid="14da66b4c70e6652"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="testAutomation"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="7098ms"
+				durationms="7098"
+				type="test case"
+				rid="1c1577f74d705762"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="8101e436-afed-4ee8-be14-e529c4b0a519"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="7080ms"
+					durationms="7080"
+					type="test module"
+					rid="71e6fb67de3521f"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="StartFirefox"
+					moduleid="1651b2aa-5c89-4fef-8728-9a59cceaccd1"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.148"
+						timeRelativeToTestModuleStartTime="00:06.954"
+						timeWallClock="15:03:20"
+						time="00:07.148"
+						level="Error"
+						category="User"
+						errimg="images_testAutomation_20160414_150313\testAutomation_20160414_150313_22c0d923_trace.jpg"
+						errthumb="images_testAutomation_20160414_150313\testAutomation_20160414_150313_22c0d923_trace_thumb.jpg">
+						<message>
+							The test run has been aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

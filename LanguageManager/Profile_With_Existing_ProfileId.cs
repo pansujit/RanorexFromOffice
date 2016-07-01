@@ -58,7 +58,7 @@ namespace LanguageManager
         /// <summary>
         /// Starts the replay of the static recording <see cref="Instance"/>.
         /// </summary>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "5.4.5")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "6.0")]
         public static void Start()
         {
             TestModuleRunner.Run(Instance);
@@ -70,12 +70,12 @@ namespace LanguageManager
         /// <remarks>You should not call this method directly, instead pass the module
         /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
         /// that will in turn invoke this method.</remarks>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "5.4.5")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "6.0")]
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;
             Keyboard.DefaultKeyPressTime = 100;
-            Delay.SpeedFactor = 1.0;
+            Delay.SpeedFactor = 1.00;
 
             Init();
 
@@ -95,8 +95,8 @@ namespace LanguageManager
             repo.SYSTRANLanguageManager1.SomeBTag1.Click("9;15");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANLanguageManager1.Select2ResultLabel4' at 74;13.", repo.SYSTRANLanguageManager1.Select2ResultLabel4Info, new RecordItemIndex(4));
-            repo.SYSTRANLanguageManager1.Select2ResultLabel4.Click("74;13");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANLanguageManager1.Select2ResultLabel5' at 142;9.", repo.SYSTRANLanguageManager1.Select2ResultLabel5Info, new RecordItemIndex(4));
+            repo.SYSTRANLanguageManager1.Select2ResultLabel5.Click("142;9");
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANLanguageManager1.SelectLanguagesSubmit' at 29;13.", repo.SYSTRANLanguageManager1.SelectLanguagesSubmitInfo, new RecordItemIndex(5));

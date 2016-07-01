@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="56.75s"
+		durationms="56750"
+		type="root"
+		rid="434ddf1a1c3ddcc"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/14/2016 4:28:36 PM"
+		timestampiso="2016-04-14T14:28:36"
+		timeoutfactor="1"
+		module="ClickOnPackage">
+		<detail>
+			ClickOnPackage
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.366"
+			timeRelativeToTestModuleStartTime="00:00.367"
+			timeWallClock="16:28:36"
+			time="00:00.366"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>myvar
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:56.750"
+			timeRelativeToTestModuleStartTime="00:56.751"
+			timeWallClock="16:29:32"
+			time="00:56.750"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

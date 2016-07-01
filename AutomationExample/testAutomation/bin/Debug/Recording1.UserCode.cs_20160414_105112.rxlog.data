@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ef251ad11bfe750"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/14/2016 10:51:15 AM"
+		timestampiso="2016-04-14T08:51:15"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			No element found for path 'firefox' within 10s.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.587"
+			timeRelativeToTestModuleStartTime="00:10.588"
+			timeWallClock="10:51:26"
+			time="00:10.587"
+			level="Error"
+			category="Module"
+			errimg=".\Recording1.UserCode.cs_20160414_105112_35b858e5_trace.jpg"
+			errthumb=".\Recording1.UserCode.cs_20160414_105112_35b858e5_trace_thumb.jpg">
+			<message>
+				No element found for path 'firefox' within 10s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Element.FindSingle(RxPath path, Duration timeout)
+   at Ranorex.Core.Element.FromPath(String path)
+   at Ranorex.Core.Element.op_Implicit(String path)
+   at testAutomation.Recording1.Init() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.UserCode.cs:line 36
+   at testAutomation.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs:line 80
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.UserCode.cs"
+				codeline="36"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

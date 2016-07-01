@@ -22,20 +22,18 @@ namespace LanguageManager
     /// <summary>
     /// The class representing the LanguageManagerRepository element repository.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "5.4.5")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "6.0")]
     [RepositoryFolder("f799ee33-a5fc-4d12-a32c-afa8e13029ab")]
     public partial class LanguageManagerRepository : RepoGenBaseFolder
     {
         static LanguageManagerRepository instance = new LanguageManagerRepository();
         LanguageManagerRepositoryFolders.SYSTRANLanguageManagerAppFolder _systranlanguagemanager;
         LanguageManagerRepositoryFolders.DellOfficialSiteThePowerToDoMorAppFolder _dellofficialsitethepowertodomor;
-        LanguageManagerRepositoryFolders.ExplorerAppFolder _explorer;
-        LanguageManagerRepositoryFolders.SYSTRANLanguageManagerInternetExplAppFolder _systranlanguagemanagerinternetexpl;
         LanguageManagerRepositoryFolders.SYSTRANLanguageManager1AppFolder _systranlanguagemanager1;
-        LanguageManagerRepositoryFolders.IexploreAppFolder _iexplore;
         LanguageManagerRepositoryFolders.TranslationResourcesAppFolder _translationresources;
-        LanguageManagerRepositoryFolders.SYSTRANDictionaryManagerAppFolder _systrandictionarymanager;
-        LanguageManagerRepositoryFolders.TestWindowsRunningOracleVMVirtuAppFolder _testwindowsrunningoraclevmvirtu;
+        LanguageManagerRepositoryFolders.ExplorerAppFolder _explorer;
+        LanguageManagerRepositoryFolders.SYSTRANQuickFileTranslatorAppFolder _systranquickfiletranslator;
+        LanguageManagerRepositoryFolders.AbortTranslationAppFolder _aborttranslation;
 
         /// <summary>
         /// Gets the singleton class instance representing the LanguageManagerRepository element repository.
@@ -54,13 +52,11 @@ namespace LanguageManager
         {
             _systranlanguagemanager = new LanguageManagerRepositoryFolders.SYSTRANLanguageManagerAppFolder(this);
             _dellofficialsitethepowertodomor = new LanguageManagerRepositoryFolders.DellOfficialSiteThePowerToDoMorAppFolder(this);
-            _explorer = new LanguageManagerRepositoryFolders.ExplorerAppFolder(this);
-            _systranlanguagemanagerinternetexpl = new LanguageManagerRepositoryFolders.SYSTRANLanguageManagerInternetExplAppFolder(this);
             _systranlanguagemanager1 = new LanguageManagerRepositoryFolders.SYSTRANLanguageManager1AppFolder(this);
-            _iexplore = new LanguageManagerRepositoryFolders.IexploreAppFolder(this);
             _translationresources = new LanguageManagerRepositoryFolders.TranslationResourcesAppFolder(this);
-            _systrandictionarymanager = new LanguageManagerRepositoryFolders.SYSTRANDictionaryManagerAppFolder(this);
-            _testwindowsrunningoraclevmvirtu = new LanguageManagerRepositoryFolders.TestWindowsRunningOracleVMVirtuAppFolder(this);
+            _explorer = new LanguageManagerRepositoryFolders.ExplorerAppFolder(this);
+            _systranquickfiletranslator = new LanguageManagerRepositoryFolders.SYSTRANQuickFileTranslatorAppFolder(this);
+            _aborttranslation = new LanguageManagerRepositoryFolders.AbortTranslationAppFolder(this);
         }
 
 #region Variables
@@ -98,39 +94,12 @@ namespace LanguageManager
         }
 
         /// <summary>
-        /// The Explorer folder.
-        /// </summary>
-        [RepositoryFolder("b82bc4ce-63af-4827-a642-ea589595d42b")]
-        public virtual LanguageManagerRepositoryFolders.ExplorerAppFolder Explorer
-        {
-            get { return _explorer; }
-        }
-
-        /// <summary>
-        /// The SYSTRANLanguageManagerInternetExpl folder.
-        /// </summary>
-        [RepositoryFolder("2c3f3d67-9f38-4f16-9506-faa30c929d1b")]
-        public virtual LanguageManagerRepositoryFolders.SYSTRANLanguageManagerInternetExplAppFolder SYSTRANLanguageManagerInternetExpl
-        {
-            get { return _systranlanguagemanagerinternetexpl; }
-        }
-
-        /// <summary>
         /// The SYSTRANLanguageManager1 folder.
         /// </summary>
         [RepositoryFolder("0b282e6c-ae7f-4b08-bb24-4e6b3249eb04")]
         public virtual LanguageManagerRepositoryFolders.SYSTRANLanguageManager1AppFolder SYSTRANLanguageManager1
         {
             get { return _systranlanguagemanager1; }
-        }
-
-        /// <summary>
-        /// The Iexplore folder.
-        /// </summary>
-        [RepositoryFolder("24ba4c47-1958-41e4-97aa-082227673d79")]
-        public virtual LanguageManagerRepositoryFolders.IexploreAppFolder Iexplore
-        {
-            get { return _iexplore; }
         }
 
         /// <summary>
@@ -143,28 +112,37 @@ namespace LanguageManager
         }
 
         /// <summary>
-        /// The SYSTRANDictionaryManager folder.
+        /// The Explorer folder.
         /// </summary>
-        [RepositoryFolder("0d485828-8bc3-45c9-85fc-77dd2fcaba0e")]
-        public virtual LanguageManagerRepositoryFolders.SYSTRANDictionaryManagerAppFolder SYSTRANDictionaryManager
+        [RepositoryFolder("096128c6-696a-4ade-9851-1e797c26b364")]
+        public virtual LanguageManagerRepositoryFolders.ExplorerAppFolder Explorer
         {
-            get { return _systrandictionarymanager; }
+            get { return _explorer; }
         }
 
         /// <summary>
-        /// The TestWindowsRunningOracleVMVirtu folder.
+        /// The SYSTRANQuickFileTranslator folder.
         /// </summary>
-        [RepositoryFolder("bf55a141-e235-4e1e-908e-7193024d2531")]
-        public virtual LanguageManagerRepositoryFolders.TestWindowsRunningOracleVMVirtuAppFolder TestWindowsRunningOracleVMVirtu
+        [RepositoryFolder("e9c42457-a977-4a67-988a-783a8b97d7d3")]
+        public virtual LanguageManagerRepositoryFolders.SYSTRANQuickFileTranslatorAppFolder SYSTRANQuickFileTranslator
         {
-            get { return _testwindowsrunningoraclevmvirtu; }
+            get { return _systranquickfiletranslator; }
+        }
+
+        /// <summary>
+        /// The AbortTranslation folder.
+        /// </summary>
+        [RepositoryFolder("7a26042b-2fcd-4ff8-a3f4-09932e50163e")]
+        public virtual LanguageManagerRepositoryFolders.AbortTranslationAppFolder AbortTranslation
+        {
+            get { return _aborttranslation; }
         }
     }
 
     /// <summary>
     /// Inner folder classes.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "5.4.5")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "6.0")]
     public partial class LanguageManagerRepositoryFolders
     {
         /// <summary>
@@ -173,9 +151,6 @@ namespace LanguageManager
         [RepositoryFolder("4c289af1-9f6c-43aa-915d-3957017e5399")]
         public partial class SYSTRANLanguageManagerAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _buttonrefreshInfo;
-            RepoItemInfo _closeInfo;
-            RepoItemInfo _element122647568Info;
             RepoItemInfo _systranstoreInfo;
 
             /// <summary>
@@ -184,9 +159,6 @@ namespace LanguageManager
             public SYSTRANLanguageManagerAppFolder(RepoGenBaseFolder parentFolder) :
                     base("SYSTRANLanguageManager", "/form[@title='SYSTRAN Language Manager']", parentFolder, 30000, null, true, "4c289af1-9f6c-43aa-915d-3957017e5399", "")
             {
-                _buttonrefreshInfo = new RepoItemInfo(this, "ButtonRefresh", "?/?/container[@accessiblename='SYSTRAN Language Manager']/?/?/button[@accessiblename=' Refresh']", 30000, null, "057d5c94-6b70-4791-a8e0-803f44dc3e56");
-                _closeInfo = new RepoItemInfo(this, "Close", "?/?/button[@accessiblename='Close']", 30000, null, "65813c61-6901-430e-b4e9-5696898cc41e");
-                _element122647568Info = new RepoItemInfo(this, "Element122647568", "element[@controlid='122647568']", 30000, null, "137a55e2-aac8-4eac-8942-792bdaad45ec");
                 _systranstoreInfo = new RepoItemInfo(this, "SYSTRANStore", "?/?/container[@accessiblename='SYSTRAN Language Manager']/?/?/link[@accessiblename='SYSTRAN Store']/text[@accessiblename='SYSTRAN Store']", 30000, null, "c30db001-120e-4183-9239-167246d8d998");
             }
 
@@ -211,78 +183,6 @@ namespace LanguageManager
                 get
                 {
                     return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ButtonRefresh item.
-            /// </summary>
-            [RepositoryItem("057d5c94-6b70-4791-a8e0-803f44dc3e56")]
-            public virtual Ranorex.Button ButtonRefresh
-            {
-                get
-                {
-                    return _buttonrefreshInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ButtonRefresh item info.
-            /// </summary>
-            [RepositoryItemInfo("057d5c94-6b70-4791-a8e0-803f44dc3e56")]
-            public virtual RepoItemInfo ButtonRefreshInfo
-            {
-                get
-                {
-                    return _buttonrefreshInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Close item.
-            /// </summary>
-            [RepositoryItem("65813c61-6901-430e-b4e9-5696898cc41e")]
-            public virtual Ranorex.Button Close
-            {
-                get
-                {
-                    return _closeInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Close item info.
-            /// </summary>
-            [RepositoryItemInfo("65813c61-6901-430e-b4e9-5696898cc41e")]
-            public virtual RepoItemInfo CloseInfo
-            {
-                get
-                {
-                    return _closeInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Element122647568 item.
-            /// </summary>
-            [RepositoryItem("137a55e2-aac8-4eac-8942-792bdaad45ec")]
-            public virtual Ranorex.Unknown Element122647568
-            {
-                get
-                {
-                    return _element122647568Info.CreateAdapter<Ranorex.Unknown>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Element122647568 item info.
-            /// </summary>
-            [RepositoryItemInfo("137a55e2-aac8-4eac-8942-792bdaad45ec")]
-            public virtual RepoItemInfo Element122647568Info
-            {
-                get
-                {
-                    return _element122647568Info;
                 }
             }
 
@@ -317,9 +217,7 @@ namespace LanguageManager
         [RepositoryFolder("5210798d-e2d9-43c8-8341-d64747302fbe")]
         public partial class DellOfficialSiteThePowerToDoMorAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _clientcaptionInfo;
             RepoItemInfo _editInfo;
-            RepoItemInfo _dragtotaskbartopinsiteInfo;
 
             /// <summary>
             /// Creates a new DellOfficialSiteThePowerToDoMor  folder.
@@ -327,9 +225,7 @@ namespace LanguageManager
             public DellOfficialSiteThePowerToDoMorAppFolder(RepoGenBaseFolder parentFolder) :
                     base("DellOfficialSiteThePowerToDoMor", "/form[@title~'^Dell\\ Official\\ Site\\ -\\ The\\ ']", parentFolder, 30000, null, true, "5210798d-e2d9-43c8-8341-d64747302fbe", "")
             {
-                _clientcaptionInfo = new RepoItemInfo(this, "ClientCaption", "element[@class='Client Caption']", 30000, null, "57fee0cd-803a-4b01-baae-96cd3edeb941");
                 _editInfo = new RepoItemInfo(this, "Edit", "?/?/form[@controlid='40966']/?/?/text[@class='Edit']", 30000, null, "c7430e8b-09e2-4c39-b80f-3a411a192bea");
-                _dragtotaskbartopinsiteInfo = new RepoItemInfo(this, "DragToTaskbarToPinSite", "?/?/form[@controlid='40966']/element[@controlid='41477']/toolbar[@instance='0']/button[@text~'^Drag\\ to\\ taskbar\\ to\\ pin\\ si']", 30000, null, "88bb78c7-66fe-4d69-9aa9-841bf50a6f1c");
             }
 
             /// <summary>
@@ -357,30 +253,6 @@ namespace LanguageManager
             }
 
             /// <summary>
-            /// The ClientCaption item.
-            /// </summary>
-            [RepositoryItem("57fee0cd-803a-4b01-baae-96cd3edeb941")]
-            public virtual Ranorex.Unknown ClientCaption
-            {
-                get
-                {
-                    return _clientcaptionInfo.CreateAdapter<Ranorex.Unknown>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ClientCaption item info.
-            /// </summary>
-            [RepositoryItemInfo("57fee0cd-803a-4b01-baae-96cd3edeb941")]
-            public virtual RepoItemInfo ClientCaptionInfo
-            {
-                get
-                {
-                    return _clientcaptionInfo;
-                }
-            }
-
-            /// <summary>
             /// The Edit item.
             /// </summary>
             [RepositoryItem("c7430e8b-09e2-4c39-b80f-3a411a192bea")]
@@ -401,188 +273,6 @@ namespace LanguageManager
                 get
                 {
                     return _editInfo;
-                }
-            }
-
-            /// <summary>
-            /// The DragToTaskbarToPinSite item.
-            /// </summary>
-            [RepositoryItem("88bb78c7-66fe-4d69-9aa9-841bf50a6f1c")]
-            public virtual Ranorex.Button DragToTaskbarToPinSite
-            {
-                get
-                {
-                    return _dragtotaskbartopinsiteInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The DragToTaskbarToPinSite item info.
-            /// </summary>
-            [RepositoryItemInfo("88bb78c7-66fe-4d69-9aa9-841bf50a6f1c")]
-            public virtual RepoItemInfo DragToTaskbarToPinSiteInfo
-            {
-                get
-                {
-                    return _dragtotaskbartopinsiteInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The ExplorerAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("b82bc4ce-63af-4827-a642-ea589595d42b")]
-        public partial class ExplorerAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _systranlanguagemanagerinternetexplInfo;
-
-            /// <summary>
-            /// Creates a new Explorer  folder.
-            /// </summary>
-            public ExplorerAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Explorer", "/menubar[@processname='explorer']", parentFolder, 30000, null, true, "b82bc4ce-63af-4827-a642-ea589595d42b", "")
-            {
-                _systranlanguagemanagerinternetexplInfo = new RepoItemInfo(this, "SYSTRANLanguageManagerInternetExpl", "form[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^SYSTRAN\\ Language\\ Manager\\ ']", 30000, null, "3bff98a3-6199-4a5e-b66e-501f282eff6c");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("b82bc4ce-63af-4827-a642-ea589595d42b")]
-            public virtual Ranorex.MenuBar Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.MenuBar>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("b82bc4ce-63af-4827-a642-ea589595d42b")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SYSTRANLanguageManagerInternetExpl item.
-            /// </summary>
-            [RepositoryItem("3bff98a3-6199-4a5e-b66e-501f282eff6c")]
-            public virtual Ranorex.Button SYSTRANLanguageManagerInternetExpl
-            {
-                get
-                {
-                    return _systranlanguagemanagerinternetexplInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SYSTRANLanguageManagerInternetExpl item info.
-            /// </summary>
-            [RepositoryItemInfo("3bff98a3-6199-4a5e-b66e-501f282eff6c")]
-            public virtual RepoItemInfo SYSTRANLanguageManagerInternetExplInfo
-            {
-                get
-                {
-                    return _systranlanguagemanagerinternetexplInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The SYSTRANLanguageManagerInternetExplAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("2c3f3d67-9f38-4f16-9506-faa30c929d1b")]
-        public partial class SYSTRANLanguageManagerInternetExplAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _editInfo;
-            RepoItemInfo _clientcaptionInfo;
-
-            /// <summary>
-            /// Creates a new SYSTRANLanguageManagerInternetExpl  folder.
-            /// </summary>
-            public SYSTRANLanguageManagerInternetExplAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("SYSTRANLanguageManagerInternetExpl", "/form[@title~'^SYSTRAN\\ Language\\ Manager\\ ']", parentFolder, 30000, null, true, "2c3f3d67-9f38-4f16-9506-faa30c929d1b", "")
-            {
-                _editInfo = new RepoItemInfo(this, "Edit", "?/?/form[@controlid='40966']/?/?/text[@class='Edit']", 30000, null, "151cb618-08ef-48ae-ad3e-c5e377c7242b");
-                _clientcaptionInfo = new RepoItemInfo(this, "ClientCaption", "element[@class='Client Caption']", 30000, null, "18bee10a-e489-4149-b324-5af5b85e98ee");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("2c3f3d67-9f38-4f16-9506-faa30c929d1b")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("2c3f3d67-9f38-4f16-9506-faa30c929d1b")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Edit item.
-            /// </summary>
-            [RepositoryItem("151cb618-08ef-48ae-ad3e-c5e377c7242b")]
-            public virtual Ranorex.Text Edit
-            {
-                get
-                {
-                    return _editInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Edit item info.
-            /// </summary>
-            [RepositoryItemInfo("151cb618-08ef-48ae-ad3e-c5e377c7242b")]
-            public virtual RepoItemInfo EditInfo
-            {
-                get
-                {
-                    return _editInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ClientCaption item.
-            /// </summary>
-            [RepositoryItem("18bee10a-e489-4149-b324-5af5b85e98ee")]
-            public virtual Ranorex.Unknown ClientCaption
-            {
-                get
-                {
-                    return _clientcaptionInfo.CreateAdapter<Ranorex.Unknown>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ClientCaption item info.
-            /// </summary>
-            [RepositoryItemInfo("18bee10a-e489-4149-b324-5af5b85e98ee")]
-            public virtual RepoItemInfo ClientCaptionInfo
-            {
-                get
-                {
-                    return _clientcaptionInfo;
                 }
             }
         }
@@ -625,7 +315,7 @@ namespace LanguageManager
             RepoItemInfo _addaproductkeyInfo;
             RepoItemInfo _close1Info;
             RepoItemInfo _submitaddproductkeyInfo;
-            RepoItemInfo _trsregistrationInfo;
+            RepoItemInfo _select2resultlabel5Info;
 
             /// <summary>
             /// Creates a new SYSTRANLanguageManager1  folder.
@@ -665,7 +355,7 @@ namespace LanguageManager
                 _addaproductkeyInfo = new RepoItemInfo(this, "AddAProductKey", ".//div[#'addProductKeyModal']/div/div/div[1]/h3[@innertext='Add a product key']", 30000, null, "21951eee-db38-4a88-8670-619a0eb87915");
                 _close1Info = new RepoItemInfo(this, "Close1", ".//div[#'addProductKeyModal']/div/div/div[3]/button[@innertext='Close']", 30000, null, "cffc7619-1f13-4bd3-930f-5bd80dd45556");
                 _submitaddproductkeyInfo = new RepoItemInfo(this, "SubmitAddProductKey", ".//button[#'submitAddProductKey']", 30000, null, "8c7aab88-8568-42a7-9c03-32bb70563549");
-                _trsregistrationInfo = new RepoItemInfo(this, "TrsRegistration", ".//a[#'trsRegistration']", 30000, null, "700af4dd-65a5-4702-9ba5-073d64d02743");
+                _select2resultlabel5Info = new RepoItemInfo(this, "Select2ResultLabel5", ".//div[#'select2-result-label-5']", 30000, null, "811d710c-e5e2-4300-8e95-c58007eff3b2");
             }
 
             /// <summary>
@@ -1461,92 +1151,26 @@ namespace LanguageManager
             }
 
             /// <summary>
-            /// The TrsRegistration item.
+            /// The Select2ResultLabel5 item.
             /// </summary>
-            [RepositoryItem("700af4dd-65a5-4702-9ba5-073d64d02743")]
-            public virtual Ranorex.ATag TrsRegistration
+            [RepositoryItem("811d710c-e5e2-4300-8e95-c58007eff3b2")]
+            public virtual Ranorex.DivTag Select2ResultLabel5
             {
                 get
                 {
-                    return _trsregistrationInfo.CreateAdapter<Ranorex.ATag>(true);
+                    return _select2resultlabel5Info.CreateAdapter<Ranorex.DivTag>(true);
                 }
             }
 
             /// <summary>
-            /// The TrsRegistration item info.
+            /// The Select2ResultLabel5 item info.
             /// </summary>
-            [RepositoryItemInfo("700af4dd-65a5-4702-9ba5-073d64d02743")]
-            public virtual RepoItemInfo TrsRegistrationInfo
+            [RepositoryItemInfo("811d710c-e5e2-4300-8e95-c58007eff3b2")]
+            public virtual RepoItemInfo Select2ResultLabel5Info
             {
                 get
                 {
-                    return _trsregistrationInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The IexploreAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("24ba4c47-1958-41e4-97aa-082227673d79")]
-        public partial class IexploreAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _openInfo;
-
-            /// <summary>
-            /// Creates a new Iexplore  folder.
-            /// </summary>
-            public IexploreAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Iexplore", "/contextmenu[@processname='iexplore']", parentFolder, 30000, null, true, "24ba4c47-1958-41e4-97aa-082227673d79", "")
-            {
-                _openInfo = new RepoItemInfo(this, "Open", "?/?/menuitem[@accessiblename='Open']", 30000, null, "c4bc6559-cb91-4743-b41d-8beaa5f97c13");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("24ba4c47-1958-41e4-97aa-082227673d79")]
-            public virtual Ranorex.ContextMenu Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.ContextMenu>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("24ba4c47-1958-41e4-97aa-082227673d79")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Open item.
-            /// </summary>
-            [RepositoryItem("c4bc6559-cb91-4743-b41d-8beaa5f97c13")]
-            public virtual Ranorex.MenuItem Open
-            {
-                get
-                {
-                    return _openInfo.CreateAdapter<Ranorex.MenuItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Open item info.
-            /// </summary>
-            [RepositoryItemInfo("c4bc6559-cb91-4743-b41d-8beaa5f97c13")]
-            public virtual RepoItemInfo OpenInfo
-            {
-                get
-                {
-                    return _openInfo;
+                    return _select2resultlabel5Info;
                 }
             }
         }
@@ -1644,38 +1268,38 @@ namespace LanguageManager
         }
 
         /// <summary>
-        /// The SYSTRANDictionaryManagerAppFolder folder.
+        /// The ExplorerAppFolder folder.
         /// </summary>
-        [RepositoryFolder("0d485828-8bc3-45c9-85fc-77dd2fcaba0e")]
-        public partial class SYSTRANDictionaryManagerAppFolder : RepoGenBaseFolder
+        [RepositoryFolder("096128c6-696a-4ade-9851-1e797c26b364")]
+        public partial class ExplorerAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _minimizeInfo;
+            RepoItemInfo _systranquickfiletranslatorInfo;
 
             /// <summary>
-            /// Creates a new SYSTRANDictionaryManager  folder.
+            /// Creates a new Explorer  folder.
             /// </summary>
-            public SYSTRANDictionaryManagerAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("SYSTRANDictionaryManager", "/form[@title~'^SYSTRAN\\ Dictionary\\ Manage']", parentFolder, 30000, null, true, "0d485828-8bc3-45c9-85fc-77dd2fcaba0e", "")
+            public ExplorerAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Explorer", "/menubar[@processname='explorer']", parentFolder, 30000, null, true, "096128c6-696a-4ade-9851-1e797c26b364", "")
             {
-                _minimizeInfo = new RepoItemInfo(this, "Minimize", "?/?/button[@accessiblename='Minimize']", 30000, null, "b9aee420-aa0e-495c-8ec0-87dbc8ad5e3d");
+                _systranquickfiletranslatorInfo = new RepoItemInfo(this, "SYSTRANQuickFileTranslator", "form[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^SYSTRAN\\ Quick\\ File\\ Transl']", 30000, null, "f44ace83-5153-4f3d-aed7-8d7f92bb5014");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("0d485828-8bc3-45c9-85fc-77dd2fcaba0e")]
-            public virtual Ranorex.Form Self
+            [RepositoryItem("096128c6-696a-4ade-9851-1e797c26b364")]
+            public virtual Ranorex.MenuBar Self
             {
                 get
                 {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                    return _selfInfo.CreateAdapter<Ranorex.MenuBar>(true);
                 }
             }
 
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("0d485828-8bc3-45c9-85fc-77dd2fcaba0e")]
+            [RepositoryItemInfo("096128c6-696a-4ade-9851-1e797c26b364")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -1685,51 +1309,51 @@ namespace LanguageManager
             }
 
             /// <summary>
-            /// The Minimize item.
+            /// The SYSTRANQuickFileTranslator item.
             /// </summary>
-            [RepositoryItem("b9aee420-aa0e-495c-8ec0-87dbc8ad5e3d")]
-            public virtual Ranorex.Button Minimize
+            [RepositoryItem("f44ace83-5153-4f3d-aed7-8d7f92bb5014")]
+            public virtual Ranorex.Button SYSTRANQuickFileTranslator
             {
                 get
                 {
-                    return _minimizeInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _systranquickfiletranslatorInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
             /// <summary>
-            /// The Minimize item info.
+            /// The SYSTRANQuickFileTranslator item info.
             /// </summary>
-            [RepositoryItemInfo("b9aee420-aa0e-495c-8ec0-87dbc8ad5e3d")]
-            public virtual RepoItemInfo MinimizeInfo
+            [RepositoryItemInfo("f44ace83-5153-4f3d-aed7-8d7f92bb5014")]
+            public virtual RepoItemInfo SYSTRANQuickFileTranslatorInfo
             {
                 get
                 {
-                    return _minimizeInfo;
+                    return _systranquickfiletranslatorInfo;
                 }
             }
         }
 
         /// <summary>
-        /// The TestWindowsRunningOracleVMVirtuAppFolder folder.
+        /// The SYSTRANQuickFileTranslatorAppFolder folder.
         /// </summary>
-        [RepositoryFolder("bf55a141-e235-4e1e-908e-7193024d2531")]
-        public partial class TestWindowsRunningOracleVMVirtuAppFolder : RepoGenBaseFolder
+        [RepositoryFolder("e9c42457-a977-4a67-988a-783a8b97d7d3")]
+        public partial class SYSTRANQuickFileTranslatorAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _qwidgetInfo;
+            LanguageManagerRepositoryFolders.SomeContainerFolder _somecontainer;
 
             /// <summary>
-            /// Creates a new TestWindowsRunningOracleVMVirtu  folder.
+            /// Creates a new SYSTRANQuickFileTranslator  folder.
             /// </summary>
-            public TestWindowsRunningOracleVMVirtuAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("TestWindowsRunningOracleVMVirtu", "/form[@title~'^test_windows\\ \\[Running]\\ -\\ ']", parentFolder, 30000, null, true, "bf55a141-e235-4e1e-908e-7193024d2531", "")
+            public SYSTRANQuickFileTranslatorAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("SYSTRANQuickFileTranslator", "/form[@wpfnative='True' and @title~'^SYSTRAN\\ Quick\\ File\\ Transl' and @processname='SYSTRAN.QuickFileTranslator']", parentFolder, 30000, null, true, "e9c42457-a977-4a67-988a-783a8b97d7d3", "")
             {
-                _qwidgetInfo = new RepoItemInfo(this, "QWidget", "element[@instance='1']/?/?/element[@instance='0']", 30000, null, "942c007d-8f2f-4344-a7c5-f585ef8ff203");
+                _somecontainer = new LanguageManagerRepositoryFolders.SomeContainerFolder(this);
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("bf55a141-e235-4e1e-908e-7193024d2531")]
+            [RepositoryItem("e9c42457-a977-4a67-988a-783a8b97d7d3")]
             public virtual Ranorex.Form Self
             {
                 get
@@ -1741,7 +1365,7 @@ namespace LanguageManager
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("bf55a141-e235-4e1e-908e-7193024d2531")]
+            [RepositoryItemInfo("e9c42457-a977-4a67-988a-783a8b97d7d3")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -1751,26 +1375,195 @@ namespace LanguageManager
             }
 
             /// <summary>
-            /// The QWidget item.
+            /// The SomeContainer folder.
             /// </summary>
-            [RepositoryItem("942c007d-8f2f-4344-a7c5-f585ef8ff203")]
-            public virtual Ranorex.Unknown QWidget
+            [RepositoryFolder("b41508eb-62a8-4225-876f-f265f8a793ce")]
+            public virtual LanguageManagerRepositoryFolders.SomeContainerFolder SomeContainer
+            {
+                get { return _somecontainer; }
+            }
+        }
+
+        /// <summary>
+        /// The SomeContainerFolder folder.
+        /// </summary>
+        [RepositoryFolder("b41508eb-62a8-4225-876f-f265f8a793ce")]
+        public partial class SomeContainerFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _backgroundInfo;
+            RepoItemInfo _someelementInfo;
+            RepoItemInfo _canceltranslationInfo;
+
+            /// <summary>
+            /// Creates a new SomeContainer  folder.
+            /// </summary>
+            public SomeContainerFolder(RepoGenBaseFolder parentFolder) :
+                    base("SomeContainer", "container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container", parentFolder, 30000, null, false, "b41508eb-62a8-4225-876f-f265f8a793ce", "")
+            {
+                _backgroundInfo = new RepoItemInfo(this, "Background", "?/?/element/container/element/container/container/button[@text='Translate']/?/?/element[@automationid='Background']", 30000, null, "208f43c0-e015-4077-ab94-521d42fb6c06");
+                _someelementInfo = new RepoItemInfo(this, "SomeElement", "element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[2]/container/element[3]/container/container[1]/text[@automationid='mSourceRootFolderTextBox']/?/?/container[@automationid='PART_InnerGrid']/container[@automationid='PART_ContentHost']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/element[1]", 30000, null, "768ba444-069d-44f8-8c48-f4b5f8447c3d");
+                _canceltranslationInfo = new RepoItemInfo(this, "CancelTranslation", "element/element/container/element/?/?/button[@text='Cancel translation']/?/?/element[@automationid='contentPresenter']/text[@caption='Cancel translation']", 30000, null, "d7bac550-169a-4dfc-a49c-c9b12af9c55b");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("b41508eb-62a8-4225-876f-f265f8a793ce")]
+            public virtual Ranorex.Container Self
             {
                 get
                 {
-                    return _qwidgetInfo.CreateAdapter<Ranorex.Unknown>(true);
+                    return _selfInfo.CreateAdapter<Ranorex.Container>(true);
                 }
             }
 
             /// <summary>
-            /// The QWidget item info.
+            /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("942c007d-8f2f-4344-a7c5-f585ef8ff203")]
-            public virtual RepoItemInfo QWidgetInfo
+            [RepositoryItemInfo("b41508eb-62a8-4225-876f-f265f8a793ce")]
+            public virtual RepoItemInfo SelfInfo
             {
                 get
                 {
-                    return _qwidgetInfo;
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Background item.
+            /// </summary>
+            [RepositoryItem("208f43c0-e015-4077-ab94-521d42fb6c06")]
+            public virtual Ranorex.Unknown Background
+            {
+                get
+                {
+                    return _backgroundInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Background item info.
+            /// </summary>
+            [RepositoryItemInfo("208f43c0-e015-4077-ab94-521d42fb6c06")]
+            public virtual RepoItemInfo BackgroundInfo
+            {
+                get
+                {
+                    return _backgroundInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SomeElement item.
+            /// </summary>
+            [RepositoryItem("768ba444-069d-44f8-8c48-f4b5f8447c3d")]
+            public virtual Ranorex.Unknown SomeElement
+            {
+                get
+                {
+                    return _someelementInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeElement item info.
+            /// </summary>
+            [RepositoryItemInfo("768ba444-069d-44f8-8c48-f4b5f8447c3d")]
+            public virtual RepoItemInfo SomeElementInfo
+            {
+                get
+                {
+                    return _someelementInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CancelTranslation item.
+            /// </summary>
+            [RepositoryItem("d7bac550-169a-4dfc-a49c-c9b12af9c55b")]
+            public virtual Ranorex.Text CancelTranslation
+            {
+                get
+                {
+                    return _canceltranslationInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CancelTranslation item info.
+            /// </summary>
+            [RepositoryItemInfo("d7bac550-169a-4dfc-a49c-c9b12af9c55b")]
+            public virtual RepoItemInfo CancelTranslationInfo
+            {
+                get
+                {
+                    return _canceltranslationInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The AbortTranslationAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("7a26042b-2fcd-4ff8-a3f4-09932e50163e")]
+        public partial class AbortTranslationAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _buttonokInfo;
+
+            /// <summary>
+            /// Creates a new AbortTranslation  folder.
+            /// </summary>
+            public AbortTranslationAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("AbortTranslation", "/form[@title='Abort translation']", parentFolder, 30000, null, true, "7a26042b-2fcd-4ff8-a3f4-09932e50163e", "")
+            {
+                _buttonokInfo = new RepoItemInfo(this, "ButtonOK", "button[@text='OK']", 30000, null, "1d816c15-94c2-40c9-819d-25575ab0c64c");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("7a26042b-2fcd-4ff8-a3f4-09932e50163e")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("7a26042b-2fcd-4ff8-a3f4-09932e50163e")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ButtonOK item.
+            /// </summary>
+            [RepositoryItem("1d816c15-94c2-40c9-819d-25575ab0c64c")]
+            public virtual Ranorex.Button ButtonOK
+            {
+                get
+                {
+                    return _buttonokInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonOK item info.
+            /// </summary>
+            [RepositoryItemInfo("1d816c15-94c2-40c9-819d-25575ab0c64c")]
+            public virtual RepoItemInfo ButtonOKInfo
+            {
+                get
+                {
+                    return _buttonokInfo;
                 }
             }
         }

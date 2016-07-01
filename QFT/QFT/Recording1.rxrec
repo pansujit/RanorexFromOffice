@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.4.6.0"
+id="7b5581e5-ca0e-4934-8fae-315d09b12231"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="QFT"/>
+	<variables>
+		<var
+		name="varLocation"
+		id="f06f7cfe-fcc7-4d13-aa9a-69547bb775cd">
+			None
+		</var>
+		<var
+		name="varFormat"
+		id="aac43d59-2800-4571-b16d-ee8c6a070e7e">
+			None
+		</var>
+	</variables>
+	<recorditems/>
+	<repository
+	name="QFTRepository"
+	id="4b60c6d7-fbf7-42c8-93b8-c0540cd77548"
+	rxversion="5.4.6.0"
+	relativepath="QFTRepository.rxrep">
+		<codegen
+		classname="QFTRepository"
+		namespace="QFT"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="92f22dce-57ca-4d90-9658-0f48e1d101a4"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

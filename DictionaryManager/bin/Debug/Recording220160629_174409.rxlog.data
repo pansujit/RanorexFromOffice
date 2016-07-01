@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2c1311b6fc50f138"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/29/2016 5:44:11 PM"
+		timestampiso="2016-06-29T15:44:11"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.296"
+			timeRelativeToTestModuleStartTime="00:00.297"
+			timeWallClock="17:44:12"
+			time="00:00.296"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording220160629_174409_49189833_trace.jpg"
+			errthumb=".\Recording220160629_174409_49189833_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'FileMenu.File' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='File']"
+				fullname="DictionaryManagerRepository.FileMenu.File"
+				id="3985b1f5ad68465592932cd5cce723d7"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\Recording2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.206"
+			timeRelativeToTestModuleStartTime="00:02.206"
+			timeWallClock="17:44:14"
+			time="00:02.206"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording220160629_174409_492a3591_trace.jpg"
+			errthumb=".\Recording220160629_174409_492a3591_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'FileMenu.FileImport' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='File']/menuitem[@accessiblename='Import']"
+				fullname="DictionaryManagerRepository.FileMenu.FileImport"
+				id="97765ba5f3854358a3ac02d35376f535"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\Recording2.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.251"
+			timeRelativeToTestModuleStartTime="00:11.251"
+			timeWallClock="17:44:23"
+			time="00:11.251"
+			level="Error"
+			category="User"
+			errimg=".\Recording220160629_174409_49404c8e_trace.jpg"
+			errthumb=".\Recording220160629_174409_49404c8e_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

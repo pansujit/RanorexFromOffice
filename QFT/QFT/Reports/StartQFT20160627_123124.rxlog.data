@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="17fd39940ae8f79c"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/27/2016 12:31:28 PM"
+		timestampiso="2016-06-27T10:31:28"
+		timeoutfactor="1"
+		module="StartQFT">
+		<detail>
+			StartQFT
+		</detail>
+		<errmsg>
+			Failed to find item 'QFTRepository.SYSTRANQuickFileTranslator1.SomeContainer.French'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.262"
+			timeRelativeToTestModuleStartTime="00:00.263"
+			timeWallClock="12:31:28"
+			time="00:00.262"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SYSTRAN.QuickFileTranslator.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\StartQFT.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.294"
+			timeRelativeToTestModuleStartTime="00:00.295"
+			timeWallClock="12:31:28"
+			time="00:00.294"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 500ms.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\StartQFT.cs"
+				codeline="86"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.799"
+			timeRelativeToTestModuleStartTime="00:00.800"
+			timeWallClock="12:31:28"
+			time="00:00.799"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANQuickFileTranslator.Root.BtnArrowBackground' at 15;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[1]/container/element[3]//combobox[@automationid='mSourceLangComboBox']/container/container/checkbox[@automationid='PART_DropDownToggle']/container[@automationid='ToggleButtonRootGrid']/container/element[@automationid='BtnArrowBackground']"
+				fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.BtnArrowBackground"
+				id="2d108c0f424a43fa99864ba38ec2f01f"
+				timeout="90000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\StartQFT.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.048"
+			timeRelativeToTestModuleStartTime="00:04.049"
+			timeWallClock="12:31:32"
+			time="00:04.048"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANQuickFileTranslator1.SomeContainer.English' at 50;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='SYSTRAN.QuickFileTranslator' and @win32ownerwindowlevel='1']//container[@automationid='DropDownScrollViewer']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/list[@automationid='ItemsPresenter']/container/container[2]/container/list[@automationid='ItemsPresenter']/?/?/listitem/element[@automationid='Bd']/?/?/text[@caption='English']"
+				fullname="QFTRepository.SYSTRANQuickFileTranslator1.SomeContainer.English"
+				id="2854914a7d3a47799ae27727c2057ab5"
+				timeout="90000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\StartQFT.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.909"
+			timeRelativeToTestModuleStartTime="00:04.910"
+			timeWallClock="12:31:32"
+			time="00:04.909"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANQuickFileTranslator.Root.BtnArrowBackground' at 15;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[1]/container/element[3]//combobox[@automationid='mSourceLangComboBox']/container/container/checkbox[@automationid='PART_DropDownToggle']/container[@automationid='ToggleButtonRootGrid']/container/element[@automationid='BtnArrowBackground']"
+				fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.BtnArrowBackground"
+				id="2d108c0f424a43fa99864ba38ec2f01f"
+				timeout="90000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\StartQFT.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.764"
+			timeRelativeToTestModuleStartTime="00:05.764"
+			timeWallClock="12:31:33"
+			time="00:05.764"
+			level="Info"
+			category="Mouse"
+			errimg=".\StartQFT20160627_123124_249c07cd_trace.jpg"
+			errthumb=".\StartQFT20160627_123124_249c07cd_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SYSTRANQuickFileTranslator1.SomeContainer.French' at 53;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='SYSTRAN.QuickFileTranslator' and @win32ownerwindowlevel='1']//container[@automationid='DropDownScrollViewer']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/list[@automationid='ItemsPresenter']/container/container[1]/container/list[@automationid='ItemsPresenter']/?/?/listitem/element[@automationid='Bd']/?/?/text[@caption='French']"
+				fullname="QFTRepository.SYSTRANQuickFileTranslator1.SomeContainer.French"
+				id="c6bbd497a68d43188f7cbd306872ee4a"
+				timeout="90000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\StartQFT.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.006"
+			timeRelativeToTestModuleStartTime="00:12.006"
+			timeWallClock="12:31:40"
+			time="00:12.006"
+			level="Warn"
+			category="WPF"
+			errimg=".\StartQFT20160627_123124_75c9ea2c_trace.jpg"
+			errthumb=".\StartQFT20160627_123124_75c9ea2c_trace_thumb.jpg">
+			<message>
+				Failed to instrument WPF process. UI element identification capabilities for this window are limited.<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/technology-instrumentation/general-troubleshooting.html#wpf-instrumentation<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\StartQFT.cs"
+				codeline="102"
+				loglvl="Warn"
+				itemindex="5"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.273"
+			timeRelativeToTestModuleStartTime="00:20.274"
+			timeWallClock="12:31:48"
+			time="00:20.273"
+			level="Error"
+			category="Module"
+			errimg=".\StartQFT20160627_123124_d674d87a_trace.jpg"
+			errthumb=".\StartQFT20160627_123124_d674d87a_trace_thumb.jpg">
+			<message>
+				Failed to find item 'QFTRepository.SYSTRANQuickFileTranslator1.SomeContainer.French'.<br/>No element found for path '/contextmenu[@processname='SYSTRAN.QuickFileTranslator' and @win32ownerwindowlevel='1']//container[@automationid='DropDownScrollViewer']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/list[@automationid='ItemsPresenter']/container/container[1]/container/list[@automationid='ItemsPresenter']/?/?/listitem/element[@automationid='Bd']/?/?/text[@caption='French']' within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at QFT.QFTRepositoryFolders.SomeContainerFolder.get_French() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\QFTRepository.cs:line 524
+   at QFT.StartQFT.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\StartQFT.cs:line 102
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\StartQFT.cs"
+				codeline="102"
+				type="repoitem"
+				path="/contextmenu[@processname='SYSTRAN.QuickFileTranslator' and @win32ownerwindowlevel='1']//container[@automationid='DropDownScrollViewer']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/list[@automationid='ItemsPresenter']/container/container[1]/container/list[@automationid='ItemsPresenter']/?/?/listitem/element[@automationid='Bd']/?/?/text[@caption='French']"
+				fullname="QFTRepository.SYSTRANQuickFileTranslator1.SomeContainer.French"
+				id="c6bbd497a68d43188f7cbd306872ee4a"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="5"/>
+		</item>
+	</activity>
+</report>

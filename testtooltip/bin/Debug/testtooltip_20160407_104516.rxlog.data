@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="960db5885afb9a"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/7/2016 10:45:16 AM"
+		timestampiso="2016-04-07T08:45:16"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="12.07s"
+			durationms="12070"
+			type="test suite"
+			rid="156e0b715fafa398"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="testtooltip"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="12.05s"
+				durationms="12054"
+				type="folder"
+				rid="188ae1ee27775b98"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				foldername="Systran_Interactive_Translator">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="12.05s"
+					durationms="12053"
+					type="test case"
+					rid="28c68129c220da30"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					testcasename="LookUp_Fr_En"
+					testcaseid="68155237-ec9a-46ef-aecd-7ed82032367c"
+					maxchildren="0">
+					<params/>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="249ms"
+						durationms="249"
+						type="test case setup"
+						rid="b34718c5aab1af"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="218ms"
+							durationms="218"
+							type="test module"
+							rid="261da42cfcfb730"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartSIT"
+							moduleid="40a4cb5f-bf48-4422-ac66-84cc8e272058"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.218"
+								timeRelativeToTestModuleStartTime="00:00.015"
+								timeWallClock="10:45:17"
+								time="00:00.218"
+								level="Info"
+								category="Application">
+								<message>
+									Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SYSTRAN.InteractiveTranslator.exe' with arguments '' in normal mode.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\StartSIT.cs"
+									codeline="82"
+									loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="4686ms"
+						durationms="4686"
+						type="test module"
+						rid="cec01c2dd71ae96"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="SelectProfileFrEn"
+						moduleid="f7efb5c8-04f1-4e4a-8640-31495d9209bb"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.436"
+							timeRelativeToTestModuleStartTime="00:00.015"
+							timeWallClock="10:45:17"
+							time="00:00.436"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANInteractiveTranslator1.SomeContainer1.Background4' at 97;19.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Interactive\ Trans' and @processname='SYSTRAN.InteractiveTranslator']/container/element[1]/container/element[7]/container[@automationid='root']/element/element[1]/element/container/container[1]/container[@automationid='mTranslationOptionsPanel']//combobox[@automationid='mSourceLangComboBox']/container/element[@automationid='ContentPresenterBorder']/?/?/checkbox[@automationid='DropDownToggle']/?/?/element[@automationid='Background']"
+								fullname="testtooltipRepository.SYSTRANInteractiveTranslator1.SomeContainer1.Background4"
+								id="4d6a7b549c0c4bfcb2f2f87531b29e0d"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\selectProfileFrEn.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.188"
+							timeRelativeToTestModuleStartTime="00:01.767"
+							timeWallClock="10:45:19"
+							time="00:02.188"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANInteractiveTranslator2.SomeContainer.French' at 38;12.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='SYSTRAN.InteractiveTranslator' and @win32ownerwindowlevel='1']//element[@automationid='PopupBorder']/container[@automationid='DropDownScrollViewer']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/list[@automationid='ItemsPresenter']/container/container/container/list[@automationid='ItemsPresenter']//element[@automationid='Bd']/?/?/text[@caption='French']"
+								fullname="testtooltipRepository.SYSTRANInteractiveTranslator2.SomeContainer.French"
+								id="e1b9383e37dc4fcdb5be97d23c7a13c4"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\selectProfileFrEn.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:03.288"
+							timeRelativeToTestModuleStartTime="00:02.867"
+							timeWallClock="10:45:20"
+							time="00:03.288"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANInteractiveTranslator1.SomeContainer1.BtnArrow1' at 2;2.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Interactive\ Trans' and @processname='SYSTRAN.InteractiveTranslator']/container/element[1]/container/element[7]/container[@automationid='root']/element/element[1]/element/container/container[1]/container[@automationid='mTranslationOptionsPanel']/?/?/element/container/combobox[3]/?/?/element[@automationid='ContentPresenterBorder']/?/?/checkbox[@automationid='DropDownToggle']/container/element[8]/element[@automationid='BtnArrow']"
+								fullname="testtooltipRepository.SYSTRANInteractiveTranslator1.SomeContainer1.BtnArrow1"
+								id="15aa282e177049b784804f06f5318fbf"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\selectProfileFrEn.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:04.107"
+							timeRelativeToTestModuleStartTime="00:03.686"
+							timeWallClock="10:45:21"
+							time="00:04.107"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANInteractiveTranslator2.SomeContainer.TranslatorFrEn' at 57;5.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/contextmenu[@processname='SYSTRAN.InteractiveTranslator' and @win32ownerwindowlevel='1']//element[@automationid='PopupBorder']/container[@automationid='DropDownScrollViewer']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/list[@automationid='ItemsPresenter']/container/listitem[2]/element[@automationid='Bd']//text[@caption='Translator fr en']"
+								fullname="testtooltipRepository.SYSTRANInteractiveTranslator2.SomeContainer.TranslatorFrEn"
+								id="c3eceb9a204147d09b6e114287ed915a"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\selectProfileFrEn.cs"
+								codeline="94"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="1813ms"
+						durationms="1813"
+						type="test module"
+						rid="15cbf2f505333870"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="InputProfileFrEnBonjour"
+						moduleid="428ad0ad-7d46-46f0-b6eb-8fd86b44c499"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.110"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="10:45:22"
+							time="00:05.110"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANInteractiveTranslator1.SomeContainer1.SomeElement1' at 100;30.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Interactive\ Trans' and @processname='SYSTRAN.InteractiveTranslator']/container/element[1]/container/element[7]/container[@automationid='root']/element/element[1]/element/container/container[2]/container[@automationid='mTranslationPanel']//container[@automationid='mSrContentControl']/element[@automationid='mResizeSourceControl']//text[@automationid='mSrcRichTextBox']/element[@automationid='Bd']/container[@automationid='PART_ContentHost']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/element[1]/element"
+								fullname="testtooltipRepository.SYSTRANInteractiveTranslator1.SomeContainer1.SomeElement1"
+								id="16b0aa92cc3c4edfbe5f7bdb938740e7"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\InputProfileFrEnBonjour.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.059"
+							timeRelativeToTestModuleStartTime="00:00.950"
+							timeWallClock="10:45:23"
+							time="00:06.059"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'bonjour'.
+							</message>
+							<metainfo
+								itemindex="1"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\InputProfileFrEnBonjour.cs"
+								codeline="86"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="2166ms"
+						durationms="2166"
+						type="test module"
+						rid="1ba1d54d31120728"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="ClickOnTranslate"
+						moduleid="1046babd-5d3c-4c9a-90d0-afb69f7c1343"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.925"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="10:45:23"
+							time="00:06.925"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANInteractiveTranslator.MTranslateButton' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@name~'^SYSTRAN\ Interactive\ Trans']/button[@automationid='mTranslateButton']"
+								fullname="testtooltipRepository.SYSTRANInteractiveTranslator.MTranslateButton"
+								id="3fee05533dcc4f2698428b8ddcef4827"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\ClickOnTranslate.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:08.036"
+							timeRelativeToTestModuleStartTime="00:01.112"
+							timeWallClock="10:45:25"
+							time="00:08.036"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 1000ms.
+							</message>
+							<metainfo
+								itemindex="1"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\ClickOnTranslate.cs"
+								codeline="86"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Failed"
+						duration="3129ms"
+						durationms="3129"
+						type="test module"
+						rid="1ff12829b65e2fdc"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="ValidateLookUpFrEn"
+						moduleid="2e5ef75c-ade9-4028-804e-fb3d16b2bb33"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.095"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="10:45:26"
+							time="00:09.095"
+							level="Info"
+							category="Validation"
+							errimg="images_testtooltip_20160407_104516\testtooltip_20160407_104516_3075d5d4_trace.jpg"
+							errthumb="images_testtooltip_20160407_104516\testtooltip_20160407_104516_3075d5d4_trace_thumb.jpg">
+							<message>
+								Validating AttributeEqual (Text='Results for:  bonjour') on item 'SYSTRANInteractiveTranslator1.SomeContainer1.ResultsForBonjour'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Interactive\ Trans' and @processname='SYSTRAN.InteractiveTranslator']/container/element[1]/container/element[7]/container[@automationid='root']/element/element[1]/element/container/container[2]/container[@automationid='mLookupPanel']/?/?/element/container/container[@automationid='mLookupViewer']/?/?/element/container/container/text[@caption='Results for:  bonjour']"
+								fullname="testtooltipRepository.SYSTRANInteractiveTranslator1.SomeContainer1.ResultsForBonjour"
+								id="28e2e34173a847baaa11400b571e894f"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\ValidateLookUpFrEn.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.097"
+							timeRelativeToTestModuleStartTime="00:03.004"
+							timeWallClock="10:45:29"
+							time="00:12.097"
+							level="Error"
+							category="User"
+							errimg="images_testtooltip_20160407_104516\testtooltip_20160407_104516_63e55d94_trace.jpg"
+							errthumb="images_testtooltip_20160407_104516\testtooltip_20160407_104516_63e55d94_trace_thumb.jpg">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

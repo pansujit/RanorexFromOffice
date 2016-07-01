@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2075d15268f037b5"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/6/2016 11:35:59 AM"
+		timestampiso="2016-04-06T09:35:59"
+		timeoutfactor="1"
+		module="SelectSourceAndTarget">
+		<detail>
+			SelectSourceAndTarget
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.278"
+			timeRelativeToTestModuleStartTime="00:00.278"
+			timeWallClock="11:35:59"
+			time="00:00.278"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANInteractiveTranslator.MSourceLangComboBox' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name~'^SYSTRAN\ Interactive\ Trans']/?/?/combobox[@classname='ComboBox' and @helptext='Source language' and @orientation='None' and @iscontrolelement='True' and @iscontentelement='True' and @ispassword='False' and @iskeyboardfocusable='True']"
+				fullname="testtooltipRepository.SYSTRANInteractiveTranslator.MSourceLangComboBox"
+				id="36a74a1666c9467d94554ece087d6717"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\SelectSourceAndTarget.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.905"
+			timeRelativeToTestModuleStartTime="00:01.905"
+			timeWallClock="11:36:01"
+			time="00:01.905"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANInteractiveTranslator.English' at 49;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name~'^SYSTRAN\ Interactive\ Trans']/?/?/combobox[@classname='ComboBox' and @helptext='Source language' and @orientation='None' and @iscontrolelement='True' and @iscontentelement='True' and @ispassword='False' and @iskeyboardfocusable='True']/?/?/text[@name='English']"
+				fullname="testtooltipRepository.SYSTRANInteractiveTranslator.English"
+				id="5fa68da3ae6243e7bb030e88bbbe8d53"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\SelectSourceAndTarget.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.703"
+			timeRelativeToTestModuleStartTime="00:02.703"
+			timeWallClock="11:36:02"
+			time="00:02.703"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANInteractiveTranslator1.SomeContainer1.Background3' at 82;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Interactive\ Trans' and @processname='SYSTRAN.InteractiveTranslator']/container/element[1]/container/element[7]/container[@automationid='root']/element/element[1]/element/container/container[1]/container[@automationid='mTranslationOptionsPanel']//combobox[@automationid='mTargetLangComboBox']/container/element[@automationid='ContentPresenterBorder']/?/?/checkbox[@automationid='DropDownToggle']/?/?/element[@automationid='Background']"
+				fullname="testtooltipRepository.SYSTRANInteractiveTranslator1.SomeContainer1.Background3"
+				id="2192fab50fbf40bcaeff305f53617cc5"
+				timeout="90000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\SelectSourceAndTarget.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.657"
+			timeRelativeToTestModuleStartTime="00:03.657"
+			timeWallClock="11:36:03"
+			time="00:03.657"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANInteractiveTranslator2.SomeContainer.French' at 60;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='SYSTRAN.InteractiveTranslator' and @win32ownerwindowlevel='1']//element[@automationid='PopupBorder']/container[@automationid='DropDownScrollViewer']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/list[@automationid='ItemsPresenter']/container/container/container/list[@automationid='ItemsPresenter']//element[@automationid='Bd']/?/?/text[@caption='French']"
+				fullname="testtooltipRepository.SYSTRANInteractiveTranslator2.SomeContainer.French"
+				id="e1b9383e37dc4fcdb5be97d23c7a13c4"
+				timeout="90000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\SelectSourceAndTarget.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

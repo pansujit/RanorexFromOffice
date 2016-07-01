@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="45.41s"
+		durationms="45414"
+		type="root"
+		rid="4445cb1cec12b30"
+		totalerrorcount="2"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/15/2016 7:24:49 PM"
+		timestampiso="2016-04-15T17:24:49"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="45.27s"
+			durationms="45274"
+			type="test suite"
+			rid="128051a8b46a5838"
+			totalerrorcount="2"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="testAutomation"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="3">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="44.54s"
+				durationms="44541"
+				type="test case"
+				rid="9ec03e60441163"
+				totalerrorcount="2"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="8101e436-afed-4ee8-be14-e529c4b0a519"
+				datasource="TestConnector"
+				iterationcount="1"
+				maxchildren="0">
+				<params>
+					<param
+						name="NewParameter">
+					</param>
+				</params>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="44.53s"
+					durationms="44525"
+					type="test case iteration"
+					rid="14c6339541985238"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="1">
+					<datarow>
+						<field
+							name="SearchName">
+							SYSTRAN 8 TRANSLATOR Professional en-fr
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="11.81s"
+						durationms="11806"
+						type="test case setup"
+						rid="1e0b5da82afbd7c3"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="11.81s"
+							durationms="11806"
+							type="test module"
+							rid="11d74802f7e7137c"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartFirefoxSystran"
+							moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+					</activity>
+					<activity
+						result="Failed"
+						duration="32.66s"
+						durationms="32657"
+						type="test module"
+						rid="861fd1d9309d3e"
+						totalerrorcount="2"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="ClickOnPackage"
+						moduleid="3861d624-9f27-4601-9e27-85b13c37b5c1"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="SearchName"
+								value="SYSTRAN 8 TRANSLATOR Professional en-fr"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.757"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="19:25:02"
+							time="00:12.757"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$SearchName = 'SYSTRAN 8 TRANSLATOR Professional en-fr'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:43.570"
+							timeRelativeToTestModuleStartTime="00:30.812"
+							timeWallClock="19:25:33"
+							time="00:43.570"
+							level="Error"
+							category="User">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:45.414"
+							timeRelativeToTestModuleStartTime="00:32.657"
+							timeWallClock="19:25:35"
+							time="00:45.414"
+							level="Error"
+							category="Module">
+							<message>
+								Test run was aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

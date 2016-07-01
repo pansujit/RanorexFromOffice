@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="e7f29f9cb5e60d8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/29/2016 7:22:50 PM"
+		timestampiso="2016-06-29T17:22:50"
+		timeoutfactor="1"
+		module="ClickOnNormalizationModuleInOpenDictionary">
+		<detail>
+			ClickOnNormalizationModuleInOpenDictionary
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.232"
+			timeRelativeToTestModuleStartTime="00:00.233"
+			timeWallClock="19:22:50"
+			time="00:00.232"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANDictionaryManager.OpenDictionary.dictionaryTypeInOpenDictionary.Normalization' at 9;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mView']/?/?/treeitem[@accessiblename='Normalization']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.OpenDictionary.dictionaryTypeInOpenDictionary.Normalization"
+				id="5646036416d645779d5dd246f52e44e2"
+				timeout="90000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ClickOnNormalizationModuleInOpenDictionary.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

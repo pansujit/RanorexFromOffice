@@ -1,4 +1,5 @@
-﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectGuid>{424D3B59-32E9-4123-BE9D-21B802D0EAA1}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -6,8 +7,8 @@
     <OutputType>Library</OutputType>
     <RootNamespace>LanguageManager</RootNamespace>
     <AssemblyName>LanguageManager</AssemblyName>
-    <RanorexVersion>5</RanorexVersion>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <RanorexVersion>6.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <projectdefaultrepository>88bccb69-5ef9-4580-9417-74df1d77513c</projectdefaultrepository>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -124,6 +125,11 @@
       <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
       <id>2a7ccc80-d989-4788-8d7f-8de2f4cd61cf</id>
       <recordtableid>6411a4b9-6c59-4603-9d4c-98f06dc85a27</recordtableid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
+      <id>7450852f-fa19-47b5-bce5-40e4c5eb869a</id>
+      <recordtableid>40356286-cfce-4a82-bfba-c6bad64b6743</recordtableid>
     </None>
     <None Include="StartIEAndSystranLangManager.rxrec">
       <BoundTo>88bccb69-5ef9-4580-9417-74df1d77513c</BoundTo>
@@ -296,6 +302,18 @@
       <DependentUpon>Profile_With_UserDict_And_TM.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>22a5c924-bcab-4afe-94ac-63979cf5eb5b</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>7450852f-fa19-47b5-bce5-40e4c5eb869a</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a6d58e56-188c-4a79-88b5-14c647e8d7d2</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>7450852f-fa19-47b5-bce5-40e4c5eb869a</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3f97e02c-6a11-4426-be0e-2ff673bbf02b</id>
     </Compile>
     <Compile Include="StartIEAndSystranLangManager.cs">
       <BoundTo>83ee4f1b-3c5a-4efe-8754-4322492b18da</BoundTo>

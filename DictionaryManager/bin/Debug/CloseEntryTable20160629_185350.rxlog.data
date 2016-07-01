@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1a101080aefc2c90"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/29/2016 6:53:53 PM"
+		timestampiso="2016-06-29T16:53:53"
+		timeoutfactor="1"
+		module="CloseEntryTable">
+		<detail>
+			CloseEntryTable
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.311"
+			timeRelativeToTestModuleStartTime="00:00.312"
+			timeWallClock="18:53:54"
+			time="00:00.311"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANDictionaryManager.Buttons.TabCloseButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']/element[@controltypename='MdiTabGroupControl']/?/?/button[@accessiblename='TabCloseButton']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.Buttons.TabCloseButton"
+				id="ef2098bb6b7b4cc6a5e32dc5c11481b1"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\CloseEntryTable.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.654"
+			timeRelativeToTestModuleStartTime="00:01.654"
+			timeWallClock="18:53:55"
+			time="00:01.654"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'UserDict.Buttons.DeleteConfirmOKButton' at 63;21.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Hello']/button[@text='&amp;Yes']"
+				fullname="DictionaryManagerRepository.UserDict.Buttons.DeleteConfirmOKButton"
+				id="4be98f555e474db4881de04fd0810250"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\CloseEntryTable.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

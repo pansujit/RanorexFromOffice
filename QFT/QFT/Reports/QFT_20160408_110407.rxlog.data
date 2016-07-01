@@ -1,0 +1,1916 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="d6e90dd089d7063"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="4"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/8/2016 11:04:07 AM"
+		timestampiso="2016-04-08T09:04:07"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="1.3m"
+			durationms="76025"
+			type="test suite"
+			rid="4c087b1493344cc"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="4"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="QFT"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="22">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="18.92s"
+				durationms="18915"
+				type="test case"
+				rid="92a9ba4567f994a"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="QFT_DOCX_File_Translation"
+				testcaseid="8f5703c3-88b5-4528-b802-451fd0c24d98"
+				datasource="myConnector"
+				iterationcount="22"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="18.9s"
+					durationms="18904"
+					type="test case iteration"
+					rid="2724c772140c70e4"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="QFT_DOCX_File_Translation"
+					iteration="1">
+					<datarow>
+						<field
+							name="Location">
+							&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;
+						</field>
+						<field
+							name="fileFormat">
+							&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="754ms"
+						durationms="754"
+						type="test case setup"
+						rid="cc0636fbaeefb0"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="737ms"
+							durationms="737"
+							type="test module"
+							rid="104b4219effeb91c"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartQFT"
+							moduleid="83312dbf-6adb-4406-818e-53d902903901"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:01.068"
+								timeRelativeToTestModuleStartTime="00:00.004"
+								timeWallClock="11:04:08"
+								time="00:01.068"
+								level="Info"
+								category="Application">
+								<message>
+									Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SYSTRAN.QuickFileTranslator.exe' with arguments '' in normal mode.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\StartQFT.cs"
+									codeline="82"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:01.234"
+								timeRelativeToTestModuleStartTime="00:00.170"
+								timeWallClock="11:04:09"
+								time="00:01.234"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 500ms.
+								</message>
+								<metainfo
+									itemindex="1"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\StartQFT.cs"
+									codeline="86"
+									loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="13.18s"
+						durationms="13178"
+						type="test module"
+						rid="2be57a6ce4647428"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="FileFormatAndLocation"
+						moduleid="4d18ba94-3450-4f5b-8a62-9abdc952d2f5"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="varLocation"
+								value="●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●"/>
+							<varbinding
+								name="varFormat"
+								value="●●●●●●"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.809"
+							timeRelativeToTestModuleStartTime="00:00.005"
+							timeWallClock="11:04:09"
+							time="00:01.809"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varLocation = '&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;', $varFormat = '&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.906"
+							timeRelativeToTestModuleStartTime="00:00.102"
+							timeWallClock="11:04:09"
+							time="00:01.906"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANQuickFileTranslator.SomeElement' at 93;4.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[2]/container/element[3]/container/container[1]/text[@automationid='mSourceRootFolderTextBox']/?/?/container[@automationid='PART_InnerGrid']/container[@automationid='PART_ContentHost']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/element[1]"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.SomeElement"
+								id="56d5c070c9b048db9e2a96759f1b1e83"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\FileFormatAndLocation.cs"
+								codeline="108"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:03.904"
+							timeRelativeToTestModuleStartTime="00:02.100"
+							timeWallClock="11:04:11"
+							time="00:03.904"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key 'Ctrl+A' Press.
+							</message>
+							<metainfo
+								itemindex="1"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\FileFormatAndLocation.cs"
+								codeline="112"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:04.070"
+							timeRelativeToTestModuleStartTime="00:02.266"
+							timeWallClock="11:04:11"
+							time="00:04.070"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$varLocation'.
+							</message>
+							<metainfo
+								itemindex="2"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\FileFormatAndLocation.cs"
+								codeline="116"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.617"
+							timeRelativeToTestModuleStartTime="00:10.813"
+							timeWallClock="11:04:20"
+							time="00:12.617"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANQuickFileTranslator.SomeElement1' at 56;4.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[2]/container/element[3]/container/container[2]/text[@automationid='mSourcePatternFilterTextbox']/?/?/container[@automationid='PART_InnerGrid']/container[@automationid='PART_ContentHost']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/element[1]"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.SomeElement1"
+								id="5c9fb812577e4dd78afc57bed2a24715"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\FileFormatAndLocation.cs"
+								codeline="120"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.504"
+							timeRelativeToTestModuleStartTime="00:11.700"
+							timeWallClock="11:04:21"
+							time="00:13.504"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key 'Ctrl+A' Press.
+							</message>
+							<metainfo
+								itemindex="4"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\FileFormatAndLocation.cs"
+								codeline="124"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.645"
+							timeRelativeToTestModuleStartTime="00:11.841"
+							timeWallClock="11:04:21"
+							time="00:13.645"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$varFormat'.
+							</message>
+							<metainfo
+								itemindex="5"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\FileFormatAndLocation.cs"
+								codeline="128"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.415"
+							timeRelativeToTestModuleStartTime="00:12.611"
+							timeWallClock="11:04:22"
+							time="00:14.415"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 500ms.
+							</message>
+							<metainfo
+								itemindex="6"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\FileFormatAndLocation.cs"
+								codeline="132"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="4848ms"
+						durationms="4848"
+						type="test module"
+						rid="7ff43358d165d74"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="TranslateAndValidate"
+						moduleid="7e2ff76d-1d73-402d-8ae9-be4a12bd9162"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.986"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="11:04:22"
+							time="00:14.986"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANQuickFileTranslator.SearchFiles' at 32;5.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/?/?/element/container/element/container/container/button[@text='Search files']/?/?/element[@automationid='contentPresenter']/text[@caption='Search files']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.SearchFiles"
+								id="0bcdddc9cdca4d4db6ed7dc0d881512f"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.930"
+							timeRelativeToTestModuleStartTime="00:00.946"
+							timeWallClock="11:04:23"
+							time="00:15.930"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANQuickFileTranslator.Root.Translate' at 32;10.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']/?/?/container/element[@automationid='CurrentContentPresentationSite']/container/element/element/container/element/container/container[2]/button[@text='Translate']/?/?/element[@automationid='contentPresenter']/text[@caption='Translate']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Translate"
+								id="0cb3c0ca5cae4858bdd8816b11558b83"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.761"
+							timeRelativeToTestModuleStartTime="00:01.777"
+							timeWallClock="11:04:24"
+							time="00:16.761"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text='Duration') on item 'SYSTRANQuickFileTranslator.Root.Duration'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']//tabpagelist/?/?/container[@automationid='HeaderPanel']/tabpage[@title='1/1']/table/?/?/container[@automationid='DG_ScrollViewer']/?/?/container[@automationid='PART_ColumnHeadersPresenter']/container/list/?/?/cell[@text='Duration']/container//text[@caption='Duration']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Duration"
+								id="d1767192eedb49c8ac442d1b5b4c9263"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.300"
+							timeRelativeToTestModuleStartTime="00:04.316"
+							timeWallClock="11:04:27"
+							time="00:19.300"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'QFTRepository.SYSTRANQuickFileTranslator.Root.Duration' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']//tabpagelist/?/?/container[@automationid='HeaderPanel']/tabpage[@title='1/1']/table/?/?/container[@automationid='DG_ScrollViewer']/?/?/container[@automationid='PART_ColumnHeadersPresenter']/container/list/?/?/cell[@text='Duration']/container//text[@caption='Duration']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Duration"
+								id="d1767192eedb49c8ac442d1b5b4c9263"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="91"
+								loglvl="Success"
+								itemindex="2"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.463"
+							timeRelativeToTestModuleStartTime="00:04.479"
+							timeWallClock="11:04:27"
+							time="00:19.463"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text='Target') on item 'SYSTRANQuickFileTranslator.Root.Target'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']//tabpagelist/?/?/container[@automationid='HeaderPanel']/tabpage[@title='1/1']/table/?/?/container[@automationid='DG_ScrollViewer']/container/container[2]/element[@automationid='PART_ScrollContentPresenter']/list/container[@automationid='PART_RowsPresenter']/row[@index='0']/element[@automationid='DGR_Border']/container/list/list/?/?/cell[@columnindex='1']//text[@caption='Target']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Target"
+								id="0d816f69474144e5bb47ed9cf7013a3c"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="94"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.679"
+							timeRelativeToTestModuleStartTime="00:04.695"
+							timeWallClock="11:04:27"
+							time="00:19.679"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'QFTRepository.SYSTRANQuickFileTranslator.Root.Target' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']//tabpagelist/?/?/container[@automationid='HeaderPanel']/tabpage[@title='1/1']/table/?/?/container[@automationid='DG_ScrollViewer']/container/container[2]/element[@automationid='PART_ScrollContentPresenter']/list/container[@automationid='PART_RowsPresenter']/row[@index='0']/element[@automationid='DGR_Border']/container/list/list/?/?/cell[@columnindex='1']//text[@caption='Target']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Target"
+								id="0d816f69474144e5bb47ed9cf7013a3c"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="95"
+								loglvl="Success"
+								itemindex="3"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="69ms"
+						durationms="69"
+						type="test case teardown"
+						rid="11a622b0836ad4e8"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="67ms"
+							durationms="67"
+							type="test module"
+							rid="87768a85612a750"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseQFT"
+							moduleid="ed5161d2-756c-4034-8b0b-5bfa529cbda9"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:19.836"
+								timeRelativeToTestModuleStartTime="00:00.002"
+								timeWallClock="11:04:27"
+								time="00:19.836"
+								level="Info"
+								category="Application">
+								<message>
+									Closing application containing item 'SYSTRANQuickFileTranslator'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']"
+									fullname="QFTRepository.SYSTRANQuickFileTranslator.Self"
+									id="63294ffda1864465b9d6556a6c441362"
+									timeout="30000"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\CloseQFT.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="16.71s"
+				durationms="16707"
+				type="test case"
+				rid="53ad7e1507d2537"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="QFT_PPTX_File_Translation"
+				testcaseid="1ac21c9b-73e3-41db-93cc-1610d62cae91"
+				datasource="myConnector"
+				iterationcount="22"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="16.7s"
+					durationms="16700"
+					type="test case iteration"
+					rid="1ac3c99b26aa9958"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="QFT_PPTX_File_Translation"
+					iteration="1">
+					<datarow>
+						<field
+							name="Location">
+							&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;
+						</field>
+						<field
+							name="fileFormat">
+							&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="653ms"
+						durationms="653"
+						type="test case setup"
+						rid="267ad992bed3507"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="651ms"
+							durationms="651"
+							type="test module"
+							rid="1a7a10a691200180"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartQFT"
+							moduleid="83312dbf-6adb-4406-818e-53d902903901"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:20.662"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="11:04:28"
+								time="00:20.662"
+								level="Info"
+								category="Application">
+								<message>
+									Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SYSTRAN.QuickFileTranslator.exe' with arguments '' in normal mode.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\StartQFT.cs"
+									codeline="82"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:20.742"
+								timeRelativeToTestModuleStartTime="00:00.080"
+								timeWallClock="11:04:28"
+								time="00:20.742"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 500ms.
+								</message>
+								<metainfo
+									itemindex="1"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\StartQFT.cs"
+									codeline="86"
+									loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="12.63s"
+						durationms="12628"
+						type="test module"
+						rid="1326048390dc4d6b"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="PptxFileFormatAndLocation"
+						moduleid="19701e21-139b-4179-8513-6591a4c8fc13"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="varLocation"
+								value="●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●"/>
+							<varbinding
+								name="varFormat"
+								value="●●●●●●"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:21.316"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="11:04:29"
+							time="00:21.316"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varLocation = '&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;', $varFormat = '&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:21.399"
+							timeRelativeToTestModuleStartTime="00:00.084"
+							timeWallClock="11:04:29"
+							time="00:21.399"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANQuickFileTranslator.SomeElement' at 93;4.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[2]/container/element[3]/container/container[1]/text[@automationid='mSourceRootFolderTextBox']/?/?/container[@automationid='PART_InnerGrid']/container[@automationid='PART_ContentHost']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/element[1]"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.SomeElement"
+								id="56d5c070c9b048db9e2a96759f1b1e83"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\PptxFileFormatAndLocation.cs"
+								codeline="108"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:22.789"
+							timeRelativeToTestModuleStartTime="00:01.474"
+							timeWallClock="11:04:30"
+							time="00:22.789"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key 'Ctrl+A' Press.
+							</message>
+							<metainfo
+								itemindex="1"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\PptxFileFormatAndLocation.cs"
+								codeline="112"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:22.949"
+							timeRelativeToTestModuleStartTime="00:01.634"
+							timeWallClock="11:04:30"
+							time="00:22.949"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$varLocation'.
+							</message>
+							<metainfo
+								itemindex="2"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\PptxFileFormatAndLocation.cs"
+								codeline="116"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:31.532"
+							timeRelativeToTestModuleStartTime="00:10.217"
+							timeWallClock="11:04:39"
+							time="00:31.532"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANQuickFileTranslator.SomeElement1' at 56;4.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[2]/container/element[3]/container/container[2]/text[@automationid='mSourcePatternFilterTextbox']/?/?/container[@automationid='PART_InnerGrid']/container[@automationid='PART_ContentHost']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/element[1]"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.SomeElement1"
+								id="5c9fb812577e4dd78afc57bed2a24715"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\PptxFileFormatAndLocation.cs"
+								codeline="120"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:32.437"
+							timeRelativeToTestModuleStartTime="00:11.122"
+							timeWallClock="11:04:40"
+							time="00:32.437"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key 'Ctrl+A' Press.
+							</message>
+							<metainfo
+								itemindex="4"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\PptxFileFormatAndLocation.cs"
+								codeline="124"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:32.598"
+							timeRelativeToTestModuleStartTime="00:11.283"
+							timeWallClock="11:04:40"
+							time="00:32.598"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$varFormat'.
+							</message>
+							<metainfo
+								itemindex="5"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\PptxFileFormatAndLocation.cs"
+								codeline="128"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:33.380"
+							timeRelativeToTestModuleStartTime="00:12.065"
+							timeWallClock="11:04:41"
+							time="00:33.380"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 500ms.
+							</message>
+							<metainfo
+								itemindex="6"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\PptxFileFormatAndLocation.cs"
+								codeline="132"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="3317ms"
+						durationms="3317"
+						type="test module"
+						rid="f0ce54b8b033be6"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="TranslateAndValidate"
+						moduleid="7e2ff76d-1d73-402d-8ae9-be4a12bd9162"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:33.945"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="11:04:41"
+							time="00:33.945"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANQuickFileTranslator.SearchFiles' at 32;5.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/?/?/element/container/element/container/container/button[@text='Search files']/?/?/element[@automationid='contentPresenter']/text[@caption='Search files']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.SearchFiles"
+								id="0bcdddc9cdca4d4db6ed7dc0d881512f"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:34.809"
+							timeRelativeToTestModuleStartTime="00:00.865"
+							timeWallClock="11:04:42"
+							time="00:34.809"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANQuickFileTranslator.Root.Translate' at 32;10.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']/?/?/container/element[@automationid='CurrentContentPresentationSite']/container/element/element/container/element/container/container[2]/button[@text='Translate']/?/?/element[@automationid='contentPresenter']/text[@caption='Translate']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Translate"
+								id="0cb3c0ca5cae4858bdd8816b11558b83"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:35.698"
+							timeRelativeToTestModuleStartTime="00:01.754"
+							timeWallClock="11:04:43"
+							time="00:35.698"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text='Duration') on item 'SYSTRANQuickFileTranslator.Root.Duration'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']//tabpagelist/?/?/container[@automationid='HeaderPanel']/tabpage[@title='1/1']/table/?/?/container[@automationid='DG_ScrollViewer']/?/?/container[@automationid='PART_ColumnHeadersPresenter']/container/list/?/?/cell[@text='Duration']/container//text[@caption='Duration']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Duration"
+								id="d1767192eedb49c8ac442d1b5b4c9263"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:36.725"
+							timeRelativeToTestModuleStartTime="00:02.781"
+							timeWallClock="11:04:44"
+							time="00:36.725"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'QFTRepository.SYSTRANQuickFileTranslator.Root.Duration' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']//tabpagelist/?/?/container[@automationid='HeaderPanel']/tabpage[@title='1/1']/table/?/?/container[@automationid='DG_ScrollViewer']/?/?/container[@automationid='PART_ColumnHeadersPresenter']/container/list/?/?/cell[@text='Duration']/container//text[@caption='Duration']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Duration"
+								id="d1767192eedb49c8ac442d1b5b4c9263"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="91"
+								loglvl="Success"
+								itemindex="2"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:36.897"
+							timeRelativeToTestModuleStartTime="00:02.953"
+							timeWallClock="11:04:44"
+							time="00:36.897"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text='Target') on item 'SYSTRANQuickFileTranslator.Root.Target'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']//tabpagelist/?/?/container[@automationid='HeaderPanel']/tabpage[@title='1/1']/table/?/?/container[@automationid='DG_ScrollViewer']/container/container[2]/element[@automationid='PART_ScrollContentPresenter']/list/container[@automationid='PART_RowsPresenter']/row[@index='0']/element[@automationid='DGR_Border']/container/list/list/?/?/cell[@columnindex='1']//text[@caption='Target']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Target"
+								id="0d816f69474144e5bb47ed9cf7013a3c"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="94"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:37.114"
+							timeRelativeToTestModuleStartTime="00:03.169"
+							timeWallClock="11:04:44"
+							time="00:37.114"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'QFTRepository.SYSTRANQuickFileTranslator.Root.Target' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']//tabpagelist/?/?/container[@automationid='HeaderPanel']/tabpage[@title='1/1']/table/?/?/container[@automationid='DG_ScrollViewer']/container/container[2]/element[@automationid='PART_ScrollContentPresenter']/list/container[@automationid='PART_RowsPresenter']/row[@index='0']/element[@automationid='DGR_Border']/container/list/list/?/?/cell[@columnindex='1']//text[@caption='Target']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Target"
+								id="0d816f69474144e5bb47ed9cf7013a3c"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="95"
+								loglvl="Success"
+								itemindex="3"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="61ms"
+						durationms="61"
+						type="test case teardown"
+						rid="125c6e0b75371754"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="60ms"
+							durationms="60"
+							type="test module"
+							rid="25a24526e08eaa32"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseQFT"
+							moduleid="ed5161d2-756c-4034-8b0b-5bfa529cbda9"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:37.263"
+								timeRelativeToTestModuleStartTime="00:00.000"
+								timeWallClock="11:04:45"
+								time="00:37.263"
+								level="Info"
+								category="Application">
+								<message>
+									Closing application containing item 'SYSTRANQuickFileTranslator'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']"
+									fullname="QFTRepository.SYSTRANQuickFileTranslator.Self"
+									id="63294ffda1864465b9d6556a6c441362"
+									timeout="30000"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\CloseQFT.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="15.93s"
+				durationms="15932"
+				type="test case"
+				rid="2d1b29eb097e0500"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="QFT_XLSX_File_Translation"
+				testcaseid="a68d0edb-6c14-4660-b800-084c6c050447"
+				datasource="myConnector"
+				iterationcount="22"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="15.93s"
+					durationms="15925"
+					type="test case iteration"
+					rid="4e4210dd8733c58"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="QFT_XLSX_File_Translation"
+					iteration="1">
+					<datarow>
+						<field
+							name="Location">
+							&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;
+						</field>
+						<field
+							name="fileFormat">
+							&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="650ms"
+						durationms="650"
+						type="test case setup"
+						rid="4114b7196e7f0c8"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="649ms"
+							durationms="649"
+							type="test module"
+							rid="23b48b098526d4ea"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartQFT"
+							moduleid="83312dbf-6adb-4406-818e-53d902903901"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:38.144"
+								timeRelativeToTestModuleStartTime="00:00.000"
+								timeWallClock="11:04:45"
+								time="00:38.144"
+								level="Info"
+								category="Application">
+								<message>
+									Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SYSTRAN.QuickFileTranslator.exe' with arguments '' in normal mode.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\StartQFT.cs"
+									codeline="82"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:38.225"
+								timeRelativeToTestModuleStartTime="00:00.082"
+								timeWallClock="11:04:46"
+								time="00:38.225"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 500ms.
+								</message>
+								<metainfo
+									itemindex="1"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\StartQFT.cs"
+									codeline="86"
+									loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="12.5s"
+						durationms="12495"
+						type="test module"
+						rid="1c2028ea65493392"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="XlsxFileFormatAndLocation"
+						moduleid="2082f666-eeb3-4e24-8e90-cb83373b8fa4"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="varFormat"
+								value="●●●●●●"/>
+							<varbinding
+								name="varLocation"
+								value="●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:38.795"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="11:04:46"
+							time="00:38.795"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varFormat = '&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;', $varLocation = '&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:38.865"
+							timeRelativeToTestModuleStartTime="00:00.071"
+							timeWallClock="11:04:46"
+							time="00:38.865"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANQuickFileTranslator.SomeElement' at 93;4.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[2]/container/element[3]/container/container[1]/text[@automationid='mSourceRootFolderTextBox']/?/?/container[@automationid='PART_InnerGrid']/container[@automationid='PART_ContentHost']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/element[1]"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.SomeElement"
+								id="56d5c070c9b048db9e2a96759f1b1e83"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\XlsxFileFormatAndLocation.cs"
+								codeline="108"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:40.211"
+							timeRelativeToTestModuleStartTime="00:01.417"
+							timeWallClock="11:04:48"
+							time="00:40.211"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key 'Ctrl+A' Press.
+							</message>
+							<metainfo
+								itemindex="1"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\XlsxFileFormatAndLocation.cs"
+								codeline="112"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:40.361"
+							timeRelativeToTestModuleStartTime="00:01.566"
+							timeWallClock="11:04:48"
+							time="00:40.361"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$varLocation'.
+							</message>
+							<metainfo
+								itemindex="2"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\XlsxFileFormatAndLocation.cs"
+								codeline="116"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:48.919"
+							timeRelativeToTestModuleStartTime="00:10.124"
+							timeWallClock="11:04:56"
+							time="00:48.919"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANQuickFileTranslator.SomeElement1' at 56;4.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[2]/container/element[3]/container/container[2]/text[@automationid='mSourcePatternFilterTextbox']/?/?/container[@automationid='PART_InnerGrid']/container[@automationid='PART_ContentHost']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/element[1]"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.SomeElement1"
+								id="5c9fb812577e4dd78afc57bed2a24715"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\XlsxFileFormatAndLocation.cs"
+								codeline="120"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:49.812"
+							timeRelativeToTestModuleStartTime="00:11.018"
+							timeWallClock="11:04:57"
+							time="00:49.812"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key 'Ctrl+A' Press.
+							</message>
+							<metainfo
+								itemindex="4"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\XlsxFileFormatAndLocation.cs"
+								codeline="124"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:49.962"
+							timeRelativeToTestModuleStartTime="00:11.168"
+							timeWallClock="11:04:57"
+							time="00:49.962"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$varFormat'.
+							</message>
+							<metainfo
+								itemindex="5"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\XlsxFileFormatAndLocation.cs"
+								codeline="128"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:50.728"
+							timeRelativeToTestModuleStartTime="00:11.934"
+							timeWallClock="11:04:58"
+							time="00:50.728"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 500ms.
+							</message>
+							<metainfo
+								itemindex="6"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\XlsxFileFormatAndLocation.cs"
+								codeline="132"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="2636ms"
+						durationms="2636"
+						type="test module"
+						rid="2155092dce861f8"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="TranslateAndValidate"
+						moduleid="7e2ff76d-1d73-402d-8ae9-be4a12bd9162"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:51.291"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="11:04:59"
+							time="00:51.291"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANQuickFileTranslator.SearchFiles' at 32;5.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/?/?/element/container/element/container/container/button[@text='Search files']/?/?/element[@automationid='contentPresenter']/text[@caption='Search files']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.SearchFiles"
+								id="0bcdddc9cdca4d4db6ed7dc0d881512f"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:52.152"
+							timeRelativeToTestModuleStartTime="00:00.861"
+							timeWallClock="11:05:00"
+							time="00:52.152"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANQuickFileTranslator.Root.Translate' at 32;10.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']/?/?/container/element[@automationid='CurrentContentPresentationSite']/container/element/element/container/element/container/container[2]/button[@text='Translate']/?/?/element[@automationid='contentPresenter']/text[@caption='Translate']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Translate"
+								id="0cb3c0ca5cae4858bdd8816b11558b83"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:53.024"
+							timeRelativeToTestModuleStartTime="00:01.733"
+							timeWallClock="11:05:00"
+							time="00:53.024"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text='Duration') on item 'SYSTRANQuickFileTranslator.Root.Duration'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']//tabpagelist/?/?/container[@automationid='HeaderPanel']/tabpage[@title='1/1']/table/?/?/container[@automationid='DG_ScrollViewer']/?/?/container[@automationid='PART_ColumnHeadersPresenter']/container/list/?/?/cell[@text='Duration']/container//text[@caption='Duration']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Duration"
+								id="d1767192eedb49c8ac442d1b5b4c9263"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:53.331"
+							timeRelativeToTestModuleStartTime="00:02.040"
+							timeWallClock="11:05:01"
+							time="00:53.331"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'QFTRepository.SYSTRANQuickFileTranslator.Root.Duration' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']//tabpagelist/?/?/container[@automationid='HeaderPanel']/tabpage[@title='1/1']/table/?/?/container[@automationid='DG_ScrollViewer']/?/?/container[@automationid='PART_ColumnHeadersPresenter']/container/list/?/?/cell[@text='Duration']/container//text[@caption='Duration']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Duration"
+								id="d1767192eedb49c8ac442d1b5b4c9263"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="91"
+								loglvl="Success"
+								itemindex="2"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:53.496"
+							timeRelativeToTestModuleStartTime="00:02.205"
+							timeWallClock="11:05:01"
+							time="00:53.496"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text='Target') on item 'SYSTRANQuickFileTranslator.Root.Target'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']//tabpagelist/?/?/container[@automationid='HeaderPanel']/tabpage[@title='1/1']/table/?/?/container[@automationid='DG_ScrollViewer']/container/container[2]/element[@automationid='PART_ScrollContentPresenter']/list/container[@automationid='PART_RowsPresenter']/row[@index='0']/element[@automationid='DGR_Border']/container/list/list/?/?/cell[@columnindex='1']//text[@caption='Target']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Target"
+								id="0d816f69474144e5bb47ed9cf7013a3c"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="94"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:53.753"
+							timeRelativeToTestModuleStartTime="00:02.462"
+							timeWallClock="11:05:01"
+							time="00:53.753"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'QFTRepository.SYSTRANQuickFileTranslator.Root.Target' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']//tabpagelist/?/?/container[@automationid='HeaderPanel']/tabpage[@title='1/1']/table/?/?/container[@automationid='DG_ScrollViewer']/container/container[2]/element[@automationid='PART_ScrollContentPresenter']/list/container[@automationid='PART_RowsPresenter']/row[@index='0']/element[@automationid='DGR_Border']/container/list/list/?/?/cell[@columnindex='1']//text[@caption='Target']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Target"
+								id="0d816f69474144e5bb47ed9cf7013a3c"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="95"
+								loglvl="Success"
+								itemindex="3"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="83ms"
+						durationms="83"
+						type="test case teardown"
+						rid="b364c744c003c2a"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="81ms"
+							durationms="81"
+							type="test module"
+							rid="1e319df2f358f124"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseQFT"
+							moduleid="ed5161d2-756c-4034-8b0b-5bfa529cbda9"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:53.930"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="11:05:01"
+								time="00:53.930"
+								level="Info"
+								category="Application">
+								<message>
+									Closing application containing item 'SYSTRANQuickFileTranslator'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']"
+									fullname="QFTRepository.SYSTRANQuickFileTranslator.Self"
+									id="63294ffda1864465b9d6556a6c441362"
+									timeout="30000"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\CloseQFT.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="21.47s"
+				durationms="21473"
+				type="test case"
+				rid="14835eb2708ced1c"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="QFT_PDF_File_Translation"
+				testcaseid="c7d765fd-ccc4-47ef-9b1b-2a8d39b3cf9b"
+				datasource="myConnector"
+				iterationcount="22"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="21.47s"
+					durationms="21467"
+					type="test case iteration"
+					rid="2b5f35b686860f90"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="QFT_PDF_File_Translation"
+					iteration="1">
+					<datarow>
+						<field
+							name="Location">
+							&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;
+						</field>
+						<field
+							name="fileFormat">
+							&#9679;&#9679;&#9679;&#9679;&#9679;
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="649ms"
+						durationms="649"
+						type="test case setup"
+						rid="10906d2cb3c3ed6"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="648ms"
+							durationms="648"
+							type="test module"
+							rid="1df5a75a4acc6e2"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartQFT"
+							moduleid="83312dbf-6adb-4406-818e-53d902903901"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:54.775"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="11:05:02"
+								time="00:54.775"
+								level="Info"
+								category="Application">
+								<message>
+									Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SYSTRAN.QuickFileTranslator.exe' with arguments '' in normal mode.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\StartQFT.cs"
+									codeline="82"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:54.853"
+								timeRelativeToTestModuleStartTime="00:00.079"
+								timeWallClock="11:05:02"
+								time="00:54.853"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 500ms.
+								</message>
+								<metainfo
+									itemindex="1"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\StartQFT.cs"
+									codeline="86"
+									loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="12.48s"
+						durationms="12479"
+						type="test module"
+						rid="1739b6f3e94a154"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="PdfFileFormatAndLocation"
+						moduleid="a5ab959a-9c8c-4fef-ba9d-74ae8dba3d1a"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="varLocation"
+								value="●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●"/>
+							<varbinding
+								name="varFormat"
+								value="●●●●●"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:55.425"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="11:05:03"
+							time="00:55.425"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varLocation = '&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;', $varFormat = '&#9679;&#9679;&#9679;&#9679;&#9679;'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:55.509"
+							timeRelativeToTestModuleStartTime="00:00.085"
+							timeWallClock="11:05:03"
+							time="00:55.509"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANQuickFileTranslator.SomeElement' at 93;4.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[2]/container/element[3]/container/container[1]/text[@automationid='mSourceRootFolderTextBox']/?/?/container[@automationid='PART_InnerGrid']/container[@automationid='PART_ContentHost']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/element[1]"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.SomeElement"
+								id="56d5c070c9b048db9e2a96759f1b1e83"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\PdfFileFormatAndLocation.cs"
+								codeline="108"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:56.917"
+							timeRelativeToTestModuleStartTime="00:01.493"
+							timeWallClock="11:05:04"
+							time="00:56.917"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key 'Ctrl+A' Press.
+							</message>
+							<metainfo
+								itemindex="1"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\PdfFileFormatAndLocation.cs"
+								codeline="112"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:57.078"
+							timeRelativeToTestModuleStartTime="00:01.654"
+							timeWallClock="11:05:04"
+							time="00:57.078"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$varLocation'.
+							</message>
+							<metainfo
+								itemindex="2"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\PdfFileFormatAndLocation.cs"
+								codeline="116"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:05.625"
+							timeRelativeToTestModuleStartTime="00:10.201"
+							timeWallClock="11:05:13"
+							time="01:05.625"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANQuickFileTranslator.SomeElement1' at 56;4.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[2]/container/element[3]/container/container[2]/text[@automationid='mSourcePatternFilterTextbox']/?/?/container[@automationid='PART_InnerGrid']/container[@automationid='PART_ContentHost']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/element[1]"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.SomeElement1"
+								id="5c9fb812577e4dd78afc57bed2a24715"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\PdfFileFormatAndLocation.cs"
+								codeline="120"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:06.522"
+							timeRelativeToTestModuleStartTime="00:11.098"
+							timeWallClock="11:05:14"
+							time="01:06.522"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key 'Ctrl+A' Press.
+							</message>
+							<metainfo
+								itemindex="4"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\PdfFileFormatAndLocation.cs"
+								codeline="124"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:06.677"
+							timeRelativeToTestModuleStartTime="00:11.253"
+							timeWallClock="11:05:14"
+							time="01:06.677"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$varFormat'.
+							</message>
+							<metainfo
+								itemindex="5"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\PdfFileFormatAndLocation.cs"
+								codeline="128"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:07.340"
+							timeRelativeToTestModuleStartTime="00:11.916"
+							timeWallClock="11:05:15"
+							time="01:07.340"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 500ms.
+							</message>
+							<metainfo
+								itemindex="6"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\PdfFileFormatAndLocation.cs"
+								codeline="132"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="8237ms"
+						durationms="8237"
+						type="test module"
+						rid="c0cb300c56259cd"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="TranslateAndValidate"
+						moduleid="7e2ff76d-1d73-402d-8ae9-be4a12bd9162"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="01:07.906"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="11:05:15"
+							time="01:07.906"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANQuickFileTranslator.SearchFiles' at 32;5.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/?/?/element/container/element/container/container/button[@text='Search files']/?/?/element[@automationid='contentPresenter']/text[@caption='Search files']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.SearchFiles"
+								id="0bcdddc9cdca4d4db6ed7dc0d881512f"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:08.854"
+							timeRelativeToTestModuleStartTime="00:00.949"
+							timeWallClock="11:05:16"
+							time="01:08.854"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SYSTRANQuickFileTranslator.Root.Translate' at 32;10.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']/?/?/container/element[@automationid='CurrentContentPresentationSite']/container/element/element/container/element/container/container[2]/button[@text='Translate']/?/?/element[@automationid='contentPresenter']/text[@caption='Translate']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Translate"
+								id="0cb3c0ca5cae4858bdd8816b11558b83"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:09.728"
+							timeRelativeToTestModuleStartTime="00:01.823"
+							timeWallClock="11:05:17"
+							time="01:09.728"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text='Duration') on item 'SYSTRANQuickFileTranslator.Root.Duration'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']//tabpagelist/?/?/container[@automationid='HeaderPanel']/tabpage[@title='1/1']/table/?/?/container[@automationid='DG_ScrollViewer']/?/?/container[@automationid='PART_ColumnHeadersPresenter']/container/list/?/?/cell[@text='Duration']/container//text[@caption='Duration']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Duration"
+								id="d1767192eedb49c8ac442d1b5b4c9263"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:15.587"
+							timeRelativeToTestModuleStartTime="00:07.682"
+							timeWallClock="11:05:23"
+							time="01:15.587"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'QFTRepository.SYSTRANQuickFileTranslator.Root.Duration' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']//tabpagelist/?/?/container[@automationid='HeaderPanel']/tabpage[@title='1/1']/table/?/?/container[@automationid='DG_ScrollViewer']/?/?/container[@automationid='PART_ColumnHeadersPresenter']/container/list/?/?/cell[@text='Duration']/container//text[@caption='Duration']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Duration"
+								id="d1767192eedb49c8ac442d1b5b4c9263"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="91"
+								loglvl="Success"
+								itemindex="2"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:15.756"
+							timeRelativeToTestModuleStartTime="00:07.851"
+							timeWallClock="11:05:23"
+							time="01:15.756"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Text='Target') on item 'SYSTRANQuickFileTranslator.Root.Target'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']//tabpagelist/?/?/container[@automationid='HeaderPanel']/tabpage[@title='1/1']/table/?/?/container[@automationid='DG_ScrollViewer']/container/container[2]/element[@automationid='PART_ScrollContentPresenter']/list/container[@automationid='PART_RowsPresenter']/row[@index='0']/element[@automationid='DGR_Border']/container/list/list/?/?/cell[@columnindex='1']//text[@caption='Target']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Target"
+								id="0d816f69474144e5bb47ed9cf7013a3c"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="94"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:15.982"
+							timeRelativeToTestModuleStartTime="00:08.077"
+							timeWallClock="11:05:23"
+							time="01:15.982"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Text' of element for item 'QFTRepository.SYSTRANQuickFileTranslator.Root.Target' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']//tabpagelist/?/?/container[@automationid='HeaderPanel']/tabpage[@title='1/1']/table/?/?/container[@automationid='DG_ScrollViewer']/container/container[2]/element[@automationid='PART_ScrollContentPresenter']/list/container[@automationid='PART_RowsPresenter']/row[@index='0']/element[@automationid='DGR_Border']/container/list/list/?/?/cell[@columnindex='1']//text[@caption='Target']"
+								fullname="QFTRepository.SYSTRANQuickFileTranslator.Root.Target"
+								id="0d816f69474144e5bb47ed9cf7013a3c"
+								timeout="90000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\TranslateAndValidate.cs"
+								codeline="95"
+								loglvl="Success"
+								itemindex="3"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="58ms"
+						durationms="58"
+						type="test case teardown"
+						rid="de72ac9bfec1183"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="57ms"
+							durationms="57"
+							type="test module"
+							rid="e755940c0f95b98"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseQFT"
+							moduleid="ed5161d2-756c-4034-8b0b-5bfa529cbda9"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="01:16.144"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="11:05:23"
+								time="01:16.144"
+								level="Info"
+								category="Application">
+								<message>
+									Closing application containing item 'SYSTRANQuickFileTranslator'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']"
+									fullname="QFTRepository.SYSTRANQuickFileTranslator.Self"
+									id="63294ffda1864465b9d6556a6c441362"
+									timeout="30000"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\CloseQFT.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

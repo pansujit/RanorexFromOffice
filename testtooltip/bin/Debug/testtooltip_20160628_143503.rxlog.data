@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="24f1ca7f29c72594"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/28/2016 2:35:03 PM"
+		timestampiso="2016-06-28T12:35:03"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="26.46s"
+			durationms="26457"
+			type="test suite"
+			rid="36f26a9055847754"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="testtooltip"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="26.41s"
+				durationms="26410"
+				type="folder"
+				rid="f36d7459bbc4bfc"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				foldername="Install_Uninstall_System">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="25.71s"
+					durationms="25708"
+					type="test case"
+					rid="1278921697cf3d28"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					testcasename="Download_Desktop_8_Package"
+					testcaseid="1f32b6bd-0491-4981-9192-418cacdeb46c"
+					datasource="SearchEditions"
+					iterationcount="1"
+					maxchildren="0">
+					<params/>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="25.71s"
+						durationms="25708"
+						type="test case iteration"
+						rid="24d10e4216696bf9"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Download_Desktop_8_Package"
+						iteration="1">
+						<datarow>
+							<field
+								name="Edition">
+								SYSTRAN 8 TRANSLATOR Professional en-fr
+							</field>
+						</datarow>
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="25.6s"
+							durationms="25599"
+							type="test module"
+							rid="f0e92cb99c07e00"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartFirefoxSystran (testAutomation)"
+							moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:27.487"
+								timeRelativeToTestModuleStartTime="00:25.521"
+								timeWallClock="14:35:31"
+								time="00:27.487"
+								level="Error"
+								category="User"
+								errimg="images_testtooltip_20160628_143503\testtooltip_20160628_143503_3aa7bae0_trace.jpg"
+								errthumb="images_testtooltip_20160628_143503\testtooltip_20160628_143503_3aa7bae0_trace_thumb.jpg">
+								<message>
+									The test run has been aborted by the user.
+								</message>
+								<metainfo
+									loglvl="Error"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

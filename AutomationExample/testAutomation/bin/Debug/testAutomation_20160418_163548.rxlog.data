@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="30346cc692998da8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="1"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/18/2016 4:35:48 PM"
+		timestampiso="2016-04-18T14:35:48"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="2m"
+			durationms="119425"
+			type="test suite"
+			rid="2ce41b77aa10f633"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="1"
+			testsuitename="testAutomation"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="2m"
+				durationms="118378"
+				type="test case"
+				rid="27fd77ea823865a0"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="1"
+				testcasename="TestCase"
+				testcaseid="8101e436-afed-4ee8-be14-e529c4b0a519"
+				datasource="Test_Connector"
+				iterationcount="2"
+				maxchildren="0">
+				<params>
+					<param
+						name="NewParameter">
+					</param>
+				</params>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="2m"
+					durationms="118362"
+					type="test case iteration"
+					rid="ef08ed820ecaa69"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="1">
+					<datarow>
+						<field
+							name="Edition">
+							SYSTRAN 8 TRANSLATOR Professional en-fr
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="12.02s"
+						durationms="12016"
+						type="test module"
+						rid="3309914c740c3f8a"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="StartFirefoxSystran"
+						moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings/>
+					</activity>
+					<activity
+						result="Success"
+						duration="1.6m"
+						durationms="97598"
+						type="test module"
+						rid="58b6fe89acf99f8"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="ClickOnPackage"
+						moduleid="3861d624-9f27-4601-9e27-85b13c37b5c1"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="SearchName"
+								value="SYSTRAN 8 TRANSLATOR Professional en-fr"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.301"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="16:36:01"
+							time="00:13.301"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$SearchName = 'SYSTRAN 8 TRANSLATOR Professional en-fr'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="218ms"
+						durationms="218"
+						type="test module"
+						rid="bc125a8b1b8d7d4"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="StopFirefox"
+						moduleid="0b27bb73-d878-4d7c-85a0-20191b52183e"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings/>
+					</activity>
+					<activity
+						result="Success"
+						duration="94ms"
+						durationms="94"
+						type="test module"
+						rid="272e1d5a235c785f"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="LocatingFolder"
+						moduleid="b4ef6e13-52e8-4a18-800c-667fef2e408f"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings/>
+					</activity>
+					<activity
+						result="Failed"
+						duration="8387ms"
+						durationms="8387"
+						type="test module"
+						rid="17fe5bf4af8f28e"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="ClickOnUninstall"
+						moduleid="befbd714-b159-456d-afeb-2ef6857441c7"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<errmsg>
+							Failed to find item 'testAutomationRepository.SYSTRAN8TRANSLATOR.SystemItemNameDisplay'.
+						</errmsg>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="01:59.538"
+							timeRelativeToTestModuleStartTime="00:08.324"
+							timeWallClock="16:37:48"
+							time="01:59.538"
+							level="Error"
+							category="Module"
+							errimg="images_testAutomation_20160418_163548\testAutomation_20160418_163548_91c9b7f3_trace.jpg"
+							errthumb="images_testAutomation_20160418_163548\testAutomation_20160418_163548_91c9b7f3_trace_thumb.jpg">
+							<message>
+								Failed to find item 'testAutomationRepository.SYSTRAN8TRANSLATOR.SystemItemNameDisplay'.<br/>No element found for path './/element[@instance='1']/container[@caption='ShellView']/?/?/listitem[@text='unins000.exe']' within 30s.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.SYSTRAN8TRANSLATORAppFolder.get_SystemItemNameDisplay() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\testAutomationRepository.cs:line 715
+   at testAutomation.ClickOnUninstall.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\ClickOnUninstall.cs:line 80
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\ClickOnUninstall.cs"
+								codeline="80"
+								type="repoitem"
+								path="/form[@title='SYSTRAN 8 TRANSLATOR']//element[@instance='1']/container[@caption='ShellView']/?/?/listitem[@text='unins000.exe']"
+								fullname="testAutomationRepository.SYSTRAN8TRANSLATOR.SystemItemNameDisplay"
+								id="e750e4b99bd54370be40191018c19f94"
+								timeout="60000"
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test case iteration"
+					rid="4579d0e4553c99c"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="2">
+					<datarow>
+						<field
+							name="Edition">
+							SYSTRAN 8 TRANSLATOR Essential en-fr
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

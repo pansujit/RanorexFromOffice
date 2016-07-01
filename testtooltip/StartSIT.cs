@@ -58,7 +58,7 @@ namespace testtooltip
         /// <summary>
         /// Starts the replay of the static recording <see cref="Instance"/>.
         /// </summary>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "5.4.5")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "6.0")]
         public static void Start()
         {
             TestModuleRunner.Run(Instance);
@@ -70,18 +70,21 @@ namespace testtooltip
         /// <remarks>You should not call this method directly, instead pass the module
         /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
         /// that will in turn invoke this method.</remarks>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "5.4.5")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "6.0")]
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;
             Keyboard.DefaultKeyPressTime = 100;
-            Delay.SpeedFactor = 1.0;
+            Delay.SpeedFactor = 1.00;
 
             Init();
 
             Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Program Files (x86)\\SYSTRAN 8 TRANSLATOR\\applications\\SYSTRAN.InteractiveTranslator.exe' with arguments '' in normal mode.", new RecordItemIndex(0));
             Host.Local.RunApplication("C:\\Program Files (x86)\\SYSTRAN 8 TRANSLATOR\\applications\\SYSTRAN.InteractiveTranslator.exe", "", "C:\\Program Files (x86)\\SYSTRAN 8 TRANSLATOR\\applications", false);
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(1));
+            Delay.Duration(1000, false);
             
         }
 

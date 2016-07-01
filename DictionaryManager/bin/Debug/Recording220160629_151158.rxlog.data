@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="def843ddcfcb00"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/29/2016 3:12:00 PM"
+		timestampiso="2016-06-29T13:12:00"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.254"
+			timeRelativeToTestModuleStartTime="00:00.255"
+			timeWallClock="15:12:00"
+			time="00:00.254"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SystranDictionaryManager.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\Recording2.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.283"
+			timeRelativeToTestModuleStartTime="00:00.283"
+			timeWallClock="15:12:00"
+			time="00:00.283"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FileMenu.File' at 22;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='File']"
+				fullname="DictionaryManagerRepository.FileMenu.File"
+				id="3985b1f5ad68465592932cd5cce723d7"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\Recording2.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.513"
+			timeRelativeToTestModuleStartTime="00:01.514"
+			timeWallClock="15:12:02"
+			time="00:01.513"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FileMenu.FileNew' at UpperLeft.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='File']/menuitem[@accessiblename='New']"
+				fullname="DictionaryManagerRepository.FileMenu.FileNew"
+				id="b22e43ad2075427aa6fca6e04f66bd29"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\Recording2.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

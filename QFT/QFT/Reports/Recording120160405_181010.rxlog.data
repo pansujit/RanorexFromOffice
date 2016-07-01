@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3687802ed650048"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/5/2016 6:10:13 PM"
+		timestampiso="2016-04-05T16:10:13"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.253"
+			timeRelativeToTestModuleStartTime="00:00.253"
+			timeWallClock="18:10:13"
+			time="00:00.253"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varLocation
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.274"
+			timeRelativeToTestModuleStartTime="00:00.274"
+			timeWallClock="18:10:13"
+			time="00:00.274"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SYSTRAN.QuickFileTranslator.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\Recording1.cs"
+				codeline="95"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.302"
+			timeRelativeToTestModuleStartTime="00:00.302"
+			timeWallClock="18:10:13"
+			time="00:00.302"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANQuickFileTranslator.SomeElement' at 93;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[2]/container/element[3]/container/container[1]/text[@automationid='mSourceRootFolderTextBox']/?/?/container[@automationid='PART_InnerGrid']/container[@automationid='PART_ContentHost']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/element[1]"
+				fullname="QFTRepository.SYSTRANQuickFileTranslator.SomeElement"
+				id="56d5c070c9b048db9e2a96759f1b1e83"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\Recording1.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.466"
+			timeRelativeToTestModuleStartTime="00:02.466"
+			timeWallClock="18:10:16"
+			time="00:02.466"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+A' Press.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\Recording1.cs"
+				codeline="103"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.576"
+			timeRelativeToTestModuleStartTime="00:02.576"
+			timeWallClock="18:10:16"
+			time="00:02.576"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$varLocation'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\Recording1.cs"
+				codeline="107"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.184"
+			timeRelativeToTestModuleStartTime="00:03.184"
+			timeWallClock="18:10:16"
+			time="00:03.184"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANQuickFileTranslator.SomeElement1' at 56;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[2]/container/element[3]/container/container[2]/text[@automationid='mSourcePatternFilterTextbox']/?/?/container[@automationid='PART_InnerGrid']/container[@automationid='PART_ContentHost']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/element[1]"
+				fullname="QFTRepository.SYSTRANQuickFileTranslator.SomeElement1"
+				id="5c9fb812577e4dd78afc57bed2a24715"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\Recording1.cs"
+				codeline="111"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.026"
+			timeRelativeToTestModuleStartTime="00:04.026"
+			timeWallClock="18:10:17"
+			time="00:04.026"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+A' Press.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\Recording1.cs"
+				codeline="115"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.130"
+			timeRelativeToTestModuleStartTime="00:04.130"
+			timeWallClock="18:10:17"
+			time="00:04.130"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LControlKey}cvcv'.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\QFT\QFT\Recording1.cs"
+				codeline="119"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

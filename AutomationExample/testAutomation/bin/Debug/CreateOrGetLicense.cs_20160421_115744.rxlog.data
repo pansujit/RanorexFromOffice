@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="158c4a5140cea676"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/21/2016 11:57:51 AM"
+		timestampiso="2016-04-21T09:57:51"
+		timeoutfactor="1"
+		module="CreateOrGetLicense">
+		<detail>
+			CreateOrGetLicense
+		</detail>
+		<errmsg>
+			Failed to find item 'testAutomationRepository.Licenses.LicenseAllListContent.Enfr'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.495"
+			timeRelativeToTestModuleStartTime="00:17.495"
+			timeWallClock="11:58:08"
+			time="00:17.495"
+			level="Error"
+			category="Module"
+			errimg=".\CreateOrGetLicense.cs_20160421_115744_161c7850_trace.jpg"
+			errthumb=".\CreateOrGetLicense.cs_20160421_115744_161c7850_trace_thumb.jpg">
+			<message>
+				Failed to find item 'testAutomationRepository.Licenses.LicenseAllListContent.Enfr'.<br/>No element found for path '/dom[@domain='trs.systran.net']//div[#'licenseAllListContent']//div//div//div[@innertext='enfr']' within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.LicenseAllListContentFolder.get_Enfr() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\testAutomationRepository.cs:line 1566
+   at testAutomation.CreateOrGetLicense.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\CreateOrGetLicense.cs:line 52
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\CreateOrGetLicense.cs"
+				codeline="52"
+				type="repoitem"
+				path="/dom[@domain='trs.systran.net']//div[#'licenseAllListContent']//div//div//div[@innertext='enfr']"
+				fullname="testAutomationRepository.Licenses.LicenseAllListContent.Enfr"
+				id="b5e32d67b2c642deaf2d832ba2451856"
+				timeout="90000"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

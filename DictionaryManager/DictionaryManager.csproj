@@ -1,0 +1,1362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{930F270D-B67A-4B89-BA91-A33FD5D5D9EC}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DictionaryManager</RootNamespace>
+    <AssemblyName>DictionaryManager</AssemblyName>
+    <RanorexVersion>6.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <projectdefaultrepository>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Mobile, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Qt, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Sap, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Uia, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AddASourceEnrtyToTranslationMemory.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>dad37cca-cd30-4809-96ce-8d6f427ff58c</id>
+      <recordtableid>36d2a6ac-5de8-4c24-84f8-fbb22ae0135d</recordtableid>
+    </None>
+    <None Include="AddASourceEntryOnNormalizedDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>24fbd6b6-bfbf-4868-a2b9-0df94c6d79ba</id>
+      <recordtableid>b5e5c9f0-180e-40ce-a52c-fa15a85a318a</recordtableid>
+    </None>
+    <None Include="AddASourceEntryToUserDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>015b1f82-8efa-4621-a881-9e5900a14f1a</id>
+      <recordtableid>227de304-40ee-4390-9d15-bd27c1aeab33</recordtableid>
+    </None>
+    <None Include="AddATargetEntryOnAUserDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>a864bbaf-ff54-4051-ab7e-f19cd6e557a6</id>
+      <recordtableid>3b1c5bcd-7e52-49be-a05f-db301c141068</recordtableid>
+    </None>
+    <None Include="AddATargetEntryOnNormalizedDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>c236ce49-8dd0-4928-a2d6-a0b13aa4554d</id>
+      <recordtableid>90913e46-d665-430d-99da-1c0cc8dfb8a2</recordtableid>
+    </None>
+    <None Include="AddATargetEntryToTranslationMemory.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>006e98e2-9692-4a55-834f-e9ace5e4ba0b</id>
+      <recordtableid>cfedbcbc-9bb5-4c75-971d-ffdf856864d7</recordtableid>
+    </None>
+    <None Include="ClickOnANormaizedDictionaryInOpenDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>a94035ee-d688-4d30-aa4c-4c935c77e562</id>
+      <recordtableid>ced32981-ec79-4422-a245-06c88c6c7995</recordtableid>
+    </None>
+    <None Include="ClickOnATranslationMemoryInOpenDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>097d3ee5-32f6-48ee-8678-9ffc91bfa313</id>
+      <recordtableid>a818b1e2-7b00-4220-82c6-de81ea472919</recordtableid>
+    </None>
+    <None Include="ClickOnAUserDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>b2e963dd-247f-43be-a3b5-dffb9c680ff3</id>
+      <recordtableid>d92226ea-4b2e-4d7d-8694-629e201e6460</recordtableid>
+    </None>
+    <None Include="ClickOnCreateDictionaryOk.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>a41bfced-239d-4ea6-9965-35783a257ecc</id>
+      <recordtableid>2b381a92-8b33-4791-98db-b37b967f2c74</recordtableid>
+    </None>
+    <None Include="ClickOnDeleteIconAndConfirm.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>e6f21fbe-4749-4e62-838f-b7692449d5f4</id>
+      <recordtableid>0e5d1b13-c3e5-4912-a1ca-64ab649e43df</recordtableid>
+    </None>
+    <None Include="ClickOnDictionaryMenu.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>f7688940-06a3-4cf0-b4b9-c0d3cd18d48f</id>
+      <recordtableid>9cd76d4c-905c-48d8-bff0-98186dedeef3</recordtableid>
+    </None>
+    <None Include="ClickOnDictionaryChangeEntryType.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>c10076ab-3080-4a7e-bb39-0716421f4680</id>
+      <recordtableid>7654f635-04cd-470e-8673-598578f25560</recordtableid>
+    </None>
+    <None Include="ClickOnDictionaryDoNotTranslate.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>263582c5-cc0d-4c1a-9e0e-8fc9e1990a4f</id>
+      <recordtableid>9ba20294-c5b0-40f1-a3c3-ad0f46eb4c43</recordtableid>
+    </None>
+    <None Include="ClickOnDictionaryType.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>6a47df3f-6756-48a9-bf3b-8e11cb38fc14</id>
+      <recordtableid>c1569691-b576-4cf3-9bed-8c8d4fde2500</recordtableid>
+    </None>
+    <None Include="ClickOnExport.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>ed12b502-21fe-4e3e-8290-267174af7f8c</id>
+      <recordtableid>55809572-fd2b-4774-b498-f7202dd3b9c4</recordtableid>
+    </None>
+    <None Include="ClickOnFile.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>7c6a64a3-7b26-4124-a7e1-8c5a59228e94</id>
+      <recordtableid>6fb746d6-9a94-4303-9538-99bce04a75c8</recordtableid>
+    </None>
+    <None Include="ClickOnFileName.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>ca895a4a-d5fb-43fc-88f4-c0cf39a6378a</id>
+      <recordtableid>7425ee06-de9a-4a86-be77-ba23a751b4e5</recordtableid>
+    </None>
+    <None Include="ClickOnImport.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>273a5406-1739-48e4-8648-82228b550eab</id>
+      <recordtableid>fe26b657-5527-4c5f-81cd-40a47f664b47</recordtableid>
+    </None>
+    <None Include="ClickOnNew.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>f8c6387f-95a3-4089-ba50-e611c096e7ee</id>
+      <recordtableid>f7364453-7b07-4304-abe9-5fa7890084f0</recordtableid>
+    </None>
+    <None Include="ClickOnNormalizationModuleInOpenDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>50ace399-eb62-4190-8678-4388701bb61a</id>
+      <recordtableid>69d25546-8742-4b38-9774-2c50d997ae22</recordtableid>
+    </None>
+    <None Include="ClickOnOpen.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>0631b3f4-478c-440e-9c65-df633b3c12ef</id>
+      <recordtableid>82fb0543-70ed-4730-bf1c-0e8eb93004c6</recordtableid>
+    </None>
+    <None Include="ClickOnPublish.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>9b7bff1a-67e2-4598-982a-cd4ff8317cb4</id>
+      <recordtableid>53dee28b-8810-4686-b64e-23cadb7ba596</recordtableid>
+    </None>
+    <None Include="ClickOnSave.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>3e35468c-4069-4edf-b515-49fc2178052e</id>
+      <recordtableid>f1381e80-8653-44fa-ac88-7a2f92af135d</recordtableid>
+    </None>
+    <None Include="ClickOnSourceLangEntry.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>658af970-9f76-4f6f-89f8-a4ec45adef88</id>
+      <recordtableid>05fb5f08-8e7c-441c-97a1-f9f30c086f24</recordtableid>
+    </None>
+    <None Include="ClickOnTargetLangEntry.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>62ee2c3e-6649-438f-a0cc-d5fdbfbfe75e</id>
+      <recordtableid>7be67a70-b3f7-495f-b4c6-b47a9a8c3d64</recordtableid>
+    </None>
+    <None Include="ClickOnTargetLangOnNormalization.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>43394b75-1bb3-45b7-bfdc-a88504e5bd76</id>
+      <recordtableid>559a010f-f8a8-440f-a761-84ae564e6422</recordtableid>
+    </None>
+    <None Include="ClickOnTranslationMemoryModuleInOpenDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>92349387-f6cb-4ee1-a75d-ae54766ee795</id>
+      <recordtableid>f1b58ace-222a-4ab4-b268-17238d6122e3</recordtableid>
+    </None>
+    <None Include="ClickOnUserDictionayModuleInOpenDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>4f55221a-ef4e-49b9-a326-7755b8652309</id>
+      <recordtableid>f73fd681-46bf-4075-95e9-42c4fb55b637</recordtableid>
+    </None>
+    <None Include="CloseEntryTable.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>966a23ef-3fc1-4c4e-b261-02e2a933aca6</id>
+      <recordtableid>be5a66cc-9566-43cf-90c1-71d37e39ebe8</recordtableid>
+    </None>
+    <None Include="CloseSystranDictionaryManager.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>7439e6df-a0b7-4444-bda7-f887362d0764</id>
+      <recordtableid>65bc144b-f99d-4a42-8807-edb588489fd8</recordtableid>
+    </None>
+    <None Include="DictionaryManagerRepository.rximg">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <DependentUpon>DictionaryManagerRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>2d818407-dd07-43f3-a9cf-be8d808d8aa2</id>
+    </None>
+    <None Include="DictionaryManagerRepository.rxrep">
+      <id>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</id>
+      <repoid>1690ff42-4e44-4ddc-9c10-920ebe70dfad</repoid>
+      <reporootid>623ccc2d-6519-4df5-aa39-655f8d9d3a18</reporootid>
+    </None>
+    <None Include="DictionaryMultiLingual.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>241f4a63-5f12-490b-bca6-1655fd1e07e9</id>
+      <recordtableid>3f5843e9-43e6-4d8e-831e-3448a79a7420</recordtableid>
+    </None>
+    <None Include="DoubleClickOnNormalizedDictInOpenDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>8ae4b873-079d-46f1-a845-5fcf91785459</id>
+      <recordtableid>18542505-3858-4175-b0f4-f2b4ebce8646</recordtableid>
+    </None>
+    <None Include="DoubleClickOnTranslationMemoryInOpenDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>9be52079-e640-4c3c-bc06-965522d0f139</id>
+      <recordtableid>85849d32-2461-40ed-82fc-4b25b9ed0922</recordtableid>
+    </None>
+    <None Include="DoubleClickOnUserDictionaryInOpenDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>bddd2fa5-8524-4cf8-b5d9-bddd9aa6b77a</id>
+      <recordtableid>e6edc93d-0a62-40d8-a68c-6564f63d2ae2</recordtableid>
+    </None>
+    <None Include="InputAuthorName.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>f1a433fa-b663-471f-816f-50cbf598f39c</id>
+      <recordtableid>063998b2-20cc-42fe-afcb-7c61304928bc</recordtableid>
+    </None>
+    <None Include="InputDictionaryName.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>938114e4-b3dd-4005-93f3-90e4f424bd25</id>
+      <recordtableid>92ca6fde-c3be-4986-9591-dd3aadb41cf5</recordtableid>
+    </None>
+    <None Include="InputNormalizationName.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>d497d2f0-8324-424b-a8cd-f2e8b86abbfa</id>
+      <recordtableid>d260afe0-3fd4-47af-938c-6c0224e6127d</recordtableid>
+    </None>
+    <None Include="InputTranslationMemoryName.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>4f4b3b6f-dfd9-4aae-9ac5-7a17644ef8ae</id>
+      <recordtableid>8c8b600d-99b7-493e-af86-3026d3210907</recordtableid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>abeb2e14-65d9-406e-b63a-5918ca05930b</id>
+      <recordtableid>e5893a4b-98b9-4831-a7ca-9a6c1d562b7b</recordtableid>
+    </None>
+    <None Include="Recording2.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>102a8423-a315-4476-bd8a-9acdb13388cb</id>
+      <recordtableid>e66e1b1b-0b43-4686-95d5-df94868d9e90</recordtableid>
+    </None>
+    <None Include="SelectNormalization.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>296ea58e-67fb-4367-ad7c-ed793902f066</id>
+      <recordtableid>18d281ee-cbf5-4144-9021-1b94b8002d79</recordtableid>
+    </None>
+    <None Include="SelectSourceLanguage.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>4bb9dfbd-5468-4747-8b76-eec904b29596</id>
+      <recordtableid>af288f8d-786b-42a1-81b2-99125b4eb2ad</recordtableid>
+    </None>
+    <None Include="SelectTargetLanguage.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>9c880fba-6198-4662-ae8e-8cec1f7c7ad8</id>
+      <recordtableid>8556cdac-da44-43ce-932d-69d6cbb662e0</recordtableid>
+    </None>
+    <None Include="SelectTranslationMemory.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>db6fc580-b542-416b-b5d6-01ad23832f08</id>
+      <recordtableid>1004b269-fbbc-47f0-8ec3-4ef761c6c7e1</recordtableid>
+    </None>
+    <None Include="SelectUserDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>6d76b7e7-1204-4de1-b079-1f8afadb382f</id>
+      <recordtableid>0363dfa7-ecb8-42dc-9b6d-5eefbe0dd73d</recordtableid>
+    </None>
+    <None Include="StartSystranDictionaryManager.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>3daf9c8f-ef8c-44b6-8c54-e6b031d45f44</id>
+      <recordtableid>6983b68e-e48c-4cd7-8b28-e49b313dd426</recordtableid>
+    </None>
+    <None Include="TypeFileNameAndLocationForExportDCT.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>321d2f8c-609d-4f65-b334-b9d1c7fc8bcc</id>
+      <recordtableid>6da3c904-6fcb-4d3d-bda8-15b7eb623cf6</recordtableid>
+    </None>
+    <None Include="TypeFileNameAndLocationForExportNormlizedDictInTXTFormat.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>4244a572-8e73-4a06-8e09-51e514c7a4ef</id>
+      <recordtableid>32d35638-98a0-4969-a8f5-6b98cd4e4262</recordtableid>
+    </None>
+    <None Include="TypeFileNameAndLocationForExportTMInTXTFormat.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>d544282e-37d2-4b4d-815a-258609ca3fc6</id>
+      <recordtableid>0de1ab73-9a13-4df1-b69a-09fffacda0c3</recordtableid>
+    </None>
+    <None Include="TypeFileNameAndLocationForExportTXT.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>7521b58e-ad15-44e2-8b90-c9e2e65b29b6</id>
+      <recordtableid>90217e9f-618b-4c71-b69f-2d7a0e360fb3</recordtableid>
+    </None>
+    <None Include="ValidateAddEntryNormalizedDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>738ab656-af92-446b-8c76-f88308f892df</id>
+      <recordtableid>46cd7e2a-2b5e-416f-882f-fc068f6852d0</recordtableid>
+    </None>
+    <None Include="ValidateAddEntryOnUserDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>3e2ed13f-1981-498d-a7c7-7b892d630671</id>
+      <recordtableid>c4f589ca-9541-48d3-9fc7-655e15b7e039</recordtableid>
+    </None>
+    <None Include="ValidateAddEntryOnTranslationMemory.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>9e9faaca-cae3-44d6-91f4-c67a31da4f68</id>
+      <recordtableid>69136830-1830-47e8-8df7-21d2ff5e2584</recordtableid>
+    </None>
+    <None Include="ValidateANormalizedDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>244d2d81-b453-4441-ad81-fac485889fc8</id>
+      <recordtableid>4ecd6f84-390f-4f59-abe8-e5d91e0f6521</recordtableid>
+    </None>
+    <None Include="ValidateATranslationMemory.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>714b3d25-4bde-4185-ad76-2cb2ba16f1e8</id>
+      <recordtableid>c0390f4b-d9be-458a-97d9-65913c987bec</recordtableid>
+    </None>
+    <None Include="ValidateAUserDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>3f45f7e4-ba46-40ca-afa5-9dc98eca76e5</id>
+      <recordtableid>10e7f795-d6de-466c-8f09-468ca2ad719c</recordtableid>
+    </None>
+    <None Include="ValidateConfidenceIntervalOfAnEntryInNormalization.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>7541d16f-39cb-43ca-8b44-98980d0813c0</id>
+      <recordtableid>8d5d8d6d-a12b-4387-994c-970b761db98a</recordtableid>
+    </None>
+    <None Include="ValidateConfidenceIntervalOfAnEntryInUserDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>71649c2f-8d8d-4246-8d94-5b64d02baee9</id>
+      <recordtableid>c14c15ad-8f52-4295-a1e8-18dc34086212</recordtableid>
+    </None>
+    <None Include="ValidateDeleteNotmalizeDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>226de9b9-1dd6-4938-8776-6e9664146749</id>
+      <recordtableid>a91c2d3a-7995-4a3e-b38c-7f012cac9756</recordtableid>
+    </None>
+    <None Include="ValidateDeleteTranslationMemory.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>a1c923c7-3d84-467d-923f-4abff28a9c48</id>
+      <recordtableid>cd6c62f9-c806-418b-9c7f-74fe89cd0c94</recordtableid>
+    </None>
+    <None Include="ValidateDeleteUserDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>440451d3-2366-4a56-90da-a92d2f09af4b</id>
+      <recordtableid>304d5a8d-c80f-43a6-8337-fce604d4628d</recordtableid>
+    </None>
+    <None Include="ValidateDoNotTranslateInUserDictionaryEntry.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>2bc96104-f1de-4c00-a162-19da35010e9e</id>
+      <recordtableid>68e2711a-ba46-4687-97f1-e7ffc96b5cdf</recordtableid>
+    </None>
+    <None Include="ValidateExportNormalizationInTXTFormat.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>212a08ae-f487-43ff-a1a5-31ca931a8765</id>
+      <recordtableid>1025d503-6318-4d78-bddc-332526ee7093</recordtableid>
+    </None>
+    <None Include="ValidateExportTranslationMemoryInTXTFormat.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>5e73419f-7b8e-45a3-bf95-8b5e6963d056</id>
+      <recordtableid>d58ccf25-2e2b-4719-a9f0-4f445db9d942</recordtableid>
+    </None>
+    <None Include="ValidateExportUserDictionaryInDCTFormat.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>ad770d3e-7da9-4f79-9ece-203f4c810780</id>
+      <recordtableid>3b303a5d-fdab-4a46-9fa6-a0c71ba679d1</recordtableid>
+    </None>
+    <None Include="ValidateExportUserDictionaryInTXTFormat.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>a3719515-2359-44f7-bcca-5d21ad20cd6e</id>
+      <recordtableid>6c6ffbd9-555a-45de-aaa6-9352083fe851</recordtableid>
+    </None>
+    <None Include="ValidateImportDCTTranslationMemory.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>902cc3b1-056b-48de-9325-ddd834ce3f72</id>
+      <recordtableid>26a4e794-c5d1-4b9b-af71-281cf2cfd0ee</recordtableid>
+    </None>
+    <None Include="ValidateImportDCTUserDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>46a4ff77-aca2-4fe3-8800-48a01ca83e97</id>
+      <recordtableid>89b2e22d-b23d-4b2c-9615-368220c172d6</recordtableid>
+    </None>
+    <None Include="ValidateImportTMXTranslationMemory.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>33b2a492-b4e5-4a17-abdf-e0e9a93ff220</id>
+      <recordtableid>fcec5d5f-2129-4dd5-a79e-6d476b9ef6d0</recordtableid>
+    </None>
+    <None Include="ValidateImportTXTTranslationMemory.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>78b89c6e-d96c-45de-9ad6-e6cc0c668dad</id>
+      <recordtableid>4d42aefa-1a4b-4c82-977f-081bd4b8e20f</recordtableid>
+    </None>
+    <None Include="ValidateImportTXTUserDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>743e10d7-d96c-45b6-bcc2-5e6b24ad7bea</id>
+      <recordtableid>4b8df4a5-6470-4387-8d3a-53eb46271442</recordtableid>
+    </None>
+    <None Include="ValidatePublishAUserDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>ab29af0e-05fa-4f39-92be-19db3eb09da8</id>
+      <recordtableid>7572d9ef-e7f8-49a4-861e-653dbb04456a</recordtableid>
+    </None>
+    <None Include="ValidatePublishNormalizedDictionary.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>1c769154-67e3-440e-841f-3a3ffdf10951</id>
+      <recordtableid>fdddf963-48ec-46e0-a394-bcfebfe21079</recordtableid>
+    </None>
+    <None Include="ValidatePublishTranslationMemory.rxrec">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <id>de897e06-3857-4d10-a1c0-713a02b11780</id>
+      <recordtableid>1b1327ac-ea04-4110-bba0-fa5b8254f869</recordtableid>
+    </None>
+    <Content Include="DictionaryManager.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>cc06ea87-f4be-416f-8136-ccbc2238f321</id>
+    </Content>
+    <Compile Include="AddASourceEnrtyToTranslationMemory.cs">
+      <BoundTo>dad37cca-cd30-4809-96ce-8d6f427ff58c</BoundTo>
+      <DependentUpon>AddASourceEnrtyToTranslationMemory.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bb8f1164-986f-4d56-8732-7da063b353bf</id>
+    </Compile>
+    <Compile Include="AddASourceEnrtyToTranslationMemory.UserCode.cs">
+      <BoundTo>dad37cca-cd30-4809-96ce-8d6f427ff58c</BoundTo>
+      <DependentUpon>AddASourceEnrtyToTranslationMemory.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3018119f-fd17-4cd9-bef3-3503cfd6861b</id>
+    </Compile>
+    <Compile Include="AddASourceEntryOnNormalizedDictionary.cs">
+      <BoundTo>24fbd6b6-bfbf-4868-a2b9-0df94c6d79ba</BoundTo>
+      <DependentUpon>AddASourceEntryOnNormalizedDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>04ce961c-381a-4c4d-86a7-c70c255d1d2c</id>
+    </Compile>
+    <Compile Include="AddASourceEntryOnNormalizedDictionary.UserCode.cs">
+      <BoundTo>24fbd6b6-bfbf-4868-a2b9-0df94c6d79ba</BoundTo>
+      <DependentUpon>AddASourceEntryOnNormalizedDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>82d07fba-cfe7-41a1-976d-97574cc4eed2</id>
+    </Compile>
+    <Compile Include="AddASourceEntryToUserDictionary.cs">
+      <BoundTo>015b1f82-8efa-4621-a881-9e5900a14f1a</BoundTo>
+      <DependentUpon>AddASourceEntryToUserDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d56d9ef3-55f2-4944-9a56-079494b49d8b</id>
+    </Compile>
+    <Compile Include="AddASourceEntryToUserDictionary.UserCode.cs">
+      <BoundTo>015b1f82-8efa-4621-a881-9e5900a14f1a</BoundTo>
+      <DependentUpon>AddASourceEntryToUserDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8a9d5ea6-6c05-4b29-a5c6-2c42a6f3afa1</id>
+    </Compile>
+    <Compile Include="AddATargetEntryOnAUserDictionary.cs">
+      <BoundTo>a864bbaf-ff54-4051-ab7e-f19cd6e557a6</BoundTo>
+      <DependentUpon>AddATargetEntryOnAUserDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ab2761c1-5ed7-4d32-a4ed-2fecdcbe32f5</id>
+    </Compile>
+    <Compile Include="AddATargetEntryOnAUserDictionary.UserCode.cs">
+      <BoundTo>a864bbaf-ff54-4051-ab7e-f19cd6e557a6</BoundTo>
+      <DependentUpon>AddATargetEntryOnAUserDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>650c1afa-209b-4c5e-9759-7574321d9b54</id>
+    </Compile>
+    <Compile Include="AddATargetEntryOnNormalizedDictionary.cs">
+      <BoundTo>c236ce49-8dd0-4928-a2d6-a0b13aa4554d</BoundTo>
+      <DependentUpon>AddATargetEntryOnNormalizedDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3beb6615-3ebc-4427-b232-0f58397ab69f</id>
+    </Compile>
+    <Compile Include="AddATargetEntryOnNormalizedDictionary.UserCode.cs">
+      <BoundTo>c236ce49-8dd0-4928-a2d6-a0b13aa4554d</BoundTo>
+      <DependentUpon>AddATargetEntryOnNormalizedDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>be38e1a5-a572-4916-a2be-f428b81b8893</id>
+    </Compile>
+    <Compile Include="AddATargetEntryToTranslationMemory.cs">
+      <BoundTo>006e98e2-9692-4a55-834f-e9ace5e4ba0b</BoundTo>
+      <DependentUpon>AddATargetEntryToTranslationMemory.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5af6087d-6f65-4481-b25b-386709bdefa8</id>
+    </Compile>
+    <Compile Include="AddATargetEntryToTranslationMemory.UserCode.cs">
+      <BoundTo>006e98e2-9692-4a55-834f-e9ace5e4ba0b</BoundTo>
+      <DependentUpon>AddATargetEntryToTranslationMemory.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d72c929f-366d-411c-8b54-6f057d416f08</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>ff16f2bb-0e3c-4ae3-a63e-7b52318c5d6b</id>
+    </Compile>
+    <Compile Include="ClickOnANormaizedDictionaryInOpenDictionary.cs">
+      <BoundTo>a94035ee-d688-4d30-aa4c-4c935c77e562</BoundTo>
+      <DependentUpon>ClickOnANormaizedDictionaryInOpenDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e01eba9a-4cd7-4427-879f-cf0b20a1b4c2</id>
+    </Compile>
+    <Compile Include="ClickOnANormaizedDictionaryInOpenDictionary.UserCode.cs">
+      <BoundTo>a94035ee-d688-4d30-aa4c-4c935c77e562</BoundTo>
+      <DependentUpon>ClickOnANormaizedDictionaryInOpenDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9827e9df-975b-4f5e-89bd-60b323f1d3c7</id>
+    </Compile>
+    <Compile Include="ClickOnATranslationMemoryInOpenDictionary.cs">
+      <BoundTo>097d3ee5-32f6-48ee-8678-9ffc91bfa313</BoundTo>
+      <DependentUpon>ClickOnATranslationMemoryInOpenDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>91ca324d-228b-43ba-a410-e8f40fb9d48f</id>
+    </Compile>
+    <Compile Include="ClickOnATranslationMemoryInOpenDictionary.UserCode.cs">
+      <BoundTo>097d3ee5-32f6-48ee-8678-9ffc91bfa313</BoundTo>
+      <DependentUpon>ClickOnATranslationMemoryInOpenDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3d409b03-2964-4a30-b520-58a91318f2f8</id>
+    </Compile>
+    <Compile Include="ClickOnAUserDictionary.cs">
+      <BoundTo>b2e963dd-247f-43be-a3b5-dffb9c680ff3</BoundTo>
+      <DependentUpon>ClickOnAUserDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>df93d036-d22a-4480-a486-37d94a9c062c</id>
+    </Compile>
+    <Compile Include="ClickOnAUserDictionary.UserCode.cs">
+      <BoundTo>b2e963dd-247f-43be-a3b5-dffb9c680ff3</BoundTo>
+      <DependentUpon>ClickOnAUserDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dcd01ead-c52e-448f-8f76-7fe1bdd2dd1a</id>
+    </Compile>
+    <Compile Include="ClickOnCreateDictionaryOk.cs">
+      <BoundTo>a41bfced-239d-4ea6-9965-35783a257ecc</BoundTo>
+      <DependentUpon>ClickOnCreateDictionaryOk.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>861e52e7-b622-49ae-bf6f-64a75803de38</id>
+    </Compile>
+    <Compile Include="ClickOnCreateDictionaryOk.UserCode.cs">
+      <BoundTo>a41bfced-239d-4ea6-9965-35783a257ecc</BoundTo>
+      <DependentUpon>ClickOnCreateDictionaryOk.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>790f4924-4ac9-40fe-96dd-91cbd5b54c2a</id>
+    </Compile>
+    <Compile Include="ClickOnDeleteIconAndConfirm.cs">
+      <BoundTo>e6f21fbe-4749-4e62-838f-b7692449d5f4</BoundTo>
+      <DependentUpon>ClickOnDeleteIconAndConfirm.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4b1f891b-58ea-4d7c-85a8-6be725750d86</id>
+    </Compile>
+    <Compile Include="ClickOnDeleteIconAndConfirm.UserCode.cs">
+      <BoundTo>e6f21fbe-4749-4e62-838f-b7692449d5f4</BoundTo>
+      <DependentUpon>ClickOnDeleteIconAndConfirm.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>28398971-88f6-4de6-a5d8-0e4881b079bf</id>
+    </Compile>
+    <Compile Include="ClickOnDictionaryMenu.cs">
+      <BoundTo>f7688940-06a3-4cf0-b4b9-c0d3cd18d48f</BoundTo>
+      <DependentUpon>ClickOnDictionaryMenu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3905ef59-5563-4d3c-8b51-63d42ad7e256</id>
+    </Compile>
+    <Compile Include="ClickOnDictionaryMenu.UserCode.cs">
+      <BoundTo>f7688940-06a3-4cf0-b4b9-c0d3cd18d48f</BoundTo>
+      <DependentUpon>ClickOnDictionaryMenu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0da40667-f0b1-4718-9ff6-0ed9d02959ae</id>
+    </Compile>
+    <Compile Include="ClickOnDictionaryChangeEntryType.cs">
+      <BoundTo>c10076ab-3080-4a7e-bb39-0716421f4680</BoundTo>
+      <DependentUpon>ClickOnDictionaryChangeEntryType.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>00b21537-fc70-4094-95b2-4c9ccfd32769</id>
+    </Compile>
+    <Compile Include="ClickOnDictionaryChangeEntryType.UserCode.cs">
+      <BoundTo>c10076ab-3080-4a7e-bb39-0716421f4680</BoundTo>
+      <DependentUpon>ClickOnDictionaryChangeEntryType.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>85ba9426-047b-457a-8bc8-0fdcb4755936</id>
+    </Compile>
+    <Compile Include="ClickOnDictionaryDoNotTranslate.cs">
+      <BoundTo>263582c5-cc0d-4c1a-9e0e-8fc9e1990a4f</BoundTo>
+      <DependentUpon>ClickOnDictionaryDoNotTranslate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1e83c469-997d-4d5d-94f7-7522c486c27f</id>
+    </Compile>
+    <Compile Include="ClickOnDictionaryDoNotTranslate.UserCode.cs">
+      <BoundTo>263582c5-cc0d-4c1a-9e0e-8fc9e1990a4f</BoundTo>
+      <DependentUpon>ClickOnDictionaryDoNotTranslate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2dcb7f3a-04de-47e2-befb-e96f2dea121e</id>
+    </Compile>
+    <Compile Include="ClickOnDictionaryType.cs">
+      <BoundTo>6a47df3f-6756-48a9-bf3b-8e11cb38fc14</BoundTo>
+      <DependentUpon>ClickOnDictionaryType.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d99a70b6-f2f0-426c-8a09-e428214075dd</id>
+    </Compile>
+    <Compile Include="ClickOnDictionaryType.UserCode.cs">
+      <BoundTo>6a47df3f-6756-48a9-bf3b-8e11cb38fc14</BoundTo>
+      <DependentUpon>ClickOnDictionaryType.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9eeb2c9b-a475-4000-aacf-984bdf294595</id>
+    </Compile>
+    <Compile Include="ClickOnExport.cs">
+      <BoundTo>ed12b502-21fe-4e3e-8290-267174af7f8c</BoundTo>
+      <DependentUpon>ClickOnExport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b690feae-c977-4962-a71e-cf8aa9dabe20</id>
+    </Compile>
+    <Compile Include="ClickOnExport.UserCode.cs">
+      <BoundTo>ed12b502-21fe-4e3e-8290-267174af7f8c</BoundTo>
+      <DependentUpon>ClickOnExport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3e02686b-9f09-4e03-b7cf-e66c3f00c42c</id>
+    </Compile>
+    <Compile Include="ClickOnFile.cs">
+      <BoundTo>7c6a64a3-7b26-4124-a7e1-8c5a59228e94</BoundTo>
+      <DependentUpon>ClickOnFile.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f46fbd75-430d-4790-a475-0f07bb589440</id>
+    </Compile>
+    <Compile Include="ClickOnFile.UserCode.cs">
+      <BoundTo>7c6a64a3-7b26-4124-a7e1-8c5a59228e94</BoundTo>
+      <DependentUpon>ClickOnFile.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e160ad63-8cb4-437f-95bb-d17712dc103b</id>
+    </Compile>
+    <Compile Include="ClickOnFileName.cs">
+      <BoundTo>ca895a4a-d5fb-43fc-88f4-c0cf39a6378a</BoundTo>
+      <DependentUpon>ClickOnFileName.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4a2850d6-4205-4976-9f08-3104b92851b1</id>
+    </Compile>
+    <Compile Include="ClickOnFileName.UserCode.cs">
+      <BoundTo>ca895a4a-d5fb-43fc-88f4-c0cf39a6378a</BoundTo>
+      <DependentUpon>ClickOnFileName.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>862ccb17-e92c-49ac-9b7d-fd3281404710</id>
+    </Compile>
+    <Compile Include="ClickOnImport.cs">
+      <BoundTo>273a5406-1739-48e4-8648-82228b550eab</BoundTo>
+      <DependentUpon>ClickOnImport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aad3f5b4-7659-4f8d-8cd5-26fe9f889aae</id>
+    </Compile>
+    <Compile Include="ClickOnImport.UserCode.cs">
+      <BoundTo>273a5406-1739-48e4-8648-82228b550eab</BoundTo>
+      <DependentUpon>ClickOnImport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e5a4b8e5-7924-4ca2-937a-598afa35c8bf</id>
+    </Compile>
+    <Compile Include="ClickOnNew.cs">
+      <BoundTo>f8c6387f-95a3-4089-ba50-e611c096e7ee</BoundTo>
+      <DependentUpon>ClickOnNew.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a25120e9-9f51-4e46-8001-c825a5c84eb4</id>
+    </Compile>
+    <Compile Include="ClickOnNew.UserCode.cs">
+      <BoundTo>f8c6387f-95a3-4089-ba50-e611c096e7ee</BoundTo>
+      <DependentUpon>ClickOnNew.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e43f7e56-68fa-47cb-84e8-d275a21b0460</id>
+    </Compile>
+    <Compile Include="ClickOnNormalizationModuleInOpenDictionary.cs">
+      <BoundTo>50ace399-eb62-4190-8678-4388701bb61a</BoundTo>
+      <DependentUpon>ClickOnNormalizationModuleInOpenDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>02e85388-7d9b-4b20-b7af-d2187ede7ac1</id>
+    </Compile>
+    <Compile Include="ClickOnNormalizationModuleInOpenDictionary.UserCode.cs">
+      <BoundTo>50ace399-eb62-4190-8678-4388701bb61a</BoundTo>
+      <DependentUpon>ClickOnNormalizationModuleInOpenDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>43b224ab-7bce-468b-b6ac-637d0177fbc4</id>
+    </Compile>
+    <Compile Include="ClickOnOpen.cs">
+      <BoundTo>0631b3f4-478c-440e-9c65-df633b3c12ef</BoundTo>
+      <DependentUpon>ClickOnOpen.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e94b2c7d-2c6f-429c-b2f1-5bf3369d6a9e</id>
+    </Compile>
+    <Compile Include="ClickOnOpen.UserCode.cs">
+      <BoundTo>0631b3f4-478c-440e-9c65-df633b3c12ef</BoundTo>
+      <DependentUpon>ClickOnOpen.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2d4c9552-51f0-4df4-9732-20646687d981</id>
+    </Compile>
+    <Compile Include="ClickOnPublish.cs">
+      <BoundTo>9b7bff1a-67e2-4598-982a-cd4ff8317cb4</BoundTo>
+      <DependentUpon>ClickOnPublish.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>899e59ae-715b-450d-874f-73ee91a764d2</id>
+    </Compile>
+    <Compile Include="ClickOnPublish.UserCode.cs">
+      <BoundTo>9b7bff1a-67e2-4598-982a-cd4ff8317cb4</BoundTo>
+      <DependentUpon>ClickOnPublish.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f3c06f29-5fb5-4b55-b490-60e19e40a6eb</id>
+    </Compile>
+    <Compile Include="ClickOnSave.cs">
+      <BoundTo>3e35468c-4069-4edf-b515-49fc2178052e</BoundTo>
+      <DependentUpon>ClickOnSave.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>30a906d7-043b-4187-a91e-1648d968bb06</id>
+    </Compile>
+    <Compile Include="ClickOnSave.UserCode.cs">
+      <BoundTo>3e35468c-4069-4edf-b515-49fc2178052e</BoundTo>
+      <DependentUpon>ClickOnSave.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d91bbe32-a8c8-4f40-96e0-cb699c5e1f60</id>
+    </Compile>
+    <Compile Include="ClickOnSourceLangEntry.cs">
+      <BoundTo>658af970-9f76-4f6f-89f8-a4ec45adef88</BoundTo>
+      <DependentUpon>ClickOnSourceLangEntry.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5239c3c6-d256-46ce-8dc7-d32ae5950c14</id>
+    </Compile>
+    <Compile Include="ClickOnSourceLangEntry.UserCode.cs">
+      <BoundTo>658af970-9f76-4f6f-89f8-a4ec45adef88</BoundTo>
+      <DependentUpon>ClickOnSourceLangEntry.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3e4b761f-1f23-4c48-80a4-5315f6ed2c82</id>
+    </Compile>
+    <Compile Include="ClickOnTargetLangEntry.cs">
+      <BoundTo>62ee2c3e-6649-438f-a0cc-d5fdbfbfe75e</BoundTo>
+      <DependentUpon>ClickOnTargetLangEntry.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7a237016-1caf-4eeb-84cd-c208a13ea9cc</id>
+    </Compile>
+    <Compile Include="ClickOnTargetLangEntry.UserCode.cs">
+      <BoundTo>62ee2c3e-6649-438f-a0cc-d5fdbfbfe75e</BoundTo>
+      <DependentUpon>ClickOnTargetLangEntry.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ca01b757-52da-4411-8efa-074464173352</id>
+    </Compile>
+    <Compile Include="ClickOnTargetLangOnNormalization.cs">
+      <BoundTo>43394b75-1bb3-45b7-bfdc-a88504e5bd76</BoundTo>
+      <DependentUpon>ClickOnTargetLangOnNormalization.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>01342415-e441-4374-971d-a160e53b20a3</id>
+    </Compile>
+    <Compile Include="ClickOnTargetLangOnNormalization.UserCode.cs">
+      <BoundTo>43394b75-1bb3-45b7-bfdc-a88504e5bd76</BoundTo>
+      <DependentUpon>ClickOnTargetLangOnNormalization.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2196c98e-c267-4a4b-8122-f402a67173af</id>
+    </Compile>
+    <Compile Include="ClickOnTranslationMemoryModuleInOpenDictionary.cs">
+      <BoundTo>92349387-f6cb-4ee1-a75d-ae54766ee795</BoundTo>
+      <DependentUpon>ClickOnTranslationMemoryModuleInOpenDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a5fe66ac-46b0-4095-8486-753c05f2c014</id>
+    </Compile>
+    <Compile Include="ClickOnTranslationMemoryModuleInOpenDictionary.UserCode.cs">
+      <BoundTo>92349387-f6cb-4ee1-a75d-ae54766ee795</BoundTo>
+      <DependentUpon>ClickOnTranslationMemoryModuleInOpenDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>be5f4b21-d202-48ef-ba65-8ff75367e2ba</id>
+    </Compile>
+    <Compile Include="ClickOnUserDictionayModuleInOpenDictionary.cs">
+      <BoundTo>4f55221a-ef4e-49b9-a326-7755b8652309</BoundTo>
+      <DependentUpon>ClickOnUserDictionayModuleInOpenDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>74c8a8ec-09d6-4309-aad5-aa0995a5ece7</id>
+    </Compile>
+    <Compile Include="ClickOnUserDictionayModuleInOpenDictionary.UserCode.cs">
+      <BoundTo>4f55221a-ef4e-49b9-a326-7755b8652309</BoundTo>
+      <DependentUpon>ClickOnUserDictionayModuleInOpenDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e5f54a42-8356-4cd6-a236-d0cdd0301a79</id>
+    </Compile>
+    <Compile Include="CloseEntryTable.cs">
+      <BoundTo>966a23ef-3fc1-4c4e-b261-02e2a933aca6</BoundTo>
+      <DependentUpon>CloseEntryTable.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f3b1aff0-21c7-4cf9-ae86-fbb33476072b</id>
+    </Compile>
+    <Compile Include="CloseEntryTable.UserCode.cs">
+      <BoundTo>966a23ef-3fc1-4c4e-b261-02e2a933aca6</BoundTo>
+      <DependentUpon>CloseEntryTable.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0ba83d6d-a13e-4145-a01b-beda076bd5df</id>
+    </Compile>
+    <Compile Include="CloseSystranDictionaryManager.cs">
+      <BoundTo>7439e6df-a0b7-4444-bda7-f887362d0764</BoundTo>
+      <DependentUpon>CloseSystranDictionaryManager.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>77ae367e-f1fc-41b6-b0aa-ba9cbf71b16d</id>
+    </Compile>
+    <Compile Include="CloseSystranDictionaryManager.UserCode.cs">
+      <BoundTo>7439e6df-a0b7-4444-bda7-f887362d0764</BoundTo>
+      <DependentUpon>CloseSystranDictionaryManager.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2a7247c0-1e8b-4542-a8f6-42c38e7e7e0b</id>
+    </Compile>
+    <Compile Include="DeleteAllFileInExportDictionaries.cs">
+      <id>7eb4b187-0146-49a6-aa01-ca894c8bf07e</id>
+    </Compile>
+    <Compile Include="DictionaryManagerRepository.cs">
+      <BoundTo>af84e30e-0a0c-43eb-aea3-bbca48cb3c71</BoundTo>
+      <DependentUpon>DictionaryManagerRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>5c192c08-1625-4b3f-a825-806d49083a29</id>
+    </Compile>
+    <Compile Include="DictionaryMultiLingual.cs">
+      <BoundTo>241f4a63-5f12-490b-bca6-1655fd1e07e9</BoundTo>
+      <DependentUpon>DictionaryMultiLingual.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5f8d4630-0be2-43c4-869f-7933751963c5</id>
+    </Compile>
+    <Compile Include="DictionaryMultiLingual.UserCode.cs">
+      <BoundTo>241f4a63-5f12-490b-bca6-1655fd1e07e9</BoundTo>
+      <DependentUpon>DictionaryMultiLingual.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4518c816-008e-4b08-a205-7ed23e62184b</id>
+    </Compile>
+    <Compile Include="DoubleClickOnNormalizedDictInOpenDictionary.cs">
+      <BoundTo>8ae4b873-079d-46f1-a845-5fcf91785459</BoundTo>
+      <DependentUpon>DoubleClickOnNormalizedDictInOpenDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>06beb680-861f-4300-8fef-2d736c2e7e43</id>
+    </Compile>
+    <Compile Include="DoubleClickOnNormalizedDictInOpenDictionary.UserCode.cs">
+      <BoundTo>8ae4b873-079d-46f1-a845-5fcf91785459</BoundTo>
+      <DependentUpon>DoubleClickOnNormalizedDictInOpenDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a7fba5da-b59e-4121-9149-fe66cc4e2b96</id>
+    </Compile>
+    <Compile Include="DoubleClickOnTranslationMemoryInOpenDictionary.cs">
+      <BoundTo>9be52079-e640-4c3c-bc06-965522d0f139</BoundTo>
+      <DependentUpon>DoubleClickOnTranslationMemoryInOpenDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fbc8c4fe-da16-4c56-b454-1a1ac240a7f4</id>
+    </Compile>
+    <Compile Include="DoubleClickOnTranslationMemoryInOpenDictionary.UserCode.cs">
+      <BoundTo>9be52079-e640-4c3c-bc06-965522d0f139</BoundTo>
+      <DependentUpon>DoubleClickOnTranslationMemoryInOpenDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fa30109e-15d2-4782-97b3-c6ec98979f34</id>
+    </Compile>
+    <Compile Include="DoubleClickOnUserDictionaryInOpenDictionary.cs">
+      <BoundTo>bddd2fa5-8524-4cf8-b5d9-bddd9aa6b77a</BoundTo>
+      <DependentUpon>DoubleClickOnUserDictionaryInOpenDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bcf90332-cadd-40fb-96f7-fd1f77d57c8c</id>
+    </Compile>
+    <Compile Include="DoubleClickOnUserDictionaryInOpenDictionary.UserCode.cs">
+      <BoundTo>bddd2fa5-8524-4cf8-b5d9-bddd9aa6b77a</BoundTo>
+      <DependentUpon>DoubleClickOnUserDictionaryInOpenDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a15d86ce-a50b-4a9a-ba10-6ffa1337a5a5</id>
+    </Compile>
+    <Compile Include="InputAuthorName.cs">
+      <BoundTo>f1a433fa-b663-471f-816f-50cbf598f39c</BoundTo>
+      <DependentUpon>InputAuthorName.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3b9e273b-064e-4c8b-887d-ace855462488</id>
+    </Compile>
+    <Compile Include="InputAuthorName.UserCode.cs">
+      <BoundTo>f1a433fa-b663-471f-816f-50cbf598f39c</BoundTo>
+      <DependentUpon>InputAuthorName.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>92b5dafa-e23d-46f2-b5f8-6d0d6c1c08a3</id>
+    </Compile>
+    <Compile Include="InputDictionaryName.cs">
+      <BoundTo>938114e4-b3dd-4005-93f3-90e4f424bd25</BoundTo>
+      <DependentUpon>InputDictionaryName.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d43ec2b2-cc2a-42d6-8a29-ef96c0ea9beb</id>
+    </Compile>
+    <Compile Include="InputDictionaryName.UserCode.cs">
+      <BoundTo>938114e4-b3dd-4005-93f3-90e4f424bd25</BoundTo>
+      <DependentUpon>InputDictionaryName.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e6f7c6d5-a5dd-47cb-a0a7-e4665516ff44</id>
+    </Compile>
+    <Compile Include="InputNormalizationName.cs">
+      <BoundTo>d497d2f0-8324-424b-a8cd-f2e8b86abbfa</BoundTo>
+      <DependentUpon>InputNormalizationName.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b8519427-65df-4f01-8db4-2a0386f41d8c</id>
+    </Compile>
+    <Compile Include="InputNormalizationName.UserCode.cs">
+      <BoundTo>d497d2f0-8324-424b-a8cd-f2e8b86abbfa</BoundTo>
+      <DependentUpon>InputNormalizationName.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9cb5073b-5310-4b60-9927-a77c2f6f6875</id>
+    </Compile>
+    <Compile Include="InputTranslationMemoryName.cs">
+      <BoundTo>4f4b3b6f-dfd9-4aae-9ac5-7a17644ef8ae</BoundTo>
+      <DependentUpon>InputTranslationMemoryName.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3f196292-395d-43e4-8bd1-1dafaeb6dc49</id>
+    </Compile>
+    <Compile Include="InputTranslationMemoryName.UserCode.cs">
+      <BoundTo>4f4b3b6f-dfd9-4aae-9ac5-7a17644ef8ae</BoundTo>
+      <DependentUpon>InputTranslationMemoryName.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a764ce66-2d56-4f7c-9b8e-6b6dfaecc1b1</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>abeb2e14-65d9-406e-b63a-5918ca05930b</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2f0be95b-361d-4e1f-9594-4cf31ca3c3cf</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>abeb2e14-65d9-406e-b63a-5918ca05930b</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8e738b64-064c-494e-a428-4e3a65b32734</id>
+    </Compile>
+    <Compile Include="Recording2.cs">
+      <BoundTo>102a8423-a315-4476-bd8a-9acdb13388cb</BoundTo>
+      <DependentUpon>Recording2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>70f439cb-75ea-41b8-abf8-8094cd38cd3e</id>
+    </Compile>
+    <Compile Include="Recording2.UserCode.cs">
+      <BoundTo>102a8423-a315-4476-bd8a-9acdb13388cb</BoundTo>
+      <DependentUpon>Recording2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>de929d05-ca0a-46ad-87de-526979838621</id>
+    </Compile>
+    <Compile Include="SelectNormalization.cs">
+      <BoundTo>296ea58e-67fb-4367-ad7c-ed793902f066</BoundTo>
+      <DependentUpon>SelectNormalization.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7fa95472-2161-4fb4-80bb-fef6795126d3</id>
+    </Compile>
+    <Compile Include="SelectNormalization.UserCode.cs">
+      <BoundTo>296ea58e-67fb-4367-ad7c-ed793902f066</BoundTo>
+      <DependentUpon>SelectNormalization.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>16fca7db-1d0a-43d8-a6a9-59b08fda16d6</id>
+    </Compile>
+    <Compile Include="SelectSourceLanguage.cs">
+      <BoundTo>4bb9dfbd-5468-4747-8b76-eec904b29596</BoundTo>
+      <DependentUpon>SelectSourceLanguage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>defde22e-ca4b-4f2c-93e4-4dcaecbd5308</id>
+    </Compile>
+    <Compile Include="SelectSourceLanguage.UserCode.cs">
+      <BoundTo>4bb9dfbd-5468-4747-8b76-eec904b29596</BoundTo>
+      <DependentUpon>SelectSourceLanguage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>da302ee7-8ed5-4356-bd30-41e707acd86a</id>
+    </Compile>
+    <Compile Include="SelectTargetLanguage.cs">
+      <BoundTo>9c880fba-6198-4662-ae8e-8cec1f7c7ad8</BoundTo>
+      <DependentUpon>SelectTargetLanguage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1345f7a7-a8b5-4592-9056-6bef7ddeb5df</id>
+    </Compile>
+    <Compile Include="SelectTargetLanguage.UserCode.cs">
+      <BoundTo>9c880fba-6198-4662-ae8e-8cec1f7c7ad8</BoundTo>
+      <DependentUpon>SelectTargetLanguage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5c87fb4c-4b1f-48ef-83ee-117512213272</id>
+    </Compile>
+    <Compile Include="SelectTranslationMemory.cs">
+      <BoundTo>db6fc580-b542-416b-b5d6-01ad23832f08</BoundTo>
+      <DependentUpon>SelectTranslationMemory.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>468a5cd5-c446-4241-a055-6c7668602a88</id>
+    </Compile>
+    <Compile Include="SelectTranslationMemory.UserCode.cs">
+      <BoundTo>db6fc580-b542-416b-b5d6-01ad23832f08</BoundTo>
+      <DependentUpon>SelectTranslationMemory.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fafbe85b-4526-4e9a-bb05-31aba3f1e30e</id>
+    </Compile>
+    <Compile Include="SelectUserDictionary.cs">
+      <BoundTo>6d76b7e7-1204-4de1-b079-1f8afadb382f</BoundTo>
+      <DependentUpon>SelectUserDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0faf8b19-1f57-411f-8e1d-2fdf04c9693e</id>
+    </Compile>
+    <Compile Include="SelectUserDictionary.UserCode.cs">
+      <BoundTo>6d76b7e7-1204-4de1-b079-1f8afadb382f</BoundTo>
+      <DependentUpon>SelectUserDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ca687845-a3da-4788-8150-b25c7eb0572b</id>
+    </Compile>
+    <Compile Include="StartSystranDictionaryManager.cs">
+      <BoundTo>3daf9c8f-ef8c-44b6-8c54-e6b031d45f44</BoundTo>
+      <DependentUpon>StartSystranDictionaryManager.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b05eb3c1-576e-40c3-b709-f19a1ce63b2c</id>
+    </Compile>
+    <Compile Include="StartSystranDictionaryManager.UserCode.cs">
+      <BoundTo>3daf9c8f-ef8c-44b6-8c54-e6b031d45f44</BoundTo>
+      <DependentUpon>StartSystranDictionaryManager.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dc51f8d8-d1c9-4d12-98a3-2ebef83ebfe4</id>
+    </Compile>
+    <Compile Include="TypeFileNameAndLocationForExportDCT.cs">
+      <BoundTo>321d2f8c-609d-4f65-b334-b9d1c7fc8bcc</BoundTo>
+      <DependentUpon>TypeFileNameAndLocationForExportDCT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0d8c56fa-da21-436a-b2e8-2591c7dc09b2</id>
+    </Compile>
+    <Compile Include="TypeFileNameAndLocationForExportDCT.UserCode.cs">
+      <BoundTo>321d2f8c-609d-4f65-b334-b9d1c7fc8bcc</BoundTo>
+      <DependentUpon>TypeFileNameAndLocationForExportDCT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f2a95713-91ff-4c78-9c53-742afe733ad6</id>
+    </Compile>
+    <Compile Include="TypeFileNameAndLocationForExportNormlizedDictInTXTFormat.cs">
+      <BoundTo>4244a572-8e73-4a06-8e09-51e514c7a4ef</BoundTo>
+      <DependentUpon>TypeFileNameAndLocationForExportNormlizedDictInTXTFormat.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1964ec76-5be9-4438-ac3e-93d077f878be</id>
+    </Compile>
+    <Compile Include="TypeFileNameAndLocationForExportNormlizedDictInTXTFormat.UserCode.cs">
+      <BoundTo>4244a572-8e73-4a06-8e09-51e514c7a4ef</BoundTo>
+      <DependentUpon>TypeFileNameAndLocationForExportNormlizedDictInTXTFormat.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b0fe0694-87bf-453c-8ce6-cc9aa4615bbf</id>
+    </Compile>
+    <Compile Include="TypeFileNameAndLocationForExportTMInTXTFormat.cs">
+      <BoundTo>d544282e-37d2-4b4d-815a-258609ca3fc6</BoundTo>
+      <DependentUpon>TypeFileNameAndLocationForExportTMInTXTFormat.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>143f406d-45f7-4337-a7a4-e8c26477d651</id>
+    </Compile>
+    <Compile Include="TypeFileNameAndLocationForExportTMInTXTFormat.UserCode.cs">
+      <BoundTo>d544282e-37d2-4b4d-815a-258609ca3fc6</BoundTo>
+      <DependentUpon>TypeFileNameAndLocationForExportTMInTXTFormat.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f187e5db-cea5-4fec-9b6f-e672ab00eb1f</id>
+    </Compile>
+    <Compile Include="TypeFileNameAndLocationForExportTXT.cs">
+      <BoundTo>7521b58e-ad15-44e2-8b90-c9e2e65b29b6</BoundTo>
+      <DependentUpon>TypeFileNameAndLocationForExportTXT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1d5a0bfe-3a40-4266-b39f-a98cd426943c</id>
+    </Compile>
+    <Compile Include="TypeFileNameAndLocationForExportTXT.UserCode.cs">
+      <BoundTo>7521b58e-ad15-44e2-8b90-c9e2e65b29b6</BoundTo>
+      <DependentUpon>TypeFileNameAndLocationForExportTXT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>90ffab19-bf9c-49a2-9174-52877fa2e529</id>
+    </Compile>
+    <Compile Include="ValidateAddEntryNormalizedDictionary.cs">
+      <BoundTo>738ab656-af92-446b-8c76-f88308f892df</BoundTo>
+      <DependentUpon>ValidateAddEntryNormalizedDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>40c68158-4809-41b6-9c53-2c16810f57eb</id>
+    </Compile>
+    <Compile Include="ValidateAddEntryNormalizedDictionary.UserCode.cs">
+      <BoundTo>738ab656-af92-446b-8c76-f88308f892df</BoundTo>
+      <DependentUpon>ValidateAddEntryNormalizedDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9493bc72-86c0-4e98-9425-f27423e570c4</id>
+    </Compile>
+    <Compile Include="ValidateAddEntryOnUserDictionary.cs">
+      <BoundTo>3e2ed13f-1981-498d-a7c7-7b892d630671</BoundTo>
+      <DependentUpon>ValidateAddEntryOnUserDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5a9e3aa5-9949-465d-bb6c-92003752e221</id>
+    </Compile>
+    <Compile Include="ValidateAddEntryOnUserDictionary.UserCode.cs">
+      <BoundTo>3e2ed13f-1981-498d-a7c7-7b892d630671</BoundTo>
+      <DependentUpon>ValidateAddEntryOnUserDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b441cdd0-60ea-47e3-92da-3dff37a1df5c</id>
+    </Compile>
+    <Compile Include="ValidateAddEntryOnTranslationMemory.cs">
+      <BoundTo>9e9faaca-cae3-44d6-91f4-c67a31da4f68</BoundTo>
+      <DependentUpon>ValidateAddEntryOnTranslationMemory.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>30248484-975d-467e-bf6b-d5e83ec1d854</id>
+    </Compile>
+    <Compile Include="ValidateAddEntryOnTranslationMemory.UserCode.cs">
+      <BoundTo>9e9faaca-cae3-44d6-91f4-c67a31da4f68</BoundTo>
+      <DependentUpon>ValidateAddEntryOnTranslationMemory.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>98421b2d-a869-4347-a604-4a4c71e6ca1d</id>
+    </Compile>
+    <Compile Include="ValidateANormalizedDictionary.cs">
+      <BoundTo>244d2d81-b453-4441-ad81-fac485889fc8</BoundTo>
+      <DependentUpon>ValidateANormalizedDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a96fa3c3-aa66-4892-9b6f-595c89b448c0</id>
+    </Compile>
+    <Compile Include="ValidateANormalizedDictionary.UserCode.cs">
+      <BoundTo>244d2d81-b453-4441-ad81-fac485889fc8</BoundTo>
+      <DependentUpon>ValidateANormalizedDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>32c8aeb2-a0fd-4c60-810c-b67d5c6d8f8d</id>
+    </Compile>
+    <Compile Include="ValidateATranslationMemory.cs">
+      <BoundTo>714b3d25-4bde-4185-ad76-2cb2ba16f1e8</BoundTo>
+      <DependentUpon>ValidateATranslationMemory.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>56771c55-93fb-4fad-a9b1-4b79fd026b25</id>
+    </Compile>
+    <Compile Include="ValidateATranslationMemory.UserCode.cs">
+      <BoundTo>714b3d25-4bde-4185-ad76-2cb2ba16f1e8</BoundTo>
+      <DependentUpon>ValidateATranslationMemory.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e57ccef3-8418-41cc-985c-41c77ab1e4f1</id>
+    </Compile>
+    <Compile Include="ValidateAUserDictionary.cs">
+      <BoundTo>3f45f7e4-ba46-40ca-afa5-9dc98eca76e5</BoundTo>
+      <DependentUpon>ValidateAUserDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6e714da6-7be2-4447-abcb-c20e068a0ecd</id>
+    </Compile>
+    <Compile Include="ValidateAUserDictionary.UserCode.cs">
+      <BoundTo>3f45f7e4-ba46-40ca-afa5-9dc98eca76e5</BoundTo>
+      <DependentUpon>ValidateAUserDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e779af4d-f4a1-4c92-9905-9c33f3e7fa7b</id>
+    </Compile>
+    <Compile Include="ValidateConfidenceIntervalOfAnEntryInNormalization.cs">
+      <BoundTo>7541d16f-39cb-43ca-8b44-98980d0813c0</BoundTo>
+      <DependentUpon>ValidateConfidenceIntervalOfAnEntryInNormalization.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1391bdd8-d932-42a7-a51d-fd547f8ca1fe</id>
+    </Compile>
+    <Compile Include="ValidateConfidenceIntervalOfAnEntryInNormalization.UserCode.cs">
+      <BoundTo>7541d16f-39cb-43ca-8b44-98980d0813c0</BoundTo>
+      <DependentUpon>ValidateConfidenceIntervalOfAnEntryInNormalization.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c07b7567-57f1-4818-8c60-75ac12b8be49</id>
+    </Compile>
+    <Compile Include="ValidateConfidenceIntervalOfAnEntryInUserDictionary.cs">
+      <BoundTo>71649c2f-8d8d-4246-8d94-5b64d02baee9</BoundTo>
+      <DependentUpon>ValidateConfidenceIntervalOfAnEntryInUserDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a85a408e-644c-4ec0-a137-7c53182edeba</id>
+    </Compile>
+    <Compile Include="ValidateConfidenceIntervalOfAnEntryInUserDictionary.UserCode.cs">
+      <BoundTo>71649c2f-8d8d-4246-8d94-5b64d02baee9</BoundTo>
+      <DependentUpon>ValidateConfidenceIntervalOfAnEntryInUserDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0710b366-42b5-4919-98ab-508ef0582233</id>
+    </Compile>
+    <Compile Include="ValidateDeleteNotmalizeDictionary.cs">
+      <BoundTo>226de9b9-1dd6-4938-8776-6e9664146749</BoundTo>
+      <DependentUpon>ValidateDeleteNotmalizeDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1b7a9932-9a57-420d-bedc-0d1cbee2350b</id>
+    </Compile>
+    <Compile Include="ValidateDeleteNotmalizeDictionary.UserCode.cs">
+      <BoundTo>226de9b9-1dd6-4938-8776-6e9664146749</BoundTo>
+      <DependentUpon>ValidateDeleteNotmalizeDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a86073e2-b8cc-4355-bf56-13f63b19bc27</id>
+    </Compile>
+    <Compile Include="ValidateDeleteTranslationMemory.cs">
+      <BoundTo>a1c923c7-3d84-467d-923f-4abff28a9c48</BoundTo>
+      <DependentUpon>ValidateDeleteTranslationMemory.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>199c8173-2e42-402f-bedc-9fed02ac859b</id>
+    </Compile>
+    <Compile Include="ValidateDeleteTranslationMemory.UserCode.cs">
+      <BoundTo>a1c923c7-3d84-467d-923f-4abff28a9c48</BoundTo>
+      <DependentUpon>ValidateDeleteTranslationMemory.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1b67c816-b61f-4e19-ba7f-ba3d17150599</id>
+    </Compile>
+    <Compile Include="ValidateDeleteUserDictionary.cs">
+      <BoundTo>440451d3-2366-4a56-90da-a92d2f09af4b</BoundTo>
+      <DependentUpon>ValidateDeleteUserDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6bf77a11-3bc6-483c-90aa-72811ad86eb2</id>
+    </Compile>
+    <Compile Include="ValidateDeleteUserDictionary.UserCode.cs">
+      <BoundTo>440451d3-2366-4a56-90da-a92d2f09af4b</BoundTo>
+      <DependentUpon>ValidateDeleteUserDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7305cfc9-19d1-4aba-982e-87fe75196eb0</id>
+    </Compile>
+    <Compile Include="ValidateDoNotTranslateInUserDictionaryEntry.cs">
+      <BoundTo>2bc96104-f1de-4c00-a162-19da35010e9e</BoundTo>
+      <DependentUpon>ValidateDoNotTranslateInUserDictionaryEntry.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bfbc3d70-a299-4ec3-a7b0-9a01323b0fa3</id>
+    </Compile>
+    <Compile Include="ValidateDoNotTranslateInUserDictionaryEntry.UserCode.cs">
+      <BoundTo>2bc96104-f1de-4c00-a162-19da35010e9e</BoundTo>
+      <DependentUpon>ValidateDoNotTranslateInUserDictionaryEntry.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>48209020-a831-4b36-9122-18132e0de87d</id>
+    </Compile>
+    <Compile Include="ValidateExportNormalizationInTXTFormat.cs">
+      <BoundTo>212a08ae-f487-43ff-a1a5-31ca931a8765</BoundTo>
+      <DependentUpon>ValidateExportNormalizationInTXTFormat.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>da6cf8db-fe94-439f-b592-a36cdc049cf7</id>
+    </Compile>
+    <Compile Include="ValidateExportNormalizationInTXTFormat.UserCode.cs">
+      <BoundTo>212a08ae-f487-43ff-a1a5-31ca931a8765</BoundTo>
+      <DependentUpon>ValidateExportNormalizationInTXTFormat.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7b5a8586-a09c-4b14-9e7b-3e6e7375b439</id>
+    </Compile>
+    <Compile Include="ValidateExportTranslationMemoryInTXTFormat.cs">
+      <BoundTo>5e73419f-7b8e-45a3-bf95-8b5e6963d056</BoundTo>
+      <DependentUpon>ValidateExportTranslationMemoryInTXTFormat.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>413767e7-9a1c-47f6-870e-058b1a7e8b95</id>
+    </Compile>
+    <Compile Include="ValidateExportTranslationMemoryInTXTFormat.UserCode.cs">
+      <BoundTo>5e73419f-7b8e-45a3-bf95-8b5e6963d056</BoundTo>
+      <DependentUpon>ValidateExportTranslationMemoryInTXTFormat.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b1c374d7-45f0-4707-a5b1-9b5f9a2d2356</id>
+    </Compile>
+    <Compile Include="ValidateExportUserDictionaryInDCTFormat.cs">
+      <BoundTo>ad770d3e-7da9-4f79-9ece-203f4c810780</BoundTo>
+      <DependentUpon>ValidateExportUserDictionaryInDCTFormat.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d2ece348-c017-47f5-bd89-16dd5dc409e8</id>
+    </Compile>
+    <Compile Include="ValidateExportUserDictionaryInDCTFormat.UserCode.cs">
+      <BoundTo>ad770d3e-7da9-4f79-9ece-203f4c810780</BoundTo>
+      <DependentUpon>ValidateExportUserDictionaryInDCTFormat.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0430674b-9716-4ddb-8db2-57742c42fe6f</id>
+    </Compile>
+    <Compile Include="ValidateExportUserDictionaryInTXTFormat.cs">
+      <BoundTo>a3719515-2359-44f7-bcca-5d21ad20cd6e</BoundTo>
+      <DependentUpon>ValidateExportUserDictionaryInTXTFormat.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>29cfdbab-2793-4da5-aa6c-f13726d6359c</id>
+    </Compile>
+    <Compile Include="ValidateExportUserDictionaryInTXTFormat.UserCode.cs">
+      <BoundTo>a3719515-2359-44f7-bcca-5d21ad20cd6e</BoundTo>
+      <DependentUpon>ValidateExportUserDictionaryInTXTFormat.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>01017a47-12d7-490e-ae8f-42f3f5eadea3</id>
+    </Compile>
+    <Compile Include="ValidateImportDCTTranslationMemory.cs">
+      <BoundTo>902cc3b1-056b-48de-9325-ddd834ce3f72</BoundTo>
+      <DependentUpon>ValidateImportDCTTranslationMemory.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9b10c5d1-2714-4a89-99aa-b5b629ea9794</id>
+    </Compile>
+    <Compile Include="ValidateImportDCTTranslationMemory.UserCode.cs">
+      <BoundTo>902cc3b1-056b-48de-9325-ddd834ce3f72</BoundTo>
+      <DependentUpon>ValidateImportDCTTranslationMemory.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>515dd6d4-ecab-428c-83d8-1c1685a357f2</id>
+    </Compile>
+    <Compile Include="ValidateImportDCTUserDictionary.cs">
+      <BoundTo>46a4ff77-aca2-4fe3-8800-48a01ca83e97</BoundTo>
+      <DependentUpon>ValidateImportDCTUserDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aaad138f-5794-44d0-8b7d-de52ef183e8d</id>
+    </Compile>
+    <Compile Include="ValidateImportDCTUserDictionary.UserCode.cs">
+      <BoundTo>46a4ff77-aca2-4fe3-8800-48a01ca83e97</BoundTo>
+      <DependentUpon>ValidateImportDCTUserDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7227b147-47ba-4813-957e-c137279a2a7d</id>
+    </Compile>
+    <Compile Include="ValidateImportTMXTranslationMemory.cs">
+      <BoundTo>33b2a492-b4e5-4a17-abdf-e0e9a93ff220</BoundTo>
+      <DependentUpon>ValidateImportTMXTranslationMemory.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1695fd9c-2cf5-436e-b7ca-d242aff05745</id>
+    </Compile>
+    <Compile Include="ValidateImportTMXTranslationMemory.UserCode.cs">
+      <BoundTo>33b2a492-b4e5-4a17-abdf-e0e9a93ff220</BoundTo>
+      <DependentUpon>ValidateImportTMXTranslationMemory.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bcd83cf5-76e0-4de1-9401-4eedab08673b</id>
+    </Compile>
+    <Compile Include="ValidateImportTXTTranslationMemory.cs">
+      <BoundTo>78b89c6e-d96c-45de-9ad6-e6cc0c668dad</BoundTo>
+      <DependentUpon>ValidateImportTXTTranslationMemory.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ffcfd50b-4e2b-489a-8410-5a007f6178a8</id>
+    </Compile>
+    <Compile Include="ValidateImportTXTTranslationMemory.UserCode.cs">
+      <BoundTo>78b89c6e-d96c-45de-9ad6-e6cc0c668dad</BoundTo>
+      <DependentUpon>ValidateImportTXTTranslationMemory.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>846be58f-894f-427e-b233-c336b7e80a9f</id>
+    </Compile>
+    <Compile Include="ValidateImportTXTUserDictionary.cs">
+      <BoundTo>743e10d7-d96c-45b6-bcc2-5e6b24ad7bea</BoundTo>
+      <DependentUpon>ValidateImportTXTUserDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2e0a902f-75fc-4b57-96c5-e03ed568c814</id>
+    </Compile>
+    <Compile Include="ValidateImportTXTUserDictionary.UserCode.cs">
+      <BoundTo>743e10d7-d96c-45b6-bcc2-5e6b24ad7bea</BoundTo>
+      <DependentUpon>ValidateImportTXTUserDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4023a373-dba6-497c-8671-90f5ed6ad8e8</id>
+    </Compile>
+    <Compile Include="ValidatePublishAUserDictionary.cs">
+      <BoundTo>ab29af0e-05fa-4f39-92be-19db3eb09da8</BoundTo>
+      <DependentUpon>ValidatePublishAUserDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0af756a5-9f33-4294-91f7-bfb344daada6</id>
+    </Compile>
+    <Compile Include="ValidatePublishAUserDictionary.UserCode.cs">
+      <BoundTo>ab29af0e-05fa-4f39-92be-19db3eb09da8</BoundTo>
+      <DependentUpon>ValidatePublishAUserDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5cacfacd-5794-4dea-9a0c-99ca407fb352</id>
+    </Compile>
+    <Compile Include="ValidatePublishNormalizedDictionary.cs">
+      <BoundTo>1c769154-67e3-440e-841f-3a3ffdf10951</BoundTo>
+      <DependentUpon>ValidatePublishNormalizedDictionary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7e385dd5-247a-4eab-845d-6ff3e4afc310</id>
+    </Compile>
+    <Compile Include="ValidatePublishNormalizedDictionary.UserCode.cs">
+      <BoundTo>1c769154-67e3-440e-841f-3a3ffdf10951</BoundTo>
+      <DependentUpon>ValidatePublishNormalizedDictionary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>72eba0f2-160b-408a-a89c-9a400fb62783</id>
+    </Compile>
+    <Compile Include="ValidatePublishTranslationMemory.cs">
+      <BoundTo>de897e06-3857-4d10-a1c0-713a02b11780</BoundTo>
+      <DependentUpon>ValidatePublishTranslationMemory.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>201de1c9-5be2-4b2c-aff1-cc806b986338</id>
+    </Compile>
+    <Compile Include="ValidatePublishTranslationMemory.UserCode.cs">
+      <BoundTo>de897e06-3857-4d10-a1c0-713a02b11780</BoundTo>
+      <DependentUpon>ValidatePublishTranslationMemory.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>09784789-9eff-4f11-a8f2-cfaab4470a8d</id>
+    </Compile>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+</Project>

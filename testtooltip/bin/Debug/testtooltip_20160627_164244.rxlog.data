@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="9a91e870c368a30"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/27/2016 4:42:44 PM"
+		timestampiso="2016-06-27T14:42:44"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="12.16s"
+			durationms="12160"
+			type="test suite"
+			rid="c5ef95b8f20a7e8"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="testtooltip"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="12.15s"
+				durationms="12146"
+				type="folder"
+				rid="18527a96fbb77033"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				foldername="Systran_Language_Manager">
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="12.14s"
+					durationms="12140"
+					type="test case"
+					rid="9786413a2dbd961"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Verify_Profile_page"
+					testcaseid="31634e65-bbda-4f02-bfcc-653f237aaa22"
+					maxchildren="0">
+					<params/>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="10.43s"
+						durationms="10434"
+						type="test case setup"
+						rid="24eaba4bc8b3190"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="10.39s"
+							durationms="10392"
+							type="test module"
+							rid="ca0f7bc7204e740"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartIEAndSystranLangManager (LanguageManager)"
+							moduleid="0f6afdb7-5eff-4213-a1a5-949cd5fb4ac7"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.280"
+								timeRelativeToTestModuleStartTime="00:00.007"
+								timeWallClock="16:42:44"
+								time="00:00.280"
+								level="Info"
+								category="Application">
+								<message>
+									Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\language-manager\SYSTRAN-Desktop-Language-Manager.exe' with arguments '--force-renderer-accessibility' in normal mode.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\StartIEAndSystranLangManager.cs"
+									codeline="82"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.479"
+								timeRelativeToTestModuleStartTime="00:00.206"
+								timeWallClock="16:42:45"
+								time="00:00.479"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 2000ms.
+								</message>
+								<metainfo
+									itemindex="1"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\StartIEAndSystranLangManager.cs"
+									codeline="86"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:02.540"
+								timeRelativeToTestModuleStartTime="00:02.267"
+								timeWallClock="16:42:47"
+								time="00:02.540"
+								level="Info"
+								category="Application">
+								<message>
+									Run application 'C:\Program Files\Internet Explorer\iexplore.exe' with arguments '' in normal mode.
+								</message>
+								<metainfo
+									itemindex="2"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\StartIEAndSystranLangManager.cs"
+									codeline="89"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:02.611"
+								timeRelativeToTestModuleStartTime="00:02.338"
+								timeWallClock="16:42:47"
+								time="00:02.611"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 500ms.
+								</message>
+								<metainfo
+									itemindex="3"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\StartIEAndSystranLangManager.cs"
+									codeline="93"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:03.192"
+								timeRelativeToTestModuleStartTime="00:02.919"
+								timeWallClock="16:42:47"
+								time="00:03.192"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'DellOfficialSiteThePowerToDoMor.Edit' at 232;3.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title~'^Dell\ Official\ Site\ -\ The\ ']/?/?/form[@controlid='40966']/?/?/text[@class='Edit']"
+									fullname="LanguageManagerRepository.DellOfficialSiteThePowerToDoMor.Edit"
+									id="c7430e8b09e24c39b80f3a411a192bea"
+									timeout="60000"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\StartIEAndSystranLangManager.cs"
+									codeline="96"
+									itemindex="4"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:05.781"
+								timeRelativeToTestModuleStartTime="00:05.508"
+								timeWallClock="16:42:50"
+								time="00:05.781"
+								level="Info"
+								category="Keyboard">
+								<message>
+									Key sequence 'http://localhost:3500/' with focus on 'DellOfficialSiteThePowerToDoMor.Edit'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title~'^Dell\ Official\ Site\ -\ The\ ']/?/?/form[@controlid='40966']/?/?/text[@class='Edit']"
+									fullname="LanguageManagerRepository.DellOfficialSiteThePowerToDoMor.Edit"
+									id="c7430e8b09e24c39b80f3a411a192bea"
+									timeout="60000"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\StartIEAndSystranLangManager.cs"
+									codeline="100"
+									itemindex="5"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:08.329"
+								timeRelativeToTestModuleStartTime="00:08.056"
+								timeWallClock="16:42:52"
+								time="00:08.329"
+								level="Info"
+								category="Keyboard">
+								<message>
+									Key sequence '{Return}'.
+								</message>
+								<metainfo
+									itemindex="6"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\StartIEAndSystranLangManager.cs"
+									codeline="104"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:08.589"
+								timeRelativeToTestModuleStartTime="00:08.316"
+								timeWallClock="16:42:53"
+								time="00:08.589"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 2000ms.
+								</message>
+								<metainfo
+									itemindex="7"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\StartIEAndSystranLangManager.cs"
+									codeline="108"
+									loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="1484ms"
+						durationms="1484"
+						type="test module"
+						rid="1f276a91f152e062"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="VerifyTheProfilePage (LanguageManager)"
+						moduleid="44bd6f20-911d-42cf-b811-cdfc616b313c"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.671"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="16:42:55"
+							time="00:10.671"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='&#160;Refresh') on item 'SYSTRANLanguageManager1.SpanTagRefresh'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='localhost:3500']//button[#'refreshProfile']/span[@innertext=' Refresh']"
+								fullname="LanguageManagerRepository.SYSTRANLanguageManager1.SpanTagRefresh"
+								id="56e65335aba540f2944410af6046c690"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\VerifyTheProfilePage.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.193"
+							timeRelativeToTestModuleStartTime="00:00.523"
+							timeWallClock="16:42:55"
+							time="00:11.193"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'LanguageManagerRepository.SYSTRANLanguageManager1.SpanTagRefresh' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='localhost:3500']//button[#'refreshProfile']/span[@innertext=' Refresh']"
+								fullname="LanguageManagerRepository.SYSTRANLanguageManager1.SpanTagRefresh"
+								id="56e65335aba540f2944410af6046c690"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\VerifyTheProfilePage.cs"
+								codeline="83"
+								loglvl="Success"
+								itemindex="0"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.337"
+							timeRelativeToTestModuleStartTime="00:00.667"
+							timeWallClock="16:42:55"
+							time="00:11.337"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='&#160;Add') on item 'SYSTRANLanguageManager1.SpanTagAdd'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='localhost:3500']//button[#'addProfile']/span[@innertext=' Add']"
+								fullname="LanguageManagerRepository.SYSTRANLanguageManager1.SpanTagAdd"
+								id="70a944cc7e5144638a213a2f857a2300"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\VerifyTheProfilePage.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.577"
+							timeRelativeToTestModuleStartTime="00:00.907"
+							timeWallClock="16:42:56"
+							time="00:11.577"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'LanguageManagerRepository.SYSTRANLanguageManager1.SpanTagAdd' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='localhost:3500']//button[#'addProfile']/span[@innertext=' Add']"
+								fullname="LanguageManagerRepository.SYSTRANLanguageManager1.SpanTagAdd"
+								id="70a944cc7e5144638a213a2f857a2300"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\VerifyTheProfilePage.cs"
+								codeline="87"
+								loglvl="Success"
+								itemindex="1"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.723"
+							timeRelativeToTestModuleStartTime="00:01.053"
+							timeWallClock="16:42:56"
+							time="00:11.723"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating Exists on item 'SYSTRANLanguageManager1.Search'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='localhost:3500']//div[#'profileTable_filter']/?/?/input[@type='search']"
+								fullname="LanguageManagerRepository.SYSTRANLanguageManager1.Search"
+								id="4efa5b3b7dbc4cbe9ea730fc13a241c2"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\VerifyTheProfilePage.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.006"
+							timeRelativeToTestModuleStartTime="00:01.336"
+							timeWallClock="16:42:56"
+							time="00:12.006"
+							level="Success"
+							category="Validation">
+							<message>
+								Element for item 'Search' does exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='localhost:3500']//div[#'profileTable_filter']/?/?/input[@type='search']"
+								fullname="LanguageManagerRepository.SYSTRANLanguageManager1.Search"
+								id="4efa5b3b7dbc4cbe9ea730fc13a241c2"
+								timeout="60000"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\VerifyTheProfilePage.cs"
+								codeline="91"
+								loglvl="Success"
+								itemindex="2"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="217ms"
+						durationms="217"
+						type="test case teardown"
+						rid="19f9a4153800a928"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="213ms"
+							durationms="213"
+							type="test module"
+							rid="129fcab7f4a3b5d4"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="EndIEAndSystranLanguageManager (LanguageManager)"
+							moduleid="6f9db614-ebc6-447e-a7fb-847f056689b2"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:12.160"
+								timeRelativeToTestModuleStartTime="00:00.002"
+								timeWallClock="16:42:56"
+								time="00:12.160"
+								level="Info"
+								category="Application">
+								<message>
+									Closing application containing item 'SYSTRANLanguageManager'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title='SYSTRAN Language Manager']"
+									fullname="LanguageManagerRepository.SYSTRANLanguageManager.Self"
+									id="4c289af19f6c43aa915d3957017e5399"
+									timeout="30000"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\EndIEAndSystranLanguageManager.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:12.314"
+								timeRelativeToTestModuleStartTime="00:00.156"
+								timeWallClock="16:42:56"
+								time="00:12.314"
+								level="Info"
+								category="Application">
+								<message>
+									Closing application containing item 'DellOfficialSiteThePowerToDoMor'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/form[@title~'^Dell\ Official\ Site\ -\ The\ ']"
+									fullname="LanguageManagerRepository.DellOfficialSiteThePowerToDoMor.Self"
+									id="5210798de2d943c88341d64747302fbe"
+									timeout="30000"
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\EndIEAndSystranLanguageManager.cs"
+									codeline="86"
+									itemindex="1"
+									loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

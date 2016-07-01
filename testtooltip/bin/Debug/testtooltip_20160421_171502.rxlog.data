@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="992545a2e4204a0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="2"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/21/2016 5:15:02 PM"
+		timestampiso="2016-04-21T15:15:02"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="18.22s"
+			durationms="18224"
+			type="test suite"
+			rid="1f6f074c92235bb2"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="2"
+			totalblockedcount="0"
+			testsuitename="testtooltip"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="18.21s"
+				durationms="18207"
+				type="test case"
+				rid="68e1c5ebf26b5a0"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="2"
+				totalblockedcount="0"
+				testcasename="Global-Desktop-Test"
+				testcaseid="dcd41f78-b1fe-438f-8211-f350028d77b3"
+				maxchildren="4">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="18.2s"
+					durationms="18204"
+					type="test case"
+					rid="2b14567e0f3e7b14"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					testcasename="TestCase3"
+					testcaseid="44945689-df3f-40e6-aec0-f18c64917e2f"
+					maxchildren="0">
+					<params/>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="18.17s"
+						durationms="18167"
+						type="test module"
+						rid="10095e698b6f4aca"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="CreateOrGetLicense (testAutomation)"
+						moduleid="9e3a318c-f413-42d3-8ff9-2be04b1a5cf0"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:18.278"
+							timeRelativeToTestModuleStartTime="00:18.075"
+							timeWallClock="17:15:20"
+							time="00:18.278"
+							level="Error"
+							category="User"
+							errimg="images_testtooltip_20160421_171502\testtooltip_20160421_171502_193d15ac_trace.jpg"
+							errthumb="images_testtooltip_20160421_171502\testtooltip_20160421_171502_193d15ac_trace_thumb.jpg">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

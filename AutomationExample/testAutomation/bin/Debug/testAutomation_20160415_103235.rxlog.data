@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="40e2d18733072c0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/15/2016 10:32:35 AM"
+		timestampiso="2016-04-15T08:32:35"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="14.74s"
+			durationms="14735"
+			type="test suite"
+			rid="bec216ddc7f49ba"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="testAutomation"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="2">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="14.69s"
+				durationms="14688"
+				type="test case"
+				rid="2c7c45aa20b33738"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="Uninstall_Application"
+				testcaseid="67c0e640-ed50-4a17-8d1b-c39d55322a11"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="14.69s"
+					durationms="14688"
+					type="test module"
+					rid="35af7d799fc6400"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="LocatingFolder"
+					moduleid="b4ef6e13-52e8-4a18-800c-667fef2e408f"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<errmsg>
+						Failed to find item 'testAutomationRepository.SYSTRAN8TRANSLATOR.SystemItemNameDisplay'.
+					</errmsg>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.766"
+						timeRelativeToTestModuleStartTime="00:14.595"
+						timeWallClock="10:32:50"
+						time="00:14.766"
+						level="Error"
+						category="Module"
+						errimg="images_testAutomation_20160415_103235\testAutomation_20160415_103235_b4d46606_trace.jpg"
+						errthumb="images_testAutomation_20160415_103235\testAutomation_20160415_103235_b4d46606_trace_thumb.jpg">
+						<message>
+							Failed to find item 'testAutomationRepository.SYSTRAN8TRANSLATOR.SystemItemNameDisplay'.<br/>No element found for path '/form[@title='SYSTRAN 8 TRANSLATOR']//element[@instance='1']/container[@caption='ShellView']/?/?/listitem[@automationid='8']/text[@automationid='System.ItemNameDisplay']' within 1m.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.SYSTRAN8TRANSLATORAppFolder.get_SystemItemNameDisplay() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\testAutomationRepository.cs:line 759
+   at testAutomation.LocatingFolder.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\LocatingFolder.cs:line 56
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+							codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\LocatingFolder.cs"
+							codeline="56"
+							type="repoitem"
+							path="/form[@title='SYSTRAN 8 TRANSLATOR']//element[@instance='1']/container[@caption='ShellView']/?/?/listitem[@automationid='8']/text[@automationid='System.ItemNameDisplay']"
+							fullname="testAutomationRepository.SYSTRAN8TRANSLATOR.SystemItemNameDisplay"
+							id="56fed769b07f436aa0142a39642740e4"
+							timeout="60000"
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

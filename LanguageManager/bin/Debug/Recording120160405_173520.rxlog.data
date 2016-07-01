@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="178caab3f39dd66f"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/5/2016 5:35:23 PM"
+		timestampiso="2016-04-05T15:35:23"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.323"
+			timeRelativeToTestModuleStartTime="00:00.324"
+			timeWallClock="17:35:23"
+			time="00:00.323"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SYSTRAN.QuickFileTranslator.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\Recording1.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.376"
+			timeRelativeToTestModuleStartTime="00:00.377"
+			timeWallClock="17:35:23"
+			time="00:00.376"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANQuickFileTranslator.SomeContainer.SomeElement' at 45;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Quick\ File\ Transl' and @processname='SYSTRAN.QuickFileTranslator']/container/element[1]/container/element[7]/container[@automationid='root']//element[@automationid='transitioning']//element[@automationid='CurrentContentPresentationSite']/container/element/element/container/container/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/container/container[2]/container/element[3]/container/container[1]/text[@automationid='mSourceRootFolderTextBox']/?/?/container[@automationid='PART_InnerGrid']/container[@automationid='PART_ContentHost']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/element[1]"
+				fullname="LanguageManagerRepository.SYSTRANQuickFileTranslator.SomeContainer.SomeElement"
+				id="768ba444069d44f88c48f4b5f8447c3d"
+				timeout="90000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.791"
+			timeRelativeToTestModuleStartTime="00:02.792"
+			timeWallClock="17:35:26"
+			time="00:02.791"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LControlKey down}{Akey}'.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\Recording1.cs"
+				codeline="90"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.005"
+			timeRelativeToTestModuleStartTime="00:03.006"
+			timeWallClock="17:35:26"
+			time="00:03.005"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Vkey}'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\Recording1.cs"
+				codeline="94"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.210"
+			timeRelativeToTestModuleStartTime="00:03.211"
+			timeWallClock="17:35:26"
+			time="00:03.210"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LControlKey up}'.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\LanguageManager\Recording1.cs"
+				codeline="98"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

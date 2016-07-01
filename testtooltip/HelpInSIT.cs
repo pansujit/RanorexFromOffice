@@ -58,7 +58,7 @@ namespace testtooltip
         /// <summary>
         /// Starts the replay of the static recording <see cref="Instance"/>.
         /// </summary>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "5.4.5")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "6.0")]
         public static void Start()
         {
             TestModuleRunner.Run(Instance);
@@ -70,30 +70,26 @@ namespace testtooltip
         /// <remarks>You should not call this method directly, instead pass the module
         /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
         /// that will in turn invoke this method.</remarks>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "5.4.5")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "6.0")]
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;
             Keyboard.DefaultKeyPressTime = 100;
-            Delay.SpeedFactor = 1.0;
+            Delay.SpeedFactor = 1.00;
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Help') on item 'SYSTRANInteractiveTranslator.Help'.", repo.SYSTRANInteractiveTranslator.HelpInfo, new RecordItemIndex(0));
-            Validate.Attribute(repo.SYSTRANInteractiveTranslator.HelpInfo, "Text", "Help");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Help') on item 'SYSTRANInteractiveTranslator1.Help'.", repo.SYSTRANInteractiveTranslator1.HelpInfo, new RecordItemIndex(0));
+            Validate.Attribute(repo.SYSTRANInteractiveTranslator1.HelpInfo, "Text", "Help");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANInteractiveTranslator.Button' at 25;19.", repo.SYSTRANInteractiveTranslator.ButtonInfo, new RecordItemIndex(1));
-            repo.SYSTRANInteractiveTranslator.Button.Click("25;19");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANInteractiveTranslator1.Help' at 6;10.", repo.SYSTRANInteractiveTranslator1.HelpInfo, new RecordItemIndex(1));
+            repo.SYSTRANInteractiveTranslator1.Help.Click("6;10");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='http://support.systran.net/desktop/tutorial/systran-interactive-translator/') on item 'SYSTRANInteractiveTranslatorSYSTRAN.Edit'.", repo.SYSTRANInteractiveTranslatorSYSTRAN.EditInfo, new RecordItemIndex(2));
-            Validate.Attribute(repo.SYSTRANInteractiveTranslatorSYSTRAN.EditInfo, "Text", "http://support.systran.net/desktop/tutorial/systran-interactive-translator/");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='http://support.systran.net/desktop/tutorial/systran-interactive-translator/') on item 'HowToPerformTranslationsAndLookupT.Address'.", repo.HowToPerformTranslationsAndLookupT.AddressInfo, new RecordItemIndex(2));
+            Validate.Attribute(repo.HowToPerformTranslationsAndLookupT.AddressInfo, "Text", "http://support.systran.net/desktop/tutorial/systran-interactive-translator/");
             Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANInteractiveTranslatorSYSTRAN.ClientCaption' at 1886;15.", repo.SYSTRANInteractiveTranslatorSYSTRAN.ClientCaptionInfo, new RecordItemIndex(3));
-            repo.SYSTRANInteractiveTranslatorSYSTRAN.ClientCaption.Click("1886;15");
-            Delay.Milliseconds(200);
             
         }
 

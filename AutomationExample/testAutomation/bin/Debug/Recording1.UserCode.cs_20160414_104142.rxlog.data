@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="108856e73aad9091"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/14/2016 10:41:46 AM"
+		timestampiso="2016-04-14T08:41:46"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.504"
+			timeRelativeToTestModuleStartTime="00:00.505"
+			timeWallClock="10:41:46"
+			time="00:00.504"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://trs.systran.net' with browser 'firefox' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.538"
+			timeRelativeToTestModuleStartTime="00:00.539"
+			timeWallClock="10:41:46"
+			time="00:00.538"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SignIn.ContinueWith' at 409;30.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='trs.systran.net']//div[#'main']//a[@innertext='Continue with ']"
+				fullname="testAutomationRepository.SignIn.ContinueWith"
+				id="a04be7e995654ba39f0af1ecae1876fc"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.520"
+			timeRelativeToTestModuleStartTime="00:02.521"
+			timeWallClock="10:41:48"
+			time="00:02.520"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANAccountsSignIn.Usrnm' at 28;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='login.systran.net']//input[#'usrnm']"
+				fullname="testAutomationRepository.SYSTRANAccountsSignIn.Usrnm"
+				id="1f709c064542462eacb3d48b163a586d"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.512"
+			timeRelativeToTestModuleStartTime="00:03.513"
+			timeWallClock="10:41:49"
+			time="00:03.512"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'sujit.pandey@systrangroup.com' with focus on 'SYSTRANAccountsSignIn.Usrnm'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='login.systran.net']//input[#'usrnm']"
+				fullname="testAutomationRepository.SYSTRANAccountsSignIn.Usrnm"
+				id="1f709c064542462eacb3d48b163a586d"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.836"
+			timeRelativeToTestModuleStartTime="00:06.837"
+			timeWallClock="10:41:52"
+			time="00:06.836"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'SESpassword' with focus on 'SYSTRANAccountsSignIn.Usrnm'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='login.systran.net']//input[#'usrnm']"
+				fullname="testAutomationRepository.SYSTRANAccountsSignIn.Usrnm"
+				id="1f709c064542462eacb3d48b163a586d"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.346"
+			timeRelativeToTestModuleStartTime="00:08.347"
+			timeWallClock="10:41:54"
+			time="00:08.346"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording1.UserCode.cs_20160414_104142_ca16230e_trace.jpg"
+			errthumb=".\Recording1.UserCode.cs_20160414_104142_ca16230e_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SYSTRANAccountsSignIn.SubmitLogin' at 48;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='login.systran.net']//input[#'submit_login']"
+				fullname="testAutomationRepository.SYSTRANAccountsSignIn.SubmitLogin"
+				id="c24f6939cb0d4d058186b58b75b92903"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.255"
+			timeRelativeToTestModuleStartTime="00:09.256"
+			timeWallClock="10:41:55"
+			time="00:09.255"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording1.UserCode.cs_20160414_104142_7ef28b12_trace.jpg"
+			errthumb=".\Recording1.UserCode.cs_20160414_104142_7ef28b12_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SignIn.Packages' at 48;30.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='trs.systran.net']//div[#'navBar']//a[@innertext='Packages']"
+				fullname="testAutomationRepository.SignIn.Packages"
+				id="a7fc4e33f6c946ffb970a73cb50126d0"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.667"
+			timeRelativeToTestModuleStartTime="00:12.668"
+			timeWallClock="10:41:58"
+			time="00:12.667"
+			level="Error"
+			category="User"
+			errimg=".\Recording1.UserCode.cs_20160414_104142_b3d825c8_trace.jpg"
+			errthumb=".\Recording1.UserCode.cs_20160414_104142_b3d825c8_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

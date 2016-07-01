@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="d58ccf25-2e2b-4719-a9f0-4f445db9d942"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		ValidateExportTranslationMemoryInTXTFormat
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateExportTranslationMemoryInTXTFormat"
+	namespace="DictionaryManager"/>
+	<variables/>
+	<recorditems>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="1000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="ValidateExportTranslationMemory"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="6debac6f-8c08-4164-b94b-73780073b6c7"/>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="DictionaryManagerRepository"
+	id="1690ff42-4e44-4ddc-9c10-920ebe70dfad"
+	rxversion="6.0"
+	relativepath="DictionaryManagerRepository.rxrep">
+		<codegen
+		classname="DictionaryManagerRepository"
+		namespace="DictionaryManager"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="623ccc2d-6519-4df5-aa39-655f8d9d3a18"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateExportTranslationMemoryInTXTFormat.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

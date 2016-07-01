@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="965e594f5b43bf0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/30/2016 4:32:07 PM"
+		timestampiso="2016-06-30T14:32:07"
+		timeoutfactor="1"
+		module="ValidateExportUserDictionaryInTXTFormat">
+		<detail>
+			ValidateExportUserDictionaryInTXTFormat
+		</detail>
+		<errmsg>
+			Condition is not true.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.249"
+			timeRelativeToTestModuleStartTime="00:00.249"
+			timeWallClock="16:32:07"
+			time="00:00.249"
+			level="Failure"
+			category="Validation"
+			errimg=".\ValidateExportUserDictionaryInTXTFormat.UserCode.cs_20160630_163205_f997ba8c_trace.jpg"
+			errthumb=".\ValidateExportUserDictionaryInTXTFormat.UserCode.cs_20160630_163205_f997ba8c_trace_thumb.jpg">
+			<message>
+				Condition is not true.
+			</message>
+			<metainfo
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateExportUserDictionaryInTXTFormat.UserCode.cs"
+				codeline="42"
+				loglvl="Failure"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.280"
+			timeRelativeToTestModuleStartTime="00:00.280"
+			timeWallClock="16:32:07"
+			time="00:00.280"
+			level="Error"
+			category="Module"
+			errimg=".\ValidateExportUserDictionaryInTXTFormat.UserCode.cs_20160630_163205_f997ba8c_trace.jpg"
+			errthumb=".\ValidateExportUserDictionaryInTXTFormat.UserCode.cs_20160630_163205_f997ba8c_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Condition is not true.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.IsTrue(Boolean condition)
+   at DictionaryManager.ValidateExportUserDictionaryInTXTFormat.ValidateExportTXTUserDictionary() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateExportUserDictionaryInTXTFormat.UserCode.cs:line 42
+   at DictionaryManager.ValidateExportUserDictionaryInTXTFormat.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateExportUserDictionaryInTXTFormat.cs:line 82
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateExportUserDictionaryInTXTFormat.UserCode.cs"
+				codeline="42"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

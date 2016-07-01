@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="14f0fd9010a60aef"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/29/2016 5:48:48 PM"
+		timestampiso="2016-06-29T15:48:48"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.295"
+			timeRelativeToTestModuleStartTime="00:00.295"
+			timeWallClock="17:48:48"
+			time="00:00.295"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FileMenu.File' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='File']"
+				fullname="DictionaryManagerRepository.FileMenu.File"
+				id="3985b1f5ad68465592932cd5cce723d7"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\Recording2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.650"
+			timeRelativeToTestModuleStartTime="00:02.650"
+			timeWallClock="17:48:51"
+			time="00:02.650"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FileMenu.FileExport' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='File']/menuitem[@accessiblename>'Export']"
+				fullname="DictionaryManagerRepository.FileMenu.FileExport"
+				id="b02fbfb47ee34bcc843fe15676d36ae2"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\Recording2.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

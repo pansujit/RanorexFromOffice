@@ -58,7 +58,7 @@ namespace testtooltip
         /// <summary>
         /// Starts the replay of the static recording <see cref="Instance"/>.
         /// </summary>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "5.4.5")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "6.0")]
         public static void Start()
         {
             TestModuleRunner.Run(Instance);
@@ -70,27 +70,27 @@ namespace testtooltip
         /// <remarks>You should not call this method directly, instead pass the module
         /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
         /// that will in turn invoke this method.</remarks>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "5.4.5")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "6.0")]
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;
             Keyboard.DefaultKeyPressTime = 100;
-            Delay.SpeedFactor = 1.0;
+            Delay.SpeedFactor = 1.00;
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Validation", "Validating CompareImage (Screenshot: 'Screenshot2' with region {X=1,Y=0,Width=210,Height=42}) on item 'SYSTRANInteractiveTranslator1.SomeContainer1.SomeText'.", repo.SYSTRANInteractiveTranslator1.SomeContainer1.SomeTextInfo, new RecordItemIndex(0));
-            Validate.CompareImage(repo.SYSTRANInteractiveTranslator1.SomeContainer1.SomeTextInfo, SomeText_Screenshot2, SomeText_Screenshot2_Options);
+            Report.Log(ReportLevel.Info, "Validation", "Validating ContainsImage (Screenshot: 'Screenshot4' with region {X=0,Y=0,Width=271,Height=42}) on item 'SYSTRANInteractiveTranslator1.SomeContainer1.SomeText'.", repo.SYSTRANInteractiveTranslator1.SomeContainer1.SomeTextInfo, new RecordItemIndex(0));
+            Validate.ContainsImage(repo.SYSTRANInteractiveTranslator1.SomeContainer1.SomeTextInfo, SomeText_Screenshot4, SomeText_Screenshot4_Options);
             Delay.Milliseconds(100);
             
         }
 
 #region Image Feature Data
-        CompressedImage SomeText_Screenshot2
-        { get { return repo.SYSTRANInteractiveTranslator1.SomeContainer1.SomeTextInfo.GetScreenshot2(new Rectangle(1, 0, 210, 42)); } }
+        CompressedImage SomeText_Screenshot4
+        { get { return repo.SYSTRANInteractiveTranslator1.SomeContainer1.SomeTextInfo.GetScreenshot4(new Rectangle(0, 0, 271, 42)); } }
 
-        Imaging.FindOptions SomeText_Screenshot2_Options
-        { get { return Imaging.FindOptions.Parse("1;None;1,0,210,42;True;10000000;0ms"); } }
+        Imaging.FindOptions SomeText_Screenshot4_Options
+        { get { return Imaging.FindOptions.Default; } }
 
 #endregion
     }

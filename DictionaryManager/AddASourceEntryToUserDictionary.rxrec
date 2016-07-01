@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="227de304-40ee-4390-9d15-bd27c1aeab33"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		AddASourceEntryToUserDictionary
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddASourceEntryToUserDictionary"
+	namespace="DictionaryManager"/>
+	<variables/>
+	<recorditems>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="100ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="743013e3-8c48-4b15-8673-bb9d9c07d538"
+		KeySequence="   Hello"
+		presstime="100ms">
+			<comment/>
+			<bindings/>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	name="DictionaryManagerRepository"
+	id="1690ff42-4e44-4ddc-9c10-920ebe70dfad"
+	rxversion="6.0"
+	relativepath="DictionaryManagerRepository.rxrep">
+		<codegen
+		classname="DictionaryManagerRepository"
+		namespace="DictionaryManager"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="623ccc2d-6519-4df5-aa39-655f8d9d3a18"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddASourceEntryToUserDictionary.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

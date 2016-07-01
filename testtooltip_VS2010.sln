@@ -1,12 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-# Ranorex Studio 5
+# Ranorex Studio 6.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testtooltip", "testtooltip\testtooltip.csproj", "{BCA1DF9A-BC2E-4192-A009-098A16D354F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryManager", "helloproj\DictionaryManager.csproj", "{617D8024-A717-4DBF-9462-95641B3C4FD3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageManager", "LanguageManager\LanguageManager.csproj", "{424D3B59-32E9-4123-BE9D-21B802D0EAA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testAutomation", "AutomationExample\testAutomation\testAutomation.csproj", "{1C0B75FD-9AC5-4F0C-8520-9CBEDB92D8C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testSolution", "testSolution\testSolution\testSolution.csproj", "{6EC441C3-C39D-401C-BF51-19F665B8E43B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryManager", "DictionaryManager\DictionaryManager.csproj", "{930F270D-B67A-4B89-BA91-A33FD5D5D9EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,13 +22,21 @@ Global
 		{BCA1DF9A-BC2E-4192-A009-098A16D354F9}.Debug|x86.ActiveCfg = Debug|x86
 		{BCA1DF9A-BC2E-4192-A009-098A16D354F9}.Release|x86.Build.0 = Release|x86
 		{BCA1DF9A-BC2E-4192-A009-098A16D354F9}.Release|x86.ActiveCfg = Release|x86
-		{617D8024-A717-4DBF-9462-95641B3C4FD3}.Debug|x86.Build.0 = Debug|x86
-		{617D8024-A717-4DBF-9462-95641B3C4FD3}.Debug|x86.ActiveCfg = Debug|x86
-		{617D8024-A717-4DBF-9462-95641B3C4FD3}.Release|x86.Build.0 = Release|x86
-		{617D8024-A717-4DBF-9462-95641B3C4FD3}.Release|x86.ActiveCfg = Release|x86
 		{424D3B59-32E9-4123-BE9D-21B802D0EAA1}.Debug|x86.Build.0 = Debug|x86
 		{424D3B59-32E9-4123-BE9D-21B802D0EAA1}.Debug|x86.ActiveCfg = Debug|x86
 		{424D3B59-32E9-4123-BE9D-21B802D0EAA1}.Release|x86.Build.0 = Release|x86
 		{424D3B59-32E9-4123-BE9D-21B802D0EAA1}.Release|x86.ActiveCfg = Release|x86
+		{1C0B75FD-9AC5-4F0C-8520-9CBEDB92D8C1}.Debug|x86.Build.0 = Debug|x86
+		{1C0B75FD-9AC5-4F0C-8520-9CBEDB92D8C1}.Debug|x86.ActiveCfg = Debug|x86
+		{1C0B75FD-9AC5-4F0C-8520-9CBEDB92D8C1}.Release|x86.Build.0 = Release|x86
+		{1C0B75FD-9AC5-4F0C-8520-9CBEDB92D8C1}.Release|x86.ActiveCfg = Release|x86
+		{6EC441C3-C39D-401C-BF51-19F665B8E43B}.Debug|x86.Build.0 = Debug|x86
+		{6EC441C3-C39D-401C-BF51-19F665B8E43B}.Debug|x86.ActiveCfg = Debug|x86
+		{6EC441C3-C39D-401C-BF51-19F665B8E43B}.Release|x86.Build.0 = Release|x86
+		{6EC441C3-C39D-401C-BF51-19F665B8E43B}.Release|x86.ActiveCfg = Release|x86
+		{930F270D-B67A-4B89-BA91-A33FD5D5D9EC}.Debug|x86.Build.0 = Debug|x86
+		{930F270D-B67A-4B89-BA91-A33FD5D5D9EC}.Debug|x86.ActiveCfg = Debug|x86
+		{930F270D-B67A-4B89-BA91-A33FD5D5D9EC}.Release|x86.Build.0 = Release|x86
+		{930F270D-B67A-4B89-BA91-A33FD5D5D9EC}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="24467887c7138dc"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/30/2016 10:05:30 AM"
+		timestampiso="2016-06-30T08:05:30"
+		timeoutfactor="1"
+		module="ValidateAddEntryOnUserDictionary">
+		<detail>
+			ValidateAddEntryOnUserDictionary
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.274"
+			timeRelativeToTestModuleStartTime="00:00.274"
+			timeWallClock="10:05:30"
+			time="00:00.274"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='1') on item 'SYSTRANDictionaryManager.ValidateAddEntryUserDictionary.Text1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mDictionaryPropertiesView']/?/?/text[@caption='1']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateAddEntryUserDictionary.Text1"
+				id="d97ac11d2acb4225b64c5cc7fd3ff84a"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateAddEntryOnUserDictionary.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.522"
+			timeRelativeToTestModuleStartTime="00:01.522"
+			timeWallClock="10:05:31"
+			time="00:01.522"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateAddEntryUserDictionary.Text1' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mDictionaryPropertiesView']/?/?/text[@caption='1']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateAddEntryUserDictionary.Text1"
+				id="d97ac11d2acb4225b64c5cc7fd3ff84a"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateAddEntryOnUserDictionary.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="0"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.631"
+			timeRelativeToTestModuleStartTime="00:01.631"
+			timeWallClock="10:05:31"
+			time="00:01.631"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (AccessibleName='Number of entries: 1') on item 'SYSTRANDictionaryManager.ValidateAddEntryUserDictionary.NumberOfEntries1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']/?/?/form[@controlid='1']//container[@accessiblename='DockTop']/toolbar[@accessiblename='Toolbar']/element[@accessiblename='Number of entries: 1']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateAddEntryUserDictionary.NumberOfEntries1"
+				id="e8700c7716c14da0b6ca48c6974ec008"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateAddEntryOnUserDictionary.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.021"
+			timeRelativeToTestModuleStartTime="00:02.021"
+			timeWallClock="10:05:32"
+			time="00:02.021"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'AccessibleName' of element for item 'DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateAddEntryUserDictionary.NumberOfEntries1' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']/?/?/form[@controlid='1']//container[@accessiblename='DockTop']/toolbar[@accessiblename='Toolbar']/element[@accessiblename='Number of entries: 1']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.ValidateAddEntryUserDictionary.NumberOfEntries1"
+				id="e8700c7716c14da0b6ca48c6974ec008"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ValidateAddEntryOnUserDictionary.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="1.4m"
+		durationms="83330"
+		type="root"
+		rid="1364adb9c72828"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/14/2016 10:02:39 AM"
+		timestampiso="2016-04-14T08:02:39"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.249"
+			timeRelativeToTestModuleStartTime="00:00.250"
+			timeWallClock="10:02:39"
+			time="00:00.249"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://trs.systran.net' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.317"
+			timeRelativeToTestModuleStartTime="00:00.318"
+			timeWallClock="10:02:39"
+			time="00:00.317"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SignIn.ContinueWith' at 356;30.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='Sign in']//div[#'main']//a[@innertext='Continue with ']"
+				fullname="testAutomationRepository.SignIn.ContinueWith"
+				id="b3ca02f8ecb343a9ba27763d80f7cdb2"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.885"
+			timeRelativeToTestModuleStartTime="00:04.886"
+			timeWallClock="10:02:44"
+			time="00:04.885"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}SY{LShiftKey up}stran{NumPad5 down}{NumPad3 down}{NumPad5 up}{NumPad3 up}!'.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="90"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.799"
+			timeRelativeToTestModuleStartTime="00:05.800"
+			timeWallClock="10:02:44"
+			time="00:05.799"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PasswordRequired.ButtonOK' at 29;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Password Required']/button[@accessiblename='OK']"
+				fullname="testAutomationRepository.PasswordRequired.ButtonOK"
+				id="5db4337a1aeb42a8b9488baf0b9b3eac"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.555"
+			timeRelativeToTestModuleStartTime="00:06.556"
+			timeWallClock="10:02:45"
+			time="00:06.555"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PasswordRequired.Text' at 100;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Password Required']/element/text[@accessiblerole='Text']"
+				fullname="testAutomationRepository.PasswordRequired.Text"
+				id="ac4c56af64c54cbea34dc12e2575baff"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.305"
+			timeRelativeToTestModuleStartTime="00:07.306"
+			timeWallClock="10:02:46"
+			time="00:07.305"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}M{LShiftKey up}cse{LControlKey down}{RMenu down}{D0}{LControlKey up}{RMenu up}{LControlKey up}{LShiftKey down}1234{LShiftKey up}' with focus on 'PasswordRequired.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Password Required']/element/text[@accessiblerole='Text']"
+				fullname="testAutomationRepository.PasswordRequired.Text"
+				id="ac4c56af64c54cbea34dc12e2575baff"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.340"
+			timeRelativeToTestModuleStartTime="00:08.341"
+			timeWallClock="10:02:47"
+			time="00:08.340"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PasswordRequired.ButtonOK' at 43;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Password Required']/button[@accessiblename='OK']"
+				fullname="testAutomationRepository.PasswordRequired.ButtonOK"
+				id="5db4337a1aeb42a8b9488baf0b9b3eac"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.993"
+			timeRelativeToTestModuleStartTime="00:08.994"
+			timeWallClock="10:02:48"
+			time="00:08.993"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PasswordRequired.Text' at 110;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Password Required']/element/text[@accessiblerole='Text']"
+				fullname="testAutomationRepository.PasswordRequired.Text"
+				id="ac4c56af64c54cbea34dc12e2575baff"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.721"
+			timeRelativeToTestModuleStartTime="00:09.722"
+			timeWallClock="10:02:48"
+			time="00:09.721"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}M{LShiftKey up}cse{LControlKey down}{RMenu down}{D0}{LControlKey up}{RMenu up}{LControlKey up}{LShiftKey down}1234{LShiftKey up}' with focus on 'PasswordRequired.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Password Required']/element/text[@accessiblerole='Text']"
+				fullname="testAutomationRepository.PasswordRequired.Text"
+				id="ac4c56af64c54cbea34dc12e2575baff"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.751"
+			timeRelativeToTestModuleStartTime="00:10.752"
+			timeWallClock="10:02:49"
+			time="00:10.751"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PasswordRequired.ButtonOK' at 40;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Password Required']/button[@accessiblename='OK']"
+				fullname="testAutomationRepository.PasswordRequired.ButtonOK"
+				id="5db4337a1aeb42a8b9488baf0b9b3eac"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.399"
+			timeRelativeToTestModuleStartTime="00:11.400"
+			timeWallClock="10:02:50"
+			time="00:11.399"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PasswordRequired.Text' at 120;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Password Required']/element/text[@accessiblerole='Text']"
+				fullname="testAutomationRepository.PasswordRequired.Text"
+				id="ac4c56af64c54cbea34dc12e2575baff"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.170"
+			timeRelativeToTestModuleStartTime="00:12.171"
+			timeWallClock="10:02:51"
+			time="00:12.170"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}S{LShiftKey up}ystran' with focus on 'PasswordRequired.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Password Required']/element/text[@accessiblerole='Text']"
+				fullname="testAutomationRepository.PasswordRequired.Text"
+				id="ac4c56af64c54cbea34dc12e2575baff"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="126"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.997"
+			timeRelativeToTestModuleStartTime="00:12.998"
+			timeWallClock="10:02:52"
+			time="00:12.997"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{NumPad5 down}{NumPad3 down}{NumPad5 up}{NumPad3 up}!' with focus on 'PasswordRequired.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Password Required']/element/text[@accessiblerole='Text']"
+				fullname="testAutomationRepository.PasswordRequired.Text"
+				id="ac4c56af64c54cbea34dc12e2575baff"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="130"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.218"
+			timeRelativeToTestModuleStartTime="00:13.219"
+			timeWallClock="10:02:52"
+			time="00:13.218"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PasswordRequired.ButtonOK' at 36;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Password Required']/button[@accessiblename='OK']"
+				fullname="testAutomationRepository.PasswordRequired.ButtonOK"
+				id="5db4337a1aeb42a8b9488baf0b9b3eac"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="134"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.872"
+			timeRelativeToTestModuleStartTime="00:13.873"
+			timeWallClock="10:02:53"
+			time="00:13.872"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANAccountsSignIn.SubmitLogin' at 19;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='login.systran.net']//input[#'submit_login']"
+				fullname="testAutomationRepository.SYSTRANAccountsSignIn.SubmitLogin"
+				id="1365ac044e764f7b9201b45719992e4b"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="138"
+				itemindex="14"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.682"
+			timeRelativeToTestModuleStartTime="00:14.683"
+			timeWallClock="10:02:53"
+			time="00:14.682"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'TranslationResources.Packages' at 42;27.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='Translation Resources']//div[#'navBar']//a[@innertext='Packages']"
+				fullname="testAutomationRepository.TranslationResources.Packages"
+				id="7b18625a200c41f5843276a5d51f5568"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="142"
+				itemindex="15"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.398"
+			timeRelativeToTestModuleStartTime="00:32.399"
+			timeWallClock="10:03:11"
+			time="00:32.398"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Packages.S2idAutogen2' at 79;25.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='Packages' and @page='packageManagement' and @path='/packageManagement' and @browsername='Mozilla']//input[#'s2id_autogen2']"
+				fullname="testAutomationRepository.Packages.S2idAutogen2"
+				id="7571469d5861409ba1b8fa926ec43640"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="146"
+				itemindex="16"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.564"
+			timeRelativeToTestModuleStartTime="00:33.565"
+			timeWallClock="10:03:12"
+			time="00:33.564"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Packages.Select2DropMask' at 92;649.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='Packages' and @page='packageManagement' and @path='/packageManagement' and @browsername='Mozilla']//div[#'select2-drop-mask']"
+				fullname="testAutomationRepository.Packages.Select2DropMask"
+				id="bac6f94143d94a929edeb06a2d6d722c"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="150"
+				itemindex="17"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:51.307"
+			timeRelativeToTestModuleStartTime="00:51.308"
+			timeWallClock="10:03:30"
+			time="00:51.307"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Packages.S2idAutogen1' at 79;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='Packages' and @page='packageManagement' and @path='/packageManagement' and @browsername='Mozilla']//input[#'s2id_autogen1']"
+				fullname="testAutomationRepository.Packages.S2idAutogen1"
+				id="6a2c6c47752c413389272c689430e8fe"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="154"
+				itemindex="18"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.158"
+			timeRelativeToTestModuleStartTime="00:52.159"
+			timeWallClock="10:03:31"
+			time="00:52.158"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Scroll Vertical by -3240 units.
+			</message>
+			<metainfo
+				itemindex="19"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="158"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.659"
+			timeRelativeToTestModuleStartTime="00:52.660"
+			timeWallClock="10:03:31"
+			time="00:52.659"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Scroll Vertical by 2520 units.
+			</message>
+			<metainfo
+				itemindex="20"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="162"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:53.160"
+			timeRelativeToTestModuleStartTime="00:53.161"
+			timeWallClock="10:03:32"
+			time="00:53.160"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Packages.Select2DropMask' at 183;188.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='Packages' and @page='packageManagement' and @path='/packageManagement' and @browsername='Mozilla']//div[#'select2-drop-mask']"
+				fullname="testAutomationRepository.Packages.Select2DropMask"
+				id="bac6f94143d94a929edeb06a2d6d722c"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="166"
+				itemindex="21"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:53.962"
+			timeRelativeToTestModuleStartTime="00:53.963"
+			timeWallClock="10:03:33"
+			time="00:53.962"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Packages.S2idAutogen4' at 65;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='Packages' and @page='packageManagement' and @path='/packageManagement' and @browsername='Mozilla']//input[#'s2id_autogen4']"
+				fullname="testAutomationRepository.Packages.S2idAutogen4"
+				id="2f2744e32845408384f31965456fb06c"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="170"
+				itemindex="22"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:54.849"
+			timeRelativeToTestModuleStartTime="00:54.850"
+			timeWallClock="10:03:33"
+			time="00:54.849"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Packages.Select2ResultLabel50' at 27;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='Packages' and @page='packageManagement' and @path='/packageManagement' and @browsername='Mozilla']//div[#'select2-result-label-50']"
+				fullname="testAutomationRepository.Packages.Select2ResultLabel50"
+				id="128f95d56700412c987be7dc441e456e"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="174"
+				itemindex="23"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:23.330"
+			timeRelativeToTestModuleStartTime="01:23.331"
+			timeWallClock="10:04:02"
+			time="01:23.330"
+			level="Error"
+			category="Module">
+			<message>
+				Test run was aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

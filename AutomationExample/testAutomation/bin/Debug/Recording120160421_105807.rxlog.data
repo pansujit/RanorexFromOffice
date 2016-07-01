@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1232427115215e64"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/21/2016 10:58:11 AM"
+		timestampiso="2016-04-21T08:58:11"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.250"
+			timeRelativeToTestModuleStartTime="00:00.250"
+			timeWallClock="10:58:12"
+			time="00:00.250"
+			level="Info"
+			category="Invoke Action">
+			<message>
+				Invoking EnsureVisible() on item 'Licenses.TranslationServerIncludingFirstBidir'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='trs.systran.net']//div[#'licenseListContent']//div//div[@innertext~'Professional']"
+				fullname="testAutomationRepository.Licenses.TranslationServerIncludingFirstBidir"
+				id="e6e602a2dd54487a88af86bbeebf506c"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.933"
+			timeRelativeToTestModuleStartTime="00:00.933"
+			timeWallClock="10:58:12"
+			time="00:00.933"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Licenses.TranslationServerIncludingFirstBidir' at 47;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='trs.systran.net']//div[#'licenseListContent']//div//div[@innertext~'Professional']"
+				fullname="testAutomationRepository.Licenses.TranslationServerIncludingFirstBidir"
+				id="e6e602a2dd54487a88af86bbeebf506c"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

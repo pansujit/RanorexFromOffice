@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1430b4a42a9ffa4f"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/28/2016 3:20:59 PM"
+		timestampiso="2016-06-28T13:20:59"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.327"
+			timeRelativeToTestModuleStartTime="00:00.327"
+			timeWallClock="15:20:59"
+			time="00:00.327"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120160628_152057_c2157ec4_trace.jpg"
+			errthumb=".\Recording120160628_152057_c2157ec4_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SYSTRANInteractiveTranslator1.SomeContainer1.BtnArrowBackground1' at 12;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Interactive\ Trans' and @processname='SYSTRAN.InteractiveTranslator']/container/element[1]/container/element[7]/container[@automationid='root']/element/element[1]/element/container/container[1]/container[@automationid='mTranslationOptionsPanel']//combobox[@automationid='mSourceLangComboBox']/container/container/checkbox[@automationid='PART_DropDownToggle']/container[@automationid='ToggleButtonRootGrid']/?/?/element[@automationid='BtnArrowBackground']"
+				fullname="testtooltipRepository.SYSTRANInteractiveTranslator1.SomeContainer1.BtnArrowBackground1"
+				id="38389839f8f64670a2ffa21b4729f664"
+				timeout="90000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.725"
+			timeRelativeToTestModuleStartTime="00:01.725"
+			timeWallClock="15:21:01"
+			time="00:01.725"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120160628_152057_bcb4ae3a_trace.jpg"
+			errthumb=".\Recording120160628_152057_bcb4ae3a_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SYSTRANInteractiveTranslator2.English' at 62;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='SYSTRAN.InteractiveTranslator' and @win32ownerwindowlevel='1']//container[@automationid='DropDownScrollViewer']/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/list[@automationid='ItemsPresenter']/container/container[1]/container/list[@automationid='ItemsPresenter']/container/listitem[2]/element[@automationid='Bd']/?/?/text[@caption='English']"
+				fullname="testtooltipRepository.SYSTRANInteractiveTranslator2.English"
+				id="9f631efe613f454aac756f0e9e2ed35d"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.478"
+			timeRelativeToTestModuleStartTime="00:19.478"
+			timeWallClock="15:21:19"
+			time="00:19.478"
+			level="Error"
+			category="User"
+			errimg=".\Recording120160628_152057_7ada70a4_trace.jpg"
+			errthumb=".\Recording120160628_152057_7ada70a4_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

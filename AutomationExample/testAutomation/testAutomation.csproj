@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{1C0B75FD-9AC5-4F0C-8520-9CBEDB92D8C1}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>testAutomation</RootNamespace>
+    <AssemblyName>testAutomation</AssemblyName>
+    <RanorexVersion>6.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <projectdefaultrepository>8f93a57a-40da-4893-8629-e980f1cf91bc</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel" />
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Mobile, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Qt, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Sap, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Uia, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>f49182ee-d50d-4bda-9b0a-dead2d1df674</id>
+    </Compile>
+    <Compile Include="ClickOnPackage.cs">
+      <id>b24f43d2-6177-468f-855d-4aee279cfd13</id>
+    </Compile>
+    <Compile Include="ClickOnUninstall.cs">
+      <id>025d6567-ca98-44ae-92e9-5c8e36d0911b</id>
+    </Compile>
+    <Compile Include="CloseAllApplications.cs">
+      <id>829a85e5-df22-4842-8735-4c9a5e1a0019</id>
+    </Compile>
+    <Compile Include="CloseFolder.cs">
+      <id>e048f14f-7f12-432d-a893-1c49d508ce84</id>
+    </Compile>
+    <Compile Include="CopyLicense.cs">
+      <id>5f05ea36-f768-4e40-b7c3-27c8009b9f60</id>
+    </Compile>
+    <Compile Include="CreateOrGetLicense.cs">
+      <id>00ad48c4-9370-4388-a414-8c4dcb8fa133</id>
+    </Compile>
+    <Compile Include="DeleteAllFolders.cs">
+      <id>51c97d57-42b4-45b3-8f89-e5f96ebedd10</id>
+    </Compile>
+    <Compile Include="LocatingFolderForUninstallation.cs">
+      <id>1d99758d-d8f7-42c5-80d2-69c9883655a7</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>899fd8dc-3659-472f-bc37-5f719b7f4393</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>2c7c10ff-4381-4a6d-b55e-e031970b19b6</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>501c443d-ae49-4fae-97f5-6d49a528d240</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>2c7c10ff-4381-4a6d-b55e-e031970b19b6</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>89aec76a-cd60-4433-a843-903f19b4516f</id>
+    </Compile>
+    <Compile Include="SelectFolderForInstallation.cs">
+      <id>e653321a-42a7-4504-af3d-56c1d9d82f52</id>
+    </Compile>
+    <Compile Include="StartFirefoxSystran.cs">
+      <id>0b5f999b-d8c2-403d-8593-66769405e1a4</id>
+    </Compile>
+    <Compile Include="StartIESystran.cs">
+      <id>12b7a08e-f523-4726-9d8b-5ac2e4e402c0</id>
+    </Compile>
+    <Compile Include="StopFirefox.cs">
+      <id>5c184690-574c-4a90-bbaf-bc61b07af89b</id>
+    </Compile>
+    <Compile Include="StopIeSystran.cs">
+      <id>ccb132b9-b7b5-4dde-917d-ae68eca9e793</id>
+    </Compile>
+    <Compile Include="testAutomationRepository.cs">
+      <BoundTo>8f93a57a-40da-4893-8629-e980f1cf91bc</BoundTo>
+      <DependentUpon>testAutomationRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>3e641712-3d06-4564-8ba5-e23409c1c2ca</id>
+    </Compile>
+    <Compile Include="testmodule.cs">
+      <id>207d00ba-1a47-45f2-af15-b6eeb6c23364</id>
+    </Compile>
+    <Compile Include="DeleteLicenseKeyIfExist.cs">
+      <id>800d7156-a048-4e9d-8c13-75895ca210c3</id>
+    </Compile>
+    <Compile Include="UserCodeModule2.cs">
+      <id>db00a1e9-7790-484f-aa4c-70be4a2d41b9</id>
+    </Compile>
+    <None Include="app.config">
+      <id>2eb18ba7-d89d-4925-8a8e-cf7a08a88c70</id>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>8f93a57a-40da-4893-8629-e980f1cf91bc</BoundTo>
+      <id>2c7c10ff-4381-4a6d-b55e-e031970b19b6</id>
+      <recordtableid>c27c1e47-af76-45df-b050-a24ac300b7c9</recordtableid>
+    </None>
+    <None Include="testAutomationRepository.rximg">
+      <BoundTo>8f93a57a-40da-4893-8629-e980f1cf91bc</BoundTo>
+      <DependentUpon>testAutomationRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>0bcdeaba-2cd2-4ff8-aaab-ba333b5aedba</id>
+    </None>
+    <None Include="testAutomationRepository.rxrep">
+      <id>8f93a57a-40da-4893-8629-e980f1cf91bc</id>
+      <repoid>19c02194-f7d8-4970-bfb2-1583c9aaeb63</repoid>
+      <reporootid>370aef2b-a6a1-4915-bd69-493132b16183</reporootid>
+    </None>
+    <Content Include="testAutomation.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>a6e9cde3-1290-4c65-a067-1563d08dfc3d</id>
+    </Content>
+    <Content Include="testAutomation.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>f50847eb-de58-4106-8f39-15a989d83eb6</id>
+    </Content>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+</Project>

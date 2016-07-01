@@ -1,0 +1,541 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{C9D679EA-6A70-47A9-9982-5C9DF690289A}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>QFT</RootNamespace>
+    <AssemblyName>QFT</AssemblyName>
+    <RanorexVersion>5</RanorexVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <projectdefaultrepository>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Mobile, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Qt, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Sap, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Uia, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AspxFileFormatAndLocation.cs">
+      <BoundTo>71d595cb-6c89-4601-851d-e13c19976564</BoundTo>
+      <DependentUpon>AspxFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0934976c-cbf8-4705-822c-5ca7dc8766ea</id>
+    </Compile>
+    <Compile Include="AspxFileFormatAndLocation.UserCode.cs">
+      <BoundTo>71d595cb-6c89-4601-851d-e13c19976564</BoundTo>
+      <DependentUpon>AspxFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c571a799-67ce-4211-be62-bbe1d521a822</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>bbad14b0-8e71-4cfa-a91b-fcbc14a27715</id>
+    </Compile>
+    <Compile Include="CloseQFT.cs">
+      <BoundTo>d31e5c5a-58d5-41dc-ad61-4e298a90e8d4</BoundTo>
+      <DependentUpon>CloseQFT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0cd5e1a5-b0a7-4314-a99c-8a84b0b71c90</id>
+    </Compile>
+    <Compile Include="CloseQFT.UserCode.cs">
+      <BoundTo>d31e5c5a-58d5-41dc-ad61-4e298a90e8d4</BoundTo>
+      <DependentUpon>CloseQFT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>99ab855e-3e8b-4e43-a523-470ae1ca575c</id>
+    </Compile>
+    <Compile Include="DocFileFormatAndLocation.cs">
+      <BoundTo>44a854d6-9098-4ccf-8f20-134092bf6e03</BoundTo>
+      <DependentUpon>DocFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>af692a85-63af-400c-83e4-6b4dc9e1cba7</id>
+    </Compile>
+    <Compile Include="DocFileFormatAndLocation.UserCode.cs">
+      <BoundTo>44a854d6-9098-4ccf-8f20-134092bf6e03</BoundTo>
+      <DependentUpon>DocFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>55666cca-e11f-40ee-9090-74bd8b4ea4ff</id>
+    </Compile>
+    <Compile Include="FileFormatAndLocation.cs">
+      <BoundTo>cf3cf386-1e11-438f-b1f4-b634b6ff5de5</BoundTo>
+      <DependentUpon>FileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>74778468-1b02-407b-b47e-8e6f7b907da7</id>
+    </Compile>
+    <Compile Include="FileFormatAndLocation.UserCode.cs">
+      <BoundTo>cf3cf386-1e11-438f-b1f4-b634b6ff5de5</BoundTo>
+      <DependentUpon>FileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c7884f50-21f9-4fe0-b983-381d02151b39</id>
+    </Compile>
+    <Compile Include="HtmFileFormatAndLocation.cs">
+      <BoundTo>5449a8fd-dab6-4512-a616-efeae88801f1</BoundTo>
+      <DependentUpon>HtmFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>108a838c-6c6d-42e6-8fdf-cc7a75d8e096</id>
+    </Compile>
+    <Compile Include="HtmFileFormatAndLocation.UserCode.cs">
+      <BoundTo>5449a8fd-dab6-4512-a616-efeae88801f1</BoundTo>
+      <DependentUpon>HtmFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0b5f2489-3f3f-42f8-a7e3-9ab21e97439b</id>
+    </Compile>
+    <Compile Include="HtmlFileFormatAndLocation.cs">
+      <BoundTo>cf086491-e586-49be-a1f5-3a696d39cdb9</BoundTo>
+      <DependentUpon>HtmlFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e32c775b-a7ca-4178-8d17-1cdd8c891f3f</id>
+    </Compile>
+    <Compile Include="HtmlFileFormatAndLocation.UserCode.cs">
+      <BoundTo>cf086491-e586-49be-a1f5-3a696d39cdb9</BoundTo>
+      <DependentUpon>HtmlFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>67a3e47d-077d-45a8-866e-0ec165fe20dc</id>
+    </Compile>
+    <Compile Include="JsonFileFormatAndLocation.cs">
+      <BoundTo>35d2aaeb-0d8d-44e0-812b-a0791f499171</BoundTo>
+      <DependentUpon>JsonFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d4c65eb7-6594-4a2e-b540-5053a17ea208</id>
+    </Compile>
+    <Compile Include="JsonFileFormatAndLocation.UserCode.cs">
+      <BoundTo>35d2aaeb-0d8d-44e0-812b-a0791f499171</BoundTo>
+      <DependentUpon>JsonFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>115739fd-0e0a-4d77-8ebd-ade96d9a23ca</id>
+    </Compile>
+    <Compile Include="OdpFileFormatAndLocation.cs">
+      <BoundTo>e013ebae-dfbb-42b4-873a-c3dab9915447</BoundTo>
+      <DependentUpon>OdpFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e01e5c8e-1ed1-4dc9-b1a5-e070a40c0541</id>
+    </Compile>
+    <Compile Include="OdpFileFormatAndLocation.UserCode.cs">
+      <BoundTo>e013ebae-dfbb-42b4-873a-c3dab9915447</BoundTo>
+      <DependentUpon>OdpFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>51661296-5ee9-461c-9d6f-1ca291ab72c2</id>
+    </Compile>
+    <Compile Include="OdsFileFormatAndLocation.cs">
+      <BoundTo>543ea051-6a7a-4461-9834-8355a1019891</BoundTo>
+      <DependentUpon>OdsFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3623d335-e34b-4603-87da-2cfe9ca017f6</id>
+    </Compile>
+    <Compile Include="OdsFileFormatAndLocation.UserCode.cs">
+      <BoundTo>543ea051-6a7a-4461-9834-8355a1019891</BoundTo>
+      <DependentUpon>OdsFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8f6ff126-a7cf-40e0-9232-47dffe0f9c69</id>
+    </Compile>
+    <Compile Include="OdtFileFormatAndLocation.cs">
+      <BoundTo>6044b7f2-639f-4559-b7b3-f65be4d5a9ca</BoundTo>
+      <DependentUpon>OdtFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8cfef899-7594-4be8-bd28-0691692bf9ed</id>
+    </Compile>
+    <Compile Include="OdtFileFormatAndLocation.UserCode.cs">
+      <BoundTo>6044b7f2-639f-4559-b7b3-f65be4d5a9ca</BoundTo>
+      <DependentUpon>OdtFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1c370eb9-7aa9-4586-aef0-0e8a149af78b</id>
+    </Compile>
+    <Compile Include="PdfFileFormatAndLocation.cs">
+      <BoundTo>3d45d621-6de9-4f1d-80d6-f593117b8260</BoundTo>
+      <DependentUpon>PdfFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5c52eb2b-10f1-49a5-9f6f-3546d808b19b</id>
+    </Compile>
+    <Compile Include="PdfFileFormatAndLocation.UserCode.cs">
+      <BoundTo>3d45d621-6de9-4f1d-80d6-f593117b8260</BoundTo>
+      <DependentUpon>PdfFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f0452e88-ee78-4d01-97d6-2c20c9bdbb1f</id>
+    </Compile>
+    <Compile Include="PoFileFormatAndLocation.cs">
+      <BoundTo>64ff50a0-dc76-445d-98e5-8b12cc367083</BoundTo>
+      <DependentUpon>PoFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8bad5397-a5a9-4074-b81c-e3639ad2fba0</id>
+    </Compile>
+    <Compile Include="PoFileFormatAndLocation.UserCode.cs">
+      <BoundTo>64ff50a0-dc76-445d-98e5-8b12cc367083</BoundTo>
+      <DependentUpon>PoFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f89aba03-60cc-4943-a07a-b7a91302e39a</id>
+    </Compile>
+    <Compile Include="PptxFileFormatAndLocation.cs">
+      <BoundTo>8b4a7b99-d01a-4c8d-a3c3-3ad096f6cc32</BoundTo>
+      <DependentUpon>PptxFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3ad28eb5-9b7c-4c94-aae8-2186b93e81b5</id>
+    </Compile>
+    <Compile Include="PptxFileFormatAndLocation.UserCode.cs">
+      <BoundTo>8b4a7b99-d01a-4c8d-a3c3-3ad096f6cc32</BoundTo>
+      <DependentUpon>PptxFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3509fda1-f8f0-4e47-baf7-cb2036b07bf1</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>584ecb2c-ca2d-4157-961b-307819fbe385</id>
+    </Compile>
+    <Compile Include="PropertiesFileFormatAndLocation.cs">
+      <BoundTo>717ebeb6-96eb-462b-a65a-3819f9fce9d0</BoundTo>
+      <DependentUpon>PropertiesFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cc1c7f1a-8f07-4d7f-85a4-936b13d85e02</id>
+    </Compile>
+    <Compile Include="PropertiesFileFormatAndLocation.UserCode.cs">
+      <BoundTo>717ebeb6-96eb-462b-a65a-3819f9fce9d0</BoundTo>
+      <DependentUpon>PropertiesFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1fdfba20-9805-48c8-9acd-1f1a741c66b2</id>
+    </Compile>
+    <Compile Include="QFTRepository.cs">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <DependentUpon>QFTRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>5be59f32-e593-4bc2-9591-906b90db9fa6</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>f412c417-2fab-45f9-8c09-f89bc6382cb8</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e59d905f-81cc-4795-92e6-6f007b32decf</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>f412c417-2fab-45f9-8c09-f89bc6382cb8</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b33526c0-ba89-40ab-bc71-092d483e9948</id>
+    </Compile>
+    <Compile Include="ResxFileFormatAndLocation.cs">
+      <BoundTo>d0df3099-85c9-4897-b9ed-d3aedfff7288</BoundTo>
+      <DependentUpon>ResxFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e3ea7fce-e6d7-4bd9-9ce4-3314865fce77</id>
+    </Compile>
+    <Compile Include="ResxFileFormatAndLocation.UserCode.cs">
+      <BoundTo>d0df3099-85c9-4897-b9ed-d3aedfff7288</BoundTo>
+      <DependentUpon>ResxFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c90be0fe-9fa8-4928-a070-f8e7bb96742b</id>
+    </Compile>
+    <Compile Include="StartQFT.cs">
+      <BoundTo>b2141608-88bd-476e-b120-187ded36f506</BoundTo>
+      <DependentUpon>StartQFT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9bae93e8-c16a-46a1-8c43-23f55789baa5</id>
+    </Compile>
+    <Compile Include="StartQFT.UserCode.cs">
+      <BoundTo>b2141608-88bd-476e-b120-187ded36f506</BoundTo>
+      <DependentUpon>StartQFT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3bfee7f4-2693-445b-b89c-d200522e7529</id>
+    </Compile>
+    <Compile Include="TmxFileFormatAndLocation.cs">
+      <BoundTo>36bc748e-9cb1-479b-9dc8-b0c1ac09a2b9</BoundTo>
+      <DependentUpon>TmxFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2d069e47-b1b9-4c7d-ba46-db65739b4ef6</id>
+    </Compile>
+    <Compile Include="TmxFileFormatAndLocation.UserCode.cs">
+      <BoundTo>36bc748e-9cb1-479b-9dc8-b0c1ac09a2b9</BoundTo>
+      <DependentUpon>TmxFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6429f838-78c6-46b9-b2a6-82ff1115ed70</id>
+    </Compile>
+    <Compile Include="TranslateAndValidate.cs">
+      <BoundTo>0b85e54e-abaf-49c3-b4dd-c77d21e827f4</BoundTo>
+      <DependentUpon>TranslateAndValidate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>32498259-28b7-44b0-a48e-fd306f23e4cd</id>
+    </Compile>
+    <Compile Include="TranslateAndValidate.UserCode.cs">
+      <BoundTo>0b85e54e-abaf-49c3-b4dd-c77d21e827f4</BoundTo>
+      <DependentUpon>TranslateAndValidate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0a371854-d206-4725-96a3-c165c9f8289b</id>
+    </Compile>
+    <Compile Include="TsFileFormatAndLocation.cs">
+      <BoundTo>c1170472-cd88-4757-9cd7-389b025518b5</BoundTo>
+      <DependentUpon>TsFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>53e1b028-d51e-4e8f-a909-55231aee3ad5</id>
+    </Compile>
+    <Compile Include="TsFileFormatAndLocation.UserCode.cs">
+      <BoundTo>c1170472-cd88-4757-9cd7-389b025518b5</BoundTo>
+      <DependentUpon>TsFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cdc0b815-4e18-4da2-b620-6ebf0438fb40</id>
+    </Compile>
+    <Compile Include="TxtFileFormatAndLocation.cs">
+      <BoundTo>3fa86d5f-e07a-4a08-b4c0-0feab9144e39</BoundTo>
+      <DependentUpon>TxtFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>64b7de85-1e05-41fe-b393-985a8d355ae4</id>
+    </Compile>
+    <Compile Include="TxtFileFormatAndLocation.UserCode.cs">
+      <BoundTo>3fa86d5f-e07a-4a08-b4c0-0feab9144e39</BoundTo>
+      <DependentUpon>TxtFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5ee3a850-1375-4533-b0cc-4d74b3b0cf4f</id>
+    </Compile>
+    <Compile Include="XhtmlFileFormatAndLocation.cs">
+      <BoundTo>cca6576d-e10a-43c6-9151-22071c80a603</BoundTo>
+      <DependentUpon>XhtmlFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>89142aef-7764-4a59-bd89-06160c918e24</id>
+    </Compile>
+    <Compile Include="XhtmlFileFormatAndLocation.UserCode.cs">
+      <BoundTo>cca6576d-e10a-43c6-9151-22071c80a603</BoundTo>
+      <DependentUpon>XhtmlFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>87f92e24-390c-4a58-b917-80504c92770f</id>
+    </Compile>
+    <Compile Include="XlfFileFormatAndLocation.cs">
+      <BoundTo>329c8787-896c-461a-aa66-e1e1111da5d4</BoundTo>
+      <DependentUpon>XlfFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b5361aa6-7b96-4e5b-83a5-05f7f7331d3f</id>
+    </Compile>
+    <Compile Include="XlfFileFormatAndLocation.UserCode.cs">
+      <BoundTo>329c8787-896c-461a-aa66-e1e1111da5d4</BoundTo>
+      <DependentUpon>XlfFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ae807f4d-3b43-4b0f-a9c9-0d53f3846117</id>
+    </Compile>
+    <Compile Include="XliffFileFormatAndLocation.cs">
+      <BoundTo>2184e0a6-ab4a-4e56-852c-c9b99ff0ef6f</BoundTo>
+      <DependentUpon>XliffFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0e5d4843-fd20-466f-ada7-85e12ecee6aa</id>
+    </Compile>
+    <Compile Include="XliffFileFormatAndLocation.UserCode.cs">
+      <BoundTo>2184e0a6-ab4a-4e56-852c-c9b99ff0ef6f</BoundTo>
+      <DependentUpon>XliffFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3ad59bd0-fda0-4efb-9ffa-551fd3a28f19</id>
+    </Compile>
+    <Compile Include="XlsxFileFormatAndLocation.cs">
+      <BoundTo>9c3996c4-52bb-4e80-b531-21de6643ec9c</BoundTo>
+      <DependentUpon>XlsxFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>383fa100-8b62-4980-8941-48bbe189c8ff</id>
+    </Compile>
+    <Compile Include="XlsxFileFormatAndLocation.UserCode.cs">
+      <BoundTo>9c3996c4-52bb-4e80-b531-21de6643ec9c</BoundTo>
+      <DependentUpon>XlsxFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>54becc59-8f45-4170-903f-9cdbf2f81661</id>
+    </Compile>
+    <Compile Include="XmlFileFormatAndLocation.cs">
+      <BoundTo>df8568b6-1829-425e-818d-1aee364a230a</BoundTo>
+      <DependentUpon>XmlFileFormatAndLocation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ccd854c8-88b6-4e08-a4d4-72752fe7466c</id>
+    </Compile>
+    <Compile Include="XmlFileFormatAndLocation.UserCode.cs">
+      <BoundTo>df8568b6-1829-425e-818d-1aee364a230a</BoundTo>
+      <DependentUpon>XmlFileFormatAndLocation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0aebc94a-0273-4467-a0f1-538fddd89d63</id>
+    </Compile>
+    <None Include="app.config">
+      <id>ef50eb3b-76c3-403a-b1fd-7a6fa58d82ff</id>
+    </None>
+    <None Include="AspxFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>71d595cb-6c89-4601-851d-e13c19976564</id>
+      <recordtableid>02a380db-80e3-4bc4-a191-4b05a7f530b2</recordtableid>
+    </None>
+    <None Include="CloseQFT.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>d31e5c5a-58d5-41dc-ad61-4e298a90e8d4</id>
+      <recordtableid>ed5161d2-756c-4034-8b0b-5bfa529cbda9</recordtableid>
+    </None>
+    <None Include="DocFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>44a854d6-9098-4ccf-8f20-134092bf6e03</id>
+      <recordtableid>3c0e5fd8-57c6-4d70-972a-83280c9afd2f</recordtableid>
+    </None>
+    <None Include="FileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>cf3cf386-1e11-438f-b1f4-b634b6ff5de5</id>
+      <recordtableid>4d18ba94-3450-4f5b-8a62-9abdc952d2f5</recordtableid>
+    </None>
+    <None Include="HtmFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>5449a8fd-dab6-4512-a616-efeae88801f1</id>
+      <recordtableid>c221b3f1-1e73-4bb1-bd1e-e254af8cb082</recordtableid>
+    </None>
+    <None Include="HtmlFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>cf086491-e586-49be-a1f5-3a696d39cdb9</id>
+      <recordtableid>ca2d78b1-c44b-4664-9046-c49abbfa89d4</recordtableid>
+    </None>
+    <None Include="JsonFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>35d2aaeb-0d8d-44e0-812b-a0791f499171</id>
+      <recordtableid>9bafb1c9-dd3f-4b0c-8788-4ce6e0724254</recordtableid>
+    </None>
+    <None Include="OdpFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>e013ebae-dfbb-42b4-873a-c3dab9915447</id>
+      <recordtableid>8599da69-5262-4352-9a13-47da9dcb73f2</recordtableid>
+    </None>
+    <None Include="OdsFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>543ea051-6a7a-4461-9834-8355a1019891</id>
+      <recordtableid>9c02a185-f494-4860-8b76-6fd362c4d9b0</recordtableid>
+    </None>
+    <None Include="OdtFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>6044b7f2-639f-4559-b7b3-f65be4d5a9ca</id>
+      <recordtableid>240f37ff-6d3c-4982-9598-6cf8f5a52984</recordtableid>
+    </None>
+    <None Include="PdfFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>3d45d621-6de9-4f1d-80d6-f593117b8260</id>
+      <recordtableid>a5ab959a-9c8c-4fef-ba9d-74ae8dba3d1a</recordtableid>
+    </None>
+    <None Include="PoFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>64ff50a0-dc76-445d-98e5-8b12cc367083</id>
+      <recordtableid>6c9f9159-1322-4c95-a9dc-464732c9b010</recordtableid>
+    </None>
+    <None Include="PptxFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>8b4a7b99-d01a-4c8d-a3c3-3ad096f6cc32</id>
+      <recordtableid>19701e21-139b-4179-8513-6591a4c8fc13</recordtableid>
+    </None>
+    <None Include="PropertiesFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>717ebeb6-96eb-462b-a65a-3819f9fce9d0</id>
+      <recordtableid>f8521dc2-b558-4c67-9632-f5034694f388</recordtableid>
+    </None>
+    <None Include="QFTRepository.rximg">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <DependentUpon>QFTRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>5d57476d-c25a-4198-8ee3-1e720811d4b4</id>
+    </None>
+    <None Include="QFTRepository.rxrep">
+      <id>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</id>
+      <repoid>4b60c6d7-fbf7-42c8-93b8-c0540cd77548</repoid>
+      <reporootid>92f22dce-57ca-4d90-9658-0f48e1d101a4</reporootid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>f412c417-2fab-45f9-8c09-f89bc6382cb8</id>
+      <recordtableid>7b5581e5-ca0e-4934-8fae-315d09b12231</recordtableid>
+    </None>
+    <None Include="ResxFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>d0df3099-85c9-4897-b9ed-d3aedfff7288</id>
+      <recordtableid>b4b04b1c-15ac-4882-ad93-0a4465621058</recordtableid>
+    </None>
+    <None Include="StartQFT.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>b2141608-88bd-476e-b120-187ded36f506</id>
+      <recordtableid>83312dbf-6adb-4406-818e-53d902903901</recordtableid>
+    </None>
+    <None Include="TmxFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>36bc748e-9cb1-479b-9dc8-b0c1ac09a2b9</id>
+      <recordtableid>48b9f6cb-0e55-4ef6-9f2e-8e4ea1d984bf</recordtableid>
+    </None>
+    <None Include="TranslateAndValidate.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>0b85e54e-abaf-49c3-b4dd-c77d21e827f4</id>
+      <recordtableid>7e2ff76d-1d73-402d-8ae9-be4a12bd9162</recordtableid>
+    </None>
+    <None Include="TsFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>c1170472-cd88-4757-9cd7-389b025518b5</id>
+      <recordtableid>7990f1fe-3440-4847-886c-e4d6ae9c5777</recordtableid>
+    </None>
+    <None Include="TxtFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>3fa86d5f-e07a-4a08-b4c0-0feab9144e39</id>
+      <recordtableid>d0e424fd-2b1e-4fbb-bc54-ae6085e040d3</recordtableid>
+    </None>
+    <None Include="XhtmlFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>cca6576d-e10a-43c6-9151-22071c80a603</id>
+      <recordtableid>8663aa06-0c47-4868-b704-9652d36d5442</recordtableid>
+    </None>
+    <None Include="XlfFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>329c8787-896c-461a-aa66-e1e1111da5d4</id>
+      <recordtableid>cd1d2527-0bdf-4e8c-b807-86a1255eb563</recordtableid>
+    </None>
+    <None Include="XliffFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>2184e0a6-ab4a-4e56-852c-c9b99ff0ef6f</id>
+      <recordtableid>70c9d748-1fd7-4828-aed1-fe71b6646c85</recordtableid>
+    </None>
+    <None Include="XlsxFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>9c3996c4-52bb-4e80-b531-21de6643ec9c</id>
+      <recordtableid>2082f666-eeb3-4e24-8e90-cb83373b8fa4</recordtableid>
+    </None>
+    <None Include="XmlFileFormatAndLocation.rxrec">
+      <BoundTo>24bfd86e-8901-4fc0-97bd-0d091ef71a4b</BoundTo>
+      <id>df8568b6-1829-425e-818d-1aee364a230a</id>
+      <recordtableid>35a5a9b5-1d8d-4ae1-bc52-d0f1eaefa4fa</recordtableid>
+    </None>
+    <Content Include="TestFileLocation.xlsx">
+      <BoundTo>153333ac-18d9-414c-adc0-6022995e46fe</BoundTo>
+      <DependentUpon>QFT.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>8469ccfe-9683-41b6-aa14-6f1b3fc6d810</id>
+    </Content>
+    <Content Include="QFT.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>17f0d3d7-e7d0-4989-8960-49153a24ea77</id>
+    </Content>
+    <Content Include="QFT.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>153333ac-18d9-414c-adc0-6022995e46fe</id>
+    </Content>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+</Project>

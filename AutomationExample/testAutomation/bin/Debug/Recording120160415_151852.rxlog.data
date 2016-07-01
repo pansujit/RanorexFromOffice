@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="b4a9bcda1f50390"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/15/2016 3:18:55 PM"
+		timestampiso="2016-04-15T13:18:55"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Failed to find item 'testAutomationRepository.SignIn.ContinueWith'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.296"
+			timeRelativeToTestModuleStartTime="00:00.296"
+			timeWallClock="15:18:56"
+			time="00:00.296"
+			level="Info"
+			category="Website"
+			errimg=".\Recording120160415_151852_6a1b8212_trace.jpg"
+			errthumb=".\Recording120160415_151852_6a1b8212_trace_thumb.jpg">
+			<message>
+				Opening web site 'https://trs.systran.net' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.412"
+			timeRelativeToTestModuleStartTime="00:00.412"
+			timeWallClock="15:18:56"
+			time="00:00.412"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120160415_151852_3a51f9d6_trace.jpg"
+			errthumb=".\Recording120160415_151852_3a51f9d6_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SignIn.ContinueWith' at 114;21.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='Sign in']//div[#'main']//a[@innertext='Continue with ']"
+				fullname="testAutomationRepository.SignIn.ContinueWith"
+				id="68966b3e4b1e44f694b776f357257b84"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.825"
+			timeRelativeToTestModuleStartTime="00:08.825"
+			timeWallClock="15:19:04"
+			time="00:08.825"
+			level="Error"
+			category="Module"
+			errimg=".\Recording120160415_151852_90825c59_trace.jpg"
+			errthumb=".\Recording120160415_151852_90825c59_trace_thumb.jpg">
+			<message>
+				Failed to find item 'testAutomationRepository.SignIn.ContinueWith'.<br/>No element found for path '/dom[@caption='Sign in']//div[#'main']//a[@innertext='Continue with ']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.SignInAppFolder.get_ContinueWith() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\testAutomationRepository.cs:line 208
+   at testAutomation.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs:line 87
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="87"
+				type="repoitem"
+				path="/dom[@caption='Sign in']//div[#'main']//a[@innertext='Continue with ']"
+				fullname="testAutomationRepository.SignIn.ContinueWith"
+				id="68966b3e4b1e44f694b776f357257b84"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="1"/>
+		</item>
+	</activity>
+</report>

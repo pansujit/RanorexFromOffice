@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="58d871a47ef5e72"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/29/2016 10:33:03 AM"
+		timestampiso="2016-06-29T08:33:03"
+		timeoutfactor="1"
+		module="ValidateMinimizeAndMaximizeButton">
+		<detail>
+			ValidateMinimizeAndMaximizeButton
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.612"
+			timeRelativeToTestModuleStartTime="00:02.613"
+			timeWallClock="10:33:06"
+			time="00:02.612"
+			level="Success"
+			category="Validation"
+			errimg=".\ValidateMinimizeAndMaximizeButton.cs_20160629_103301_1c1be730_trace.jpg"
+			errthumb=".\ValidateMinimizeAndMaximizeButton.cs_20160629_103301_1c1be730_trace_thumb.jpg">
+			<message>
+				Attribute 'text' of element for item 'testtooltipRepository.Minimize.Self' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/tooltip[@name='Minimize']"
+				fullname="testtooltipRepository.Minimize.Self"
+				id="b8d9864621784708a81c2b6a9be963d1"
+				timeout="30000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\ValidateMinimizeAndMaximizeButton.cs"
+				codeline="52"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.230"
+			timeRelativeToTestModuleStartTime="00:33.231"
+			timeWallClock="10:33:36"
+			time="00:33.230"
+			level="Failure"
+			category="Validation"
+			errimg=".\ValidateMinimizeAndMaximizeButton.cs_20160629_103301_4d50ee23_trace.jpg"
+			errthumb=".\ValidateMinimizeAndMaximizeButton.cs_20160629_103301_4d50ee23_trace_thumb.jpg">
+			<message>
+				Attribute 'text' of element for item 'testtooltipRepository.Maximize.Self' does not match the specified value (Failed to find item 'testtooltipRepository.Maximize.Self'. No element found for path '/tooltip[@name='Maximize']' within 30s.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/tooltip[@name='Maximize']"
+				fullname="testtooltipRepository.Maximize.Self"
+				id="81ed556184954c098cded519944a1aab"
+				timeout="30000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\ValidateMinimizeAndMaximizeButton.cs"
+				codeline="57"
+				loglvl="Failure"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.259"
+			timeRelativeToTestModuleStartTime="00:33.260"
+			timeWallClock="10:33:36"
+			time="00:33.259"
+			level="Error"
+			category="Module"
+			errimg=".\ValidateMinimizeAndMaximizeButton.cs_20160629_103301_4d50ee23_trace.jpg"
+			errthumb=".\ValidateMinimizeAndMaximizeButton.cs_20160629_103301_4d50ee23_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

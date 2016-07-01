@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="178a07ecdb5991f4"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/7/2016 10:41:43 AM"
+		timestampiso="2016-04-07T08:41:43"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.296"
+			timeRelativeToTestModuleStartTime="00:00.296"
+			timeWallClock="10:41:43"
+			time="00:00.296"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SYSTRAN.InteractiveTranslator.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\Recording2.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.358"
+			timeRelativeToTestModuleStartTime="00:00.358"
+			timeWallClock="10:41:43"
+			time="00:00.358"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANInteractiveTranslator.MSrcRichTextBox' at 95;27.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name~'^SYSTRAN\ Interactive\ Trans']/?/?/text[@automationid='mSrcRichTextBox']"
+				fullname="testtooltipRepository.SYSTRANInteractiveTranslator.MSrcRichTextBox"
+				id="a55ca861d6714af09c800ba393643447"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\Recording2.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.345"
+			timeRelativeToTestModuleStartTime="00:02.345"
+			timeWallClock="10:41:45"
+			time="00:02.345"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'bonjour' with focus on 'SYSTRANInteractiveTranslator.MSrcRichTextBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name~'^SYSTRAN\ Interactive\ Trans']/?/?/text[@automationid='mSrcRichTextBox']"
+				fullname="testtooltipRepository.SYSTRANInteractiveTranslator.MSrcRichTextBox"
+				id="a55ca861d6714af09c800ba393643447"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\Recording2.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.283"
+			timeRelativeToTestModuleStartTime="00:03.283"
+			timeWallClock="10:41:46"
+			time="00:03.283"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANInteractiveTranslator.Translate' at 11;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name~'^SYSTRAN\ Interactive\ Trans']/?/?/text[@name='Translate']"
+				fullname="testtooltipRepository.SYSTRANInteractiveTranslator.Translate"
+				id="39f3eae922f342838b4e3b577ac16db8"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\Recording2.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.091"
+			timeRelativeToTestModuleStartTime="00:04.091"
+			timeWallClock="10:41:47"
+			time="00:04.091"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Results for:  bonjour') on item 'SYSTRANInteractiveTranslator1.SomeContainer1.ResultsForBonjour'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Interactive\ Trans' and @processname='SYSTRAN.InteractiveTranslator']/container/element[1]/container/element[7]/container[@automationid='root']/element/element[1]/element/container/container[2]/container[@automationid='mLookupPanel']/?/?/element/container/container[@automationid='mLookupViewer']/?/?/element/container/container/text[@caption='Results for:  bonjour']"
+				fullname="testtooltipRepository.SYSTRANInteractiveTranslator1.SomeContainer1.ResultsForBonjour"
+				id="28e2e34173a847baaa11400b571e894f"
+				timeout="90000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\Recording2.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.798"
+			timeRelativeToTestModuleStartTime="00:06.798"
+			timeWallClock="10:41:50"
+			time="00:06.798"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'testtooltipRepository.SYSTRANInteractiveTranslator1.SomeContainer1.ResultsForBonjour' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Interactive\ Trans' and @processname='SYSTRAN.InteractiveTranslator']/container/element[1]/container/element[7]/container[@automationid='root']/element/element[1]/element/container/container[2]/container[@automationid='mLookupPanel']/?/?/element/container/container[@automationid='mLookupViewer']/?/?/element/container/container/text[@caption='Results for:  bonjour']"
+				fullname="testtooltipRepository.SYSTRANInteractiveTranslator1.SomeContainer1.ResultsForBonjour"
+				id="28e2e34173a847baaa11400b571e894f"
+				timeout="90000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\Recording2.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="4"/>
+		</item>
+	</activity>
+</report>

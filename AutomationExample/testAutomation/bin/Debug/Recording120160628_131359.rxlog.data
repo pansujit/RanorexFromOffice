@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2c6fb8ee22f59f68"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/28/2016 1:14:01 PM"
+		timestampiso="2016-06-28T11:14:01"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.327"
+			timeRelativeToTestModuleStartTime="00:00.327"
+			timeWallClock="13:14:01"
+			time="00:00.327"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANLanguageManager.Licenses1' at 54;24.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:3500']//li[#'licencesNavBar']/a[@innertext='Licenses']"
+				fullname="testAutomationRepository.SYSTRANLanguageManager.Licenses1"
+				id="2257135e21d8429789dbe25afaa8be4b"
+				timeout="15000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.106"
+			timeRelativeToTestModuleStartTime="00:02.106"
+			timeWallClock="13:14:03"
+			time="00:02.106"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Licenses.Delete' at 25;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]//div[#'licenseListContent']/div/div[13]//a[@innertext='Delete']"
+				fullname="testAutomationRepository.Licenses.Delete"
+				id="9fb0d455b28542c2aac5e381112bc2ef"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.574"
+			timeRelativeToTestModuleStartTime="00:03.574"
+			timeWallClock="13:14:05"
+			time="00:03.574"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Licenses.Cancel' at 44;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[1]/body/div[6]/div/div/div[2]/button[@innertext='Cancel']"
+				fullname="testAutomationRepository.Licenses.Cancel"
+				id="35eb0e842fcf46a29d8cf888c4220156"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.825"
+			timeRelativeToTestModuleStartTime="00:03.825"
+			timeWallClock="13:14:05"
+			time="00:03.825"
+			level="Warn"
+			category="Internet Explorer">
+			<message>
+				Please make sure that you have the Ranorex Addon installed and enabled in Internet Explorer. Otherwise Ranorex UI element identification might be very slow.<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/technology-instrumentation/general-troubleshooting.html#c3253<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\Recording1.cs"
+				codeline="91"
+				loglvl="Warn"
+				itemindex="2"/>
+		</item>
+	</activity>
+</report>

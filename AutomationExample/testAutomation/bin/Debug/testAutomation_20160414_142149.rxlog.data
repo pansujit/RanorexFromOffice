@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="b10588692b582b0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/14/2016 2:21:49 PM"
+		timestampiso="2016-04-14T12:21:49"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="27.78s"
+			durationms="27775"
+			type="test suite"
+			rid="339fb8a69947e0f0"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="testAutomation"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="27.76s"
+				durationms="27758"
+				type="test case"
+				rid="ee87f23a7669fa9"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="8101e436-afed-4ee8-be14-e529c4b0a519"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="17.53s"
+					durationms="17534"
+					type="test module"
+					rid="7f26e64d11d9344"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="StartFirefox"
+					moduleid="1651b2aa-5c89-4fef-8728-9a59cceaccd1"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Failed"
+					duration="10.2s"
+					durationms="10204"
+					type="test module"
+					rid="db7a4a79307b33e"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="StopFirefox"
+					moduleid="1c247488-8ac5-482c-815a-06aafea2613c"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<errmsg>
+						No element found for path 'firefox' within 10s.
+					</errmsg>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.870"
+						timeRelativeToTestModuleStartTime="00:10.128"
+						timeWallClock="14:22:16"
+						time="00:27.870"
+						level="Error"
+						category="Module"
+						errimg="images_testAutomation_20160414_142149\testAutomation_20160414_142149_389ef729_trace.jpg"
+						errthumb="images_testAutomation_20160414_142149\testAutomation_20160414_142149_389ef729_trace_thumb.jpg">
+						<message>
+							No element found for path 'firefox' within 10s.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Core.Element.FindSingle(RxPath path, Duration timeout)
+   at Ranorex.Core.Element.FromPath(String path)
+   at Ranorex.Core.Element.op_Implicit(String path)
+   at testAutomation.StopFirefox.Init() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\stopFirefox.UserCode.cs:line 34
+   at testAutomation.StopFirefox.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\stopFirefox.cs:line 80
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+							codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\stopFirefox.UserCode.cs"
+							codeline="34"
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="247c349c78766814"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/15/2016 7:35:59 PM"
+		timestampiso="2016-04-15T17:35:59"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.296"
+			timeRelativeToTestModuleStartTime="00:00.296"
+			timeWallClock="19:35:59"
+			time="00:00.296"
+			level="Info"
+			category="Invoke Action">
+			<message>
+				Invoking EnsureVisible() on item 'test.Atg'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='trs.systran.net']//div[@id='packageContent']/div[2]/div[1]/div/div/div[22]/div/div/div/a[2]/i"
+				fullname="testAutomationRepository.test.Atg"
+				id="f2f886be588d40889a730e6289399d1c"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.713"
+			timeRelativeToTestModuleStartTime="00:40.713"
+			timeWallClock="19:36:40"
+			time="00:40.713"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'test.Atg' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='trs.systran.net']//div[@id='packageContent']/div[2]/div[1]/div/div/div[22]/div/div/div/a[2]/i"
+				fullname="testAutomationRepository.test.Atg"
+				id="f2f886be588d40889a730e6289399d1c"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

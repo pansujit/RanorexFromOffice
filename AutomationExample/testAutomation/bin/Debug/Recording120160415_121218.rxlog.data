@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="33eb09d930b52a0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/15/2016 12:12:22 PM"
+		timestampiso="2016-04-15T10:12:22"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Failed to find item 'testAutomationRepository.SYSTRANTrayIcon1.Self'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.296"
+			timeRelativeToTestModuleStartTime="00:00.296"
+			timeWallClock="12:12:22"
+			time="00:00.296"
+			level="Info"
+			category="Application"
+			errimg=".\Recording120160415_121218_afae2ab8_trace.jpg"
+			errthumb=".\Recording120160415_121218_afae2ab8_trace_thumb.jpg">
+			<message>
+				Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SYSTRAN.TrayIcon.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.374"
+			timeRelativeToTestModuleStartTime="00:00.374"
+			timeWallClock="12:12:22"
+			time="00:00.374"
+			level="Info"
+			category="Application"
+			errimg=".\Recording120160415_121218_afae2ab8_trace.jpg"
+			errthumb=".\Recording120160415_121218_afae2ab8_trace_thumb.jpg">
+			<message>
+				Killing application containing item 'SYSTRANTrayIcon1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='SYSTRAN.TrayIcon' and @win32ownerwindowlevel='1']"
+				fullname="testAutomationRepository.SYSTRANTrayIcon1.Self"
+				id="6a920a8ba17f41d8918695995f985b71"
+				timeout="30000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.587"
+			timeRelativeToTestModuleStartTime="00:30.587"
+			timeWallClock="12:12:52"
+			time="00:30.587"
+			level="Error"
+			category="Module"
+			errimg=".\Recording120160415_121218_30238f1b_trace.jpg"
+			errthumb=".\Recording120160415_121218_30238f1b_trace_thumb.jpg">
+			<message>
+				Failed to find item 'testAutomationRepository.SYSTRANTrayIcon1.Self'.<br/>No element found for path '/contextmenu[@processname='SYSTRAN.TrayIcon' and @win32ownerwindowlevel='1']' within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.SYSTRANTrayIcon1AppFolder.get_Self() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\testAutomationRepository.cs:line 671
+   at testAutomation.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs:line 87
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="87"
+				type="repoitem"
+				path="/contextmenu[@processname='SYSTRAN.TrayIcon' and @win32ownerwindowlevel='1']"
+				fullname="testAutomationRepository.SYSTRANTrayIcon1.Self"
+				id="6a920a8ba17f41d8918695995f985b71"
+				timeout="30000"
+				loglvl="Error"
+				itemindex="1"/>
+		</item>
+	</activity>
+</report>

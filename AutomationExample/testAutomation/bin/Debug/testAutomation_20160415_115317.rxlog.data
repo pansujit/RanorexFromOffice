@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2724a84b9d43202d"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/15/2016 11:53:17 AM"
+		timestampiso="2016-04-15T09:53:17"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="296ms"
+			durationms="296"
+			type="test suite"
+			rid="2a6883d7ec03cc4"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="testAutomation"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="2">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="280ms"
+				durationms="280"
+				type="test case"
+				rid="7e08716aec737ae"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="Uninstall_Application"
+				testcaseid="67c0e640-ed50-4a17-8d1b-c39d55322a11"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="62ms"
+					durationms="62"
+					type="test case setup"
+					rid="e868500b9864ab6"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="46ms"
+						durationms="46"
+						type="test module"
+						rid="5015da863d77a32"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="LocatingFolder"
+						moduleid="b4ef6e13-52e8-4a18-800c-667fef2e408f"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings/>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="218ms"
+					durationms="218"
+					type="test module"
+					rid="eb1000dd2f2559"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="ClickOnUninstall"
+					moduleid="befbd714-b159-456d-afeb-2ef6857441c7"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<errmsg>
+						Parsing RxPath 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SYSTRAN.TrayIcon.exe' failed.
+line 1:2 mismatched character '\' expecting ':'
+line 1:22 no viable alternative at character '\'
+line 1:43 no viable alternative at character '\'
+line 1:56 no viable alternative at character '\'
+line 1:0 no viable alternative at input 'C'&#10;
+					</errmsg>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.327"
+						timeRelativeToTestModuleStartTime="00:00.109"
+						timeWallClock="11:53:17"
+						time="00:00.327"
+						level="Error"
+						category="Module"
+						errimg="images_testAutomation_20160415_115317\testAutomation_20160415_115317_d7e37ed8_trace.jpg"
+						errthumb="images_testAutomation_20160415_115317\testAutomation_20160415_115317_d7e37ed8_trace_thumb.jpg">
+						<message>
+							Parsing RxPath 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SYSTRAN.TrayIcon.exe' failed.<br/>line 1:2 mismatched character '\' expecting ':'<br/>line 1:22 no viable alternative at character '\'<br/>line 1:43 no viable alternative at character '\'<br/>line 1:56 no viable alternative at character '\'<br/>line 1:0 no viable alternative at input 'C'&#10;
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Core.RxPath..ctor(String path)
+   at Ranorex.Core.Element.FromPath(String path)
+   at Ranorex.Core.Element.op_Implicit(String path)
+   at testAutomation.ClickOnUninstall.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\ClickOnUninstall.cs:line 63
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+							codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\ClickOnUninstall.cs"
+							codeline="63"
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

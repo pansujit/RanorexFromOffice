@@ -58,7 +58,7 @@ namespace testtooltip
         /// <summary>
         /// Starts the replay of the static recording <see cref="Instance"/>.
         /// </summary>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "5.4.5")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "6.0")]
         public static void Start()
         {
             TestModuleRunner.Run(Instance);
@@ -70,17 +70,17 @@ namespace testtooltip
         /// <remarks>You should not call this method directly, instead pass the module
         /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
         /// that will in turn invoke this method.</remarks>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "5.4.5")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "6.0")]
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;
             Keyboard.DefaultKeyPressTime = 100;
-            Delay.SpeedFactor = 1.0;
+            Delay.SpeedFactor = 1.00;
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='ceci') on item 'SYSTRANInteractiveTranslator.MTgtRichTextBox'.", repo.SYSTRANInteractiveTranslator.MTgtRichTextBoxInfo, new RecordItemIndex(0));
-            Validate.Attribute(repo.SYSTRANInteractiveTranslator.MTgtRichTextBoxInfo, "Text", "ceci");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='grand') on item 'SYSTRANInteractiveTranslator.MTgtRichTextBox'.", repo.SYSTRANInteractiveTranslator.MTgtRichTextBoxInfo, new RecordItemIndex(0));
+            Validate.Attribute(repo.SYSTRANInteractiveTranslator.MTgtRichTextBoxInfo, "Text", "grand");
             Delay.Milliseconds(100);
             
         }

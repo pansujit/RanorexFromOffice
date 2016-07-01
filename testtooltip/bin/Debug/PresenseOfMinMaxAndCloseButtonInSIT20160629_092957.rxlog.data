@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="621e36dd76f46d6"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/29/2016 9:29:59 AM"
+		timestampiso="2016-06-29T07:29:59"
+		timeoutfactor="1"
+		module="PresenseOfMinMaxAndCloseButtonInSIT">
+		<detail>
+			PresenseOfMinMaxAndCloseButtonInSIT
+		</detail>
+		<errmsg>
+			Attribute 'Text' of element for item 'testtooltipRepository.Maximize' does not match the specified value (actual='(null)', expected='Maximize').
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.283"
+			timeRelativeToTestModuleStartTime="00:00.283"
+			timeWallClock="09:29:59"
+			time="00:00.283"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse None Move item 'SYSTRANInteractiveTranslator1.SomeContainer3.SomeElement1' at 8;1.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Interactive\ Trans' and @processname='SYSTRAN.InteractiveTranslator']/container//element[@automationid='PART_WindowButtonCommands']/?/?/button[@automationid='PART_Min']/?/?/element[@automationid='PART_ContentPresenter']/?/?/element[@automationid='PART_ContentPresenter']/element"
+				fullname="testtooltipRepository.SYSTRANInteractiveTranslator1.SomeContainer3.SomeElement1"
+				id="5e15c9dd9bc04754a8ac21d6fdd3fc42"
+				timeout="90000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\PresenseOfMinMaxAndCloseButtonInSIT.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.677"
+			timeRelativeToTestModuleStartTime="00:01.677"
+			timeWallClock="09:30:01"
+			time="00:01.677"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Minimize') on item 'Minimize'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/tooltip[@name='Minimize']"
+				fullname="testtooltipRepository.Minimize.Self"
+				id="b8d9864621784708a81c2b6a9be963d1"
+				timeout="30000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\PresenseOfMinMaxAndCloseButtonInSIT.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.043"
+			timeRelativeToTestModuleStartTime="00:02.043"
+			timeWallClock="09:30:01"
+			time="00:02.043"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'testtooltipRepository.Minimize.Self' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/tooltip[@name='Minimize']"
+				fullname="testtooltipRepository.Minimize.Self"
+				id="b8d9864621784708a81c2b6a9be963d1"
+				timeout="30000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\PresenseOfMinMaxAndCloseButtonInSIT.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.145"
+			timeRelativeToTestModuleStartTime="00:02.145"
+			timeWallClock="09:30:01"
+			time="00:02.145"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse None Move item 'SYSTRANInteractiveTranslator1.SomeContainer3.SomeContainer2' at 17;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Interactive\ Trans' and @processname='SYSTRAN.InteractiveTranslator']/container//element[@automationid='PART_WindowButtonCommands']/?/?/button[@automationid='PART_Max']/?/?/element[@automationid='PART_ContentPresenter']/container"
+				fullname="testtooltipRepository.SYSTRANInteractiveTranslator1.SomeContainer3.SomeContainer2"
+				id="fdf30cac2b264bf78117adb57849b05d"
+				timeout="90000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\PresenseOfMinMaxAndCloseButtonInSIT.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.819"
+			timeRelativeToTestModuleStartTime="00:02.819"
+			timeWallClock="09:30:02"
+			time="00:02.819"
+			level="Info"
+			category="Validation"
+			errimg=".\PresenseOfMinMaxAndCloseButtonInSIT20160629_092957_18020d19_trace.jpg"
+			errthumb=".\PresenseOfMinMaxAndCloseButtonInSIT20160629_092957_18020d19_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='Maximize') on item 'Maximize'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path=""
+				fullname="testtooltipRepository.Maximize"
+				id="ebbecfdf5e2f444385c038deee925a36"
+				timeout="30000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\PresenseOfMinMaxAndCloseButtonInSIT.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.821"
+			timeRelativeToTestModuleStartTime="00:02.821"
+			timeWallClock="09:30:02"
+			time="00:02.821"
+			level="Failure"
+			category="Validation"
+			errimg=".\PresenseOfMinMaxAndCloseButtonInSIT20160629_092957_18020d19_trace.jpg"
+			errthumb=".\PresenseOfMinMaxAndCloseButtonInSIT20160629_092957_18020d19_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'testtooltipRepository.Maximize' does not match the specified value (actual='(null)', expected='Maximize').
+			</message>
+			<metainfo
+				type="repoitem"
+				path=""
+				fullname="testtooltipRepository.Maximize"
+				id="ebbecfdf5e2f444385c038deee925a36"
+				timeout="30000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\PresenseOfMinMaxAndCloseButtonInSIT.cs"
+				codeline="95"
+				loglvl="Failure"
+				itemindex="3"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.832"
+			timeRelativeToTestModuleStartTime="00:02.832"
+			timeWallClock="09:30:02"
+			time="00:02.832"
+			level="Error"
+			category="Module"
+			errimg=".\PresenseOfMinMaxAndCloseButtonInSIT20160629_092957_18020d19_trace.jpg"
+			errthumb=".\PresenseOfMinMaxAndCloseButtonInSIT20160629_092957_18020d19_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'testtooltipRepository.Maximize' does not match the specified value (actual='(null)', expected='Maximize').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeInternal(Element element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value)
+   at testtooltip.PresenseOfMinMaxAndCloseButtonInSIT.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\PresenseOfMinMaxAndCloseButtonInSIT.cs:line 95
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\PresenseOfMinMaxAndCloseButtonInSIT.cs"
+				codeline="95"
+				type="repoitem"
+				path=""
+				fullname="testtooltipRepository.Maximize"
+				id="ebbecfdf5e2f444385c038deee925a36"
+				timeout="30000"
+				loglvl="Error"
+				itemindex="3"/>
+		</item>
+	</activity>
+</report>

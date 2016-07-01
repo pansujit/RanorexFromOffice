@@ -1,0 +1,2257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:oasis:names:tc:xliff:document:1.1" version="1.1">
+  <file source-language="EN-US">
+    <body>
+      <trans-unit id="1">
+        <source>chapter</source>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>chapter</source>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>chapter</source>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>chapter</source>
+      </trans-unit>
+      <trans-unit id="5">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Configuring <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Size="21.0 pt" FntIdx="6" tattr_endtooltip="FONT CHANGE"/><ph id="3" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Active<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> Directory Single Sign-On (AD SSO)</source>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>This chapter describes how to configure Active Directory (AD) Single Sign-On (SSO) for the Cisco NAC Appliance.</source>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Topics include:</source>
+      </trans-unit>
+      <trans-unit id="8">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Overview</source>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>You can configure Cisco NAC Appliance to automatically authenticate Agent users who are already logged into a Windows domain.</source>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>AD SSO allows users logging into AD on their Windows systems to automatically go through authentication and posture assessment without ever having to log in via the Agent.</source>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Users logging into Cisco NAC Appliance via AD SSO must be running Windows Vista or Windows 7 and have the latest Cisco NAC Agent (version 4.7.1.15, 4.8.0.32, or 4.9.0.33) installed on their client machine in order to remain FIPS 140-2 compliant.</source>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>Windows XP clients performing AD SSO do not conform to FIPS 140-2 compliance requirements.</source>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>The Cisco NAC Web Agent does not support AD SSO functions.</source>
+      </trans-unit>
+      <trans-unit id="14">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Cisco NAC Appliance Agent/AD Server Compatibility for AD SSO</source>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>Cisco NAC Appliance supports Windows Single Sign-On (SSO) on Windows 7/Vista/XP client machines and AD on Windows 2000/2003/2008 servers.</source>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>See <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color_Italic" FntIdx="8" tattr_endtooltip="FONT CHANGE"/><ph id="2" tautoclosing="true" ttag="pla" ttype="HYPERTEXT MARKER:"/>Support Information for Cisco NAC Appliance Agents, Release 4.5 and Later<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color_Italic" FntIdx="9" tattr_endtooltip="FONT CHANGE"/><ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>for full compatibility details.</source>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>You can configure AD SSO for all deployment types (L2/L3, In-Band/Out-of-Band).</source>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>For OOB, client ports are put on the Auth VLAN first prior to Windows domain authentication.</source>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>With AD SSO, Cisco NAC Appliance <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="10" tattr_endtooltip="FONT CHANGE"/>authenticates<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> the user with Kerberos, but <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="10" tattr_endtooltip="FONT CHANGE"/>authorizes<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> the user with LDAP.</source>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Cisco NAC Appliance leverages the cached credentials/Kerberos ticket from the client machine login and uses it to validate the user authentication with the backend Windows 2000/2003/2008 server Active Directory.</source>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>After the user authentication is validated, authorization (role-mapping) is then performed as a separate lookup in Active Directory using LDAP.</source>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>You can also use the CAMs <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Auth Test<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> function to test AD SSO authentication in Cisco NAC Appliance, For details, see the ﾒAuth Testﾓ section of the<bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="I_Italic" FntIdx="2" tattr_endtooltip="FONT CHANGE"/><ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color_Italic" FntIdx="8" tattr_endtooltip="FONT CHANGE"/><ph id="1" tautoclosing="true" ttag="pla" ttype="HYPERTEXT MARKER:"/>Cisco NAC Appliance - Clean Access Manager Configuration Guide, Release 4.9<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>The LDAP user account must have privileges sufficient to provide a ﾒSearch DN/ Passwordﾓ that can be used to look up any attribute.</source>
+      </trans-unit>
+      <trans-unit id="24">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Windows SSO Process (Kerberos Ticket Exchange)</source>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>Windows SSO is the ability for Cisco NAC Appliance to automatically authenticate users already authenticated to a backend Kerberos Domain Controller (Active Directory server).</source>
+      </trans-unit>
+      <trans-unit id="26">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number &amp;&amp; Page" XRefSrcText="56508: FC_FigureCap: Figure\x11 8-12 General Process for Kerberos Ticket Exchange" XRefString="Figure 8-1 on page 8-3"/> shows the general process for Kerberos ticket exchange.</source>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>AD SSO fails in Cisco NAC Appliance when the CAS and Cisco NAC Agent attempt to exchange Kerberos tickets with the AD domain that are larger than 16kB.</source>
+      </trans-unit>
+      <trans-unit id="28">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>General Process for Kerberos Ticket Exchange</source>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>When the Clean Access Server is configured for AD SSO, it essentially replaces the ﾒNetwork Servicesﾓ component shown in <ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="56508: FC_FigureCap: Figure\x11 8-12 General Process for Kerberos Ticket Exchange" XRefString="Figure 8-1"/>.</source>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>The general sequence is as follows:</source>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>Windows User and the CAS both have an account on the Active Directory server.</source>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>User logs onto Windows AD (or uses cached credentials).</source>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>Credentials are sent to the AD.</source>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>The AD authenticates and gives a Ticket Granting Ticket (TGT) to the user.</source>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>The NAC Agent on the client machine asks the Windows user for a Kerberos Service Ticket (ST) from AD, so that the NAC Agent can communicate with the CAS.</source>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>The client requests a Service Ticket from the AD.</source>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>The AD sends the new ST to the client and the client provides this ST to the NAC Agent.</source>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>The NAC Agent presents this ST to the CAS as part of the authentication process to establish communication with the CAS.</source>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>The CAS sends back packets and mutually authenticates the client as part of the ADSSO process.</source>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>The CAS uses this information to sign the client onto Cisco NAC Appliance and hence SSO authentication takes place.</source>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>For additional user role mapping (for authentication and posture assessment), an LDAP lookup server with attribute mapping can be configured.</source>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>Starting from Cisco NAC Appliance Release 4.5(1), the default timeout setting that monitors responses from the CAS changed to 60 seconds.</source>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>which could impact AD SSO behavior if the response takes longer to come back to the Cisco NAC Appliance system.</source>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>(For example, if the complete AD SSO process takes 2 minutes, once the 60 second timeout has elapsed, the CAM times out assuming that no response is forthcoming from the CAS that is communicating with the AD domain and automatically moves to the next CAS.</source>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>If you then examine the CAS following the full 2-minute AD SSO process, you see that the service is actually working.) To help ensure reliable AD SSO behavior, Cisco also recommends verifying that your network DNS servers are functioning and accessible along with your Active Directory servers.</source>
+      </trans-unit>
+      <trans-unit id="46">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>CAS Communication with AD Server</source>
+      </trans-unit>
+      <trans-unit id="47">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="63931: FC_FigureCap: Figure\x11 6-10 Configuring the CAS User Account on the Domain Controller" XRefString="Figure 8-2"/> illustrates the general setup for Clean Access Server communication with the AD server for Active Directory SSO.</source>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>The CAS reads user login traffic only to the AD servers under the root domain.</source>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>As shown in <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="63931: FC_FigureCap: Figure\x11 6-10 Configuring the CAS User Account on the Domain Controller" XRefString="Figure 8-2"/>, the sales domain (sales-name-domain.cisco.com) and the engineering domain (cca-eng-name.domain.cisco.com) are configured under different Clean Access Servers.</source>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>Taking the cca-eng domain as an example, the CAS user only needs to be created and configured on the cca-eng-test.cca-eng-domain.cisco.com AD server.</source>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>Users under cca-eng-domain.cisco.com can log into any AD server in the domain.</source>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>In addition, the KTPass command (described in <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="33967: 2H_Head2: Configure Your Active Directory Server" XRefString="Configuring a CAS User on the AD Server for AD SSO, page 8-14"/>) only needs to be executed on the cca-eng-test.cca-eng-domain.cisco.com server.</source>
+      </trans-unit>
+      <trans-unit id="53">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Configuring the CAS User Account on the AD Server</source>
+      </trans-unit>
+      <trans-unit id="54">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>AD SSO Configuration Step Summary</source>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>Administrators should start with a good understanding of their network layout with respect to their AD servers prior to configuring Active Directory SSO.</source>
+      </trans-unit>
+      <trans-unit id="56">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Configuration Prerequisites</source>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>To configure Active Directory SSO, you will need to have the following:</source>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>You <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>must<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> use Windows Server 2008 Enterprise SP1 (32-bit) with KTPass version 6.0.6001.18000, and client machines must be running Windows Vista or WIndows 7 with Cisco NAC Agent version 4.7.1.15, 4.8.0.32, or 4.9.0.33 installed, to ensure you are able to maintain FIPS 140-2 compliance and support AD SSO.</source>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>The number of AD servers (domain controllers) to be configured.</source>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>Typically, the CAS will correspond to one AD server, but you can also associate the CAS with an entire AD domain.</source>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>The Windows 2000 or Windows 2003 server installation CD for the AD server.</source>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>This is needed to install support tools for the KTPass command.</source>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>The KTPass command is required to be run only on the AD server (domain controller) to which the CAS is logging in.</source>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>The appropriate version of <bpt id="1" ttag="b"/>ktpass.exe<ept id="1" tclosing="true" ttag="b" tid_missing="true"/> installed.</source>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>(To determine the correct version of KTPass to support your Cisco NAC Appliance/AD SSO deployment, see <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color_Italic" FntIdx="8" tattr_endtooltip="FONT CHANGE"/><ph id="1" tautoclosing="true" ttag="pla" ttype="HYPERTEXT MARKER:"/>Support Information for Cisco NAC Appliance Agents, Release 4.5 and Later<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.)</source>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>The IP address of each AD server (to configure Unauthenticated role traffic policies).</source>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>You will need to allow traffic on the CAS for every AD server that is in charge of that domain.</source>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>For example, if users can log into multiple AD servers in the domain, you should allow traffic to all the multiple AD servers for the Unauthenticated role.</source>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>In OOB deployments, ICMP (ping) is used to find the ﾒclosest AD serverﾓ by the workstation, and <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>must<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> work to all AD servers referenced in sites and services for the Authentication VLAN(s), or all AD servers in the domain if sites and services has not been set up.</source>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>If setting up a connection between the CAS and a single AD server, the FQDN of the Active Directory server that the CAS logs into (for CAS configuration).</source>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>DNS server settings correctly configured on the CAS <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>(under Device Management &gt; CCA Servers &gt; Manage [CAS_IP] &gt; Network &gt; DNS<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>) to resolve the FQDN for the AD server on the CAS.</source>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>The date and time of the CAM, CAS, and AD server synchronized within 5 minutes of each other.</source>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>The time on the AD server and the CAS must be synchronized to not more than 300 seconds clock skew (Kerberos is sensitive to time).</source>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>The Active Directory Domain Name in Kerberos format (Windows 2000 and above).</source>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>This is needed for both CAS configuration and CLI configuration of the AD server.</source>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>The host principal name in the KTPass command (i.e. ﾒ&lt;AD_DomainServer&gt;ﾓ) must exactly match the case of the ﾒFull computer nameﾓ of the AD server (under <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Control Panel &gt; System &gt; Computer Name | Full computer name<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.) See <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="61133: 3H_Head3: Run ktpass.exe Command" XRefString="Run the ktpass.exe Command, page 8-22"/> for details.</source>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>Client systems must already have the Agent installed.</source>
+      </trans-unit>
+      <trans-unit id="78">
+        <source>Refer to the ﾒDistributing the Agentﾓ chapter of the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color_Italic" FntIdx="8" tattr_endtooltip="FONT CHANGE"/><ph id="2" tautoclosing="true" ttag="pla" ttype="HYPERTEXT MARKER:"/>Cisco NAC Appliance - Clean Access Manager Configuration Guide, Release 4.9<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> for additional information on Agent distribution and installation.</source>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>Configuration Step Summary</source>
+      </trans-unit>
+      <trans-unit id="80">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="94725: 2H_Head2: Add Active Directory SSO Auth Server" XRefString="Add Active Directory SSO Auth Server, page 8-6"/>.</source>
+      </trans-unit>
+      <trans-unit id="81">
+        <source>On the CAM, add a new auth server of type Active Directory SSO and specify a default role for users.</source>
+      </trans-unit>
+      <trans-unit id="82">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="56726: 2H_Head2: Configure Traffic Policies for Unauthenticated Role" XRefString="Configure Traffic Policies for Unauthenticated Role, page 8-7"/>.</source>
+      </trans-unit>
+      <trans-unit id="83">
+        <source>Open ports on the CAS to allow client authentication traffic to pass through the CAS to/from the Active Directory server.</source>
+      </trans-unit>
+      <trans-unit id="84">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="65942: 2H_Head2: Configure AD SSO on the CAS" XRefString="Configure AD SSO on the CAS, page 8-11"/>.</source>
+      </trans-unit>
+      <trans-unit id="85">
+        <source>From the CAS management pages, configure the Active Directory server settings, CAS user account settings, and auth server settings for the CAS corresponding to the domain of the users.</source>
+      </trans-unit>
+      <trans-unit id="86">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="33967: 2H_Head2: Configure Your Active Directory Server" XRefString="Configuring a CAS User on the AD Server for AD SSO, page 8-14"/>.</source>
+      </trans-unit>
+      <trans-unit id="87">
+        <source>Add a CAS account on the Windows 2000/2003/2008 AD server with which the CAS will communicate, and configure encryption parameters to support the Linux operating system of the CAS.</source>
+      </trans-unit>
+      <trans-unit id="88">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="47474: 2H_Head2: Enable Agent-Based Windows Single Sign-On with Active Directory (Kerberos)" XRefString="Enable Agent-Based Windows Single Sign-On with Active Directory (Kerberos), page 8-40"/>.</source>
+      </trans-unit>
+      <trans-unit id="89">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="82762: 1H_Head1: Confirm AD SSO Service Is Started" XRefString="Confirm Active AD SSO Service, page 8-41"/>.</source>
+      </trans-unit>
+      <trans-unit id="90">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="50706: 1H_Head1: Enable GPO Updates" XRefString="Enable GPO Updates, page 8-41"/>.</source>
+      </trans-unit>
+      <trans-unit id="91">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="30703: 1H_Head1: Enabling a Log-In or Log-Off Script (Optional)" XRefString="Enabling a Login Script (Optional), page 8-43"/>.</source>
+      </trans-unit>
+      <trans-unit id="92">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="37342: 2H_Head2: Script Placement on the Domain Controller" XRefString="Add LDAP Lookup Server for Active Directory SSO (Optional), page 8-46"/>.</source>
+      </trans-unit>
+      <trans-unit id="93">
+        <source>Optionally configure LDAP lookup servers to map users to multiple roles after authentication.</source>
+      </trans-unit>
+      <trans-unit id="94">
+        <source>Refer to <ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="73308: 1H_Head1: Troubleshooting" XRefString="Troubleshooting, page 8-48"/> if necessary.</source>
+      </trans-unit>
+      <trans-unit id="95">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Add Active Directory SSO Auth Server</source>
+      </trans-unit>
+      <trans-unit id="96">
+        <source>To create an AD SSO auth server on the CAM, and map the AD server to a default role for users and a secondary LDAP lookup server (if configured), follow these steps:</source>
+      </trans-unit>
+      <trans-unit id="97">
+        <source>Go to <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>User Management &gt; Auth Servers &gt; New<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="98">
+        <source>From the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Authentication Type<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> dropdown menu, choose<bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/> Active Directory SSO<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="99">
+        <source>Active Directory SSO</source>
+      </trans-unit>
+      <trans-unit id="100">
+        <source>Choose a <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Default Role <ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>from the dropdown menu.</source>
+      </trans-unit>
+      <trans-unit id="101">
+        <source>If no additional lookup is required to map users to roles, all users performing authentication via Active Directory single sign-on will be assigned to the default role.</source>
+      </trans-unit>
+      <trans-unit id="102">
+        <source>Posture assessment/Nessus Scanning should be configured for this role.</source>
+      </trans-unit>
+      <trans-unit id="103">
+        <source>Type a <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Provider Name<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> that will identify the AD SSO auth server on the list of authentication providers.</source>
+      </trans-unit>
+      <trans-unit id="104">
+        <source>Do not use spaces or special characters in the name.</source>
+      </trans-unit>
+      <trans-unit id="105">
+        <source>You can leave the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>LDAP Lookup Server <ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>dropdown menu at the default NONE setting if you plan to assign your users to one default role, and no additional lookup is required.</source>
+      </trans-unit>
+      <trans-unit id="106">
+        <source>If you plan on mapping Windows domain SSO users to multiple roles, the CAM will need to perform a second-level lookup using the LDAP Lookup server you configure as described in <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="96268: 2H_Head2: Adding LDAP Lookup Servers for Windows Domain SSO" XRefString="Add LDAP Lookup Server for Active Directory SSO (Optional), page 8-46"/>.</source>
+      </trans-unit>
+      <trans-unit id="107">
+        <source>In this case, select the LDAP Lookup server you have already configured from the <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>LDAP Lookup Server <ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>dropdown.</source>
+      </trans-unit>
+      <trans-unit id="108">
+        <source>Click <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Add Server<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="12" tattr_endtooltip="FONT CHANGE"/>.<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/></source>
+      </trans-unit>
+      <trans-unit id="109">
+        <source>For AD SSO users, the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Online Users<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> and <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Certified Devices<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> pages will display <bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/>AD_SSO <ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/>in the <bpt id="4" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Provider<ept id="4" tclosing="true" ttag="fmt" tid_missing="true"/> field and both the username and domain of the user (for example,<bpt id="5" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/> user1@domain.name.com<ept id="5" tclosing="true" ttag="fmt" tid_missing="true"/>.) in the <bpt id="6" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>User/User Name<ept id="6" tclosing="true" ttag="fmt" tid_missing="true"/> field.</source>
+      </trans-unit>
+      <trans-unit id="110">
+        <source>The <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Auth Test<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> feature cannot be used to test SSO Auth providers (e.g. AD SSO or VPN SSO).</source>
+      </trans-unit>
+      <trans-unit id="111">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Configure Traffic Policies for Unauthenticated Role</source>
+      </trans-unit>
+      <trans-unit id="112">
+        <source>A user in the domain logging into his/her Windows machine sends credentials to the root domain controller to perform the first portion of Kerberos ticket exchange (as shown in <ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="56508: FC_FigureCap: Figure\x11 8-12 General Process for Kerberos Ticket Exchange" XRefString="Figure 8-1"/>).</source>
+      </trans-unit>
+      <trans-unit id="113">
+        <source>Once the machine receives a Service Ticket, the Agent uses it to validate the client authentication through the CAS.</source>
+      </trans-unit>
+      <trans-unit id="114">
+        <source>Only when the CAS validates the authentication is the user allowed network access, and there is no need for a separate user login through the Agent.</source>
+      </trans-unit>
+      <trans-unit id="115">
+        <source>As <ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="63931: FC_FigureCap: Figure\x11 6-10 Configuring the CAS User Account on the Domain Controller" XRefString="Figure 8-2"/> illustrates, the CAS is configured to read the login credentials of user machines as they authenticate to the Active Directory (AD) server.</source>
+      </trans-unit>
+      <trans-unit id="116">
+        <source>Ports must be opened on the CAS to allow the authentication traffic to pass through the CAS to/from the AD server.</source>
+      </trans-unit>
+      <trans-unit id="117">
+        <source>The administrator can open either TCP or UDP ports, depending on what the AD server uses.</source>
+      </trans-unit>
+      <trans-unit id="118">
+        <source>If AD SSO traffic may include fragmented packets, you might need to enable the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>IP FRAGMENT<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> option according to the guidelines in the <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color" FntIdx="7" tattr_endtooltip="FONT CHANGE"/><ph id="2" tautoclosing="true" ttag="pla" ttype="HYPERTEXT MARKER:"/>Add IP-Based Policy<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> section of the<bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color_Italic" FntIdx="8" tattr_endtooltip="FONT CHANGE"/><ph id="3" tautoclosing="true" ttag="pla" ttype="HYPERTEXT MARKER:"/>Cisco NAC Appliance - Clean Access Manager Configuration Guide, Release 4.9<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="119">
+        <source>Configure traffic policies for the Unauthenticated role to allow these ports on the trusted-side IP address of the AD server.</source>
+      </trans-unit>
+      <trans-unit id="120">
+        <source>This allows the client to authenticate to the AD server and for GPO and scripts to run.</source>
+      </trans-unit>
+      <trans-unit id="121">
+        <source>Cisco recommends that you install Cisco Security Agent (CSA) on the AD server/DMZ AD server.</source>
+      </trans-unit>
+      <trans-unit id="122">
+        <source>TCP/UDP Ports Supporting AD SSO Implementation</source>
+      </trans-unit>
+      <trans-unit id="123">
+        <source>The following list is an initial comprehensive list of ports to open when implementing AD SSO in your Cisco NAC Appliance network.</source>
+      </trans-unit>
+      <trans-unit id="124">
+        <source>You may be required to open other ports to support AD services not included in this list.</source>
+      </trans-unit>
+      <trans-unit id="125">
+        <source>Recommended Ports to Support AD SSO</source>
+      </trans-unit>
+      <trans-unit id="126">
+        <source>Action</source>
+      </trans-unit>
+      <trans-unit id="127">
+        <source>Protocol</source>
+      </trans-unit>
+      <trans-unit id="128">
+        <source>Untrusted</source>
+      </trans-unit>
+      <trans-unit id="129">
+        <source>Trusted</source>
+      </trans-unit>
+      <trans-unit id="130">
+        <source>Purpose/Description</source>
+      </trans-unit>
+      <trans-unit id="131">
+        <source>Recommended TCP Ports</source>
+      </trans-unit>
+      <trans-unit id="132">
+        <source>Allow</source>
+      </trans-unit>
+      <trans-unit id="133">
+        <source>TCP</source>
+      </trans-unit>
+      <trans-unit id="134">
+        <source>*:*</source>
+      </trans-unit>
+      <trans-unit id="135">
+        <source>IP address DC Port 88</source>
+      </trans-unit>
+      <trans-unit id="136">
+        <source>Kerberos</source>
+      </trans-unit>
+      <trans-unit id="137">
+        <source>Allow</source>
+      </trans-unit>
+      <trans-unit id="138">
+        <source>TCP</source>
+      </trans-unit>
+      <trans-unit id="139">
+        <source>*:*</source>
+      </trans-unit>
+      <trans-unit id="140">
+        <source>IP address DC Port 135</source>
+      </trans-unit>
+      <trans-unit id="141">
+        <source>EpMap</source>
+      </trans-unit>
+      <trans-unit id="142">
+        <source>Allow</source>
+      </trans-unit>
+      <trans-unit id="143">
+        <source>TCP</source>
+      </trans-unit>
+      <trans-unit id="144">
+        <source>*:*</source>
+      </trans-unit>
+      <trans-unit id="145">
+        <source>IP address DC Port 139</source>
+      </trans-unit>
+      <trans-unit id="146">
+        <source>Netbios-ssn</source>
+      </trans-unit>
+      <trans-unit id="147">
+        <source>Allow</source>
+      </trans-unit>
+      <trans-unit id="148">
+        <source>TCP</source>
+      </trans-unit>
+      <trans-unit id="149">
+        <source>*:*</source>
+      </trans-unit>
+      <trans-unit id="150">
+        <source>When using LDAP to connect to the AD server, Cisco recommends using TCP/UDP port 3268 (the default Microsoft Global Catalog port) instead of the default port 389.</source>
+      </trans-unit>
+      <trans-unit id="151">
+        <source>This allows for a more efficient search of all directory partitions in both single and multi domain environments.</source>
+      </trans-unit>
+      <trans-unit id="152">
+        <source>IP address DC Port 389</source>
+      </trans-unit>
+      <trans-unit id="153">
+        <source>LDAP</source>
+      </trans-unit>
+      <trans-unit id="154">
+        <source>Allow</source>
+      </trans-unit>
+      <trans-unit id="155">
+        <source>TCP</source>
+      </trans-unit>
+      <trans-unit id="156">
+        <source>*:*</source>
+      </trans-unit>
+      <trans-unit id="157">
+        <source>IP address DC Port 445</source>
+      </trans-unit>
+      <trans-unit id="158">
+        <source>MS-DC/SMB</source>
+      </trans-unit>
+      <trans-unit id="159">
+        <source>Allow</source>
+      </trans-unit>
+      <trans-unit id="160">
+        <source>TCP</source>
+      </trans-unit>
+      <trans-unit id="161">
+        <source>*:*</source>
+      </trans-unit>
+      <trans-unit id="162">
+        <source>IP address DC Port 636</source>
+      </trans-unit>
+      <trans-unit id="163">
+        <source>LDAP with SSL</source>
+      </trans-unit>
+      <trans-unit id="164">
+        <source>Allow</source>
+      </trans-unit>
+      <trans-unit id="165">
+        <source>TCP</source>
+      </trans-unit>
+      <trans-unit id="166">
+        <source>*:*</source>
+      </trans-unit>
+      <trans-unit id="167">
+        <source>IP address DC Port 1025</source>
+      </trans-unit>
+      <trans-unit id="168">
+        <source>MS-AD</source>
+      </trans-unit>
+      <trans-unit id="169">
+        <source>Allow</source>
+      </trans-unit>
+      <trans-unit id="170">
+        <source>TCP</source>
+      </trans-unit>
+      <trans-unit id="171">
+        <source>*:*</source>
+      </trans-unit>
+      <trans-unit id="172">
+        <source>IP address DC Port 1026</source>
+      </trans-unit>
+      <trans-unit id="173">
+        <source>MS-AD</source>
+      </trans-unit>
+      <trans-unit id="174">
+        <source>Recommended UDP Ports</source>
+      </trans-unit>
+      <trans-unit id="175">
+        <source>Allow</source>
+      </trans-unit>
+      <trans-unit id="176">
+        <source>UDP</source>
+      </trans-unit>
+      <trans-unit id="177">
+        <source>*:*</source>
+      </trans-unit>
+      <trans-unit id="178">
+        <source>IP address DC Port 88</source>
+      </trans-unit>
+      <trans-unit id="179">
+        <source>Kerberos</source>
+      </trans-unit>
+      <trans-unit id="180">
+        <source>Allow</source>
+      </trans-unit>
+      <trans-unit id="181">
+        <source>UDP</source>
+      </trans-unit>
+      <trans-unit id="182">
+        <source>*:*</source>
+      </trans-unit>
+      <trans-unit id="183">
+        <source>IP address DC Port 123</source>
+      </trans-unit>
+      <trans-unit id="184">
+        <source>NTP</source>
+      </trans-unit>
+      <trans-unit id="185">
+        <source>Allow</source>
+      </trans-unit>
+      <trans-unit id="186">
+        <source>UDP</source>
+      </trans-unit>
+      <trans-unit id="187">
+        <source>*:*</source>
+      </trans-unit>
+      <trans-unit id="188">
+        <source>IP address DC Port 137</source>
+      </trans-unit>
+      <trans-unit id="189">
+        <source>Netbios-ns</source>
+      </trans-unit>
+      <trans-unit id="190">
+        <source>Allow</source>
+      </trans-unit>
+      <trans-unit id="191">
+        <source>UDP</source>
+      </trans-unit>
+      <trans-unit id="192">
+        <source>*:*</source>
+      </trans-unit>
+      <trans-unit id="193">
+        <source>IP address DC Port 389</source>
+      </trans-unit>
+      <trans-unit id="194">
+        <source>LDAP</source>
+      </trans-unit>
+      <trans-unit id="195">
+        <source>Allow</source>
+      </trans-unit>
+      <trans-unit id="196">
+        <source>UDP</source>
+      </trans-unit>
+      <trans-unit id="197">
+        <source>*:*</source>
+      </trans-unit>
+      <trans-unit id="198">
+        <source>IP address DC Port 636</source>
+      </trans-unit>
+      <trans-unit id="199">
+        <source>LDAP with SSL</source>
+      </trans-unit>
+      <trans-unit id="200">
+        <source>Other Ports</source>
+      </trans-unit>
+      <trans-unit id="201">
+        <source>Allow</source>
+      </trans-unit>
+      <trans-unit id="202">
+        <source>ICMP request</source>
+      </trans-unit>
+      <trans-unit id="203">
+        <source>*:*</source>
+      </trans-unit>
+      <trans-unit id="204">
+        <source>IP address DC</source>
+      </trans-unit>
+      <trans-unit id="205">
+        <source>Ping</source>
+      </trans-unit>
+      <trans-unit id="206">
+        <source>Allow</source>
+      </trans-unit>
+      <trans-unit id="207">
+        <source>IP fragments</source>
+      </trans-unit>
+      <trans-unit id="208">
+        <source>*:*</source>
+      </trans-unit>
+      <trans-unit id="209">
+        <source>IP address DC</source>
+      </trans-unit>
+      <trans-unit id="210">
+        <source>IP packet fragments</source>
+      </trans-unit>
+      <trans-unit id="211">
+        <source>Typically, the LDAP protocol uses plain text when sending traffic on TCP/UDP port 389.</source>
+      </trans-unit>
+      <trans-unit id="212">
+        <source>If encryption is required for LDAP communications, use TCP/UDP port 636 (LDAP with SSL encryption) instead.</source>
+      </trans-unit>
+      <trans-unit id="213">
+        <source>When using LDAP to connect to the AD server, Cisco recommends using TCP/UDP port 3268 (the default Microsoft Global Catalog port) instead of the default port 389.</source>
+      </trans-unit>
+      <trans-unit id="214">
+        <source>This allows for a more efficient search of <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>all<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> directory partitions in both single and multi domain environments.</source>
+      </trans-unit>
+      <trans-unit id="215">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Add Policy for AD Server</source>
+      </trans-unit>
+      <trans-unit id="216">
+        <source>To Add Policies for AD Server, follow these steps:</source>
+      </trans-unit>
+      <trans-unit id="217">
+        <source>Go to<bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/> User Management &gt; User Roles &gt; List of Roles &gt; Policies [Unauthenticated Role]<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="218">
+        <source>This brings up the <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>IP<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> traffic policy form for the Unauthenticated Role.</source>
+      </trans-unit>
+      <trans-unit id="219">
+        <source>With the direction dropdown set for Untrusted -&gt; Trusted, click the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Add Policy<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> link.</source>
+      </trans-unit>
+      <trans-unit id="220">
+        <source>The Add Policy form appears (<ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="10216: FC_FigureCap: Figure\x11 6-12 Configure Traffic Policy for CAS to DC" XRefString="Figure 8-4"/>).</source>
+      </trans-unit>
+      <trans-unit id="221">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Configure Traffic Policy for CAS to AD Server</source>
+      </trans-unit>
+      <trans-unit id="222">
+        <source>Leave the following fields at their defaults:</source>
+      </trans-unit>
+      <trans-unit id="223">
+        <source><bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Action<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>: Allow</source>
+      </trans-unit>
+      <trans-unit id="224">
+        <source><bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>State<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>: Enabled</source>
+      </trans-unit>
+      <trans-unit id="225">
+        <source><bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Category<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>: IP</source>
+      </trans-unit>
+      <trans-unit id="226">
+        <source><bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Protocol<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>: TCP 6</source>
+      </trans-unit>
+      <trans-unit id="227">
+        <source><bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Untrusted (IP/Mask:Port)<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>: * / * / *</source>
+      </trans-unit>
+      <trans-unit id="228">
+        <source>For <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Trusted (IP/Mask:Port)<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>, enter:</source>
+      </trans-unit>
+      <trans-unit id="229">
+        <source>The IP address of the Active Directory server</source>
+      </trans-unit>
+      <trans-unit id="230">
+        <source>255.255.255.255 as the subnet mask (for just the AD server)</source>
+      </trans-unit>
+      <trans-unit id="231">
+        <source>Ports (using commas to separate port numbers)</source>
+      </trans-unit>
+      <trans-unit id="232">
+        <source>For example: <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/>10.201.152.12 / 255.255.255.255 / 88,135,1025,1026,3268<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/></source>
+      </trans-unit>
+      <trans-unit id="233">
+        <source>When using LDAP to connect to the AD server, Cisco recommends using TCP/UDP port 3268 (the default Microsoft Global Catalog port) instead of the default port 389.</source>
+      </trans-unit>
+      <trans-unit id="234">
+        <source>This allows for a more efficient search of <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>all<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> directory partitions in both single and multi domain environments.</source>
+      </trans-unit>
+      <trans-unit id="235">
+        <source>Type an optional <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Description<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="236">
+        <source>Click <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Add Policy<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="237">
+        <source>When testing, Cisco recommends opening complete access to the AD server/DC first, then restricting ports as outlined above once AD SSO is working.</source>
+      </trans-unit>
+      <trans-unit id="238">
+        <source>When logging into the client PC, make sure to log into the domain using Windows domain credentials (not Local Account).</source>
+      </trans-unit>
+      <trans-unit id="239">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Configure AD SSO on the CAS</source>
+      </trans-unit>
+      <trans-unit id="240">
+        <source>To configure the CAS corresponding to the domain of the users, follow these steps:</source>
+      </trans-unit>
+      <trans-unit id="241">
+        <source>Go to <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Device Management &gt; CCA Servers &gt; Manage [CAS_IP] &gt; Authentication &gt; Windows Auth &gt; Active Directory SSO<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="242">
+        <source>Active Directory SSO</source>
+      </trans-unit>
+      <trans-unit id="243">
+        <source>Do <bpt id="1" ttag="i"/>not<ept id="1" tclosing="true" ttag="i" tid_missing="true"/> click the checkbox for <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Enable Agent-Based Windows Single Sign-On with Active Directory (Kerberos)<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> yet.</source>
+      </trans-unit>
+      <trans-unit id="244">
+        <source>The service should only be enabled after you <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="33967: 2H_Head2: Configure Your Active Directory Server" XRefString="Configuring a CAS User on the AD Server for AD SSO, page 8-14"/>.</source>
+      </trans-unit>
+      <trans-unit id="245">
+        <source>You can configure the other fields of this page and click <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Update<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>, as described below.</source>
+      </trans-unit>
+      <trans-unit id="246">
+        <source>Until you perform the configuration on the AD server, the following message will appear:</source>
+      </trans-unit>
+      <trans-unit id="247">
+        <source>Error: Could not start the SSO service.</source>
+      </trans-unit>
+      <trans-unit id="248">
+        <source>Please check the configuration.</source>
+      </trans-unit>
+      <trans-unit id="249">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>For <bpt id="1" ttag="b"/>Account for CAS on<ept id="1" tclosing="true" ttag="b" tid_missing="true"/>, specify whether the CAS account resides on a <bpt id="2" ttag="b"/>Single Active Directory Server<ept id="2" tclosing="true" ttag="b" tid_missing="true"/> or multiple servers within a <bpt id="3" ttag="b"/>Domain (All Active Directory Servers)<ept id="3" tclosing="true" ttag="b" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="250">
+        <source>Make sure the CAS can resolve the name you type in the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Active Directory Server (FQDN)<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> field via DNS.</source>
+      </trans-unit>
+      <trans-unit id="251">
+        <source>A DNS server must be correctly configured on the CAS (under <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Device Management &gt; CCA Servers &gt; Manage [CAS_IP] &gt; Network &gt; DNS) <ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>so that the CAS can resolve the FQDN for the AD server.</source>
+      </trans-unit>
+      <trans-unit id="252">
+        <source>If you specify that the CAS account resides on a <bpt id="1" ttag="b"/>Single Active Directory Server<ept id="1" tclosing="true" ttag="b" tid_missing="true"/>, enter the fully qualified domain name of the AD server in the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Active Directory Server (FQDN) field (for example, <ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="ExPlain" FntIdx="14" tattr_endtooltip="FONT CHANGE"/>cca-eng-test.cca-eng-domain.cisco.com<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" Family="`Times'" Size="10.0 pt" FntIdx="15" tattr_endtooltip="FONT CHANGE"/>)<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="253">
+        <source>This field cannot be an IP address, and must exactly match CASE-BY-CASE the name of the AD server it appears under <bpt id="4" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Control Panel &gt; System &gt; Computer Name | Full computer name <ept id="4" tclosing="true" ttag="fmt" tid_missing="true"/>on the AD server (see <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="60982: FC_FigureCap: Figure\x11 8-6 Control Panel \&gt; System \&gt; Computer Name | Full computer name" XRefString="Figure 8-7"/>).</source>
+      </trans-unit>
+      <trans-unit id="254">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>AD SSO—Single Active Directory Server</source>
+      </trans-unit>
+      <trans-unit id="255">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Control Panel &gt; System &gt; Computer Name | Full computer name</source>
+      </trans-unit>
+      <trans-unit id="256">
+        <source>If you select the <bpt id="1" ttag="b"/>Domain (All Active Directory Servers)<ept id="1" tclosing="true" ttag="b" tid_missing="true"/> option, the <bpt id="2" ttag="b"/>Active Directory Server (FQDN)<ept id="2" tclosing="true" ttag="b" tid_missing="true"/> field disappears (<ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="58007: FC_FigureCap: Figure\x11 10-7 Active Directory SSO\xd1 Domain (All Active Directory Servers)" XRefString="Figure 8-8"/>).</source>
+      </trans-unit>
+      <trans-unit id="257">
+        <source>DNS automatically resolves the Active Directory domain specified to the primary domain controller (DC) and, if the primary DC becomes inaccessible, the secondary DC.</source>
+      </trans-unit>
+      <trans-unit id="258">
+        <source>In this case, you specify only the domain and not the full FQDN of the AD server.</source>
+      </trans-unit>
+      <trans-unit id="259">
+        <source>Note also that the KTPass command syntax also changes based on whether you specify the <bpt id="3" ttag="b"/>Single Active Directory Server<ept id="3" tclosing="true" ttag="b" tid_missing="true"/> or <bpt id="4" ttag="b"/>Domain (All Active Directory Servers)<ept id="4" tclosing="true" ttag="b" tid_missing="true"/> option.</source>
+      </trans-unit>
+      <trans-unit id="260">
+        <source>For details, see <ph id="3" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="61133: 3H_Head3: Run ktpass.exe Command" XRefString="Run the ktpass.exe Command, page 8-22"/>.</source>
+      </trans-unit>
+      <trans-unit id="261">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>AD SSO—Domain (All Active Directory Servers)</source>
+      </trans-unit>
+      <trans-unit id="262">
+        <source>For <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Active Directory Domain<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>, type the name of the domain for the KDC/Active Directory server <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>in UPPER CASE <ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>(see <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="60982: FC_FigureCap: Figure\x11 8-6 Control Panel \&gt; System \&gt; Computer Name | Full computer name" XRefString="Figure 8-7"/>).</source>
+      </trans-unit>
+      <trans-unit id="263">
+        <source>The ﾒActive Directory Domainﾓ is equivalent to ﾒKerberos Realmﾓ.</source>
+      </trans-unit>
+      <trans-unit id="264">
+        <source>For example:</source>
+      </trans-unit>
+      <trans-unit id="265">
+        <source>For <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Account Name for CAS<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>, type the name of the Clean Access Server user you have created on the AD server, for example: <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/>casuser<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="266">
+        <source>The CAS user account allows the CAS to log into the AD server.</source>
+      </trans-unit>
+      <trans-unit id="267">
+        <source>For <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Account Password for CAS<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>, type the password for the CAS user on the AD server.</source>
+      </trans-unit>
+      <trans-unit id="268">
+        <source>The password is case sensitive.</source>
+      </trans-unit>
+      <trans-unit id="269">
+        <source>From the CAS side, there is no limitation on the number of characters, and standard characters are allowed.</source>
+      </trans-unit>
+      <trans-unit id="270">
+        <source>Since this password is based of the mapping created using the KTPass command, observe any limitations from the Windows server side (e.g. password policies).</source>
+      </trans-unit>
+      <trans-unit id="271">
+        <source>From the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Active Directory SSO Auth Server<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> dropdown, choose the Active Directory SSO Server you configured on the CAM.</source>
+      </trans-unit>
+      <trans-unit id="272">
+        <source>This field maps the auth provider created on the CAM to the CAS (along with the Default Role, and secondary LDAP Lookup server, if configured).</source>
+      </trans-unit>
+      <trans-unit id="273">
+        <source>Click <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Update<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="274">
+        <source>If the Active Directory server is not reachable from the CAS at the time of CAS startup, AD SSO service is not started.</source>
+      </trans-unit>
+      <trans-unit id="275">
+        <source>If this occurs, the administrator must go to <bpt id="1" ttag="b"/>Device Management &gt; CCA Servers &gt; Manage [CAS_IP] &gt; Authentication &gt; Windows Auth &gt; Active Directory SSO <ept id="1" tclosing="true" ttag="b" tid_missing="true"/>and click the <bpt id="2" ttag="b"/>Update <ept id="2" tclosing="true" ttag="b" tid_missing="true"/>button to restart the AD SSO service.</source>
+      </trans-unit>
+      <trans-unit id="276">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Configuring a CAS User on the AD Server for AD SSO</source>
+      </trans-unit>
+      <trans-unit id="277">
+        <source>You can choose to set up AD SSO with or without running KTPass.</source>
+      </trans-unit>
+      <trans-unit id="278">
+        <source>In either case you must create the CAS user and then set up encryption according to the following sections:</source>
+      </trans-unit>
+      <trans-unit id="279">
+        <source>Specify encryption using one of the following:</source>
+      </trans-unit>
+      <trans-unit id="280">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Create the CAS User</source>
+      </trans-unit>
+      <trans-unit id="281">
+        <source>To create a CAS user, follow these steps:</source>
+      </trans-unit>
+      <trans-unit id="282">
+        <source>Login as the administrator on the Active Directory server machine.</source>
+      </trans-unit>
+      <trans-unit id="283">
+        <source>Open the Active Directory Management console from <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>All Programs &gt; Admin Tools &gt; Active Directory Users and Computers<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="284">
+        <source>From the left-hand pane of the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Active Directory Users and Computers<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> window, navigate to the domain for which you want to configure the CAS, for example, <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>cca-eng-domain.cisco.com<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="12" tattr_endtooltip="FONT CHANGE"/>.<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/></source>
+      </trans-unit>
+      <trans-unit id="285">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Create New User on AD Server</source>
+      </trans-unit>
+      <trans-unit id="286">
+        <source>Right-click the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Users<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> folder.</source>
+      </trans-unit>
+      <trans-unit id="287">
+        <source>In the menu that appears, select <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>New &gt; User <ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>(<ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="88105: FC_FigureCap: Figure\x11 8-16 1.gif" XRefString="Figure 8-9"/>).</source>
+      </trans-unit>
+      <trans-unit id="288">
+        <source>In the first <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>New Object - User<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> dialog(<ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="92157: FC_FigureCap: Figure\x11 8-17 Configure the CAS User" XRefString="Figure 8-10"/>), configure the fields for the Clean Access Server user as follows:</source>
+      </trans-unit>
+      <trans-unit id="289">
+        <source>Enter the name you want the CAS to use in the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>First name<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> field, for example: <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/>casuser<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="290">
+        <source>This automatically populates the <bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Full name<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/> and <bpt id="4" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>User logon name<ept id="4" tclosing="true" ttag="fmt" tid_missing="true"/> fields.</source>
+      </trans-unit>
+      <trans-unit id="291">
+        <source>The <bpt id="5" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>User logon name<ept id="5" tclosing="true" ttag="fmt" tid_missing="true"/> must be one word.</source>
+      </trans-unit>
+      <trans-unit id="292">
+        <source>Make sure First name= Full name = User name for the user account.</source>
+      </trans-unit>
+      <trans-unit id="293">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Configure the CAS User</source>
+      </trans-unit>
+      <trans-unit id="294">
+        <source>Click <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Next<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> to bring up the second <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>New Object - User<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> dialog.</source>
+      </trans-unit>
+      <trans-unit id="295">
+        <source>In the second <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>New Object - User<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> dialog (<ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="92567: FC_FigureCap: Figure\x11 8-18 3.gif" XRefString="Figure 8-11"/>), configure the following:</source>
+      </trans-unit>
+      <trans-unit id="296">
+        <source>Type and retype the password for the CAS user in the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Password<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> and <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Confirm Password<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> fields.</source>
+      </trans-unit>
+      <trans-unit id="297">
+        <source>Make sure the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Password never expires<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> option is CHECKED.</source>
+      </trans-unit>
+      <trans-unit id="298">
+        <source>Make sure the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>User must check password at next login<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> option is UNCHECKED.</source>
+      </trans-unit>
+      <trans-unit id="299">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Configure Password for CAS User</source>
+      </trans-unit>
+      <trans-unit id="300">
+        <source>Click <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Next<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> to bring up the confirmation <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>New Object - User<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> dialog (<ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="60562: FC_FigureCap: Figure\x11 8-19 4.gif" XRefString="Figure 8-12"/>).</source>
+      </trans-unit>
+      <trans-unit id="301">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Confirm CAS User Properties</source>
+      </trans-unit>
+      <trans-unit id="302">
+        <source>Confirm the properties for the CAS user and click <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Finish<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> to conclude, or click <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Back<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> if you need to make corrections.</source>
+      </trans-unit>
+      <trans-unit id="303">
+        <source>The CAS user is successfully added to the AD domain (<ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="89417: FC_FigureCap: Figure\x11 8-20 CAS User is Added" XRefString="Figure 8-13"/>).</source>
+      </trans-unit>
+      <trans-unit id="304">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>CAS User is Added</source>
+      </trans-unit>
+      <trans-unit id="305">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Install and Run KTPass</source>
+      </trans-unit>
+      <trans-unit id="306">
+        <source>This section addresses the following two topics:</source>
+      </trans-unit>
+      <trans-unit id="307">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Install the Correct Version of ktpass.exe to Support Your AD SSO Deployment</source>
+      </trans-unit>
+      <trans-unit id="308">
+        <source>The <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>ktpass.exe<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> tool is available as part of the Windows 2000/2003/2008 Server support tools on the Microsoft support site: <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color" FntIdx="7" tattr_endtooltip="FONT CHANGE"/><ph id="2" tautoclosing="true" ttag="pla" ttype="HYPERTEXT MARKER:"/>http://support.microsoft.com/<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="309">
+        <source>The KTPass executable is not installed by default in Windows Server 2000/2003.</source>
+      </trans-unit>
+      <trans-unit id="310">
+        <source>Therefore, if you are configuring in a Windows Server 2000/2003 environment, you must retrieve the executable from the Microsoft Support site prior to installation.</source>
+      </trans-unit>
+      <trans-unit id="311">
+        <source>To determine the correct version of <bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>ktpass.exe<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/> to support your Cisco NAC Appliance/AD SSO deployment, see <bpt id="4" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color_Italic" FntIdx="8" tattr_endtooltip="FONT CHANGE"/><ph id="3" tautoclosing="true" ttag="pla" ttype="HYPERTEXT MARKER:"/>Support Information for Cisco NAC Appliance Agents, Release 4.5 and Later<ept id="4" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="312">
+        <source>To ensure successful KTPass operation, obtain and install the correct version of <bpt id="1" ttag="b"/>ktpass.exe<ept id="1" tclosing="true" ttag="b" tid_missing="true"/> according to the AD SSO support table in <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color_Italic" FntIdx="8" tattr_endtooltip="FONT CHANGE"/><ph id="2" tautoclosing="true" ttag="pla" ttype="HYPERTEXT MARKER:"/>Support Information for Cisco NAC Appliance Agents, Release 4.5 and Later<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.)</source>
+      </trans-unit>
+      <trans-unit id="313">
+        <source>You <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>must<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> use Windows Server 2008 with KTPass version 6.0.6001.18000, and client machines must be running Windows Vista or Windows 7 with an appropriate version of the Cisco NAC Agent installed, to ensure you are able to maintain FIPS 140-2 compliance and support AD SSO.</source>
+      </trans-unit>
+      <trans-unit id="314">
+        <source>Cisco has tested the following versions of Windows AD Server and KTPass for the purposes of enabling AD SSO for Windows 7 client authentication.</source>
+      </trans-unit>
+      <trans-unit id="315">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Windows AD Server and KTPass Version Compatibility for Windows 7 Clients</source>
+      </trans-unit>
+      <trans-unit id="316">
+        <source>Windows AD Server Version</source>
+      </trans-unit>
+      <trans-unit id="317">
+        <source>KTPass Version</source>
+      </trans-unit>
+      <trans-unit id="318">
+        <source>Window Server 2008 SP2 servers need to perform a Windows Update before running KTPass.</source>
+      </trans-unit>
+      <trans-unit id="319">
+        <source>Make sure Windows Hotfix KB951191 is installed.</source>
+      </trans-unit>
+      <trans-unit id="320">
+        <source>Without this Windows Update, the AD SSO service in the CAS might not start.</source>
+      </trans-unit>
+      <trans-unit id="321">
+        <source>This applies to the KTPass version to be used for Windows 2008 SP2 – 6.0.6002.18005 and for Windows 2008 R2 enterprise it is 6.1.7600.16385.</source>
+      </trans-unit>
+      <trans-unit id="322">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>If the AD system is based on an upgrade from Windows Server 2003, you must raise the domain functionality to Windows Server 2008 level for Cisco NAC appliance to perform SSO on Windows 7 clients.</source>
+      </trans-unit>
+      <trans-unit id="323">
+        <source>Without this you will not be able to automatically login to the Cisco NAC Appliance network.</source>
+      </trans-unit>
+      <trans-unit id="324">
+        <source>Windows 2008 Server SP2 <ph id="51" tautoclosing="true" ttag="pla" ttype="FOOTNOTE MARKER:" REF="51"/><bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="Superscript" FntIdx="1" tattr_endtooltip="FONT CHANGE"/>,<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/></source>
+      </trans-unit>
+      <trans-unit id="325">
+        <source>6.0.6002.18005</source>
+      </trans-unit>
+      <trans-unit id="326">
+        <source>Windows 2008 Server R2 <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Footnote Number" XRefSrcText="65588: TF_TableFootnote: 2. If the AD system is based on an upgrade from Windows Server 2003, you must raise the domain functionality to Windows" XRefString="2"/></source>
+      </trans-unit>
+      <trans-unit id="327">
+        <source>6.1.7600.16385</source>
+      </trans-unit>
+      <trans-unit id="328">
+        <source>Server running at 2003 functional level.</source>
+      </trans-unit>
+      <trans-unit id="329">
+        <source>Windows 2008 Server Enterprise SP1</source>
+      </trans-unit>
+      <trans-unit id="330">
+        <source>6.0.6001.18000</source>
+      </trans-unit>
+      <trans-unit id="331">
+        <source>Windows 2003 Server</source>
+      </trans-unit>
+      <trans-unit id="332">
+        <source>5.2.3790.1830</source>
+      </trans-unit>
+      <trans-unit id="333">
+        <source>To install the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>ktpass.exe<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> tool, follow these steps:</source>
+      </trans-unit>
+      <trans-unit id="334">
+        <source>Open a web browser and navigate to <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color" FntIdx="7" tattr_endtooltip="FONT CHANGE"/><ph id="2" tautoclosing="true" ttag="pla" ttype="HYPERTEXT MARKER:"/>http://support.microsoft.com/<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="335">
+        <source>Locate the Windows Server 2000/2003/2008 Support Tools section(s) of the Microsoft web site.</source>
+      </trans-unit>
+      <trans-unit id="336">
+        <source>Support Tools for Windows 2003 Server</source>
+      </trans-unit>
+      <trans-unit id="337">
+        <source>Click the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Download<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> button.</source>
+      </trans-unit>
+      <trans-unit id="338">
+        <source>Do one of the following:</source>
+      </trans-unit>
+      <trans-unit id="339">
+        <source>Click <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Save<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> to save a copy of the Windows Server 2000/2003/2008 Support Tools Self-Extractor executable on your local machine.</source>
+      </trans-unit>
+      <trans-unit id="340">
+        <source>Click <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Run<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> to begin installing the Windows Server 2000/2003/2008 Support Tools on your local machine.</source>
+      </trans-unit>
+      <trans-unit id="341">
+        <source>When you launch the Self-Extractor or click <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Run<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>, Windows automatically launches the <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Windows Support Tools Setup Wizard<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="342">
+        <source>Installing Windows Server 2003 Support Tools</source>
+      </trans-unit>
+      <trans-unit id="343">
+        <source>Once the installation is complete, open Windows Explorer and navigate to the C:\Program Files\Support Tools directory (or another directory you may have specified in the Setup Wizard session), and verify that the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>ktpass.exe<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> component appears in the file list.</source>
+      </trans-unit>
+      <trans-unit id="344">
+        <source>(See <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="19482: FC_FigureCap: Figure\x11 8-22 7.gif" XRefString="Figure 8-16"/>.)</source>
+      </trans-unit>
+      <trans-unit id="345">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Support Tools—ktpass.exe</source>
+      </trans-unit>
+      <trans-unit id="346">
+        <source>Execute the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>ktpass.exe<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> command according to the directions in the next section, <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section" XRefSrcText="61133: 3H_Head3: Run ktpass.exe Command" XRefString="Run the ktpass.exe Command"/>.</source>
+      </trans-unit>
+      <trans-unit id="347">
+        <source>Do not double-click the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>ktpass.exe<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> command in Windows Explorer; it must be run from a command prompt.</source>
+      </trans-unit>
+      <trans-unit id="348">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Run the ktpass.exe Command</source>
+      </trans-unit>
+      <trans-unit id="349">
+        <source>This section is designed to execute the KTPass executable for non-Windows 7 client machines to perform SSO.</source>
+      </trans-unit>
+      <trans-unit id="350">
+        <source>If you are setting up an environment for Windows 7 client machines, see <ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="47637: 1H_Head1: Configure AD SSO in a Windows 7 Environment" XRefString="Configure AD SSO in a Windows 7 Client Environment, page 8-34"/>.</source>
+      </trans-unit>
+      <trans-unit id="351">
+        <source>When a CAS is configured to interact with a single AD server, you also need to run the KTPass command on the AD server configured in the CAS.</source>
+      </trans-unit>
+      <trans-unit id="352">
+        <source>If you are associating the CAS with an entire AD domain, you must run the KTPass command on any single AD server (not all AD servers) in the AD domain.</source>
+      </trans-unit>
+      <trans-unit id="353">
+        <source>The information in the KTPass command operation is then automatically propagated to the other members of the AD domain.</source>
+      </trans-unit>
+      <trans-unit id="354">
+        <source>See <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color_Italic" FntIdx="8" tattr_endtooltip="FONT CHANGE"/><ph id="1" tautoclosing="true" ttag="pla" ttype="HYPERTEXT MARKER:"/>Support Information for Cisco NAC Appliance Agents, Release 4.5 and Later<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> for a list of the Windows server versions supported.</source>
+      </trans-unit>
+      <trans-unit id="355">
+        <source>When running <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>ktpass.exe<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>, it is very important to observe the following case sensitivity:.</source>
+      </trans-unit>
+      <trans-unit id="356">
+        <source>The computer name that is entered between ﾒ/ﾓ and ﾒ@ﾓ in the command (e.g. ﾒAD_DomainServerﾓ) must exactly match CASE-BY-CASE the name of the AD server as it appears under <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Control Panel &gt; System &gt; Computer Name | Full computer name <ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>on the AD server.</source>
+      </trans-unit>
+      <trans-unit id="357">
+        <source>The realm name that is entered after ﾒ@ﾓ (e.g. ﾒAD_DOMAINﾓ) must always be in <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>UPPER CASE<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="358">
+        <source>You must convert the Domain name that appears under <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Control Panel &gt; System &gt; Computer Name | Domain <ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>on the AD server to UPPER CASE when entering it in the KTPass command.</source>
+      </trans-unit>
+      <trans-unit id="359">
+        <source>(See <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="80585: FC_FigureCap: Figure\x11 8-17 Example of How KTPass is Run\xd1 SAMPLE VALUES" XRefString="Figure 8-19"/>.)</source>
+      </trans-unit>
+      <trans-unit id="360">
+        <source>No warnings should appear after you execute <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>ktpass.exe<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="361">
+        <source>Execution of the command must display the following output:</source>
+      </trans-unit>
+      <trans-unit id="362">
+        <source>Account &lt;CAS user&gt; has been set for DES-only encryption</source>
+      </trans-unit>
+      <trans-unit id="363">
+        <source>To run <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>ktpass.exe<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> on a non-Windows 7 client machine:</source>
+      </trans-unit>
+      <trans-unit id="364">
+        <source>Open a command prompt and cd to C:\Program Files\Support Tools\.</source>
+      </trans-unit>
+      <trans-unit id="365">
+        <source>The <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>ktpass.exe<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> command should be in the folder.</source>
+      </trans-unit>
+      <trans-unit id="366">
+        <source>Enter one of the following commands:</source>
+      </trans-unit>
+      <trans-unit id="367">
+        <source>If your Active Directory domain consists of only one server</source>
+      </trans-unit>
+      <trans-unit id="368">
+        <source><bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>ktpass -princ <ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>&lt;CAS_username&gt;<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" Angle="`Regular'" FntIdx="16" tattr_endtooltip="FONT CHANGE"/>/<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="4" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>&lt;AD_DomainServer&gt;<ept id="4" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="5" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" Angle="`Regular'" FntIdx="16" tattr_endtooltip="FONT CHANGE"/>.<ept id="5" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="6" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>&lt;AD_Domain&gt;<ept id="6" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="7" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" Angle="`Regular'" FntIdx="16" tattr_endtooltip="FONT CHANGE"/>@<ept id="7" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="8" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>&lt;AD_DOMAIN&gt;<ept id="8" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="9" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" Angle="`Regular'" FntIdx="16" tattr_endtooltip="FONT CHANGE"/> -mapuser <ept id="9" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="10" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>&lt;CAS_username&gt;<ept id="10" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="11" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" Angle="`Regular'" FntIdx="16" tattr_endtooltip="FONT CHANGE"/> -pass <ept id="11" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="12" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>&lt;CAS_password&gt;<ept id="12" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="13" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" Angle="`Regular'" FntIdx="16" tattr_endtooltip="FONT CHANGE"/> -out c:\<ept id="13" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="14" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>&lt;CAS_username&gt;<ept id="14" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="15" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" Angle="`Regular'" FntIdx="16" tattr_endtooltip="FONT CHANGE"/>.keytab -ptype KRB5_NT_PRINCIPAL +DesOnly<ept id="15" tclosing="true" ttag="fmt" tid_missing="true"/></source>
+      </trans-unit>
+      <trans-unit id="369">
+        <source>Use this command syntax when you specify the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Account for CAS on Single Active Directory Server<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> option in <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="65942: 2H_Head2: Configure AD SSO on the CAS" XRefString="Configure AD SSO on the CAS, page 8-11"/>.</source>
+      </trans-unit>
+      <trans-unit id="370">
+        <source>For example (see also <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="29335: FC_FigureCap: Figure\x11 8-23 Execute ktpass.exe Command" XRefString="Figure 8-17"/>):</source>
+      </trans-unit>
+      <trans-unit id="371">
+        <source>If your Active Directory domain consists of multiple servers</source>
+      </trans-unit>
+      <trans-unit id="372">
+        <source>While adding new servers to an already existing multi-server domain, it is not required to run the ktpass command again.</source>
+      </trans-unit>
+      <trans-unit id="373">
+        <source>This includes adding a 2008 server to an existing multi-server domain running in a 2003 domain functional level.</source>
+      </trans-unit>
+      <trans-unit id="374">
+        <source><bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>ktpass -princ <ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>&lt;CAS_username&gt;<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" Angle="`Regular'" FntIdx="16" tattr_endtooltip="FONT CHANGE"/>/<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="4" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>&lt;AD_Domain&gt;<ept id="4" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="5" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" Angle="`Regular'" FntIdx="16" tattr_endtooltip="FONT CHANGE"/>@<ept id="5" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="6" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>&lt;AD_DOMAIN&gt;<ept id="6" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="7" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" Angle="`Regular'" FntIdx="16" tattr_endtooltip="FONT CHANGE"/> -mapuser <ept id="7" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="8" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>&lt;CAS_username&gt;<ept id="8" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="9" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" Angle="`Regular'" FntIdx="16" tattr_endtooltip="FONT CHANGE"/> -pass <ept id="9" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="10" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>&lt;CAS_password&gt;<ept id="10" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="11" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" Angle="`Regular'" FntIdx="16" tattr_endtooltip="FONT CHANGE"/> -out c:\<ept id="11" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="12" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>&lt;CAS_username&gt;<ept id="12" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="13" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" Angle="`Regular'" FntIdx="16" tattr_endtooltip="FONT CHANGE"/>.keytab -ptype KRB5_NT_PRINCIPAL +DesOnly<ept id="13" tclosing="true" ttag="fmt" tid_missing="true"/></source>
+      </trans-unit>
+      <trans-unit id="375">
+        <source>Use this command syntax when you specify the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Account for CAS on Domain (All Active Directory Servers)<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>option<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> in <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="65942: 2H_Head2: Configure AD SSO on the CAS" XRefString="Configure AD SSO on the CAS, page 8-11"/>.</source>
+      </trans-unit>
+      <trans-unit id="376">
+        <source>For example (see also <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="29335: FC_FigureCap: Figure\x11 8-23 Execute ktpass.exe Command" XRefString="Figure 8-17"/>):</source>
+      </trans-unit>
+      <trans-unit id="377">
+        <source>The output of the command should be as follows (see also <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="11653: FC_FigureCap: Figure\x11 8-24 ktpass.exe Command Output" XRefString="Figure 8-18"/>):</source>
+      </trans-unit>
+      <trans-unit id="378">
+        <source>The ﾒ<bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/>Successfully mapped casuser/cca-eng-test.cca-eng-domain.cisco.com to casuser<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>ﾓ response confirms that the <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/>casuser<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> account is mapped correctly.</source>
+      </trans-unit>
+      <trans-unit id="379">
+        <source>In the example above, the service principal name (SPN), <bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="ExPlain" FntIdx="4" tattr_endtooltip="FONT CHANGE"/>casuser/cca-eng-domain.cisco.com@CCA-ENG-DOMAIN.CISCO.COM<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/>, is the key to ensuring that any AD server within a managed domain can appropriately resolve user credentials passed from the CAS.</source>
+      </trans-unit>
+      <trans-unit id="380">
+        <source><bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Save<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> the exact command you ran and the output to a text file (you do not need to save the CAS user password).</source>
+      </trans-unit>
+      <trans-unit id="381">
+        <source>For troubleshooting purposes, this will facilitate TAC support.</source>
+      </trans-unit>
+      <trans-unit id="382">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Execute ktpass.exe Command</source>
+      </trans-unit>
+      <trans-unit id="383">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>ktpass.exe Command Output</source>
+      </trans-unit>
+      <trans-unit id="384">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Table Number" XRefSrcText="62600: TCW_TableCapW: Table\x11 8-1 ktpass.exe Parameters" XRefString="Table 8-3"/> provides further parameter details.</source>
+      </trans-unit>
+      <trans-unit id="385">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>ktpass.exe Parameters<ph id="2" tautoclosing="true" ttag="pla" ttype="VARIABLE:" Name="Table Continuation" Value=" (continued)"/></source>
+      </trans-unit>
+      <trans-unit id="386">
+        <source>Parameter</source>
+      </trans-unit>
+      <trans-unit id="387">
+        <source>Description</source>
+      </trans-unit>
+      <trans-unit id="388">
+        <source>Service principal name (SPN) identifier</source>
+      </trans-unit>
+      <trans-unit id="389">
+        <source>The entire SPN string, itself, is constructed as follows:</source>
+      </trans-unit>
+      <trans-unit id="390">
+        <source>&lt;CAS_username&gt;/[&lt;AD_DomainServer&gt;|&lt;AD_Domain&gt;]@&lt;AD_DOMAIN&gt;</source>
+      </trans-unit>
+      <trans-unit id="391">
+        <source>UserName</source>
+      </trans-unit>
+      <trans-unit id="392">
+        <source>FQDN machine name for a single AD server.</source>
+      </trans-unit>
+      <trans-unit id="393">
+        <source>This parameter must exactly match (including the case) the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="I_Italic" FntIdx="2" tattr_endtooltip="FONT CHANGE"/>name<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> of the AD server under <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Control Panel &gt; System &gt; Computer Name | Full computer name<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="394">
+        <source>The name of the AD domain the CAS uses to authenticate user credentials.</source>
+      </trans-unit>
+      <trans-unit id="395">
+        <source>This parameter must exactly match (including the case) the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="I_Italic" FntIdx="2" tattr_endtooltip="FONT CHANGE"/>domain<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> of the AD server(s) under <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Control Panel &gt; System &gt; Domain<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="396">
+        <source>Domain name (must be in UPPER CASE)</source>
+      </trans-unit>
+      <trans-unit id="397">
+        <source>Maps the CAS user to the domain</source>
+      </trans-unit>
+      <trans-unit id="398">
+        <source>CAS user password</source>
+      </trans-unit>
+      <trans-unit id="399">
+        <source>Outputs the ﾒc:\<bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>&lt;CAS_user_name&gt;<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.keytabﾓ key to generate a key tab (similar to a certificate) for this user</source>
+      </trans-unit>
+      <trans-unit id="400">
+        <source>Required parameter</source>
+      </trans-unit>
+      <trans-unit id="401">
+        <source>Principal type (required parameter)</source>
+      </trans-unit>
+      <trans-unit id="402">
+        <source>The Principal provided is of this type.</source>
+      </trans-unit>
+      <trans-unit id="403">
+        <source>By default AD servers should use this type, but some do not.</source>
+      </trans-unit>
+      <trans-unit id="404">
+        <source>Flag for DES encryption</source>
+      </trans-unit>
+      <trans-unit id="405">
+        <source>Example KTPass Command Execution</source>
+      </trans-unit>
+      <trans-unit id="406">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="80585: FC_FigureCap: Figure\x11 8-17 Example of How KTPass is Run\xd1 SAMPLE VALUES" XRefString="Figure 8-19"/> shows how parameters are derived from the CAS user account properties and AD server computer name to run the KTPass command.</source>
+      </trans-unit>
+      <trans-unit id="407">
+        <source>Note that the values in this figure are example values only; they do not match the configuration example steps outlined in this chapter.</source>
+      </trans-unit>
+      <trans-unit id="408">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Example of How KTPass is Run—SAMPLE VALUES</source>
+      </trans-unit>
+      <trans-unit id="409">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Configure AD SSO Without KTPass</source>
+      </trans-unit>
+      <trans-unit id="410">
+        <source>The following procedure guides you through the process necessary to configure an AD SSO user account for both Windows Server 2003 and Windows Server 2008 Active Directory entities operating at their respective full functional levels without having to run KTPass.</source>
+      </trans-unit>
+      <trans-unit id="411">
+        <source>(This method does not support a Server 2008 AD operating at a 2003 domain functional level.)</source>
+      </trans-unit>
+      <trans-unit id="412">
+        <source>AD SSO user accounts configured to connect with Server 2008 AD entities are not FIPS 140-2 compliant.</source>
+      </trans-unit>
+      <trans-unit id="413">
+        <source>The following steps apply for DES only encryption type.</source>
+      </trans-unit>
+      <trans-unit id="414">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Open the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Properties<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> dialog for an Active Directory account you created using <ph id="3" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="83186: 3H_Head3: Create the CAS User" XRefString="Create the CAS User, page 8-14"/>.</source>
+      </trans-unit>
+      <trans-unit id="415">
+        <source>To require DES encryption for the new CAS user account, click on the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Account<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> tab, enable (check) the <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Use DES encryption types for this account<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="17" tattr_endtooltip="FONT CHANGE"/> (Server 2003) or <ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="4" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Use Kerberos DES encryption types for this account<ept id="4" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="5" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="17" tattr_endtooltip="FONT CHANGE"/> (Server 2008) <ept id="5" tclosing="true" ttag="fmt" tid_missing="true"/>option under Account options, and click <bpt id="6" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>OK<ept id="6" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="416">
+        <source>(See <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="28983: FC_FigureCap: Figure\x11 8-20 2008 example" XRefString="Figure 8-20"/> and <ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="86012: FC_FigureCap: Figure\x11 8-21 Server 2008 Example\xd1 Account Properties" XRefString="Figure 8-21"/>.)</source>
+      </trans-unit>
+      <trans-unit id="417">
+        <source>To set up a Windows 7 client machine for DES encryption, refer to <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section" XRefSrcText="41654: 2H_Head2: Manually Enable DES on Individual Windows 7 Client Machines" XRefString="Manually Enable DES on Individual Windows 7 Client Machines"/>.</source>
+      </trans-unit>
+      <trans-unit id="418">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Server 2003 Example—Account Properties</source>
+      </trans-unit>
+      <trans-unit id="419">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Server 2008 Example—Account Properties</source>
+      </trans-unit>
+      <trans-unit id="420">
+        <source>Open a DOS prompt on the AD server and enter<bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/> ldp.exe <ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>(<ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="74095: FC_FigureCap: Figure\x11 8-22 ..." XRefString="Figure 8-22"/> background).</source>
+      </trans-unit>
+      <trans-unit id="421">
+        <source>An additional <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Ldp<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> application window opens.</source>
+      </trans-unit>
+      <trans-unit id="422">
+        <source>If you do not have a local copy of the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>ldp.exe<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> file, you can locate it under Support Tools in the Microsoft Windows Server Resource Kit.</source>
+      </trans-unit>
+      <trans-unit id="423">
+        <source>In the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Ldp<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> window, connect to the Active Directory domain controller using the <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Connection &gt; Connect<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> command and entering the domain controllerﾕs IP address or domain name (<ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="74095: FC_FigureCap: Figure\x11 8-22 ..." XRefString="Figure 8-22"/> and <ph id="3" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="64645: FC_FigureCap: Figure\x11 8-23 Ldp Application Connection \&gt; Connect\xd1 Server 2008 Example" XRefString="Figure 8-23"/>).</source>
+      </trans-unit>
+      <trans-unit id="424">
+        <source>For example, in the <bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Connect<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/> dialog, enter<bpt id="4" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/> 10.201.150.11 <ept id="4" tclosing="true" ttag="fmt" tid_missing="true"/>or<bpt id="5" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/> child.2k8.com<ept id="5" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="425">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Ldp Application Connection &gt; Connect—Server 2003 Example</source>
+      </trans-unit>
+      <trans-unit id="426">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Ldp Application Connection &gt; Connect—Server 2008 Example</source>
+      </trans-unit>
+      <trans-unit id="427">
+        <source>After you are connected to the domain controller, use the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Connection &gt; Bind<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> command to bind to the AD domain as an administrator (<ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="20782: FC_FigureCap: Figure\x11 8-24 2003 server example" XRefString="Figure 8-24"/> and <ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="14837: FC_FigureCap: Figure\x11 8-25 Server 2008 Example" XRefString="Figure 8-25"/>).</source>
+      </trans-unit>
+      <trans-unit id="428">
+        <source>(You can specify the same ID that you used to create the user account).</source>
+      </trans-unit>
+      <trans-unit id="429">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Connection &gt; Bind—Server 2003 Example</source>
+      </trans-unit>
+      <trans-unit id="430">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Connection &gt; Bind—Server 2008 Example</source>
+      </trans-unit>
+      <trans-unit id="431">
+        <source>Display a list of known domain suffixes using the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>View &gt; Tree<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> command and expanding the pull-down menu that appears (<ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="68230: FC_FigureCap: Figure\x11 8-26 \xd2 DC=cca,DC=cisco,DC=com\xd3  Tree View" XRefString="Figure 8-26"/>).</source>
+      </trans-unit>
+      <trans-unit id="432">
+        <source>Choose <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>DC=cca,DC=cisco,DC=com<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> and click <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>OK<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="433">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>ﾒDC=cca,DC=cisco,DC=comﾓ Tree View</source>
+      </trans-unit>
+      <trans-unit id="434">
+        <source>Expand the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>DC=cca,DC=cisco,DC=com<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> tree and double-click on <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>CN=Users,DC=cca,DC=cisco,DC=com<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> (<ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="57709: FC_FigureCap: Figure\x11 8-27 \xd2 DC=cca,DC=cisco,DC=com\xd3  Expanded" XRefString="Figure 8-27"/>).</source>
+      </trans-unit>
+      <trans-unit id="435">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Expanded Tree View</source>
+      </trans-unit>
+      <trans-unit id="436">
+        <source>Locate the user account you created in <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Number" XRefSrcText="65050: SF_StepFirst: Step\x11 1 Create a user account (casuser) that will access the Cisco NAC Appliance network via AD SSO as" XRefString="Step 1"/>, right-click on the account entry, and click <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Modify<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> (<ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="99388: FC_FigureCap: Figure\x11 8-28 ..." XRefString="Figure 8-28"/>).</source>
+      </trans-unit>
+      <trans-unit id="437">
+        <source>The account <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Modify<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> dialog box opens.</source>
+      </trans-unit>
+      <trans-unit id="438">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Modify the User Account Entry</source>
+      </trans-unit>
+      <trans-unit id="439">
+        <source>Specify <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/>userPrincipalName <ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>in the <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Attribute<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> field and enter a <bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="ExItalic" FntIdx="18" tattr_endtooltip="FONT CHANGE"/>&lt;username&gt;<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="4" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="19" tattr_endtooltip="FONT CHANGE"/>/<ept id="4" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="5" ttag="fmt" ttype="FONT CHANGE:" Tag="ExItalic" FntIdx="20" tattr_endtooltip="FONT CHANGE"/>&lt;FQDN&gt;<ept id="5" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="6" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="19" tattr_endtooltip="FONT CHANGE"/>@<ept id="6" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="7" ttag="fmt" ttype="FONT CHANGE:" Tag="ExItalic" FntIdx="20" tattr_endtooltip="FONT CHANGE"/>&lt;REALM&gt;<ept id="7" tclosing="true" ttag="fmt" tid_missing="true"/> value.</source>
+      </trans-unit>
+      <trans-unit id="440">
+        <source>For example, enter <bpt id="8" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/>ccasso_des_NoKT/dcroot.cca.cisco.com@CCA.CISCO.COM<ept id="8" tclosing="true" ttag="fmt" tid_missing="true"/> (<ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="50631: FC_FigureCap: Figure\x11 8-29 ..." XRefString="Figure 8-29"/>).</source>
+      </trans-unit>
+      <trans-unit id="441">
+        <source>If there are multiple servers in the Active Directory domain, the value must be <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="ExItalic" FntIdx="18" tattr_endtooltip="FONT CHANGE"/>&lt;username&gt;<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="19" tattr_endtooltip="FONT CHANGE"/>/<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="ExItalic" FntIdx="20" tattr_endtooltip="FONT CHANGE"/>&lt;AD_domain&gt;<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/>@<bpt id="4" ttag="fmt" ttype="FONT CHANGE:" Tag="ExItalic" FntIdx="18" tattr_endtooltip="FONT CHANGE"/>&lt;AD_DOMAIN&gt;<ept id="4" tclosing="true" ttag="fmt" tid_missing="true"/></source>
+      </trans-unit>
+      <trans-unit id="442">
+        <source>(e.g., <bpt id="5" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/>casuser_des_NoKT/qa-test1.cca.cisco.com@QA-TEST1.CCA.CISCO.COM<ept id="5" tclosing="true" ttag="fmt" tid_missing="true"/>).</source>
+      </trans-unit>
+      <trans-unit id="443">
+        <source>Complete the change by choosing the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Replace<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> operation and clicking <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Enter<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="444">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Modify the userPrincipalName Attribute</source>
+      </trans-unit>
+      <trans-unit id="445">
+        <source>Specify<bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/> servicePrincipalName <ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>in the attribute field and enter<bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/><ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="ExItalic" FntIdx="20" tattr_endtooltip="FONT CHANGE"/>&lt;username&gt;<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="4" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="19" tattr_endtooltip="FONT CHANGE"/>/<ept id="4" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="5" ttag="fmt" ttype="FONT CHANGE:" Tag="ExItalic" FntIdx="20" tattr_endtooltip="FONT CHANGE"/>&lt;FQDN&gt;<ept id="5" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="446">
+        <source>For example, enter a<bpt id="6" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/> ccasso_des_NoKT/dcroot.cca.cisco.com <ept id="6" tclosing="true" ttag="fmt" tid_missing="true"/>value (<ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="61110: FC_FigureCap: Figure\x11 8-30 Add the servicePrincipalName Attribute" XRefString="Figure 8-30"/>).</source>
+      </trans-unit>
+      <trans-unit id="447">
+        <source>Complete the addition by choosing the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Add<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> operation and clicking <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Enter<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="448">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Add the servicePrincipalName Attribute</source>
+      </trans-unit>
+      <trans-unit id="449">
+        <source>Verify that there are two lines representing your changes in the Entry List display and click <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Run<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="450">
+        <source>Once complete, the bottom of the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Ldp<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> application window should display ﾒModified <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>&lt;userDN&gt;<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>ﾓ without errors.</source>
+      </trans-unit>
+      <trans-unit id="451">
+        <source>To confirm, double-click on the user account name on the left side of the application window and verify that your changes are present in the user account entry.</source>
+      </trans-unit>
+      <trans-unit id="452">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Configure AD SSO in a Windows 7 Client Environment</source>
+      </trans-unit>
+      <trans-unit id="453">
+        <source>Administrators who configured AD SSO prior to Release 4.7(1) can provide only limited support for Windows 7 clients after upgrade.</source>
+      </trans-unit>
+      <trans-unit id="454">
+        <source>An unmodified Windows 7 client machine with the Cisco NAC Agent installed still prompts the user with a manual login dialog because Microsoft has disabled DES encryption on Windows 7 client machines by default.</source>
+      </trans-unit>
+      <trans-unit id="455">
+        <source>To enable Windows 7 client machines to authenticate via AD SSO in your Cisco NAC Appliance network, you can do one of the following:</source>
+      </trans-unit>
+      <trans-unit id="456">
+        <source>Option 1 (Recommended)</source>
+      </trans-unit>
+      <trans-unit id="457">
+        <source>Allow AD SSO for Windows 7 by enabling additional algorithms on the Microsoft Active Directory servers (see <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section" XRefSrcText="27169: 2H_Head2: Enable Additional Algorithms on Existing AD Servers" XRefString="Enable Additional Algorithms on Existing AD Servers"/>).</source>
+      </trans-unit>
+      <trans-unit id="458">
+        <source>Option 2 (Recommended Only for Small Client Group Testing)</source>
+      </trans-unit>
+      <trans-unit id="459">
+        <source>Enable the DES algorithm on the Windows 7 client machines so that they can communicate via the CASs existing AD SSO DES service account configuration (see <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section" XRefSrcText="41654: 2H_Head2: Manually Enable DES on Individual Windows 7 Client Machines" XRefString="Manually Enable DES on Individual Windows 7 Client Machines"/>).</source>
+      </trans-unit>
+      <trans-unit id="460">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Enable Additional Algorithms on Existing AD Servers</source>
+      </trans-unit>
+      <trans-unit id="461">
+        <source>Create a new AD SSO service account according to the guidelines in <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="94725: 2H_Head2: Add Active Directory SSO Auth Server" XRefString="Add Active Directory SSO Auth Server, page 8-6"/>.</source>
+      </trans-unit>
+      <trans-unit id="462">
+        <source>Cisco recommends that the current AD SSO account remain unchanged to allow you to quickly switch between the original DES encryption system and the this multi-algorithm option.</source>
+      </trans-unit>
+      <trans-unit id="463">
+        <source>Run KTPass to allow multiple algorithms for this new service account (see <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Table Number" XRefSrcText="52234: TC_TableCap: Table\x11 8-3 Windows AD Server and KTPass Version Compatibility for Windows 7 Clients" XRefString="Table 8-2"/>).</source>
+      </trans-unit>
+      <trans-unit id="464">
+        <source>For Windows 2008 Server at full functional level:</source>
+      </trans-unit>
+      <trans-unit id="465">
+        <source>For Windows 2008 Server at 2003 Server functional level:</source>
+      </trans-unit>
+      <trans-unit id="466">
+        <source>For CAM</source>
+      </trans-unit>
+      <trans-unit id="467">
+        <source>Before performing the following step, Cisco strongly recommends making a backup copy of the CAMﾕs <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>/perfigo/control/tomcat/conf/krb.txt<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> file.</source>
+      </trans-unit>
+      <trans-unit id="468">
+        <source>After running the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>ktpass<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> command above, manually modify two files on the CAM as follows:</source>
+      </trans-unit>
+      <trans-unit id="469">
+        <source>In the CAM CLI, navigate to <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>/perfigo/control/tomcat/conf/krb.txt<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> and add the following lines:</source>
+      </trans-unit>
+      <trans-unit id="470">
+        <source>Navigate to <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>/perfigo/control/bin/starttomcat<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="471">
+        <source><bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="17" tattr_endtooltip="FONT CHANGE"/>Search for <ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/>CATALINA_OPTS<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="472">
+        <source><bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="17" tattr_endtooltip="FONT CHANGE"/>Add <ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/>-DKRB_OVERRIDE=true<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> to the value of <bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/>CATALINA_OPTS<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="473">
+        <source>For example:</source>
+      </trans-unit>
+      <trans-unit id="474">
+        <source>If you are applying this change to an existing HA pair, you must perform the above update on both the HA-Primary and HA-Secondary CAM just as you would upgrade a pair of HA-enabled CAMs.</source>
+      </trans-unit>
+      <trans-unit id="475">
+        <source>For more information, see the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color_Italic" FntIdx="8" tattr_endtooltip="FONT CHANGE"/><ph id="1" tautoclosing="true" ttag="pla" ttype="HYPERTEXT MARKER:"/>Release Notes for Cisco NAC Appliance, Version 4.9<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="476">
+        <source>Restart the CAM by entering the<bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/> service perfigo stop <ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>and<bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/> service perfigo start <ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>commands.</source>
+      </trans-unit>
+      <trans-unit id="477">
+        <source>For CAS</source>
+      </trans-unit>
+      <trans-unit id="478">
+        <source>Before performing the following step, Cisco strongly recommends making a backup copy of the CASﾕs <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>/perfigo/access/tomcat/conf/krb.txt<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> file.</source>
+      </trans-unit>
+      <trans-unit id="479">
+        <source>After running the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>ktpass<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> command above, manually modify two files on the CAS as follows:</source>
+      </trans-unit>
+      <trans-unit id="480">
+        <source>In the CAS CLI, navigate to <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>/perfigo/access/tomcat/conf/krb.txt<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> and add the following lines:</source>
+      </trans-unit>
+      <trans-unit id="481">
+        <source>Navigate to <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>/perfigo/access/bin/starttomcat<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="482">
+        <source><bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="17" tattr_endtooltip="FONT CHANGE"/>Search for <ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/>CATALINA_OPTS<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="483">
+        <source><bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="17" tattr_endtooltip="FONT CHANGE"/>Add <ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/>-DKRB_OVERRIDE=true<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> to the value of <bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/>CATALINA_OPTS<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="484">
+        <source>For example:</source>
+      </trans-unit>
+      <trans-unit id="485">
+        <source>If you are applying this change to an existing HA pair, you must perform the above update on both the HA-Primary and HA-Secondary CAS just as you would upgrade a pair of HA-enabled CASs.</source>
+      </trans-unit>
+      <trans-unit id="486">
+        <source>For more information, see the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color_Italic" FntIdx="8" tattr_endtooltip="FONT CHANGE"/><ph id="1" tautoclosing="true" ttag="pla" ttype="HYPERTEXT MARKER:"/>Release Notes for Cisco NAC Appliance, Version 4.9<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="487">
+        <source>Restart the CAS by entering the<bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/> service perfigo stop <ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>and<bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/> service perfigo start <ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>commands.</source>
+      </trans-unit>
+      <trans-unit id="488">
+        <source>For Windows 2003 Server at full functional level:</source>
+      </trans-unit>
+      <trans-unit id="489">
+        <source>Change the AD SSO service account on the CAM to the new service account according to the guidelines in <ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="47474: 2H_Head2: Enable Agent-Based Windows Single Sign-On with Active Directory (Kerberos)" XRefString="Enable Agent-Based Windows Single Sign-On with Active Directory (Kerberos), page 8-40"/>.</source>
+      </trans-unit>
+      <trans-unit id="490">
+        <source>Log in to the CAM web console and go to <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Device Management &gt; CCA Servers &gt; Manage [CAS_IP] &gt; Authentication &gt; Windows Auth &gt; Active Directory SSO<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="491">
+        <source>Modify the AD SSO account name and password.</source>
+      </trans-unit>
+      <trans-unit id="492">
+        <source>Click the checkbox for <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Enable Agent-Based Windows Single Sign-On with Active Directory (Kerberos)<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="493">
+        <source>Click <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Update<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="494">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Manually Enable DES on Individual Windows 7 Client Machines</source>
+      </trans-unit>
+      <trans-unit id="495">
+        <source>Login to the Windows 7 client machine as an administrator.</source>
+      </trans-unit>
+      <trans-unit id="496">
+        <source>Go to Start &gt; Control Panel &gt; System and Security &gt; Administrative Tools &gt; Local Security Policy &gt; Local Policies/Security &gt; Options.</source>
+      </trans-unit>
+      <trans-unit id="497">
+        <source>Choose <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Network security &gt; Configure encryption types allowed<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> and enable all of the options except for the last one (ﾒFuture encryption typesﾓ) by checking the boxes corresponding to each in the <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Local Security Settings<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> tab.</source>
+      </trans-unit>
+      <trans-unit id="498">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Configure Active Directory for FIPS 140-2 Compliant AD SSO</source>
+      </trans-unit>
+      <trans-unit id="499">
+        <source>This section describes how to configure your Windows Server 2008 environment to communicate with a FIPS 140-2 compliant Cisco NAC Appliance deployment.</source>
+      </trans-unit>
+      <trans-unit id="500">
+        <source>This section covers the following topics:</source>
+      </trans-unit>
+      <trans-unit id="501">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Prerequisites</source>
+      </trans-unit>
+      <trans-unit id="502">
+        <source>You <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>must<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> use Windows Server 2008 with KTPass version 6.0.6001.18000, and client machines must be running Windows Vista or Windows 7 with Cisco NAC Agent version 4.7.1.15, 4.8.0.32, or 4.9.0.33 installed, to ensure you are able to maintain FIPS 140-2 compliance and support AD SSO.</source>
+      </trans-unit>
+      <trans-unit id="503">
+        <source>(It is assumed that the user has already configured an Active Directory domain on this system.)</source>
+      </trans-unit>
+      <trans-unit id="504">
+        <source>The Clean Access Manager and Clean Access Server should be configured in FIPS mode and must be running Cisco NAC Appliance Release 4.7(0) or later.</source>
+      </trans-unit>
+      <trans-unit id="505">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Configuring Your Windows Environment for FIPS 140-2 Compliance</source>
+      </trans-unit>
+      <trans-unit id="506">
+        <source>To set up your Windows environment for FIPS 140-2 compliant AD SSO with the Cisco NAC Appliance system:</source>
+      </trans-unit>
+      <trans-unit id="507">
+        <source>If the AD system is based on an upgrade from Windows Server 2003, you must raise the domain functionality to Windows Server 2008 level for Cisco NAC appliance to operate in FIPS mode, as shown in <ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="98611: FC_FigureCap: Figure\x11 8-24 Update the Domain Functional Level" XRefString="Figure 8-31"/>.</source>
+      </trans-unit>
+      <trans-unit id="508">
+        <source>Without this you will not be able connect to the Cisco NAC Appliance network.</source>
+      </trans-unit>
+      <trans-unit id="509">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Update the Domain Functional Level</source>
+      </trans-unit>
+      <trans-unit id="510">
+        <source>Configure the User Profile</source>
+      </trans-unit>
+      <trans-unit id="511">
+        <source>Create the user in Windows.</source>
+      </trans-unit>
+      <trans-unit id="512">
+        <source>The example in this procedure uses the name ﾒfipsy.ﾓ</source>
+      </trans-unit>
+      <trans-unit id="513">
+        <source>Create a New User</source>
+      </trans-unit>
+      <trans-unit id="514">
+        <source>Ensure you click the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Password never expires<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> option and leave the other user options unchecked (especially, ensure that you <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>do not<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> require the password to be changed on first login).</source>
+      </trans-unit>
+      <trans-unit id="515">
+        <source>New User Settings</source>
+      </trans-unit>
+      <trans-unit id="516">
+        <source>Open the user Properties and update the username to include the domain, as shown in <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="41754: FC_FigureCap: Figure\x11 8-27 User Properties" XRefString="Figure 8-34"/>.</source>
+      </trans-unit>
+      <trans-unit id="517">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>User Properties</source>
+      </trans-unit>
+      <trans-unit id="518">
+        <source>Specify Account Options as shown in <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="40749: FC_FigureCap: Figure\x11 8-28" XRefString="Figure 8-35"/>.</source>
+      </trans-unit>
+      <trans-unit id="519">
+        <source>Specify Account Options<ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/></source>
+      </trans-unit>
+      <trans-unit id="520">
+        <source>Ensure you have Administrator privileges on the client machine and open a CMD prompt.</source>
+      </trans-unit>
+      <trans-unit id="521">
+        <source>Verify whether or not KTPass is available by entering <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/>ktpass<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> at the CMD prompt.</source>
+      </trans-unit>
+      <trans-unit id="522">
+        <source>If KTPass is not available, navigate to the <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>\Windows\System32\<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> directory and try again.</source>
+      </trans-unit>
+      <trans-unit id="523">
+        <source>KTPass is available on Windows 2008 Server by default.</source>
+      </trans-unit>
+      <trans-unit id="524">
+        <source>Run the KTPass command as follows:</source>
+      </trans-unit>
+      <trans-unit id="525">
+        <source>Configure the Clean Access Server for AD SSO, as described in <ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="65942: 2H_Head2: Configure AD SSO on the CAS" XRefString="Configure AD SSO on the CAS, page 8-11"/>.</source>
+      </trans-unit>
+      <trans-unit id="526">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Enable Agent-Based Windows Single Sign-On with Active Directory (Kerberos)</source>
+      </trans-unit>
+      <trans-unit id="527">
+        <source>After the AD server configuration is completed, perform the final step.</source>
+      </trans-unit>
+      <trans-unit id="528">
+        <source>To enable the Agent-Based Windows single sign-on with Active Directory (AD), follow these steps:</source>
+      </trans-unit>
+      <trans-unit id="529">
+        <source>Go to <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Device Management &gt; CCA Servers &gt; Manage [CAS_IP] &gt; Authentication &gt; Windows Auth &gt; Active Directory SSO<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="530">
+        <source>Active Directory SSO</source>
+      </trans-unit>
+      <trans-unit id="531">
+        <source>Click the checkbox for <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Enable Agent-Based Windows Single Sign-On with Active Directory (Kerberos)<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="532">
+        <source>Click <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Update<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="533">
+        <source>See <ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="65942: 2H_Head2: Configure AD SSO on the CAS" XRefString="Configure AD SSO on the CAS, page 8-11"/> for further details on <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Active Directory SSO<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> page fields.</source>
+      </trans-unit>
+      <trans-unit id="534">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Confirm Active AD SSO Service</source>
+      </trans-unit>
+      <trans-unit id="535">
+        <source>Once you have performed all the configuration outlined in <ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="80621: 1H_Head1: AD SSO Configuration Steps for CAM, CAS, and AD Server" XRefString="AD SSO Configuration Step Summary, page 8-5"/>, make sure the AD SSO service starts on the Clean Access Server.</source>
+      </trans-unit>
+      <trans-unit id="536">
+        <source>Go to <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Device Management &gt; CCA Servers &gt; Manage [CAS_IP] &gt; Status<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> (see <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Figure Number" XRefSrcText="80975: FC_FigureCap: Figure\x11 8-17 AD SSO Service Is Started" XRefString="Figure 8-37"/>).</source>
+      </trans-unit>
+      <trans-unit id="537">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>AD SSO Service Is Started</source>
+      </trans-unit>
+      <trans-unit id="538">
+        <source>Make sure <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Active Directory SSO<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> is listed with a Status of <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Started<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="539">
+        <source>You can also confirm that the CAS trusted interface (eth0) is listening on TCP port 8910 (used for Windows SSO) via SSH command: <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/>netstat -a | grep 8910<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="540">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Enable GPO Updates</source>
+      </trans-unit>
+      <trans-unit id="541">
+        <source>When a user is not yet authenticated/certified by Cisco NAC Appliance (or is on the Authentication VLAN), access to the Windows Domain Controller is limited; and as a result, a complete group policy update might not finish.</source>
+      </trans-unit>
+      <trans-unit id="542">
+        <source>In addition, the next refresh for group policies occurs every 90 minutes by default.</source>
+      </trans-unit>
+      <trans-unit id="543">
+        <source>In order to accomplish a GPO update, administrators can force a group policy refresh for Agent users immediately after AD SSO login by enabling the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Refresh Windows domain group policy after login<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> option.</source>
+      </trans-unit>
+      <trans-unit id="544">
+        <source>Administrators can configure the Agent to retrigger a Group Policy Object (GPO) update after the AD SSO user login finishes.</source>
+      </trans-unit>
+      <trans-unit id="545">
+        <source>If configured in the CAM web console, the Agent calls the ﾒgpupdateﾓ command to re-trigger the Group Policy update after users are logged in.</source>
+      </trans-unit>
+      <trans-unit id="546">
+        <source>Login scripts are controlled by the Domain Controller and require a login event to run.</source>
+      </trans-unit>
+      <trans-unit id="547">
+        <source>For more information about how to use login script in a Windows environment, see <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="30703: 1H_Head1: Enabling a Log-In or Log-Off Script (Optional)" XRefString="Enabling a Login Script (Optional), page 8-43"/>.</source>
+      </trans-unit>
+      <trans-unit id="548">
+        <source>Because Microsoft Group Policies are only available since the advent of Active Directory (Windows 2000 and later), the GPO trigger update feature is only available on Windows 7/Vista/XP machines.</source>
+      </trans-unit>
+      <trans-unit id="549">
+        <source>To enable GPO update, follow these steps:</source>
+      </trans-unit>
+      <trans-unit id="550">
+        <source>Go to <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Device Management &gt; Clean Access &gt; General Setup &gt; Agent Login<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="551">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Agent Login—General Setup</source>
+      </trans-unit>
+      <trans-unit id="552">
+        <source>From the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>User Role<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> dropdown, choose the role to which to apply the GPO update.</source>
+      </trans-unit>
+      <trans-unit id="553">
+        <source>From the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Operating System <ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>dropdown, choose the OS to which to apply the GPO update (must be Windows XP or later).</source>
+      </trans-unit>
+      <trans-unit id="554">
+        <source>Click the checkbox for <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Refresh Windows domain group policy after login (for Windows).<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/></source>
+      </trans-unit>
+      <trans-unit id="555">
+        <source>Click <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Update<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="12" tattr_endtooltip="FONT CHANGE"/>.<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/></source>
+      </trans-unit>
+      <trans-unit id="556">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Enabling a Login Script (Optional)</source>
+      </trans-unit>
+      <trans-unit id="557">
+        <source>This step is optional and this section provides reference information for convenience only.</source>
+      </trans-unit>
+      <trans-unit id="558">
+        <source>Cisco Technical Assistance Center (TAC) does not support questions or troubleshooting for Microsoft login scripts.</source>
+      </trans-unit>
+      <trans-unit id="559">
+        <source>Refer to <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color" FntIdx="7" tattr_endtooltip="FONT CHANGE"/><ph id="1" tautoclosing="true" ttag="pla" ttype="HYPERTEXT MARKER:"/>http://support.microsoft.com<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> for additional support.</source>
+      </trans-unit>
+      <trans-unit id="560">
+        <source>GPO update objects, such as login scripts, require an event to trigger them, such as login, or they fail.</source>
+      </trans-unit>
+      <trans-unit id="561">
+        <source>Running a script in a Windows environment prior to login fails because users do not have access to drive mappings to the AD server or drive resources.</source>
+      </trans-unit>
+      <trans-unit id="562">
+        <source>Network-based login scripts and local login scripts are handled differently:</source>
+      </trans-unit>
+      <trans-unit id="563">
+        <source>Local login scripts run locally on a client machine.</source>
+      </trans-unit>
+      <trans-unit id="564">
+        <source>If you introduce an artificial delay with a script, they work correctly.</source>
+      </trans-unit>
+      <trans-unit id="565">
+        <source>Network-based scripts require continuous access to a AD server for initialization.</source>
+      </trans-unit>
+      <trans-unit id="566">
+        <source>Depending on your network deployment, you can use a combination of steps to use them.</source>
+      </trans-unit>
+      <trans-unit id="567">
+        <source>Network-based scripts typically reside on the AD server in the %Sysvol%\scripts folder.</source>
+      </trans-unit>
+      <trans-unit id="568">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Table Number" XRefSrcText="63713: TCW_TableCapW: Table\x11 10-3 Network-Based Script Options" XRefString="Table 8-4"/> lists the options for handling network-based scripts.</source>
+      </trans-unit>
+      <trans-unit id="569">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Network-Based Login Script Options</source>
+      </trans-unit>
+      <trans-unit id="570">
+        <source>Deployment</source>
+      </trans-unit>
+      <trans-unit id="571">
+        <source>Option</source>
+      </trans-unit>
+      <trans-unit id="572">
+        <source>In Band</source>
+      </trans-unit>
+      <trans-unit id="573">
+        <source>Open access to the AD server port in the Temporary or Unauthenticated user role and introduce a delay in the body of the script.</source>
+      </trans-unit>
+      <trans-unit id="574">
+        <source>Out-of-Band without IP change</source>
+      </trans-unit>
+      <trans-unit id="575">
+        <source>Open access to the AD server port in the Temporary or Unauthenticated user role and introduce a delay in the body of the script.</source>
+      </trans-unit>
+      <trans-unit id="576">
+        <source>Out-of-Band with IP change</source>
+      </trans-unit>
+      <trans-unit id="577">
+        <source>Use a combination of scripts to copy a script that introduces delay locally, run it, and then delete it.</source>
+      </trans-unit>
+      <trans-unit id="578">
+        <source>A security concern exists while the script resides on the client machine because it can be viewed or copied.</source>
+      </trans-unit>
+      <trans-unit id="579">
+        <source>In any type of deployment, you need to create an artificial delay script to run during authentication in order for local or network-based scripts to work correctly.</source>
+      </trans-unit>
+      <trans-unit id="580">
+        <source>See <ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="87233: 2H_Head2: Introducing a Delay to Allow Local Login Script Use" XRefString="Introducing a Delay to Allow Script Use, page 8-44"/>.</source>
+      </trans-unit>
+      <trans-unit id="581">
+        <source>For network-based script use in Out-of-Band deployments with IP address changes, you must also:</source>
+      </trans-unit>
+      <trans-unit id="582">
+        <source>Append the delete command to the end of the ﾒdelayﾓ script.</source>
+      </trans-unit>
+      <trans-unit id="583">
+        <source>Use a reference script that copies the ﾒdelayﾓ script to the client machine and then launches it.</source>
+      </trans-unit>
+      <trans-unit id="584">
+        <source>For more information, see <ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="43778: 2H_Head2: Using Network-Based Scripts in Out-of-Band Mode with IP Address Changes" XRefString="Using Network-Based Scripts in Out-of-Band Mode with IP Address Changes, page 8-45"/>.</source>
+      </trans-unit>
+      <trans-unit id="585">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Introducing a Delay to Allow Script Use</source>
+      </trans-unit>
+      <trans-unit id="586">
+        <source>You can introduce delay by calling a persistent check action that fails until authentication finishes.</source>
+      </trans-unit>
+      <trans-unit id="587">
+        <source>For example, you can use ping, Telnet, nslookup, or another action that requires network connectivity to succeed.</source>
+      </trans-unit>
+      <trans-unit id="588">
+        <source>The following example is a .bat script, but you can use other types of scripts.</source>
+      </trans-unit>
+      <trans-unit id="589">
+        <source>When using ping, remember:</source>
+      </trans-unit>
+      <trans-unit id="590">
+        <source>You can ping any IP address that is reachable after successful Cisco NAC Appliance login.</source>
+      </trans-unit>
+      <trans-unit id="591">
+        <source>The IP address used for the ping and the AD server do not have to be the same.</source>
+      </trans-unit>
+      <trans-unit id="592">
+        <source>If you ping a protected device that has a real IP address, the user will be able to see the IP address while the delay script runs.</source>
+      </trans-unit>
+      <trans-unit id="593">
+        <source>You can add a statement to the script to hide the DOS window.</source>
+      </trans-unit>
+      <trans-unit id="594">
+        <source>You only need one IP address.</source>
+      </trans-unit>
+      <trans-unit id="595">
+        <source>All of your mappings can be assigned after the ping succeeds.</source>
+      </trans-unit>
+      <trans-unit id="596">
+        <source>Example</source>
+      </trans-unit>
+      <trans-unit id="597">
+        <source>In the example, ping runs in the background until it succeeds.</source>
+      </trans-unit>
+      <trans-unit id="598">
+        <source>After succeeding, the loop is broken; the system maps to drive L:\ on the same node, where the network-based script resides, and then that script runs.</source>
+      </trans-unit>
+      <trans-unit id="599">
+        <source>The user sees a DOS window in the background.</source>
+      </trans-unit>
+      <trans-unit id="600">
+        <source>You can enhance the script with statements to hide or minimize the DOS window from the user.</source>
+      </trans-unit>
+      <trans-unit id="601">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Table Number" XRefSrcText="60607: TCW_TableCapW: Table\x11 10-4 Reference Script Elements and Meaning" XRefString="Table 8-5"/> lists the script statements and meanings.</source>
+      </trans-unit>
+      <trans-unit id="602">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Reference Script Statements and Meaning<ph id="2" tautoclosing="true" ttag="pla" ttype="VARIABLE:" Name="Table Continuation" Value=" (continued)"/></source>
+      </trans-unit>
+      <trans-unit id="603">
+        <source>Statement</source>
+      </trans-unit>
+      <trans-unit id="604">
+        <source>Meaning</source>
+      </trans-unit>
+      <trans-unit id="605">
+        <source>:CHECK</source>
+      </trans-unit>
+      <trans-unit id="606">
+        <source>Begin the script.</source>
+      </trans-unit>
+      <trans-unit id="607">
+        <source>@echo off</source>
+      </trans-unit>
+      <trans-unit id="608">
+        <source>Only display the command output.</source>
+      </trans-unit>
+      <trans-unit id="609">
+        <source>echo Please wait...</source>
+      </trans-unit>
+      <trans-unit id="610">
+        <source>Show the words ﾒPlease wait...ﾓ to the end user.</source>
+      </trans-unit>
+      <trans-unit id="611">
+        <source>ping -n 1 -l 1 192.168.88.128</source>
+      </trans-unit>
+      <trans-unit id="612">
+        <source>Use the ping utility to check if the IP address 192.168.88.128 is reachable:</source>
+      </trans-unit>
+      <trans-unit id="613">
+        <source><bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>-n<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>—do not look up a hostname.</source>
+      </trans-unit>
+      <trans-unit id="614">
+        <source><bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>1<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>—send one packet.</source>
+      </trans-unit>
+      <trans-unit id="615">
+        <source><bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>-l<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>—use the ODBC driver or library.</source>
+      </trans-unit>
+      <trans-unit id="616">
+        <source><bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>1<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>—wait one second.</source>
+      </trans-unit>
+      <trans-unit id="617">
+        <source>if errorlevel 1 goto CHECK</source>
+      </trans-unit>
+      <trans-unit id="618">
+        <source>If the ping utility did not reach 192.168.88.128 successfully, then start again from :CHECK.</source>
+      </trans-unit>
+      <trans-unit id="619">
+        <source>@echo on</source>
+      </trans-unit>
+      <trans-unit id="620">
+        <source>Display debug messages.</source>
+      </trans-unit>
+      <trans-unit id="621">
+        <source>netuse L:\\192.168.88.128\Scripttest</source>
+      </trans-unit>
+      <trans-unit id="622">
+        <source>Map the file share at 192.168.88.128 to the L: drive.</source>
+      </trans-unit>
+      <trans-unit id="623">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Using Network-Based Scripts in Out-of-Band Mode with IP Address Changes</source>
+      </trans-unit>
+      <trans-unit id="624">
+        <source>In Out-of-Band mode with an IP address change, you need to create and run two scripts before calling the targeted network-based script:</source>
+      </trans-unit>
+      <trans-unit id="625">
+        <source>A reference script to copy over and launch the local copy of the script.</source>
+      </trans-unit>
+      <trans-unit id="626">
+        <source>A delay script with a line added to delete the network script after it runs.</source>
+      </trans-unit>
+      <trans-unit id="627">
+        <source>Copying a network script to a user machine that has not been granted network access is a security concern.</source>
+      </trans-unit>
+      <trans-unit id="628">
+        <source>While the script resides on the user machine, the user can copy or view the script.</source>
+      </trans-unit>
+      <trans-unit id="629">
+        <source>Reference Script</source>
+      </trans-unit>
+      <trans-unit id="630">
+        <source>Create a script similar to the following example.</source>
+      </trans-unit>
+      <trans-unit id="631">
+        <source>The script is named ﾒrefer.batﾓ,<bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="I_Italic" FntIdx="2" tattr_endtooltip="FONT CHANGE"/><ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>and it copies over a delay script named<bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="I_Italic" FntIdx="2" tattr_endtooltip="FONT CHANGE"/><ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>ﾒactual.batﾓ and then launches it.</source>
+      </trans-unit>
+      <trans-unit id="632">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Table Number" XRefSrcText="21248: TCW_TableCapW: Table\x11 10-4 Reference Script Elements and Meaning" XRefString="Table 8-6"/> lists the script statements and the meaning of each line.</source>
+      </trans-unit>
+      <trans-unit id="633">
+        <source><ph id="1" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Reference Script Statements and Meaning</source>
+      </trans-unit>
+      <trans-unit id="634">
+        <source>Statement</source>
+      </trans-unit>
+      <trans-unit id="635">
+        <source>Meaning</source>
+      </trans-unit>
+      <trans-unit id="636">
+        <source>@echo off</source>
+      </trans-unit>
+      <trans-unit id="637">
+        <source>Only display the command output.</source>
+      </trans-unit>
+      <trans-unit id="638">
+        <source>echo Please wait...</source>
+      </trans-unit>
+      <trans-unit id="639">
+        <source>Show the words ﾒPlease wait...ﾓ to the end user.</source>
+      </trans-unit>
+      <trans-unit id="640">
+        <source>copy \\192.168.88.228\notlogon\actual.bat actual.bat</source>
+      </trans-unit>
+      <trans-unit id="641">
+        <source>Copy the script ﾒactual.batﾓ from the ﾒnotlogonﾓ folder on the AD server at IP address 192.168.88.228.</source>
+      </trans-unit>
+      <trans-unit id="642">
+        <source>actual.bat</source>
+      </trans-unit>
+      <trans-unit id="643">
+        <source>Launch the script named ﾒactual.batﾓ.</source>
+      </trans-unit>
+      <trans-unit id="644">
+        <source>Delay Script with Delete Command</source>
+      </trans-unit>
+      <trans-unit id="645">
+        <source>To create a script that delays script initialization, refer to the <ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Number" XRefSrcText="87233: 2H_Head2: Introducing a Delay to Allow Local Login Script Use"/>.</source>
+      </trans-unit>
+      <trans-unit id="646">
+        <source>As shown in the following example add the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>del<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> command and the name of the script that you want to delete to the end of the delay script.</source>
+      </trans-unit>
+      <trans-unit id="647">
+        <source>The script is named ﾒactual.batﾓ.</source>
+      </trans-unit>
+      <trans-unit id="648">
+        <source>We recommend that you reduce network vulnerability by deleting the local copy of the script residing on the end user machine.</source>
+      </trans-unit>
+      <trans-unit id="649">
+        <source>The last line of the sample script performs the deletion or clean up function.</source>
+      </trans-unit>
+      <trans-unit id="650">
+        <source>Example</source>
+      </trans-unit>
+      <trans-unit id="651">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Add LDAP Lookup Server for Active Directory SSO (Optional)</source>
+      </trans-unit>
+      <trans-unit id="652">
+        <source>The LDAP Lookup server is only needed if you want to configure mapping rules so that users are placed into user roles based on AD attributes after AD SSO authentication.</source>
+      </trans-unit>
+      <trans-unit id="653">
+        <source>For basic AD SSO without role mapping, or for testing purposes, it is not necessary to configure an LDAP Lookup Server.</source>
+      </trans-unit>
+      <trans-unit id="654">
+        <source>If you plan on mapping Windows domain SSO users to multiple user roles, you will need to configure a secondary LDAP Lookup server so that the CAM can perform the mapping.</source>
+      </trans-unit>
+      <trans-unit id="655">
+        <source>You then specify this LDAP Lookup server for the Active Directory SSO auth provider, as described in <ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="94725: 2H_Head2: Add Active Directory SSO Auth Server" XRefString="Add Active Directory SSO Auth Server, page 8-6"/>.</source>
+      </trans-unit>
+      <trans-unit id="656">
+        <source>You can configure your LDAP Lookup server to use one of the following two authentication mechanisms:</source>
+      </trans-unit>
+      <trans-unit id="657">
+        <source><bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>SIMPLE<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>—The CAM and LDAP server pass user ID and password information between themselves without encrypting the data.</source>
+      </trans-unit>
+      <trans-unit id="658">
+        <source><bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>GSSAPI<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>—(Generic Security Services Application Programming Interface) Provides an option to encrypt user ID and password information passed between the CAM and the specified LDAP server to help ensure privacy.</source>
+      </trans-unit>
+      <trans-unit id="659">
+        <source>To ensure complete DNS capability when using GSSAPI, you must ensure that all Domain Controllers, child domains, and hosts conform to strict DNS naming conventions and that you have the ability to perform both forward- and reverse-DNS.</source>
+      </trans-unit>
+      <trans-unit id="660">
+        <source>In Cisco NAC Appliance, you can configure one LDAP auth provider using the GSSAPI authentication method and one Kerberos auth provider, but only one of the two can be active at any time.</source>
+      </trans-unit>
+      <trans-unit id="661">
+        <source>See the ﾒKerberosﾓ section in the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color_Italic" FntIdx="8" tattr_endtooltip="FONT CHANGE"/><ph id="2" tautoclosing="true" ttag="pla" ttype="HYPERTEXT MARKER:"/>Cisco NAC Appliance - Clean Access Manager Configuration Guide, Release 4.9<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> for more information.</source>
+      </trans-unit>
+      <trans-unit id="662">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Configure an LDAP Lookup Server</source>
+      </trans-unit>
+      <trans-unit id="663">
+        <source>Go to <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>User Management &gt; Auth Servers &gt; Lookup Servers<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="664">
+        <source>The <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Server Type <ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>is automatically set to <bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>LDAP Lookup<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="665">
+        <source>Lookup Server (LDAP)—SIMPLE Authentication Method</source>
+      </trans-unit>
+      <trans-unit id="666">
+        <source>The configuration page for the LDAP Lookup Server features the same fields as the LDAP Authentication Provider configuration page.</source>
+      </trans-unit>
+      <trans-unit id="667">
+        <source>For complete details on configuring SIMPLE and GSSAPI authentication methods, refer to the ﾒ<bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color" FntIdx="7" tattr_endtooltip="FONT CHANGE"/><ph id="2" tautoclosing="true" ttag="pla" ttype="HYPERTEXT MARKER:"/>LDAP<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>ﾓ configuration section in the<bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="I_Italic" FntIdx="2" tattr_endtooltip="FONT CHANGE"/><ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color_Italic" FntIdx="8" tattr_endtooltip="FONT CHANGE"/><ph id="3" tautoclosing="true" ttag="pla" ttype="HYPERTEXT MARKER:"/>Cisco NAC Appliance - Clean Access Manager Configuration Guide, Release 4.9<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="668">
+        <source>Cross-Forest Group Mapping using LDAP Lookup</source>
+      </trans-unit>
+      <trans-unit id="669">
+        <source>Set up a bidirectional trust between two AD forests.</source>
+      </trans-unit>
+      <trans-unit id="670">
+        <source>Create an LDAP Lookup Server with <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>GSSAPI<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> in the CAM Web Console.</source>
+      </trans-unit>
+      <trans-unit id="671">
+        <source>In the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Base/Realm Mapping<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> field, specify the base context and realm mapping of the AD forest.</source>
+      </trans-unit>
+      <trans-unit id="672">
+        <source>For example, if the realm of the first AD forest is CCA.CISCO.COM and other AD forest is NAC.PERFIGO.COM respectively, the base/realm mapping will be as follows:</source>
+      </trans-unit>
+      <trans-unit id="673">
+        <source>dc=cca,dc=cisco,dc=com/CCA.CISCO.COM</source>
+      </trans-unit>
+      <trans-unit id="674">
+        <source>dc=nac,dc=perfigo,dc=com/NAC.PERFIGO.COM</source>
+      </trans-unit>
+      <trans-unit id="675">
+        <source>Create an ADSSO server with the LDAP Lookup server.</source>
+      </trans-unit>
+      <trans-unit id="676">
+        <source>You can use the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Auth Test<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> function to test AD SSO authentication in Cisco NAC Appliance.</source>
+      </trans-unit>
+      <trans-unit id="677">
+        <source>For details, see the ﾒAuth Testﾓ section of the<bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="I_Italic" FntIdx="2" tattr_endtooltip="FONT CHANGE"/><ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color_Italic" FntIdx="8" tattr_endtooltip="FONT CHANGE"/><ph id="2" tautoclosing="true" ttag="pla" ttype="HYPERTEXT MARKER:"/>Cisco NAC Appliance - Clean Access Manager Configuration Guide, Release 4.9<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="678">
+        <source>In the <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>Auth Test <ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>tab, the realm name must be entered in addition to the username.</source>
+      </trans-unit>
+      <trans-unit id="679">
+        <source>For example, if the username is <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>nacuser<ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/> and the realm is <bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>NAC.PERFIGO.COM<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/>, then you must enter <bpt id="4" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>nacuser@NAC.PERFIGO.COM<ept id="4" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="680">
+        <source>You can test with users available in either or both the AD forests.</source>
+      </trans-unit>
+      <trans-unit id="681">
+        <source><ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE MARKER:"/>Troubleshooting</source>
+      </trans-unit>
+      <trans-unit id="682">
+        <source>General</source>
+      </trans-unit>
+      <trans-unit id="683">
+        <source>Make sure the date and time of the CAM, CAS, and AD server are all synchronized within 5 minutes of each other or AD SSO will not work.</source>
+      </trans-unit>
+      <trans-unit id="684">
+        <source>You will have to delete the account on AD, synchronize the times and recreate the account.</source>
+      </trans-unit>
+      <trans-unit id="685">
+        <source>If the AD server still keeps a record of the old account even though you have deleted it, you may need to create a new account with a different name.</source>
+      </trans-unit>
+      <trans-unit id="686">
+        <source>When setting up the CAS account on the AD server, make sure that the CAS account does not require Kerberos pre-authentication.</source>
+      </trans-unit>
+      <trans-unit id="687">
+        <source>In OOB deployments, ICMP (ping) is used to find the ﾒclosest AD serverﾓ by the workstation, and <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CI_CmdItalic" FntIdx="11" tattr_endtooltip="FONT CHANGE"/>must<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> work to all AD servers referenced in sites and services for the Authentication VLAN(s), or all AD servers in the domain if sites and services has not been set up.</source>
+      </trans-unit>
+      <trans-unit id="688">
+        <source>In a NAT environment, ensure that the CAM is configured with the NAT entry, for the AD SSO to work properly.</source>
+      </trans-unit>
+      <trans-unit id="689">
+        <source>Perform a <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="ExBold" FntIdx="5" tattr_endtooltip="FONT CHANGE"/>service perfigo restart<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/> on the CAS to make sure it is not using old cached credentials.</source>
+      </trans-unit>
+      <trans-unit id="690">
+        <source>KTPass Command</source>
+      </trans-unit>
+      <trans-unit id="691">
+        <source>Make sure the AD domain name (for multiple servers) or single AD server name you enter between ﾒ/ﾓ and ﾒ@ﾓ in the KTPass command (e.g. ﾒAD_DomainServerﾓ) exactly matches case-by-case the domain or single AD server name as it appears under <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Control Panel &gt; System &gt; Computer Name | Full computer name<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="692">
+        <source>See <ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="61133: 3H_Head3: Run ktpass.exe Command" XRefString="Run the ktpass.exe Command, page 8-22"/> for details.</source>
+      </trans-unit>
+      <trans-unit id="693">
+        <source>Make sure you enter the realm name after ﾒ@ﾓ (e.g. ﾒAD_DOMAINﾓ) in the KTPass command in all <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>upper case characters<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="694">
+        <source>You must convert the Domain name that appears under <bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="B_Bold" FntIdx="3" tattr_endtooltip="FONT CHANGE"/>Control Panel &gt; System &gt; Computer Name | Domain <ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/>on the AD server to UPPER CASE when entering it in the KTPass command.</source>
+      </trans-unit>
+      <trans-unit id="695">
+        <source>Cannot Start AD SSO Service on CAS</source>
+      </trans-unit>
+      <trans-unit id="696">
+        <source>If the AD SSO service cannot start on the CAS, this typically indicates a communication issue between the AD server and the CAS.</source>
+      </trans-unit>
+      <trans-unit id="697">
+        <source>If the Active Directory server is not reachable from the CAS at the time of CAS startup, AD SSO service is not started.</source>
+      </trans-unit>
+      <trans-unit id="698">
+        <source>As a workaround, the administrator must go to <bpt id="1" ttag="b"/>Device Management &gt; CCA Servers &gt; Manage [CAS_IP] &gt; Authentication &gt; Windows Auth &gt; Active Directory SSO <ept id="1" tclosing="true" ttag="b" tid_missing="true"/>and click the <bpt id="2" ttag="b"/>Update <ept id="2" tclosing="true" ttag="b" tid_missing="true"/>button to restart the AD SSO service.</source>
+      </trans-unit>
+      <trans-unit id="699">
+        <source>Check that the KTPass command is run correctly.</source>
+      </trans-unit>
+      <trans-unit id="700">
+        <source>Verify the fields are correct as described in <ph id="2" tautoclosing="true" ttag="pla" ttype="CROSS REFERENCE:" XRefName="Section &amp;&amp; Page" XRefSrcText="61133: 3H_Head3: Run ktpass.exe Command" XRefString="Run the ktpass.exe Command, page 8-22"/>.</source>
+      </trans-unit>
+      <trans-unit id="701">
+        <source>If KTPass was run incorrectly, delete the account, create a new account on the AD server, and run KTPass again.</source>
+      </trans-unit>
+      <trans-unit id="702">
+        <source>Make sure the time on the CAS is synchronized with the AD server.</source>
+      </trans-unit>
+      <trans-unit id="703">
+        <source>This can be done by pointing them both to the same time server (or, in lab setups by just pointing the CAS to the AD server itself for time (AD server runs Windows time)).</source>
+      </trans-unit>
+      <trans-unit id="704">
+        <source>Kerberos is sensitive to clock timing and the clock skew cannot be greater than 5 minutes (300 seconds).</source>
+      </trans-unit>
+      <trans-unit id="705">
+        <source>Make sure the Active Directory Domain is in UPPERCASE (Realm) and that the CAS can resolve the FQDN in DNS.</source>
+      </trans-unit>
+      <trans-unit id="706">
+        <source>(For lab setups you can point to a AD server that runs DNS, as AD requires at least one DNS server).</source>
+      </trans-unit>
+      <trans-unit id="707">
+        <source>Make sure the following are correct: CAS username on the AD server, Active Directory Domain (Kerberos Realm) on the CAS (uppercase), Active Directory Server (FQDN) on the CAS.</source>
+      </trans-unit>
+      <trans-unit id="708">
+        <source>When creating a TAC support case, login to CAS directly at <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>https://&lt;CAS_IP-address&gt;/admin<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>, click on Support Logs and change the logging level for Active Directory communication logging to ﾒINFOﾓ.</source>
+      </trans-unit>
+      <trans-unit id="709">
+        <source>Recreate the problem and download support logs.</source>
+      </trans-unit>
+      <trans-unit id="710">
+        <source>Make sure to restart the CAS or change the log level back to the default after the support logs are downloaded.</source>
+      </trans-unit>
+      <trans-unit id="711">
+        <source>See the<bpt id="2" ttag="fmt" ttype="FONT CHANGE:" Tag="I_Italic" FntIdx="2" tattr_endtooltip="FONT CHANGE"/><ept id="2" tclosing="true" ttag="fmt" tid_missing="true"/><bpt id="3" ttag="fmt" ttype="FONT CHANGE:" Tag="Xref_Color_Italic" FntIdx="8" tattr_endtooltip="FONT CHANGE"/><ph id="1" tautoclosing="true" ttag="pla" ttype="HYPERTEXT MARKER:"/>Cisco NAC Appliance - Clean Access Manager Configuration Guide, Release 4.9<ept id="3" tclosing="true" ttag="fmt" tid_missing="true"/> for further details.</source>
+      </trans-unit>
+      <trans-unit id="712">
+        <source>AD SSO Service Starts, But Client Not Performing SSO</source>
+      </trans-unit>
+      <trans-unit id="713">
+        <source>If AD SSO service is started on the CAS, but the client machine is not performing Windows Single Sign-On, this typically indicates a communication issue between the AD server and client PC or between the client PC and the CAS.</source>
+      </trans-unit>
+      <trans-unit id="714">
+        <source>Check that:</source>
+      </trans-unit>
+      <trans-unit id="715">
+        <source>The client does have Kerberos keys.</source>
+      </trans-unit>
+      <trans-unit id="716">
+        <source>Ports are open in the Unauthenticated role to the AD server so that the client can connect.</source>
+      </trans-unit>
+      <trans-unit id="717">
+        <source>When you test, Cisco recommends first opening complete access to the AD server/DC, then restricting ports once AD SSO is working.</source>
+      </trans-unit>
+      <trans-unit id="718">
+        <source>When logging into the client PC, make sure to log into the domain using Windows domain credentials (not Local Account).</source>
+      </trans-unit>
+      <trans-unit id="719">
+        <source>The client PC time/clock is synchronized with the AD server.</source>
+      </trans-unit>
+      <trans-unit id="720">
+        <source>The CAS trusted interface (eth0) is listening on TCP port 8910.</source>
+      </trans-unit>
+      <trans-unit id="721">
+        <source>A sniffer trace on the client PC can help.</source>
+      </trans-unit>
+      <trans-unit id="722">
+        <source>The user is logged in using the Windows domain account and not the local account.</source>
+      </trans-unit>
+      <trans-unit id="723">
+        <source>The CAS and Agent do not support using multiple NICs on the client machine.</source>
+      </trans-unit>
+      <trans-unit id="724">
+        <source>The client machine Wireless NIC must be turned OFF when the Wired NIC is turned ON.</source>
+      </trans-unit>
+      <trans-unit id="725">
+        <source>Kerbtray</source>
+      </trans-unit>
+      <trans-unit id="726">
+        <source>Kerbtray is a free tool available from Microsoft Support Tools that can be used to confirm that the client has obtained the Kerberos Tickets (TGT and ST), and can also be used to purge Kerberos Tickets on a client machine.</source>
+      </trans-unit>
+      <trans-unit id="727">
+        <source>The ST (Service Ticket) is of concern for the CAS user account that is created on the AD Server.</source>
+      </trans-unit>
+      <trans-unit id="728">
+        <source>A green Kerbtray icon on the system tray indicates that the client has active Kerberos tickets.</source>
+      </trans-unit>
+      <trans-unit id="729">
+        <source>However the ticket needs to be verified as correct (valid) for the CAS user account.</source>
+      </trans-unit>
+      <trans-unit id="730">
+        <source>AD SSO fails in Cisco NAC Appliance when the CAS and Cisco NAC Agent attempt to exchange Kerberos tickets with the AD domain that are larger than 16kB.</source>
+      </trans-unit>
+      <trans-unit id="731">
+        <source>CAS Log Files</source>
+      </trans-unit>
+      <trans-unit id="732">
+        <source>The log file of interest on the CAS is <bpt id="1" ttag="fmt" ttype="FONT CHANGE:" Tag="CN_CmdName" FntIdx="13" tattr_endtooltip="FONT CHANGE"/>/perfigo/access/tomcat/logs/nac_server.log<ept id="1" tclosing="true" ttag="fmt" tid_missing="true"/>.</source>
+      </trans-unit>
+      <trans-unit id="733">
+        <source>If AD SSO Service does not start on CAS, this indicates a CAS-AD server communication issue:</source>
+      </trans-unit>
+      <trans-unit id="734">
+        <source>Clock is not synchronized between CAS and the Domain Controller:</source>
+      </trans-unit>
+      <trans-unit id="735">
+        <source>Username is incorrect.</source>
+      </trans-unit>
+      <trans-unit id="736">
+        <source>Note the wrong username ﾒccass,ﾓ error code 6 and the last warning:</source>
+      </trans-unit>
+      <trans-unit id="737">
+        <source>Password is incorrect or Realm is invalid (e.g. not uppercase, bad FQDN, or KTPass run incorrectly).</source>
+      </trans-unit>
+      <trans-unit id="738">
+        <source>Note error code 24 and last warning:</source>
+      </trans-unit>
+      <trans-unit id="739">
+        <source>The following error indicates a client-CAS communication issue, seen when the client PCﾕs time is not synchronized with AD server.</source>
+      </trans-unit>
+      <trans-unit id="740">
+        <source>(Note the difference between this error and the one in which the CAS time is not synchronized with the AD server.)</source>
+      </trans-unit>
+      <trans-unit id="741">
+        <source>ﾒIntegrity check on decrypted field failedﾓ Error</source>
+      </trans-unit>
+      <trans-unit id="742">
+        <source>If AD SSO is not working, and the CAS logs show a ﾒSEVERE: GSS Error: Failure unspecified at GSS-API level (Mechanism level: Integrity check on decrypted field failed (31))ﾓ message, check the account name/password in the AD configuration and KTPass command.</source>
+      </trans-unit>
+      <trans-unit id="743">
+        <source>The CAS typically returns error messages such as ﾒIntegrity check on decrypted field failedﾓ when the password or key is incorrect.</source>
+      </trans-unit>
+      <trans-unit id="744">
+        <source>For example, this error could appear if you run KTPass on the same account existing on multiple AD servers.</source>
+      </trans-unit>
+      <trans-unit id="745">
+        <source>Executing the KTPass command again on a new account from a single AD server should resolve the issue.</source>
+      </trans-unit>
+      <trans-unit id="746">
+        <source>Chapter <ph id="2" tautoclosing="true" ttag="pla" ttype="VARIABLE:" Name="Running H/F 1" Value="      "/></source>
+      </trans-unit>
+      <trans-unit id="747">
+        <source>Chapter <ph id="2" tautoclosing="true" ttag="pla" ttype="VARIABLE:" Name="Running H/F 1" Value="      "/></source>
+      </trans-unit>
+      <trans-unit id="748">
+        <source>Chapter <ph id="2" tautoclosing="true" ttag="pla" ttype="VARIABLE:" Name="Running H/F 1" Value="      "/></source>
+      </trans-unit>
+      <trans-unit id="749">
+        <source>Chapter <ph id="2" tautoclosing="true" ttag="pla" ttype="VARIABLE:" Name="Running H/F 1" Value="      "/></source>
+      </trans-unit>
+      <trans-unit id="750">
+        <source>Chapter <ph id="2" tautoclosing="true" ttag="pla" ttype="VARIABLE:" Name="Running H/F 1" Value="      "/></source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

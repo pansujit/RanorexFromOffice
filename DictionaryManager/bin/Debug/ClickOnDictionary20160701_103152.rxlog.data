@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="19d8d05b8dd61e00"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="7/1/2016 10:31:54 AM"
+		timestampiso="2016-07-01T08:31:54"
+		timeoutfactor="1"
+		module="ClickOnDictionary">
+		<detail>
+			ClickOnDictionary
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.337"
+			timeRelativeToTestModuleStartTime="00:00.338"
+			timeWallClock="10:31:55"
+			time="00:00.337"
+			level="Info"
+			category="Mouse"
+			errimg=".\ClickOnDictionary20160701_103152_b1d393aa_trace.jpg"
+			errthumb=".\ClickOnDictionary20160701_103152_b1d393aa_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'DictionaryMenu.Dictionary' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='Dictionary']"
+				fullname="DictionaryManagerRepository.DictionaryMenu.Dictionary"
+				id="ddf6a625a9bd4fabba6a7a21b84be43d"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ClickOnDictionary.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.846"
+			timeRelativeToTestModuleStartTime="00:02.847"
+			timeWallClock="10:31:57"
+			time="00:02.846"
+			level="Info"
+			category="Mouse"
+			errimg=".\ClickOnDictionary20160701_103152_3a3f033b_trace.jpg"
+			errthumb=".\ClickOnDictionary20160701_103152_3a3f033b_trace_thumb.jpg">
+			<message>
+				Mouse Left Move item 'DictionaryMenu.DictionaryChangeEntryType' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='Change Entry Type']"
+				fullname="DictionaryManagerRepository.DictionaryMenu.DictionaryChangeEntryType"
+				id="d78c5470be334f0b9079afa10973fdb6"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ClickOnDictionary.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.139"
+			timeRelativeToTestModuleStartTime="00:14.140"
+			timeWallClock="10:32:09"
+			time="00:14.139"
+			level="Error"
+			category="User"
+			errimg=".\ClickOnDictionary20160701_103152_d6cc81c6_trace.jpg"
+			errthumb=".\ClickOnDictionary20160701_103152_d6cc81c6_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

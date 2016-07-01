@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5f2ae755867e7"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/28/2016 2:19:35 PM"
+		timestampiso="2016-06-28T12:19:35"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="35.88s"
+			durationms="35881"
+			type="test suite"
+			rid="4b7dd2aa1f9bed2"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="testtooltip"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="35.82s"
+				durationms="35818"
+				type="folder"
+				rid="16f6ed7e83f505f8"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				foldername="Install_Uninstall_System">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="35.13s"
+					durationms="35132"
+					type="test case"
+					rid="25ef0bea4bb22ff3"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					testcasename="Download_Desktop_8_Package"
+					testcaseid="1f32b6bd-0491-4981-9192-418cacdeb46c"
+					datasource="SearchEditions"
+					iterationcount="1"
+					maxchildren="0">
+					<params/>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="35.13s"
+						durationms="35132"
+						type="test case iteration"
+						rid="3223c19ad68c6ea0"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Download_Desktop_8_Package"
+						iteration="1">
+						<datarow>
+							<field
+								name="Edition">
+								SYSTRAN 8 TRANSLATOR Professional en-fr
+							</field>
+						</datarow>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="21.05s"
+							durationms="21045"
+							type="test module"
+							rid="10c0fd45607f591c"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartFirefoxSystran (testAutomation)"
+							moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Failed"
+							duration="13.99s"
+							durationms="13993"
+							type="test module"
+							rid="166aed4e777cff8a"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="ClickOnPackage (testAutomation)"
+							moduleid="3861d624-9f27-4601-9e27-85b13c37b5c1"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings>
+								<varbinding
+									name="SearchName"
+									value="SYSTRAN 8 TRANSLATOR Professional en-fr"/>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:23.026"
+								timeRelativeToTestModuleStartTime="00:00.000"
+								timeWallClock="14:19:58"
+								time="00:23.026"
+								level="Info"
+								category="Data"
+								errimg="images_testtooltip_20160628_141935\testtooltip_20160628_141935_fce82e62_trace.jpg"
+								errthumb="images_testtooltip_20160628_141935\testtooltip_20160628_141935_fce82e62_trace_thumb.jpg">
+								<message>
+									Current variable values:<br/>$SearchName = 'SYSTRAN 8 TRANSLATOR Professional en-fr'
+								</message>
+								<metainfo
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:36.926"
+								timeRelativeToTestModuleStartTime="00:13.900"
+								timeWallClock="14:20:12"
+								time="00:36.926"
+								level="Error"
+								category="User"
+								errimg="images_testtooltip_20160628_141935\testtooltip_20160628_141935_3b64f9ac_trace.jpg"
+								errthumb="images_testtooltip_20160628_141935\testtooltip_20160628_141935_3b64f9ac_trace_thumb.jpg">
+								<message>
+									The test run has been aborted by the user.
+								</message>
+								<metainfo
+									loglvl="Error"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

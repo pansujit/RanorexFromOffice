@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="28d7fc1b595246e6"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/15/2016 1:25:33 PM"
+		timestampiso="2016-04-15T11:25:33"
+		timeoutfactor="1"
+		module="UserCodeModule1">
+		<detail>
+			UserCodeModule1
+		</detail>
+		<errmsg>
+			Failed to find item 'testAutomationRepository.SYSTRAN8TRANSLATOR.SystemItemNameDisplay'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.617"
+			timeRelativeToTestModuleStartTime="00:33.617"
+			timeWallClock="13:26:06"
+			time="00:33.617"
+			level="Error"
+			category="Module"
+			errimg=".\UserCodeModule1.cs_20160415_132529_87e5d434_trace.jpg"
+			errthumb=".\UserCodeModule1.cs_20160415_132529_87e5d434_trace_thumb.jpg">
+			<message>
+				Failed to find item 'testAutomationRepository.SYSTRAN8TRANSLATOR.SystemItemNameDisplay'.<br/>No element found for path './/element[@instance='1']/container[@caption='ShellView']/?/?/listitem[@automationid='8']/text[@automationid='System.ItemNameDisplay']' within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.SYSTRAN8TRANSLATORAppFolder.get_SystemItemNameDisplay() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\testAutomationRepository.cs:line 710
+   at testAutomation.UserCodeModule1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\UserCodeModule1.cs:line 53
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\UserCodeModule1.cs"
+				codeline="53"
+				type="repoitem"
+				path="/form[@title='SYSTRAN 8 TRANSLATOR']//element[@instance='1']/container[@caption='ShellView']/?/?/listitem[@automationid='8']/text[@automationid='System.ItemNameDisplay']"
+				fullname="testAutomationRepository.SYSTRAN8TRANSLATOR.SystemItemNameDisplay"
+				id="e750e4b99bd54370be40191018c19f94"
+				timeout="60000"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

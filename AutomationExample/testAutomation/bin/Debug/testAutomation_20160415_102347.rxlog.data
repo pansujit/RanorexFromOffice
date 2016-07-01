@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="54.21s"
+		durationms="54206"
+		type="root"
+		rid="14edbf92b5bec0df"
+		totalerrorcount="2"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/15/2016 10:23:47 AM"
+		timestampiso="2016-04-15T08:23:47"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="54.07s"
+			durationms="54065"
+			type="test suite"
+			rid="1158666fa43eacc"
+			totalerrorcount="2"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="testAutomation"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="2">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="54.05s"
+				durationms="54050"
+				type="test case"
+				rid="2948e21aa3634758"
+				totalerrorcount="2"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="Uninstall_Application"
+				testcaseid="67c0e640-ed50-4a17-8d1b-c39d55322a11"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="54.05s"
+					durationms="54050"
+					type="test module"
+					rid="13aa1eae8344cf74"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="LocatingFolder"
+					moduleid="b4ef6e13-52e8-4a18-800c-667fef2e408f"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:49.319"
+						timeRelativeToTestModuleStartTime="00:49.163"
+						timeWallClock="10:24:37"
+						time="00:49.319"
+						level="Error"
+						category="User">
+						<message>
+							The test run has been aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:54.206"
+						timeRelativeToTestModuleStartTime="00:54.050"
+						timeWallClock="10:24:42"
+						time="00:54.206"
+						level="Error"
+						category="Module">
+						<message>
+							Test run was aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

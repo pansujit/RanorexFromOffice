@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="e2252c636d4bf2"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="4"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/22/2016 11:11:09 AM"
+		timestampiso="2016-04-22T09:11:09"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="47.63s"
+			durationms="47626"
+			type="test suite"
+			rid="af43107ddb3c3a3"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="4"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="testtooltip"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="46.86s"
+				durationms="46855"
+				type="test case"
+				rid="198d2461117793b4"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="4"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="Global-Desktop-Test"
+				testcaseid="dcd41f78-b1fe-438f-8211-f350028d77b3"
+				datasource="testExcelConnector"
+				iterationcount="2"
+				maxchildren="34">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="30.69s"
+					durationms="30692"
+					type="test case iteration"
+					rid="94fb9fcc3f352c8"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Global-Desktop-Test"
+					iteration="1">
+					<datarow>
+						<field
+							name="Edition">
+							&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="30.64s"
+						durationms="30640"
+						type="test case"
+						rid="17589b8f8c32ff78"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Uninstall_Desktop_8_Application"
+						testcaseid="6b716c4f-87da-4455-ab38-8888931fad59"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="51ms"
+							durationms="51"
+							type="test module"
+							rid="7005d787d09fef"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="LocatingFolderForUninstallation (testAutomation)"
+							moduleid="b4ef6e13-52e8-4a18-800c-667fef2e408f"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="2026ms"
+							durationms="2026"
+							type="test module"
+							rid="393460480d55ef52"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseAllApplications (testAutomation)"
+							moduleid="1f16ca4d-46f5-48e2-9b73-1507eaf3f82e"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="18.41s"
+							durationms="18413"
+							type="test module"
+							rid="224444c39132ac4e"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="ClickOnUninstall (testAutomation)"
+							moduleid="befbd714-b159-456d-afeb-2ef6857441c7"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="2002ms"
+							durationms="2002"
+							type="test module"
+							rid="a8f60e68a32b25a"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseAllApplications (testAutomation)"
+							moduleid="1f16ca4d-46f5-48e2-9b73-1507eaf3f82e"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="6057ms"
+							durationms="6057"
+							type="test module"
+							rid="1e68fdc763f73772"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="DeleteAllFolders (testAutomation)"
+							moduleid="0d10b971-4b5d-4786-80f8-83de294a3f77"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="2034ms"
+							durationms="2034"
+							type="test module"
+							rid="11259b07d7dd4d98"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseFolder (testAutomation)"
+							moduleid="221f8929-9e4f-46ee-9ae0-2c2cd92a28dd"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="16.15s"
+					durationms="16153"
+					type="test case iteration"
+					rid="2c7cfb7a962139e1"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Global-Desktop-Test"
+					iteration="2">
+					<datarow>
+						<field
+							name="Edition">
+							&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="16.15s"
+						durationms="16151"
+						type="test case"
+						rid="c16c7756dab20e0"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Uninstall_Desktop_8_Application"
+						testcaseid="6b716c4f-87da-4455-ab38-8888931fad59"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="15ms"
+							durationms="15"
+							type="test module"
+							rid="1df9071535c3bf9e"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="LocatingFolderForUninstallation (testAutomation)"
+							moduleid="b4ef6e13-52e8-4a18-800c-667fef2e408f"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="2003ms"
+							durationms="2003"
+							type="test module"
+							rid="373f5552d4b39c9"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseAllApplications (testAutomation)"
+							moduleid="1f16ca4d-46f5-48e2-9b73-1507eaf3f82e"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="4018ms"
+							durationms="4018"
+							type="test module"
+							rid="edf0bd29bb11c10"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="ClickOnUninstall (testAutomation)"
+							moduleid="befbd714-b159-456d-afeb-2ef6857441c7"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="2002ms"
+							durationms="2002"
+							type="test module"
+							rid="231d6111d694f0d6"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseAllApplications (testAutomation)"
+							moduleid="1f16ca4d-46f5-48e2-9b73-1507eaf3f82e"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="6058ms"
+							durationms="6058"
+							type="test module"
+							rid="14731f35119458cb"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="DeleteAllFolders (testAutomation)"
+							moduleid="0d10b971-4b5d-4786-80f8-83de294a3f77"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+						<activity
+							result="Success"
+							duration="2044ms"
+							durationms="2044"
+							type="test module"
+							rid="270a81ea08875f7"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="CloseFolder (testAutomation)"
+							moduleid="221f8929-9e4f-46ee-9ae0-2c2cd92a28dd"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

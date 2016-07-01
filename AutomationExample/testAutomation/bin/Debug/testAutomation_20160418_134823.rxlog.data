@@ -1,0 +1,595 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4aa22318b6bd1b0"
+		totalerrorcount="2"
+		totalwarningcount="2"
+		totalsuccesscount="2"
+		totalfailedcount="2"
+		totalblockedcount="1"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/18/2016 1:48:23 PM"
+		timestampiso="2016-04-18T11:48:23"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="5.2m"
+			durationms="311018"
+			type="test suite"
+			rid="2ac8d3f0f10bf362"
+			totalerrorcount="2"
+			totalwarningcount="2"
+			totalsuccesscount="2"
+			totalfailedcount="2"
+			totalblockedcount="1"
+			testsuitename="testAutomation"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="3">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="2.8m"
+				durationms="166683"
+				type="test case"
+				rid="1862e3e96b91d2f8"
+				totalerrorcount="1"
+				totalwarningcount="2"
+				totalsuccesscount="1"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="8101e436-afed-4ee8-be14-e529c4b0a519"
+				datasource="Test_Connector"
+				iterationcount="2"
+				maxchildren="0">
+				<params>
+					<param
+						name="NewParameter">
+					</param>
+				</params>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="2.4m"
+					durationms="143978"
+					type="test case iteration"
+					rid="547c1369e325bd6"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="1">
+					<datarow>
+						<field
+							name="Edition">
+							SYSTRAN 8 TRANSLATOR Professional en-fr
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="23.39s"
+						durationms="23391"
+						type="test case setup"
+						rid="1311f3ff7fde67c4"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="23.38s"
+							durationms="23376"
+							type="test module"
+							rid="d317667c956d3a0"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartFirefoxSystran"
+							moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="2m"
+						durationms="120181"
+						type="test module"
+						rid="3b94f606888fb85f"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="ClickOnPackage"
+						moduleid="3861d624-9f27-4601-9e27-85b13c37b5c1"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="SearchName"
+								value="SYSTRAN 8 TRANSLATOR Professional en-fr"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.766"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="13:48:48"
+							time="00:24.766"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$SearchName = 'SYSTRAN 8 TRANSLATOR Professional en-fr'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="109ms"
+						durationms="109"
+						type="test module"
+						rid="2072fb68605d5dc0"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="LocatingFolder"
+						moduleid="b4ef6e13-52e8-4a18-800c-667fef2e408f"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings/>
+					</activity>
+					<activity
+						result="Success"
+						duration="218ms"
+						durationms="218"
+						type="test case teardown"
+						rid="215a4816d2714d3"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="218ms"
+							durationms="218"
+							type="test module"
+							rid="31642ca6a51c2f93"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StopFirefox"
+							moduleid="0b27bb73-d878-4d7c-85a0-20191b52183e"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="22.7s"
+					durationms="22704"
+					type="test case iteration"
+					rid="234f16e1280ce9cb"
+					totalerrorcount="1"
+					totalwarningcount="2"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase"
+					iteration="2">
+					<datarow>
+						<field
+							name="Edition">
+							SYSTRAN 8 TRANSLATOR Essential en-fr
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="13.54s"
+						durationms="13535"
+						type="test case setup"
+						rid="112631e960db1c50"
+						totalerrorcount="0"
+						totalwarningcount="2"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="13.54s"
+							durationms="13535"
+							type="test module"
+							rid="15232d4a4b49919c"
+							totalerrorcount="0"
+							totalwarningcount="2"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartFirefoxSystran"
+							moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="02:34.848"
+								timeRelativeToTestModuleStartTime="00:09.572"
+								timeWallClock="13:50:58"
+								time="02:34.848"
+								level="Warn"
+								category="Automation">
+								<message>
+									Could not get a valid element rectangle from '{InputTag:}', since the element is no longer valid.
+								</message>
+								<metainfo
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\StartFirefoxSystran.cs"
+									codeline="62"
+									loglvl="Warn"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="02:37.360"
+								timeRelativeToTestModuleStartTime="00:12.084"
+								timeWallClock="13:51:01"
+								time="02:37.360"
+								level="Warn"
+								category="Automation">
+								<message>
+									Could not get a valid element rectangle from '{InputTag:}', since the element is no longer valid.
+								</message>
+								<metainfo
+									codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\StartFirefoxSystran.cs"
+									codeline="66"
+									loglvl="Warn"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Failed"
+						duration="8935ms"
+						durationms="8935"
+						type="test module"
+						rid="f23226e61844d43"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="ClickOnPackage"
+						moduleid="3861d624-9f27-4601-9e27-85b13c37b5c1"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<errmsg>
+							Failed to find item 'testAutomationRepository.TranslationResources.Packages'.
+						</errmsg>
+						<varbindings>
+							<varbinding
+								name="SearchName"
+								value="SYSTRAN 8 TRANSLATOR Essential en-fr"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="02:38.810"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="13:51:02"
+							time="02:38.810"
+							level="Info"
+							category="Data"
+							errimg="images_testAutomation_20160418_134823\testAutomation_20160418_134823_45313fe5_trace.jpg"
+							errthumb="images_testAutomation_20160418_134823\testAutomation_20160418_134823_45313fe5_trace_thumb.jpg">
+							<message>
+								Current variable values:<br/>$SearchName = 'SYSTRAN 8 TRANSLATOR Essential en-fr'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:47.637"
+							timeRelativeToTestModuleStartTime="00:08.826"
+							timeWallClock="13:51:11"
+							time="02:47.637"
+							level="Error"
+							category="Module"
+							errimg="images_testAutomation_20160418_134823\testAutomation_20160418_134823_3d451298_trace.jpg"
+							errthumb="images_testAutomation_20160418_134823\testAutomation_20160418_134823_3d451298_trace_thumb.jpg">
+							<message>
+								Failed to find item 'testAutomationRepository.TranslationResources.Packages'.<br/>No element found for path '/dom[@caption='Translation Resources']//div[#'navBar']//a[@innertext='Packages']' within 1m.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.TranslationResourcesAppFolder.get_Packages() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\testAutomationRepository.cs:line 426
+   at testAutomation.ClickOnPackage.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\ClickOnPackage.cs:line 71
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\ClickOnPackage.cs"
+								codeline="71"
+								type="repoitem"
+								path="/dom[@caption='Translation Resources']//div[#'navBar']//a[@innertext='Packages']"
+								fullname="testAutomationRepository.TranslationResources.Packages"
+								id="bef985b811a546419827896c77b0ec8b"
+								timeout="60000"
+								loglvl="Error"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="218ms"
+						durationms="218"
+						type="test case teardown"
+						rid="b34e267b51ac866"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="218ms"
+							durationms="218"
+							type="test module"
+							rid="3f188cfdd749e97"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StopFirefox"
+							moduleid="0b27bb73-d878-4d7c-85a0-20191b52183e"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings/>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="21.05s"
+				durationms="21049"
+				type="test case"
+				rid="1895b32e8d9a79f2"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="Uninstall_Application"
+				testcaseid="67c0e640-ed50-4a17-8d1b-c39d55322a11"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="46ms"
+					durationms="46"
+					type="test case setup"
+					rid="159f0b9b2abe7f3c"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="46ms"
+						durationms="46"
+						type="test module"
+						rid="4f0d07d7668bae1"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="LocatingFolder"
+						moduleid="b4ef6e13-52e8-4a18-800c-667fef2e408f"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings/>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="21s"
+					durationms="21003"
+					type="test module"
+					rid="80e744d3996379e"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="ClickOnUninstall"
+					moduleid="befbd714-b159-456d-afeb-2ef6857441c7"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+			</activity>
+			<activity
+				result="Failed"
+				duration="2m"
+				durationms="117751"
+				type="test case"
+				rid="91651c2e3034780"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="1"
+				testcasename="Install_Application"
+				testcaseid="69830991-4846-4205-bf03-4a3ce440654d"
+				datasource="Test_Connector"
+				iterationcount="2"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="2m"
+					durationms="117751"
+					type="test case iteration"
+					rid="e516279de213204"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Install_Application"
+					iteration="1">
+					<datarow>
+						<field
+							name="Edition">
+							SYSTRAN 8 TRANSLATOR Professional en-fr
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="2m"
+						durationms="117689"
+						type="test module"
+						rid="657210c6e71144e"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="SelectFolderForInstallation"
+						moduleid="17bf0119-2d26-4d48-b285-149460b6a213"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<errmsg>
+							Failed to find item 'testAutomationRepository.DeleteFile.ButtonYes'.
+						</errmsg>
+						<varbindings>
+							<varbinding
+								name="SearchName"
+								value="SYSTRAN 8 TRANSLATOR Professional en-fr"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="03:13.453"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="13:51:37"
+							time="03:13.453"
+							level="Info"
+							category="Data"
+							errimg="images_testAutomation_20160418_134823\testAutomation_20160418_134823_3db9f8bb_trace.jpg"
+							errthumb="images_testAutomation_20160418_134823\testAutomation_20160418_134823_3db9f8bb_trace_thumb.jpg">
+							<message>
+								Current variable values:<br/>$SearchName = 'SYSTRAN 8 TRANSLATOR Professional en-fr'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:11.018"
+							timeRelativeToTestModuleStartTime="01:57.564"
+							timeWallClock="13:53:34"
+							time="05:11.018"
+							level="Error"
+							category="Module"
+							errimg="images_testAutomation_20160418_134823\testAutomation_20160418_134823_6dcefde9_trace.jpg"
+							errthumb="images_testAutomation_20160418_134823\testAutomation_20160418_134823_6dcefde9_trace_thumb.jpg">
+							<message>
+								Failed to find item 'testAutomationRepository.DeleteFile.ButtonYes'.<br/>No element found for path '/form[@title='Delete File']/button[@text='&amp;Yes']' within 1m.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.DeleteFileAppFolder.get_ButtonYes() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\testAutomationRepository.cs:line 1174
+   at testAutomation.SelectFolderForInstallation.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\SelectFolderForInstallation.cs:line 85
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\SelectFolderForInstallation.cs"
+								codeline="85"
+								type="repoitem"
+								path="/form[@title='Delete File']/button[@text='&amp;Yes']"
+								fullname="testAutomationRepository.DeleteFile.ButtonYes"
+								id="525f5674b92b4e609a57add75fa75f22"
+								timeout="60000"
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test case iteration"
+					rid="c249f18d96e35d6"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Install_Application"
+					iteration="2">
+					<datarow>
+						<field
+							name="Edition">
+							SYSTRAN 8 TRANSLATOR Essential en-fr
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

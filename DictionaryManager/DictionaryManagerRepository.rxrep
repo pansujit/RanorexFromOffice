@@ -1,0 +1,1125 @@
+﻿<repository
+name="DictionaryManagerRepository"
+id="1690ff42-4e44-4ddc-9c10-920ebe70dfad"
+rxversion="6.0">
+	<codegen
+	classname="DictionaryManagerRepository"
+	namespace="DictionaryManager"/>
+	<rootfolder
+	name="Root"
+	id="623ccc2d-6519-4df5-aa39-655f8d9d3a18"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="SYSTRANDictionaryManager"
+		id="819b32cd-dcbf-4597-93e7-c5e27440e8e1"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='SYSTRAN Dictionary Manager']"
+		addcaps="form,control,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<folder
+			name="OpenDictionary"
+			id="44a8cc4a-3cba-49aa-b9ed-f234d3c7900f"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@title='SYSTRAN Dictionary Manager']/container[@caption='' and @controltypename='WindowDockingArea' and @instance='8']/container[@caption='']/container[@controlname='sdm.window.open']"
+			addcaps="container,control,nativewindow"
+			isrooted="True"
+			usecache="False">
+				<folder
+				name="dictionaryTypeInOpenDictionary"
+				id="587f753c-8fc5-49b5-85e2-9d4923e018c7"
+				searchtimeout="0ms"
+				capname="unknown"
+				isrooted="False">
+					<item
+					name="TranslationMemories"
+					id="b658babf-59bf-4b3b-ae08-059f26a98c2f"
+					searchtimeout="30000ms"
+					capname="treeitem"
+					addcaps="treeitem,accessible"
+					refimgid="66d12ca5-944e-40e3-b57f-5059da021be2">
+						/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mView']/?/?/treeitem[@accessiblename='Translation Memories']
+					</item>
+					<item
+					name="Normalization"
+					id="56460364-16d6-4577-9d5d-d246f52e44e2"
+					searchtimeout="30000ms"
+					capname="treeitem"
+					addcaps="treeitem,accessible"
+					refimgid="32720023-be26-4a32-930d-bc276f42bdb8">
+						/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mView']/?/?/treeitem[@accessiblename='Normalization']
+					</item>
+					<item
+					name="UserDictionaries"
+					id="79213151-bf05-4b84-817a-98e3e99e6fe0"
+					searchtimeout="30000ms"
+					capname="treeitem"
+					refpath="/form[@title~'^SYSTRAN\ Dictionary\ Manage']/container[@caption='' and @controltypename='WindowDockingArea' and @instance='8']/container/container/element[@controlname='mView']/tree/treeitem[@accessiblename='User Dictionaries']"
+					addcaps="treeitem,accessible"
+					refimgid="153c5972-8ab8-4cf7-822b-f2da65234cac">
+						/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mView']/?/?/treeitem[@accessiblename='User Dictionaries']
+					</item>
+				</folder>
+				<folder
+				name="DictionariesName"
+				id="65a068e3-2ea6-4ee2-8bc5-44efdc9458c6"
+				searchtimeout="0ms"
+				capname="unknown"
+				isrooted="False">
+					<item
+					name="ENFRUserDictionary"
+					id="17c1ac0b-cc00-45cc-a227-44d61c974af4"
+					searchtimeout="10000ms"
+					capname="treeitem"
+					addcaps="treeitem,accessible"
+					refimgid="f0478ed8-51b1-4d40-8bcd-60962b67801b">
+						/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mView']/?/?/treeitem[@accessiblename&lt;'UserDict']
+					</item>
+					<item
+					name="ENFRTranslationMemory"
+					id="3dabf126-bf3e-4c8c-85e7-0a9a3bb8574f"
+					searchtimeout="30000ms"
+					capname="treeitem"
+					refimgid="cee2c40d-e214-4a29-abe6-e43cf0100ceb">
+						/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mView']/?/?/treeitem[@accessiblename&lt;'UserTranslationMemory']
+					</item>
+					<item
+					name="TreeItemENUserNormalization"
+					id="73ed9fb5-3e6b-47cd-928f-34ac4ac93aed"
+					searchtimeout="30000ms"
+					capname="treeitem"
+					addcaps="treeitem,accessible"
+					refimgid="4842c0bf-feba-4be8-984c-34369fcafa6d">
+						/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mView']/?/?/treeitem[@accessiblename&lt;'UserNormalization']
+					</item>
+				</folder>
+				<basepath>
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']
+				</basepath>
+			</folder>
+			<folder
+			name="DictiionaryEntryLanguage"
+			id="136ab7e0-e556-4b5c-9b12-133688cbd451"
+			searchtimeout="30000ms"
+			capname="row"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="EnglishSourceLanguage"
+				id="dc132739-5d97-4f06-b166-e1bd8c0f94f1"
+				searchtimeout="30000ms"
+				capname="cell"
+				refpath="/form[@title~'^SYSTRAN\ Dictionary\ Manage']/element[@controltypename='MdiClient']/form/container/table/row/cell[@accessiblename='English (Source language)']"
+				addcaps="cell,accessible"
+				refimgid="0cd4e6c1-ed1b-4ed7-a4e4-849ec0d5d1c4">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//table[@controlname='mEntriesView']/row[@accessiblename='0']/cell[@accessiblename='English (Source language)']
+				</item>
+				<item
+				name="FrenchTargetLanguage"
+				id="68b39653-b7a5-4c9e-bc73-9de4eb77cc55"
+				searchtimeout="30000ms"
+				capname="cell"
+				refpath="/form[@title~'^SYSTRAN\ Dictionary\ Manage']/element[@controltypename='MdiClient']/form/container/table/row[@accessiblename='0']/cell[@accessiblename='French (Target language)']"
+				addcaps="cell,accessible"
+				refimgid="3c71833c-cbb0-4d25-a61f-b70b82185625">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//table[@controlname='mEntriesView']/row[@accessiblename='0']/cell[@accessiblename='French (Target language)']
+				</item>
+				<item
+				name="EnglishNormalized"
+				id="f11ac8f7-58bd-499d-bc1c-cc665ae379d1"
+				searchtimeout="30000ms"
+				capname="cell"
+				refpath="/form[@title~'^SYSTRAN\ Dictionary\ Manage']/element[@controltypename='MdiClient']/form/container/table/row[@accessiblename='0']/cell[@accessiblename='English (Normalized)']"
+				addcaps="cell,accessible"
+				refimgid="a1a23745-f719-46a8-987b-f1a7f799de02">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//table[@controlname='mEntriesView']/row[@accessiblename='0']/cell[@accessiblename='English (Normalized)']
+				</item>
+				<basepath>
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//table[@controlname='mEntriesView']/row[@accessiblename='0']
+				</basepath>
+			</folder>
+			<folder
+			name="Buttons"
+			id="8c625ba1-1a51-449b-b735-bfa9d3309e1b"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="DeleteButton"
+				id="4795beb9-a209-4517-8c79-b7ffeae36fd7"
+				searchtimeout="30000ms"
+				capname="button"
+				addcaps="button,accessible"
+				refimgid="e898a590-e811-4879-901e-59038132f5ef">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']/container[@controltypename='WindowDockingArea']/?/?/container[@controlname='sdm.window.open']//toolbar[@accessiblename='Toolbar']/button[@accessiblerole='PushButton' and @text='' and @accessibledescription~'^Delete\ selected\ dictionar']
+				</item>
+				<item
+				name="TabCloseButton"
+				id="ef2098bb-6b7b-4cc6-a5e3-2dc5c11481b1"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title~'^SYSTRAN\ Dictionary\ Manage']/element[@controltypename='MdiTabGroupControl']/tabpagelist/button[@accessiblename='TabCloseButton']"
+				addcaps="button,accessible"
+				refimgid="1181417e-063d-40f2-8eaf-c6c59d27931b">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']/element[@controltypename='MdiTabGroupControl']/?/?/button[@accessiblename='TabCloseButton']
+				</item>
+			</folder>
+			<folder
+			name="ValidateUserDictionary"
+			id="c35d8bde-552f-4380-b8d2-ba68d6837837"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="Sujit"
+				id="ebf579e8-89b7-414b-98ad-0da47bab7ae7"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='SYSTRAN Dictionary Manager']/container[@caption='' and @controltypename='WindowDockingArea' and @instance='8']/container[@caption='']/container[@controlname='sdm.window.open']/element[@controlname='mDictionaryPropertiesView']/container[@controlname='mDictionaryPropertiesView.ClientArea']/text[@caption='Sujit']"
+				addcaps="text,control,nativewindow"
+				refimgid="bdd33bfd-2232-49ec-9b38-47233868f5a0">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mDictionaryPropertiesView']/?/?/text[@caption='Sujit']
+				</item>
+				<item
+				name="UserDictionaries"
+				id="7b41df5c-38bc-4e9f-9ac5-72ed35cf043a"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='SYSTRAN Dictionary Manager']/container[@caption='' and @controltypename='WindowDockingArea' and @instance='8']/container[@caption='']/container[@controlname='sdm.window.open']/element[@controlname='mDictionaryPropertiesView']/container[@controlname='mDictionaryPropertiesView.ClientArea']/text[@caption='User Dictionaries']"
+				addcaps="text,control,nativewindow"
+				refimgid="620e6b57-e457-4496-ae98-16ff7732c9de">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mDictionaryPropertiesView']/?/?/text[@caption='User Dictionaries']
+				</item>
+			</folder>
+			<folder
+			name="ValidateTranslationMemory"
+			id="915a95e2-e711-4572-a8bb-7c0941817c0d"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="TranslationMemories"
+				id="323a8aad-573a-4b5f-9476-9d60ac6de934"
+				searchtimeout="30000ms"
+				capname="text"
+				addcaps="text,control,nativewindow"
+				refimgid="61f3e60b-afd2-4670-a08a-fbc7613abc45">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mDictionaryPropertiesView']/?/?/text[@caption='Translation Memories']
+				</item>
+			</folder>
+			<folder
+			name="ValidateNormalization"
+			id="ea239ee4-8cf3-4206-965c-57c4623e3f75"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="Normalization"
+				id="81bc5de9-3834-45ee-88c5-f84c0bbf881d"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='SYSTRAN Dictionary Manager']/container[@caption='' and @controltypename='WindowDockingArea' and @instance='8']/container[@caption='']/container[@controlname='sdm.window.open']/element[@controlname='mDictionaryPropertiesView']/container[@controlname='mDictionaryPropertiesView.ClientArea']/text[@caption='Normalization']"
+				addcaps="text,control,nativewindow"
+				refimgid="7d1fa2ff-fc13-4688-b76c-ff7965d18776">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mDictionaryPropertiesView']/?/?/text[@caption='Normalization']
+				</item>
+			</folder>
+			<folder
+			name="ValidateAddEntryUserDictionary"
+			id="bc554c5c-3b3a-4731-bfc0-81e6c8c26dd2"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="Text1"
+				id="d97ac11d-2acb-4225-b64c-5cc7fd3ff84a"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='SYSTRAN Dictionary Manager']/container[@caption='' and @controltypename='WindowDockingArea' and @instance='9']/container[@caption='']/container[@controlname='sdm.window.open']/element[@controlname='mDictionaryPropertiesView']/container[@controlname='mDictionaryPropertiesView.ClientArea']/text[@caption='1']"
+				addcaps="text,control,nativewindow"
+				refimgid="07c09f17-b3b2-4c7b-b88c-dbfc5a140629">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mDictionaryPropertiesView']/?/?/text[@caption='1']
+				</item>
+				<item
+				name="NumberOfEntries1"
+				id="e8700c77-16c1-4da0-b6ca-48c6974ec008"
+				searchtimeout="30000ms"
+				capname="unknown"
+				refpath="/form[@title='SYSTRAN Dictionary Manager']/element[@controltypename='MdiClient']/form[@controlid='1']/container[@caption='AddEntryUserDict']/element[@controltypename='UltraToolbarsDockArea' and @instance='0']/container[@accessiblename='DockTop']/toolbar[@accessiblename='Toolbar']/element[@accessiblename='Number of entries: 1']"
+				addcaps="unknown,accessible"
+				refimgid="c88db8aa-1439-4805-af5d-9b3d697838e8">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']/?/?/form[@controlid='1']//container[@accessiblename='DockTop']/toolbar[@accessiblename='Toolbar']/element[@accessiblename='Number of entries: 1']
+				</item>
+			</folder>
+			<folder
+			name="ValidateAddEntryTranslationMemory"
+			id="e88929ce-4656-4b1e-9af2-a1c74762c55f"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="EnglishSourceLanguage"
+				id="246ad616-e235-41ee-9de8-9e48adf1d4c0"
+				searchtimeout="30000ms"
+				capname="cell"
+				addcaps="cell,accessible"
+				refimgid="00912675-f7b7-4db1-b295-f89e004956cf">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//table[@controlname='mEntriesView']/row[@accessiblename='-1']/cell[@accessiblename='English (Source language)']
+				</item>
+				<item
+				name="FrenchTargetLanguage"
+				id="2765365d-131c-43ed-820f-9b5115d85d2a"
+				searchtimeout="30000ms"
+				capname="cell"
+				addcaps="cell,accessible"
+				refimgid="fb958b89-b4f9-4a13-92d5-9177935cd4d0">
+					<image
+					name="DoNotTranslateImage"
+					guid="e277a368-7e71-45cb-b3b7-4de5b0b27f13">
+						iVBORw0KGgoAAAANSUhEUgAAAHcAAAAYCAYAAADAm2IFAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIZSURBVGhD7ZcLcoUgDEW7YdfBNtgGy2AX7oKS
+SHghBn/VGR/N6TiVj9ckF7D9ScawmLkDY+YOjJk7MGbuwJi5A2PmDsxFc2Pyk09xDslNU5rY5WOZ
+chTUcCnMpQ1AnwuJdx0l+jaeep0ObIc/xPih1LG07uaSuXNwi4mrBOcU3EmDaYFwnb3CHSrss4W7
+J8ZM9PcvvMIFc1nRtASOJkWU+SHvuJrjLYX7EnPzjOCeifO8uXylqQkI8+vR2EmANLiWvG80ltMB
+25vFE+aipk8en82/xfHNTyJYaE0/Drna5+AbwmKUnwIflRibPNrPEDz/xOY9bS4kicktjY8JFUgM
+gm+PaCyOloEoEi/yjFqKhvpeiWKu/LYTpIdzWKHre+SCzfd1TMC16jjVBBtMl5qspjfygLmlEHJM
+nZtp+vOzcE99PY2eVoO2c4VW3Ullh/Xel39oJ6q572nJcbw+Zn+PudQnx7S5gOhHfe+3NXpaDVvm
+wpiyk3rvK01gOYL54j2gBfc8FsFrzN3+5vJj9PyxvADFygXEvpuP5fqMGIOcYEzqUht+VwPLERtp
+7hGtNg/UZc+85pvbFAaD5EeNCJKP86JxmiIsoInUp2qUBcCLumLL3PIO0iVtGQtr8/m4yzpjVWsV
+I7XhYjs9z3zPX8sZSOaJlfYvedf/uYDYFcZFnq3jRXONb8DMHRgzd2DM3IExcwfGzB2WlH4Bpwvs
+iokLs+sAAAAASUVORK5CYII=
+					</image>
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//table[@controlname='mEntriesView']/row[@accessiblename='-1']/cell[@accessiblename='French (Target language)']
+				</item>
+			</folder>
+			<folder
+			name="ValidateAddEntryNormaizedDictionary"
+			id="16237f54-65e2-47b6-93c2-64f1caa5a4f7"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="EnglishNormalized"
+				id="7459e556-1a2e-4f50-b15f-a239ad46a9a3"
+				searchtimeout="30000ms"
+				capname="cell"
+				addcaps="cell,accessible"
+				refimgid="95355896-352b-4432-b65a-d9a55f9f6b19">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//table[@controlname='mEntriesView']/row[@accessiblename='-1']/cell[@accessiblename='English (Normalized)']
+				</item>
+			</folder>
+			<folder
+			name="ValidatePublishUserDictionary"
+			id="3bb1f63f-9bee-4904-825a-137dcb92acb3"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="Published"
+				id="e252d1da-fac3-490c-ad8f-8bd7503b625f"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='SYSTRAN Dictionary Manager']/container[@caption='' and @controltypename='WindowDockingArea' and @instance='9']/container[@caption='']/container[@controlname='sdm.window.open']/element[@controlname='mDictionaryPropertiesView']/container[@controlname='mDictionaryPropertiesView.ClientArea']/text[@caption='Published']"
+				addcaps="text,control,nativewindow"
+				refimgid="24145d7b-bcb8-40ab-9f2f-de2fe2783d77">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mDictionaryPropertiesView']/?/?/text[@caption='Published']
+				</item>
+			</folder>
+			<folder
+			name="ValidateImportTXTUserDictionary"
+			id="5d457fe3-5fb2-458e-b4c3-e2c8936ab29a"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="TreeItemENFRImportUserDictInTXT"
+				id="a76f260e-34ba-4aa5-bae9-48e472830ca9"
+				searchtimeout="30000ms"
+				capname="treeitem"
+				refpath="/form[@title='SYSTRAN Dictionary Manager']/container[@caption='' and @controltypename='WindowDockingArea' and @instance='8']/container[@caption='']/container[@controlname='sdm.window.open']/element[@controlname='mView']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='[EN-FR] Import_user_dict_in_TXT_format']"
+				addcaps="treeitem,accessible"
+				refimgid="095e6c14-3f41-4172-a988-6842ba72c983">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mView']/?/?/treeitem[@accessiblename~'^\[EN-FR]\ Import_user_dict_']
+				</item>
+			</folder>
+			<folder
+			name="ValidateImportDCTUserDictionary"
+			id="670b7a73-5b4c-4ea2-93c1-cb61c1327f0f"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="TreeItemENFRImportUserDictInDCT"
+				id="265cae54-6843-441d-a0e8-351a5ea60912"
+				searchtimeout="30000ms"
+				capname="treeitem"
+				addcaps="treeitem,accessible"
+				refimgid="66bf1d41-f97a-415d-9c0b-963e16ac23af">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/?/?/?/treeitem[@accessiblename='[EN-FR] Import_user_dict_in_DCT_format']
+				</item>
+			</folder>
+			<folder
+			name="ValidateImportTXTTranslationMemory"
+			id="944495bf-532f-45d4-a5d4-55b4992ac494"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="TreeItemENFRImportTranslationMemor"
+				id="933a4d41-f1a6-46ce-8bfc-64f2ce71f71d"
+				searchtimeout="30000ms"
+				capname="treeitem"
+				addcaps="treeitem,accessible"
+				refimgid="38acdcef-9834-4a4d-b4de-6f3a53c2cf0a">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/?/?/?/treeitem[@accessiblename='[EN-FR] Import_Translation_memory_in_TXT_format']
+				</item>
+			</folder>
+			<folder
+			name="ValidateImportTMXTranslationMemory"
+			id="71b535a2-c668-4929-a4ff-af83f5a0c7c0"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="TreeItemENFRImportTranslationMemor"
+				id="f1c8f024-83af-40da-a632-e5b3d8ae46ff"
+				searchtimeout="30000ms"
+				capname="treeitem"
+				addcaps="treeitem,accessible"
+				refimgid="951178df-9dec-4de2-8429-109eac7be998">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/element[@controlname='mView']/?/?/treeitem[@accessiblename='[EN-FR] Import_translation_memory_in_TMX_format']
+				</item>
+			</folder>
+			<folder
+			name="ValidateImportDCTTranslationMemory"
+			id="3af00401-4245-4ddb-b998-390c1daf022e"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="TreeItemENFRImportTranslationMemor"
+				id="f0856032-0c6f-44ea-8330-4a0666a577e9"
+				searchtimeout="30000ms"
+				capname="treeitem"
+				addcaps="treeitem,accessible"
+				refimgid="4457af13-6d98-48fe-826d-ada153d52d4d">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//container[@controlname='sdm.window.open']/?/?/?/treeitem[@accessiblename='[EN-FR] Import_Translation_memory_in_DCT_format']
+				</item>
+			</folder>
+			<folder
+			name="ValidateConfidenceInUserDictionary"
+			id="24f4d38a-61c1-4f56-ad13-7a8246f45b41"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="Confidence"
+				id="7e3fb121-9995-44ea-b4bd-dba2aa071f74"
+				searchtimeout="30000ms"
+				capname="cell"
+				addcaps="cell,accessible"
+				refimgid="a7fff43b-647e-4cc2-aa49-d84402404602">
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']//table[@controlname='mEntriesView']/row[@accessiblename='-1']/cell[@accessiblename='Confidence']
+				</item>
+			</folder>
+			<basepath>
+				/form[@title~'^SYSTRAN\ Dictionary\ Manage']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGjSURBVDhPnVJLS0JhEM3+gPv+RlkZbdq1iyC8
+ZosuBEJtCmrRwkWLIltlFBTuCisINyFC0GsRhJrZy0WlKJE9DEyJSky908z4XV/pwg4c5mPOnDPf
+/bhNtQAAzYqiWLD6sYaRTqReyPWBBg0OJm7fvsCwcQWtix5m94oPtgIvKDPMYrwSaGzJ5hXQ2bxF
+Yy2eRJKAszfCVgCman5yyp9hnc0DF08fvLa8v4m3wRCXsPP2RPkA0fOQYiNh5/K1QiN+ZnIkafnB
+DkOJojC8HSShLvKKwjfoWfXTLaK03dK17GNzG9LuicHsfgSmXPcwsXvHde4gAutnz3yrTC4vogqg
+gHN1u8qOhUPoGxkHSZKY/fIodM7vVfXGIBaLcUC4OmBgSIZ4PC52AKTTaTYlk0nRAchms9yjAKeC
+jbXTR+i1BziAhFSq9IgE6lVDDdBHEt+iVUBDAQT1H2hf8sK0O9R4AJ7N9NrqGzQcQMBPCQ46rv8f
+QMAQ11H4nQWTycS1Ho1GI1dhLQGDtSTIsgwOhwPcbjdYrVYeNhgMx8hJPM9gjUqSBL+NMq6qJi0v
+JwAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		name="SelectDictType"
+		id="796eedda-3d3a-4fca-a34b-1077d7fdbd6f"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='' and @processname='SystranDictionaryManager' and @controltypename='DropDownForm']"
+		addcaps="form,control,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<folder
+			name="SelectDictType"
+			id="d756a6b1-53fb-4959-9377-7911d5b51951"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="SelectUserDictionaries"
+				id="a1ab875c-2643-4502-80d9-f3a500c77383"
+				searchtimeout="30000ms"
+				capname="listitem"
+				refpath="/form[@title='']/element/listitem[@automationid='[valuelist] ValueListItem 2']"
+				addcaps="listitem,uiautomation"
+				refimgid="7c41adf8-bf7d-4b16-bea9-c56f0f6257fd">
+					/form[@processname='SystranDictionaryManager' and @controltypename='DropDownForm']/?/?/listitem[@automationid='[valuelist] ValueListItem 2']
+				</item>
+				<item
+				name="SelectNormalization"
+				id="3b081497-a80b-4246-8f36-86d1a11dfd24"
+				searchtimeout="30000ms"
+				capname="listitem"
+				addcaps="listitem,uiautomation"
+				refimgid="67919227-4847-4109-bc21-92b83115747e">
+					/form[@processname='SystranDictionaryManager' and @controltypename='DropDownForm']/?/?/listitem[@automationid='[valuelist] ValueListItem 0' and @name='Normalization']
+				</item>
+				<item
+				name="SelectTranslationMemories"
+				id="f81caea7-5dd8-4c97-928a-22cd8626326f"
+				searchtimeout="30000ms"
+				capname="listitem"
+				addcaps="listitem,uiautomation"
+				refimgid="98b6c693-96df-434f-8bf9-29b47a8eb740">
+					/form[@processname='SystranDictionaryManager' and @controltypename='DropDownForm']/?/?/listitem[@automationid='[valuelist] ValueListItem 1' and @name='Translation Memories']
+				</item>
+			</folder>
+			<item
+			name="SelectFrench"
+			id="7b359ed4-4238-4915-97b9-905f53703a41"
+			searchtimeout="30000ms"
+			capname="listitem"
+			addcaps="listitem,uiautomation"
+			refimgid="f8e9d03a-f5f9-4d2f-b2ae-7724d6dafcdb">
+				/form[@processname='SystranDictionaryManager' and @controltypename='DropDownForm']/?/?/listitem[@name='French']
+			</item>
+			<item
+			name="SelectEnglish"
+			id="3acea490-ce22-4eec-a5b0-bde86ef3b10b"
+			searchtimeout="30000ms"
+			capname="listitem"
+			refpath="/form[@title='']/element/listitem[@automationid='[valuelist] ValueListItem 0']"
+			addcaps="listitem,uiautomation"
+			refimgid="a03a1eda-b5d9-42cd-b0be-ee30d13e1afd">
+				/form[@processname='SystranDictionaryManager' and @controltypename='DropDownForm']/?/?/listitem[@automationid='[valuelist] ValueListItem 0']
+			</item>
+			<basepath>
+				/form[@processname='SystranDictionaryManager' and @controltypename='DropDownForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="NewDictionaryBase"
+		id="b8dd6aa8-8b24-49a4-b88e-5642a4c1eca9"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@controlname='DictionaryPropertiesBaseForm']"
+		addcaps="form,control,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<folder
+			name="DropDownItems"
+			id="0aef2c0b-3549-454b-9620-a3b6d6dd2c59"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="TargetLanguageDropdown"
+				id="48b76caf-3121-4e62-a582-b0709bba037c"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@controlname='DictionaryPropertiesBaseForm']/element[@controlname='cbTrgLang']/button[@automationid='[Editor] dropdown button']"
+				addcaps="button,uiautomation,uiautomationinvoke"
+				refimgid="7cb7b509-8deb-4a3f-a706-ba3a4c094f59">
+					/form[@controlname='DictionaryPropertiesBaseForm']/element[@controlname='cbTrgLang']/button[@automationid='[Editor] dropdown button']
+				</item>
+				<item
+				name="SourceLanguageDropDown"
+				id="7906ceb3-40c3-42bc-8dd8-27527fb1eabd"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@controlname='DictionaryPropertiesBaseForm']/element[@controlname='cbSrcLang']/button[@automationid='[Editor] dropdown button']"
+				addcaps="button,uiautomation,uiautomationinvoke"
+				refimgid="5ed1650e-850c-4cf9-b23f-56d9e53c2859">
+					/form[@controlname='DictionaryPropertiesBaseForm']/?/?/button[@automationid='[Editor] dropdown button']
+				</item>
+				<item
+				name="DictionaryTypeDropDown"
+				id="46e47ad4-75ce-466a-b37c-99e3ce6019f0"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@controlname='DictionaryPropertiesBaseForm']/element[@controlname='cbDictType']/button[@automationid='[Editor] dropdown button']"
+				addcaps="button,uiautomation,uiautomationinvoke"
+				refimgid="ecc529f3-31aa-45ae-a9aa-5d7cb970664f">
+					/form[@controlname='DictionaryPropertiesBaseForm']/element[@controlname='cbDictType']/button[@automationid='[Editor] dropdown button']
+				</item>
+			</folder>
+			<folder
+			name="Button"
+			id="f282ccf2-b8c1-4840-9487-d0242c428746"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="CreateDictionayButtonOK"
+				id="87e936a7-3e7d-46ab-bbeb-e92500a0433e"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@controlname='DictionaryPropertiesBaseForm']/element[@controlname='btOk']/button[@accessiblename='OK']"
+				addcaps="button,accessible"
+				refimgid="7f0d3adf-7417-4aae-9be8-1d1272940995">
+					/form[@controlname='DictionaryPropertiesBaseForm']/?/?/button[@accessiblename='OK']
+				</item>
+			</folder>
+			<folder
+			name="TextFields"
+			id="eaa5472f-e337-497f-bd6c-155a597888b2"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="AuthorName"
+				id="c67bc863-f502-40c7-84ac-0ac6212529a3"
+				searchtimeout="30000ms"
+				capname="unknown"
+				addcaps="unknown,control,nativewindow"
+				refimgid="fb634161-f893-49c8-a31e-1a83fba352c6">
+					/form[@controlname='DictionaryPropertiesBaseForm']/element[@controlname='txtAuthor']
+				</item>
+				<item
+				name="DictName"
+				id="43247482-9cfc-40b5-bcb3-0834de5ed0b6"
+				searchtimeout="30000ms"
+				capname="unknown"
+				addcaps="unknown,control,nativewindow"
+				refimgid="69d9c688-747c-4a94-a920-895d28648470">
+					/form[@controlname='DictionaryPropertiesBaseForm']/element[@controlname='txtDictName']
+				</item>
+			</folder>
+			<basepath>
+				/form[@controlname='DictionaryPropertiesBaseForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="FileMenu"
+		id="7382090e-820c-4fbf-aa92-564cd8e022c1"
+		searchtimeout="30000ms"
+		capname="menubar"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="File"
+			id="3985b1f5-ad68-4655-9293-2cd5cce723d7"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refimgid="f55a8f86-c672-4915-bffc-70335671ed3a">
+				/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='File']
+			</item>
+			<item
+			name="FileNew"
+			id="b22e43ad-2075-427a-a6fc-a6e04f66bd29"
+			searchtimeout="30000ms"
+			capname="menuitem">
+				/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='File']/menuitem[@accessiblename='New']
+			</item>
+			<item
+			name="FileOpen"
+			id="67c9b3ae-09be-4f95-84f4-73dee202cf01"
+			searchtimeout="30000ms"
+			capname="menuitem">
+				/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='File']/menuitem[@accessiblename='Open']
+			</item>
+			<item
+			name="FileSave"
+			id="19e4058e-3dbd-4606-981a-17b082d20a94"
+			searchtimeout="30000ms"
+			capname="menuitem">
+				/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='File']/menuitem[@accessiblename='Save']
+			</item>
+			<item
+			name="FilePublish"
+			id="dce491c5-1947-42eb-ad58-1f9e3ec3ce1b"
+			searchtimeout="30000ms"
+			capname="menuitem">
+				/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='File']/menuitem[@accessiblename='Publish']
+			</item>
+			<item
+			name="FileImport"
+			id="97765ba5-f385-4358-a3ac-02d35376f535"
+			searchtimeout="30000ms"
+			capname="menuitem">
+				/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='File']/menuitem[@accessiblename='Import...']
+			</item>
+			<item
+			name="FileExport"
+			id="b02fbfb4-7ee3-4bcc-843f-e15676d36ae2"
+			searchtimeout="30000ms"
+			capname="menuitem">
+				/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='File']/menuitem[@accessiblename&gt;'Export']
+			</item>
+			<basepath>
+				/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']
+			</basepath>
+		</appfolder>
+		<appfolder
+		name="UserDict"
+		id="c259c4c8-c723-4775-90ce-9875915adf00"
+		searchtimeout="30000ms"
+		capname="unknown"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<folder
+			name="Buttons"
+			id="d9b52499-230d-44b1-8e21-cd91e5e75e7e"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="DeleteConfirmOKButton"
+				id="4be98f55-5e47-4db4-881d-e04fd0810250"
+				searchtimeout="30000ms"
+				capname="button"
+				addcaps="button,nativewindow"
+				refimgid="326f3a2d-20ec-495d-a29b-f4d9eca2f1e4">
+					/form//button[@text='&amp;Yes']
+				</item>
+			</folder>
+			<item
+			name="Text1001"
+			id="7fcb519f-ed3a-49f4-aa5c-b681ec22fd0e"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Export']/element[@class='DUIViewWndClassName']/container/element[@class='FloatNotifySink' and @instance='0']/combobox/text[@controlid='1001']"
+			addcaps="text,nativewindow"
+			refimgid="b9be7356-af0a-4123-bc72-619f7c5f4eda">
+				/form//element[@class='DUIViewWndClassName']//combobox[@class='ComboBox']/text[@controlid='1001']
+			</item>
+			<item
+			name="ComboBox"
+			id="038d7b08-dfbb-4399-ab98-f359ac752556"
+			searchtimeout="30000ms"
+			capname="button"
+			addcaps="combobox,nativewindow"
+			refimgid="3adf288b-9c6d-45a7-bb3d-318e327a2270">
+				/form//element[@class='DUIViewWndClassName']/container/element[4]/combobox[@class='ComboBox']/button[@automationid='DropDown']
+			</item>
+			<item
+			name="ButtonSave"
+			id="2adf4114-e6fd-48b8-b791-00088275feec"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Export']/button[@text='&amp;Save']"
+			addcaps="button,nativewindow"
+			refimgid="4d8d97c7-04ff-4e8f-8e1c-0f9eb3154140">
+				/form//button[@text='&amp;Save']
+			</item>
+			<basepath>
+				/form//
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJLSURBVDhPlZLva1JRGMd9sb/E/Qm1GuGbehE1
+6E0trxNhrLJgYntRImTWgnJEL7bWKGL9WKErKtKJsKJf1qDpdemcmc10S3BTdBjmdnVXvd/Oud67
+ZbEXPvDAued5vp/vc885in9DEIR2kkO1ep3NFiu5/Ppmrl4X/HQPgFJq+z9IsY02BdNF/px7Eaqx
+AHYN+8Q8cGcOg6+TWFrb4EmPjfZKskbQDeI4dePDT+yWRHLuu8Xi8HhQXO+96cdkMAMCcTVBqLPt
+3VKTkLpOBFZQqtTwKLDaVHsaylKITRa3zywXeLnYMeLH9ffLKFaqxKQRFGR4GcPRiXnsIVN0jvqR
+KnA8KSlFd/2zqCg+ePcLQiu/G6odguPr+LT0Cx+ThcYUBa7Kdow03I/cD+EUgfXYF3CMuB0fnwXz
+cA69T75iwPUdV98k8fhzArPJHMoERAA+xXy6mJPHl/PQ2WvoO9MPi8UCs9mM7hMGdBkuo+90P6xW
+K0wmE04aBsCybFaxmN/IqcbYLbHqyguoNT3gOE4aGohGo6KoWt0+F7fbDaPRWKJn4F/frMFL/ume
+L43zt5+DYRiUy2WpFUilUqLz3+HxeKBWq8viIXq+5bGwWkJNEOD1elsDkLXy7Y818Rrp62OG7K0B
+pLdguzidEM9g/4UHrQPIdxu5FtelV4ktQCaTQSQSQSwWE5MC6F44HEY8HofT6dwG0KAQOsnk1DRP
+ARqNRgTtlLTeBJBDr9f3arVaj91u9xG3LE2Hw+HT6XTDRNRNRJ0kuwhkkGGYmT8JGsGKAA4XTAAA
+AABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Import"
+		id="65efa7bb-11e3-4f61-99af-db6961af8230"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Import']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="TypeFileName"
+			id="b2b0e925-e602-49f9-90b3-983fe502d94d"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Import']/combobox[@controlid='1148']/text[@controlid='1148']"
+			addcaps="text,nativewindow"
+			refimgid="973594d2-0abc-46e5-8056-dd03b9f6be82">
+				/form[@title='Import']/?/?/text[@controlid='1148']
+			</item>
+			<item
+			name="ButtonOpenInImport"
+			id="6064a763-ccf1-4576-af9b-6bb68f49e117"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Import']/button[@text='&amp;Open']"
+			addcaps="button,nativewindow"
+			refimgid="91a2ccbc-e013-4bf1-91c0-e3f945e06e3c">
+				/form[@title='Import']/button[@text='&amp;Open']
+			</item>
+			<basepath>
+				/form[@title='Import']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJLSURBVDhPlZLva1JRGMd9sb/E/Qm1GuGbehE1
+6E0trxNhrLJgYntRImTWgnJEL7bWKGL9WKErKtKJsKJf1qDpdemcmc10S3BTdBjmdnVXvd/Oud67
+ZbEXPvDAued5vp/vc885in9DEIR2kkO1ep3NFiu5/Ppmrl4X/HQPgFJq+z9IsY02BdNF/px7Eaqx
+AHYN+8Q8cGcOg6+TWFrb4EmPjfZKskbQDeI4dePDT+yWRHLuu8Xi8HhQXO+96cdkMAMCcTVBqLPt
+3VKTkLpOBFZQqtTwKLDaVHsaylKITRa3zywXeLnYMeLH9ffLKFaqxKQRFGR4GcPRiXnsIVN0jvqR
+KnA8KSlFd/2zqCg+ePcLQiu/G6odguPr+LT0Cx+ThcYUBa7Kdow03I/cD+EUgfXYF3CMuB0fnwXz
+cA69T75iwPUdV98k8fhzArPJHMoERAA+xXy6mJPHl/PQ2WvoO9MPi8UCs9mM7hMGdBkuo+90P6xW
+K0wmE04aBsCybFaxmN/IqcbYLbHqyguoNT3gOE4aGohGo6KoWt0+F7fbDaPRWKJn4F/frMFL/ume
+L43zt5+DYRiUy2WpFUilUqLz3+HxeKBWq8viIXq+5bGwWkJNEOD1elsDkLXy7Y818Rrp62OG7K0B
+pLdguzidEM9g/4UHrQPIdxu5FtelV4ktQCaTQSQSQSwWE5MC6F44HEY8HofT6dwG0KAQOsnk1DRP
+ARqNRgTtlLTeBJBDr9f3arVaj91u9xG3LE2Hw+HT6XTDRNRNRJ0kuwhkkGGYmT8JGsGKAA4XTAAA
+AABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		name="dropdownListToSelectFormat"
+		id="5b0c78b3-7341-4630-8b41-3cbf085d80ef"
+		searchtimeout="30000ms"
+		capname="list"
+		refpath="/list[@controlid='1000']"
+		addcaps="list,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="SelectTXTFormat"
+			id="08c0b33e-29af-4fa4-85a8-7e37bceb77ab"
+			searchtimeout="30000ms"
+			capname="listitem"
+			refpath="/list[@controlid='1000']/listitem[@text~'^Formatted\ Text\ File\ \(\*\.tx']"
+			addcaps="listitem"
+			refimgid="c684fc32-8593-431c-a866-d123b47fb6bf">
+				/list[@controlid='1000']/listitem[@text~'^Formatted\ Text\ File\ \(\*\.tx']
+			</item>
+			<item
+			name="SelectDCTFormat"
+			id="847b0c5d-a56c-419f-a041-b8e446730a7c"
+			searchtimeout="30000ms"
+			capname="listitem"
+			refpath="/list[@controlid='1000']/listitem[@text='Dictionary File (*.dct)']"
+			addcaps="listitem"
+			refimgid="77193c07-399d-4c00-b89a-e78240eb7460">
+				/list[@controlid='1000']/listitem[@text='Dictionary File (*.dct)']
+			</item>
+			<basepath>
+				/list[@controlid='1000']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		name="ExportDictionaries"
+		id="49645b1d-f652-493f-b206-afb1606fc6ca"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='ExportDictionaries' and @processname='explorer' and @class='CabinetWClass' and @instance='1']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="SystemItemNameDisplay"
+			id="edeb2d35-f2d7-4128-9ac9-35a5a6647f71"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='ExportDictionaries' and @processname='explorer' and @class='CabinetWClass' and @instance='1']/element[@class='ShellTabWindowClass']/element[@class='DUIViewWndClassName']/container[@class='DirectUIHWND']/element[@class='CtrlNotifySink' and @instance='1']/container[@caption='ShellView']/container[@class='DirectUIHWND']/listitem[@automationid='0']/text[@automationid='System.ItemNameDisplay']"
+			addcaps="text,uiautomation,uiautomationvalue"
+			refimgid="37c31e6a-33b2-49a3-bae7-02896092ef32">
+				/form[@processname='explorer' and @class='CabinetWClass' and @instance='1']//element[@instance='1']/container[@caption='ShellView']/?/?/listitem[@automationid='0']/text[@automationid='System.ItemNameDisplay']
+			</item>
+			<basepath>
+				/form[@processname='explorer' and @class='CabinetWClass' and @instance='1']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJgSURBVDhPbdLdT1JxHMdxt/6Mrvov6jqtWdM1
+59gSRcpKXaXMIrWNpdVKarTWRa25ddN0ZS7EGWoRD4LIc6gIAnIEAUF3QnkeCH06/kDopN/te3XO
+630eaw4nE5LIk+GXhVRIgoRfjDg1grhPjD3vM8TcT0C7hrC7JkJ0dYCKLPcLCToaYOJUOiLBQUaG
+4sEOUrvv8XvzOTasg8inFSjmFyqbS8kRtAqpMq0OCWRnyAIFsn5zN9b0j5CJfUUhp2KO/UA+NYuQ
+tQ9lVp1/A6UI4DPcwLJ6AOGVYQJzCRmye5PYsghOCGz/HyjAo2uHXXkfwV8iAtP0GJI7HxAw9RwP
+JMMvKjiXnsKfYgoudQtsih4ELA8ITITfYX/rNTaNt48HEsGRCs7GJ1DIR+H4yYF1vgt+o4DAGCUG
+7XnMPEIvNhY735Zpafb9Tys4RX9EJq7HyvcmmOXXQOm7Cdx1PWQ+4z1s2+8ygZvsu4hRwxW8HxkF
+HXgD+2wjjNNcbCx0VGDIegs0TcOr7WAHaK+IhaNeMWwzl2CQNsOjaiUwaOIjsMQlAc/CdXZgZ32Q
+hUOOIVimL0I/2Qi3gkOgf5GDTW0TCbg1fHYg4hCysN/WD9NUHXSf67HOvItDSGkaybbN+7Cu5rED
+oWUBC/uMvTBJa6H7VAfXXAkebf3YKlyqNnYgYLvDwh5dJwlox88fC/g0V+BUtHjLtDTUUqfCrW2H
+U90Gp4rHLJ8ENOOX4ZjjMD8Vj1zVqWxl8FWvU8ntK9PquBXNp+3yhg6z7ILMKK1Nfhs9Z/jy6myX
+XdZwpnzKCVNT8xdABXLpcMcU7QAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<folder
+		name="toolTip"
+		id="e1cac746-0341-4c43-bb07-c02c9db0d580"
+		searchtimeout="0ms"
+		capname="unknown"
+		isrooted="False">
+			<appfolder
+			name="ToolTip35Percent"
+			id="61240884-0e1f-485c-b78d-82bbf99b9c8b"
+			searchtimeout="30000ms"
+			capname="tooltip"
+			addcaps="tooltip,nativewindow"
+			refimgid="447cffe4-0f21-4999-ad08-5a89154871f5"
+			isrooted="True"
+			usecache="True">
+				<basepath>
+					/tooltip[@text='35%']
+				</basepath>
+				<icon>
+					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
+AAAASUVORK5CYII=
+				</icon>
+			</appfolder>
+			<appfolder
+			name="ToolTip60Percent"
+			id="3149e05a-0983-436d-821c-e8b49b0e0e89"
+			searchtimeout="30000ms"
+			capname="tooltip"
+			addcaps="tooltip,nativewindow"
+			refimgid="20c50408-5d9c-4221-b16d-abd3c34af1a5"
+			isrooted="True"
+			usecache="True">
+				<basepath>
+					/tooltip[@text='60%']
+				</basepath>
+				<icon>
+					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
+AAAASUVORK5CYII=
+				</icon>
+			</appfolder>
+		</folder>
+		<appfolder
+		name="DictionaryMenu"
+		id="80d82eb3-90f6-44c9-8b7e-cd496c3baf6e"
+		searchtimeout="30000ms"
+		capname="menubar"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Dictionary"
+			id="ddf6a625-a9bd-4fab-ba6a-7a21b84be43d"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refimgid="c26f590f-18f0-4210-85d3-8059984e965a">
+				/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='Dictionary']
+			</item>
+			<item
+			name="DictionaryChangeEntryType"
+			id="d78c5470-be33-4f0b-9079-afa10973fdb6"
+			searchtimeout="30000ms"
+			capname="menuitem">
+				/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='Dictionary']/menuitem[@accessiblename='Change Entry Type']
+			</item>
+			<item
+			name="DictionaryDoNotTranslate"
+			id="7e50aeea-63ba-434c-942c-b2e31861be04"
+			searchtimeout="30000ms"
+			capname="menuitem">
+				/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']//menuitem[@accessiblename='Dictionary']/menuitem[@accessiblename='Change Entry Type']/menuitem[@accessiblename='Do Not Translate']
+			</item>
+			<item
+			name="DictionaryMultiLingual"
+			id="518aebde-40d7-4d63-b93e-efdb9953e32a"
+			searchtimeout="30000ms"
+			capname="menuitem">
+				/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']//menuitem[@accessiblename='Dictionary']/menuitem[@accessiblename='Change Entry Type']/menuitem[@accessiblename='Multilingual']
+			</item>
+			<basepath>
+				/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']
+			</basepath>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

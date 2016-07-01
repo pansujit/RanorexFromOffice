@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="229192098bbd972b"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/27/2016 4:38:59 PM"
+		timestampiso="2016-06-27T14:38:59"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.266"
+			timeRelativeToTestModuleStartTime="00:00.266"
+			timeWallClock="16:38:59"
+			time="00:00.266"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\language-manager\SYSTRAN-Desktop-Language-Manager.exe' with arguments '--force-renderer-accessibility' in normal mode.
+			</message>
+			<metainfo
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testSolution\testSolution\Recording1.UserCode.cs"
+				codeline="37"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.312"
+			timeRelativeToTestModuleStartTime="00:00.312"
+			timeWallClock="16:38:59"
+			time="00:00.312"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANLanguageManager.Close' at 28;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='SYSTRAN Language Manager']/?/?/button[@accessiblename='Close']"
+				fullname="testSolutionRepository.SYSTRANLanguageManager.Close"
+				id="f8cde11c25734edd84b0f013e2ae18f4"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testSolution\testSolution\Recording1.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

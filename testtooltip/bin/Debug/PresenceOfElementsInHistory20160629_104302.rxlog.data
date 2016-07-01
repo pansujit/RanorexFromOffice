@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1a9768d2d246dc0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/29/2016 10:43:04 AM"
+		timestampiso="2016-06-29T08:43:04"
+		timeoutfactor="1"
+		module="PresenceOfElementsInHistory">
+		<detail>
+			PresenceOfElementsInHistory
+		</detail>
+		<errmsg>
+			Failed to move to location '1760;11' within element '{Unknown:HeaderSite}'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.290"
+			timeRelativeToTestModuleStartTime="00:00.290"
+			timeWallClock="10:43:04"
+			time="00:00.290"
+			level="Info"
+			category="Mouse"
+			errimg=".\PresenceOfElementsInHistory20160629_104302_634a4b54_trace.jpg"
+			errthumb=".\PresenceOfElementsInHistory20160629_104302_634a4b54_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SYSTRANInteractiveTranslator1.History' at 6;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Interactive\ Trans' and @processname='SYSTRAN.InteractiveTranslator']/container//element[@automationid='PART_RightWindowCommands']/list/list//element[@automationid='PART_ContentPresenter']/button/?/?/element[@automationid='PART_ContentControlEx']/container"
+				fullname="testtooltipRepository.SYSTRANInteractiveTranslator1.History"
+				id="cdfd5cecc033466bb57d6d6a9e6d5146"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\PresenceOfElementsInHistory.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.114"
+			timeRelativeToTestModuleStartTime="00:02.114"
+			timeWallClock="10:43:06"
+			time="00:02.114"
+			level="Info"
+			category="Mouse"
+			errimg=".\PresenceOfElementsInHistory20160629_104302_b15477c2_trace.jpg"
+			errthumb=".\PresenceOfElementsInHistory20160629_104302_b15477c2_trace_thumb.jpg">
+			<message>
+				Mouse None Move item 'SYSTRANInteractiveTranslator1.SomeContainer1.HeaderSite1' at 1760;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Interactive\ Trans' and @processname='SYSTRAN.InteractiveTranslator']/container/element[1]/container/element[9]/element/list/list/?/?/element[@automationid='HistoryFlyout']/container[@automationid='root']//element[@automationid='PART_Content']/?/?/container[@automationid='mHistoryPanel']//list[@automationid='mListBox']/element[@automationid='Border']/?/?/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/list//container[@automationid='ExpanderRoot']/element[@automationid='HeaderSite']"
+				fullname="testtooltipRepository.SYSTRANInteractiveTranslator1.SomeContainer1.HeaderSite1"
+				id="437bd7ef71874a40ad53a375c3d283b8"
+				timeout="90000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\PresenceOfElementsInHistory.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.603"
+			timeRelativeToTestModuleStartTime="00:02.603"
+			timeWallClock="10:43:07"
+			time="00:02.603"
+			level="Error"
+			category="Module"
+			errimg=".\PresenceOfElementsInHistory20160629_104302_1233948b_trace.jpg"
+			errthumb=".\PresenceOfElementsInHistory20160629_104302_1233948b_trace_thumb.jpg">
+			<message>
+				Failed to move to location '1760;11' within element '{Unknown:HeaderSite}'.<br/>The pointer cannot be moved to point '{X=3737,Y=335}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Adapter.MoveTo(Location location, Duration moveTime)
+   at Ranorex.Adapter.MoveTo(Location location)
+   at testtooltip.PresenceOfElementsInHistory.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\PresenceOfElementsInHistory.cs:line 87
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\PresenceOfElementsInHistory.cs"
+				codeline="87"
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^SYSTRAN\ Interactive\ Trans' and @processname='SYSTRAN.InteractiveTranslator']/container/element[1]/container/element[9]/element/list/list/?/?/element[@automationid='HistoryFlyout']/container[@automationid='root']//element[@automationid='PART_Content']/?/?/container[@automationid='mHistoryPanel']//list[@automationid='mListBox']/element[@automationid='Border']/?/?/container[@automationid='Grid']/element[@automationid='PART_ScrollContentPresenter']/list//container[@automationid='ExpanderRoot']/element[@automationid='HeaderSite']"
+				fullname="testtooltipRepository.SYSTRANInteractiveTranslator1.SomeContainer1.HeaderSite1"
+				id="437bd7ef71874a40ad53a375c3d283b8"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="1"/>
+		</item>
+	</activity>
+</report>

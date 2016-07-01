@@ -58,7 +58,7 @@ namespace testtooltip
         /// <summary>
         /// Starts the replay of the static recording <see cref="Instance"/>.
         /// </summary>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "5.4.5")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "6.0")]
         public static void Start()
         {
             TestModuleRunner.Run(Instance);
@@ -70,50 +70,17 @@ namespace testtooltip
         /// <remarks>You should not call this method directly, instead pass the module
         /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
         /// that will in turn invoke this method.</remarks>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "5.4.5")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "6.0")]
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;
             Keyboard.DefaultKeyPressTime = 100;
-            Delay.SpeedFactor = 1.0;
+            Delay.SpeedFactor = 1.00;
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Program Files (x86)\\SYSTRAN 8 TRANSLATOR\\applications\\SYSTRAN.InteractiveTranslator.exe' with arguments '' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("C:\\Program Files (x86)\\SYSTRAN 8 TRANSLATOR\\applications\\SYSTRAN.InteractiveTranslator.exe", "", "C:\\Program Files (x86)\\SYSTRAN 8 TRANSLATOR\\applications", false);
+            Mouse_Click_English2();
             Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANInteractiveTranslator1.SomeContainer1.BtnArrow' at 1;1.", repo.SYSTRANInteractiveTranslator1.SomeContainer1.BtnArrowInfo, new RecordItemIndex(1));
-            repo.SYSTRANInteractiveTranslator1.SomeContainer1.BtnArrow.Click("1;1");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANInteractiveTranslator2.SomeContainer.English' at 38;6.", repo.SYSTRANInteractiveTranslator2.SomeContainer.EnglishInfo, new RecordItemIndex(2));
-            repo.SYSTRANInteractiveTranslator2.SomeContainer.English.Click("38;6");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANInteractiveTranslator1.SomeContainer1.Background3' at 93;13.", repo.SYSTRANInteractiveTranslator1.SomeContainer1.Background3Info, new RecordItemIndex(3));
-            repo.SYSTRANInteractiveTranslator1.SomeContainer1.Background3.Click("93;13");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANInteractiveTranslator2.SomeContainer.French' at 66;11.", repo.SYSTRANInteractiveTranslator2.SomeContainer.FrenchInfo, new RecordItemIndex(4));
-            repo.SYSTRANInteractiveTranslator2.SomeContainer.French.Click("66;11");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANInteractiveTranslator1.SomeContainer1.BtnArrow1' at 7;0.", repo.SYSTRANInteractiveTranslator1.SomeContainer1.BtnArrow1Info, new RecordItemIndex(5));
-            repo.SYSTRANInteractiveTranslator1.SomeContainer1.BtnArrow1.Click("7;0");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANInteractiveTranslator2.SomeContainer.TranslatorEnFr' at 52;3.", repo.SYSTRANInteractiveTranslator2.SomeContainer.TranslatorEnFrInfo, new RecordItemIndex(6));
-            repo.SYSTRANInteractiveTranslator2.SomeContainer.TranslatorEnFr.Click("52;3");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANInteractiveTranslator1.SomeContainer1.SomeElement1' at 281;74.", repo.SYSTRANInteractiveTranslator1.SomeContainer1.SomeElement1Info, new RecordItemIndex(7));
-            repo.SYSTRANInteractiveTranslator1.SomeContainer1.SomeElement1.Click("281;74");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SYSTRANInteractiveTranslator1.SomeElement' at 1;6.", repo.SYSTRANInteractiveTranslator1.SomeElementInfo, new RecordItemIndex(8));
-            repo.SYSTRANInteractiveTranslator1.SomeElement.Click("1;6");
-            Delay.Milliseconds(200);
             
         }
 

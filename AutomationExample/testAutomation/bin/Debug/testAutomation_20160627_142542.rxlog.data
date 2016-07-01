@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ab9487cbfbbc1b2"
+		totalerrorcount="1"
+		totalwarningcount="3"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="1"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/27/2016 2:25:42 PM"
+		timestampiso="2016-06-27T12:25:42"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="18.55s"
+			durationms="18549"
+			type="test suite"
+			rid="29e5b164f65421f4"
+			totalerrorcount="1"
+			totalwarningcount="3"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="1"
+			testsuitename="testAutomation"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="17.9s"
+				durationms="17895"
+				type="test case"
+				rid="1a6595fa7442f9c0"
+				totalerrorcount="1"
+				totalwarningcount="3"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="1"
+				testcasename="TestCase"
+				testcaseid="8101e436-afed-4ee8-be14-e529c4b0a519"
+				datasource="Test_Connector"
+				iterationcount="1"
+				maxchildren="2">
+				<params>
+					<param
+						name="NewParameter">
+					</param>
+				</params>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="17.88s"
+					durationms="17883"
+					type="test case iteration"
+					rid="cce00bd00875770"
+					totalerrorcount="1"
+					totalwarningcount="3"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcasename="TestCase"
+					iteration="1">
+					<datarow>
+						<field
+							name="Edition">
+							SYSTRAN 8 TRANSLATOR Professional en-fr
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="17.47s"
+						durationms="17468"
+						type="test module"
+						rid="13cb3c9479d4bca1"
+						totalerrorcount="0"
+						totalwarningcount="3"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="StartFirefoxSystran"
+						moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.329"
+							timeRelativeToTestModuleStartTime="00:08.387"
+							timeWallClock="14:25:52"
+							time="00:09.329"
+							level="Warn"
+							category="Automation">
+							<message>
+								Could not get a valid element rectangle from '{InputTag:}', since the element is no longer valid.
+							</message>
+							<metainfo
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\StartFirefoxSystran.cs"
+								codeline="57"
+								loglvl="Warn"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.557"
+							timeRelativeToTestModuleStartTime="00:12.615"
+							timeWallClock="14:25:56"
+							time="00:13.557"
+							level="Warn"
+							category="Automation">
+							<message>
+								Could not get a valid element rectangle from '{InputTag:}', since the element is no longer valid.
+							</message>
+							<metainfo
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\StartFirefoxSystran.cs"
+								codeline="62"
+								loglvl="Warn"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.936"
+							timeRelativeToTestModuleStartTime="00:14.994"
+							timeWallClock="14:25:58"
+							time="00:15.936"
+							level="Warn"
+							category="Automation">
+							<message>
+								Could not get a valid element rectangle from '{InputTag:}', since the element is no longer valid.
+							</message>
+							<metainfo
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\StartFirefoxSystran.cs"
+								codeline="66"
+								loglvl="Warn"/>
+						</item>
+					</activity>
+					<activity
+						result="Failed"
+						duration="346ms"
+						durationms="346"
+						type="test module"
+						rid="4de43e14da6654e"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="ClickOnPackage"
+						moduleid="3861d624-9f27-4601-9e27-85b13c37b5c1"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<errmsg>
+							Failed to find item 'testAutomationRepository.TranslationResources.Packages'.
+						</errmsg>
+						<varbindings>
+							<varbinding
+								name="SearchName"
+								value="SYSTRAN 8 TRANSLATOR Professional en-fr"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:18.417"
+							timeRelativeToTestModuleStartTime="00:00.003"
+							timeWallClock="14:26:01"
+							time="00:18.417"
+							level="Info"
+							category="Data"
+							errimg="images_testAutomation_20160627_142542\testAutomation_20160627_142542_7fc5be09_trace.jpg"
+							errthumb="images_testAutomation_20160627_142542\testAutomation_20160627_142542_7fc5be09_trace_thumb.jpg">
+							<message>
+								Current variable values:<br/>$SearchName = 'SYSTRAN 8 TRANSLATOR Professional en-fr'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:18.651"
+							timeRelativeToTestModuleStartTime="00:00.238"
+							timeWallClock="14:26:01"
+							time="00:18.651"
+							level="Error"
+							category="Module"
+							errimg="images_testAutomation_20160627_142542\testAutomation_20160627_142542_0c8b651f_trace.jpg"
+							errthumb="images_testAutomation_20160627_142542\testAutomation_20160627_142542_0c8b651f_trace_thumb.jpg">
+							<message>
+								Failed to find item 'testAutomationRepository.TranslationResources.Packages'.<br/>No element found for path '/dom[@caption='Translation Resources']//div[#'navBar']//a[@innertext='Packages']' within 1m.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.TranslationResourcesAppFolder.get_Packages() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\testAutomationRepository.cs:line 448
+   at testAutomation.ClickOnPackage.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\ClickOnPackage.cs:line 71
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\AutomationExample\testAutomation\ClickOnPackage.cs"
+								codeline="71"
+								type="repoitem"
+								path="/dom[@caption='Translation Resources']//div[#'navBar']//a[@innertext='Packages']"
+								fullname="testAutomationRepository.TranslationResources.Packages"
+								id="bef985b811a546419827896c77b0ec8b"
+								timeout="60000"
+								loglvl="Error"/>
+						</item>
+					</activity>
+					<activity
+						result="Ignored"
+						duration="0ms"
+						durationms="0"
+						type="test case"
+						rid="72f0a9e97b61f8c"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="1"
+						testcasename="TestCase3"
+						testcaseid="759eec5e-4ba8-4388-8274-c1c58def6aa6"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

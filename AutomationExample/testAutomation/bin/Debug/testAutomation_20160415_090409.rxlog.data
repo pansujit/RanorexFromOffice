@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="bb1de276076d4e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/15/2016 9:04:09 AM"
+		timestampiso="2016-04-15T07:04:09"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.4m"
+			durationms="84912"
+			type="test suite"
+			rid="85c6757a6cedff0"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="testAutomation"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="1.4m"
+				durationms="84896"
+				type="test case"
+				rid="34becc0c47bdfa7f"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="8101e436-afed-4ee8-be14-e529c4b0a519"
+				maxchildren="0">
+				<params>
+					<param
+						name="NewParameter">
+					</param>
+				</params>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="11.71s"
+					durationms="11707"
+					type="test module"
+					rid="1931183eba989944"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="StartFirefoxSystran"
+					moduleid="b4f38f05-a866-4060-bfbb-da9fa566fe60"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Failed"
+					duration="1.2m"
+					durationms="73173"
+					type="test module"
+					rid="10f1fd439ba216a0"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="ClickOnPackage"
+					moduleid="3861d624-9f27-4601-9e27-85b13c37b5c1"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<errmsg>
+						Failed to find item 'testAutomationRepository.Packages1.ATagDownload'.
+					</errmsg>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="01:24.958"
+						timeRelativeToTestModuleStartTime="01:13.095"
+						timeWallClock="09:05:34"
+						time="01:24.958"
+						level="Error"
+						category="Module"
+						errimg="images_testAutomation_20160415_090409\testAutomation_20160415_090409_d11465b8_trace.jpg"
+						errthumb="images_testAutomation_20160415_090409\testAutomation_20160415_090409_d11465b8_trace_thumb.jpg">
+						<message>
+							Failed to find item 'testAutomationRepository.Packages1.ATagDownload'.<br/>No element found for path '/dom[@caption='Packages' and @page='packageManagement' and @path='/packageManagement' and @browsername='Chrome']//div[#'package_56f2ac3d23a5d0270f79c9d9']/div/div/div[11]/div/div/?/?/a[@innertext='Download']' within 1m.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.Packages1AppFolder.get_ATagDownload() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\testAutomationRepository.cs:line 493
+   at testAutomation.ClickOnPackage.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\ClickOnPackage.cs:line 114
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+							codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\ClickOnPackage.cs"
+							codeline="114"
+							type="repoitem"
+							path="/dom[@caption='Packages' and @page='packageManagement' and @path='/packageManagement' and @browsername='Chrome']//div[#'package_56f2ac3d23a5d0270f79c9d9']/div/div/div[11]/div/div/?/?/a[@innertext='Download']"
+							fullname="testAutomationRepository.Packages1.ATagDownload"
+							id="c1cd1e0872ab4ee0b196edf86cda45f0"
+							timeout="60000"
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

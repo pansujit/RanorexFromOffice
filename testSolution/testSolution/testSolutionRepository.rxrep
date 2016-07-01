@@ -1,0 +1,188 @@
+﻿<repository
+name="testSolutionRepository"
+id="6d506a34-ea2c-4c5d-9a55-59f5d552fa1c"
+rxversion="6.0">
+	<codegen
+	classname="testSolutionRepository"
+	namespace="testSolution"/>
+	<rootfolder
+	name="Root"
+	id="fe6553c7-2340-4204-a433-526a6ff2dd03"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="InternetExplorer"
+		id="f823082a-a7b2-4ef2-a1c0-d9f0ce5fcc6e"
+		searchtimeout="30000ms"
+		capname="form"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="WebAddressField"
+			id="a1ba47fc-6da2-41ed-9ca3-2c08b56e056c"
+			searchtimeout="30000ms"
+			capname="text"
+			addcaps="text,nativewindow"
+			refimgid="e511a495-d4d3-434d-a8fa-e6dc3cbb7f6a">
+				/form/?/?/form/element[2]/element/text[@accessiblename='Address']
+			</item>
+			<basepath>
+				/form
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="SYSTRANLanguageManager"
+		id="902c6c2c-c230-466a-a889-322c5ec1bdc0"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='localhost:3500']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="Licenses"
+			id="d1854dba-1f7c-49a4-b401-d1db496d93b3"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:3500']//span[#'errorMessage']/a[@innertext='Licenses']"
+			addcaps="unknown,webelement,atag"
+			refimgid="3ffceadf-4553-412b-8d9d-d0e95a7a9599">
+				/dom[@domain='localhost:3500']//span[#'errorMessage']/a[@innertext='Licenses']
+			</item>
+			<item
+			name="AddProductKeyButton"
+			id="1d2f703a-22f6-4953-8f33-aa0739c55fdb"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='localhost:3500']//button[#'addProductKeyButton']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="ccbca1ec-9034-40d8-b7b1-5ee23c580669">
+				/dom[@domain='localhost:3500']//button[#'addProductKeyButton']
+			</item>
+			<item
+			name="InputProductKey"
+			id="52e8b69d-fe7c-46a3-ad63-ca1c8b58df99"
+			searchtimeout="30000ms"
+			capname="textareatag"
+			refpath="/dom[@domain='localhost:3500']//textarea[#'inputProductKey']"
+			addcaps="unknown,webelement,textareatag"
+			refimgid="c4256c74-5d4b-4bac-8719-ae4dd1e88bd8">
+				/dom[@domain='localhost:3500']//textarea[#'inputProductKey']
+			</item>
+			<item
+			name="SubmitAddProductKey"
+			id="c78a9004-a500-485b-8be6-0ec7891d900b"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='localhost:3500']//button[#'submitAddProductKey']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="0e682f0e-e663-4845-aacb-530117514cbb">
+				/dom[@domain='localhost:3500']//button[#'submitAddProductKey']
+			</item>
+			<item
+			name="ButtonTagOK"
+			id="37f5f0fb-c882-4b33-8ccc-fe09ff1d7599"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='localhost:3500']/body/div[6]/div/div/div[2]/button[@innertext='OK']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="efcfe592-557d-44ad-8890-91b05efda545">
+				/dom[@domain='localhost:3500']/body/div[6]/div/div/div[2]/button[@innertext='OK']
+			</item>
+			<folder
+			name="LicenseListContent"
+			id="99df48c8-dd7c-4756-bfa5-e71eaf397117"
+			searchtimeout="30000ms"
+			capname="divtag"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Delete1"
+				id="64551bef-90f2-4302-bcd5-34208bacb7c6"
+				searchtimeout="30000ms"
+				capname="atag"
+				refpath="/dom[@domain='localhost:3500']//div[#'licenseListContent']/div/div[4]/div/div/a[@innertext='Delete']"
+				addcaps="unknown,webelement,atag"
+				refimgid="0b7bcc7a-23c0-491c-a2af-b8726dfc8780">
+					/dom[@domain='localhost:3500']//div[#'licenseListContent']/div/div[4]//a[@innertext='Delete']
+				</item>
+				<item
+				name="OnlineActivation"
+				id="361067bf-6577-4272-a7f0-3ecccfb7972e"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				refpath="/dom[@domain='localhost:3500']//div[#'licenseListContent']/div[1]/div[12]/div/button[@innertext='Online Activation']"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="319afafb-6b14-4ac6-9e16-3a3d03b43c68">
+					/dom[@domain='localhost:3500']//div[#'licenseListContent']/div[1]/div[12]/?/?/button[@innertext='Online Activation']
+				</item>
+				<item
+				name="Delete"
+				id="2a7f51c7-9584-48f8-b42f-4076e5e87ec1"
+				searchtimeout="30000ms"
+				capname="atag"
+				refpath="/dom[@domain='localhost:3500']//div[#'licenseListContent']/div[1]/div[13]/div/div/a[@innertext='Delete']"
+				addcaps="unknown,webelement,atag"
+				refimgid="72646ddf-9ad5-446d-a5df-f4a970c91195">
+					/dom[@domain='localhost:3500']//div[#'licenseListContent']/div[1]/div[13]//a[@innertext='Delete']
+				</item>
+				<basepath>
+					/dom[@domain='localhost:3500']//div[#'licenseListContent']
+				</basepath>
+			</folder>
+			<item
+			name="Close"
+			id="e75d5e89-c13f-4b46-b48d-45dd124f0f73"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='localhost:3500']//div[#'addProductKeyModal']/div/div/div[3]/button[@innertext='Close']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="93f15929-f3d0-48e3-92c3-b41ae8046aba">
+				/dom[@domain='localhost:3500']//div[#'addProductKeyModal']/div/div/div[3]/button[@innertext='Close']
+			</item>
+			<basepath>
+				/dom[@domain='localhost:3500']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

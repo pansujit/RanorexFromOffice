@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="91d7c01163fb080"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/14/2016 10:52:46 AM"
+		timestampiso="2016-04-14T08:52:46"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<errmsg>
+			Failed to find item 'testAutomationRepository.MozillaFirefoxStartPage.Self'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.244"
+			timeRelativeToTestModuleStartTime="00:00.244"
+			timeWallClock="10:52:46"
+			time="00:00.244"
+			level="Info"
+			category="Website"
+			errimg=".\Recording220160414_105243_bf95174a_trace.jpg"
+			errthumb=".\Recording220160414_105243_bf95174a_trace_thumb.jpg">
+			<message>
+				Opening web site 'https://trs.systran.net' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording2.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.317"
+			timeRelativeToTestModuleStartTime="00:00.317"
+			timeWallClock="10:52:46"
+			time="00:00.317"
+			level="Info"
+			category="Application"
+			errimg=".\Recording220160414_105243_bf95174a_trace.jpg"
+			errthumb=".\Recording220160414_105243_bf95174a_trace_thumb.jpg">
+			<message>
+				Closing application containing item 'MozillaFirefoxStartPage'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='']"
+				fullname="testAutomationRepository.MozillaFirefoxStartPage.Self"
+				id="f5ac3ab32e76462c89e9e1de7e861935"
+				timeout="30000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording2.UserCode.cs"
+				codeline="37"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.649"
+			timeRelativeToTestModuleStartTime="00:30.649"
+			timeWallClock="10:53:17"
+			time="00:30.649"
+			level="Error"
+			category="Module"
+			errimg=".\Recording220160414_105243_e7257828_trace.jpg"
+			errthumb=".\Recording220160414_105243_e7257828_trace_thumb.jpg">
+			<message>
+				Failed to find item 'testAutomationRepository.MozillaFirefoxStartPage.Self'.<br/>No element found for path '/dom[@domain='']' within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.MozillaFirefoxStartPageAppFolder.get_Self() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\testAutomationRepository.cs:line 109
+   at testAutomation.Recording2.Close_Application_MozillaFirefoxStartPage() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording2.UserCode.cs:line 38
+   at testAutomation.Recording2.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording2.cs:line 86
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording2.UserCode.cs"
+				codeline="38"
+				type="repoitem"
+				path="/dom[@domain='']"
+				fullname="testAutomationRepository.MozillaFirefoxStartPage.Self"
+				id="f5ac3ab32e76462c89e9e1de7e861935"
+				timeout="30000"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="25b90a3537ddd5f6"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/14/2016 10:57:04 AM"
+		timestampiso="2016-04-14T08:57:04"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="17.01s"
+			durationms="17006"
+			type="test suite"
+			rid="94c7ab0ed60cea8"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="testAutomation"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="16.99s"
+				durationms="16990"
+				type="test case"
+				rid="2d61e61b6dab8e60"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="8101e436-afed-4ee8-be14-e529c4b0a519"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="335ms"
+					durationms="335"
+					type="test module"
+					rid="e51b73e790d4557"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="StartFirefox"
+					moduleid="1651b2aa-5c89-4fef-8728-9a59cceaccd1"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+				</activity>
+				<activity
+					result="Failed"
+					duration="16.64s"
+					durationms="16637"
+					type="test module"
+					rid="bc71f3af5a61092"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="StopFirefox"
+					moduleid="1c247488-8ac5-482c-815a-06aafea2613c"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<errmsg>
+						Failed to find item 'testAutomationRepository.MozillaFirefoxStartPage.Self'.
+					</errmsg>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.028"
+						timeRelativeToTestModuleStartTime="00:16.527"
+						timeWallClock="10:57:21"
+						time="00:17.028"
+						level="Error"
+						category="Module"
+						errimg="images_testAutomation_20160414_105704\testAutomation_20160414_105704_9cca34ab_trace.jpg"
+						errthumb="images_testAutomation_20160414_105704\testAutomation_20160414_105704_9cca34ab_trace_thumb.jpg">
+						<message>
+							Failed to find item 'testAutomationRepository.MozillaFirefoxStartPage.Self'.<br/>No element found for path '/dom[@domain='']' within 30s.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.MozillaFirefoxStartPageAppFolder.get_Self() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\testAutomationRepository.cs:line 109
+   at testAutomation.StopFirefox.Init() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\stopFirefox.UserCode.cs:line 33
+   at testAutomation.StopFirefox.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\stopFirefox.cs:line 80
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+							codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\stopFirefox.UserCode.cs"
+							codeline="33"
+							type="repoitem"
+							path="/dom[@domain='']"
+							fullname="testAutomationRepository.MozillaFirefoxStartPage.Self"
+							id="f5ac3ab32e76462c89e9e1de7e861935"
+							timeout="30000"
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

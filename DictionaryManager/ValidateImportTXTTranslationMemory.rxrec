@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="4d42aefa-1a4b-4c82-977f-081bd4b8e20f"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		ValidateImportTXTTranslationMemory
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateImportTXTTranslationMemory"
+	namespace="DictionaryManager"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="aa413bd8-2b49-4e56-965e-ab30d880d084"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="933a4d41-f1a6-46ce-8bfc-64f2ce71f71d">
+				<path>
+					/form[@title~'^SYSTRAN\ Dictionary\ Manage']/container[@controltypename='WindowDockingArea' and @instance='9']/?/?/container[@controlname='sdm.window.open']/?/?/tree[@accessiblename='French']/treeitem[@accessiblename='[EN-FR] Import_Translation_memory_in_TXT_format']
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="a03a04a2-1578-4f42-9db2-91b82f55e22e"
+		action="AttributeEqual">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="933a4d41-f1a6-46ce-8bfc-64f2ce71f71d">
+				<element
+				role="treeitem"
+				prefcap="treeitem"
+				capabilities="accessible"
+				flavor="msaa"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="2"
+				rect="3020,207,179,16"
+				snapElem="">
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="expanded"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						[EN-FR] Import_Translation_memory_in_TXT_format
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						[EN-FR] Import_Translation_memory_in_TXT_format
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						OutlineItem
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Selected, Expanded, Focusable, Selectable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+						1
+					</attribute>
+				</element>
+				<path>
+					/form///container[@controlname='sdm.window.open']/?/?/tree[@accessiblename='French']/treeitem[3]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="4eac6bac-29cb-4082-a016-a43009b3a9d3">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAE+AMkDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDRutOj
+KfKK525tishGK7IjI5rC1KHY5OKyTEZSWbMOlO+wN6Vp2hUgA1cCrVXC5z7WTAdKruhQ810zxqRW
+NfxBSSKEwKANT27Yaqx4NSRNg1Qzdt5QFHNWg4xmsSOQjvVoXHy4qLCLcsoxiqEjZLf7rfyNNeQk
+9aYGyW/3W/kaaAH5dvrSrGxpDxIfrWhFeQrEqmzhYgAFjjJ9+lUBQKEVIPufl/WpLmVJX3JEkQxj
+avT69KjH3fy/rSAtW9sHQyO8aIDt+aTbzgH0NLcW6xKMHJO0ghwwIIb2H92khmQQ7H8zO/eCmPTH
+eknmDbQgIRVVRuxnjPp9aelgK6jD/iP5iozUi8v+I/mKYRSAQdau29r56Hy3XzAeUYY49Qe/+fxp
+gc1aguGhU7FUOerk549MdqaAZPGiOQj+Yo/iC4B+nNQVNK4ZiVXYp/hByBUOKQEkf+P/AKCaSlQf
+1/8AQTSUAdD9o/6YS/8Ajv8AjVS8Q3C4EMoP/Af8at0U+VDMZLOdGyI5fyX/AOKqYR3GP9VL+S//
+ABVadFFkFjMMdx/zyl/Jf/iqrz2M8o/1cv5L/wDFVt0UWQHMnRpyfuS/kv8A8VSro9wP4JfyX/4q
+ulopgc+umXA/5Zy/kv8A8VTv7OuP+ecv5L/8VW9RSsBgnTp/+ecv5L/8VTRptwDkJL+S/wDxVdBR
+RYDDFjOB/qZPwwP/AGenCyn/AOeMv5j/AOLraop2Axvsc3/PGX8x/wDF0fY5v+eMv5j/AOLrZoos
+Bj/ZJv8AnjL+Y/8Ai6X7LN/zxl/Mf/F1r0UrAZH2SX/njL+Y/wDi6Pskv/PGX8x/8XWvRTsBkfZJ
+f+eMv5j/AOLo+yy/88ZvzH/xda9FFgMj7LL/AM8ZvzH/AMXR9ll/54y/mP8A4uteilYDINpMRxDK
+P++T/Nqb9im/55S/kv8A8VWzRRYAopu72o3e1MB1FN3e1G72oAdRTd3tRu9qAHUU3d7UbvagB1FN
+3e1G72oAdRTd3tRu9qAHUU3d7UbvagB1FN3e1G72oAdRTd3tRu9qAHUU3d7UbvagB1FN3e1G72oA
+dRTd3tRu9qAHUU3d7UbvagBtFFFMQUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUVRiaQwwRxFVYxhizLkAYHbIpwuRGCs5+cPs+RSdxxngDJ6UAXKKq/aYfl+
+YncM5CkgfX0/GljnilfYjEnn+EgccHmgCzRVFpJ98zKY9kR+6VOTwD1z7+lSfaIwCxbPzYAVCT0z
+jA60AWqKp/akaTYpwPlIYqSDk4x/n+lON1Au7LkBQSSVOOOuD3/CgC1RVX7TFtLDzDg4IEbE/ljN
+H2qHONx+6G4U4APrxxQBaoqFWVmZQclTg+1OxQBJRUeKMUASUVHijFAElFR4oxQBJRUeKMUASUVH
+iop5Gi+6gb5SxyccDHt70AWaKhjPmRK+MbgDio5pxBIokUiMj7/Xn0oAtUVXgczR7yhQE/LnuPWp
+MUAQRQu1tbyROEcRgfMu4EYHbIpHtZg0TRupk8ws7lePukdM/QdauWRP2KD5j/q1/lU2T/eNAzLO
+mLvDZjYn7xeIMc5zkenX3qeK18sod2dpY9OuTmruT/eNGT/eNAFB7WVnlxMqxynLDZ83QDg59vSg
+2bKxeKQK+/cuVyAMAYxn2q/k/wB40ZP940AZ7WjtIGaUH7ufk5JU59aa9gzoYzKPLAOwbeRn1Oee
+vtWlk/3jRk/3jQBnz2RlYnchywO2RNy9McjIois/IicH96DGE2qoGcZ9/etDJ/vGjJ/vGkBUtomj
+gUSHLnlj71Lipsn+8aMn+8aYEOKMVNk/3jRk/wB40AQ4oxU2T/eNGT/eNAEOKMVNk/3jRk/3jQBD
+ijFTZP8AeNGT/eNAEOKhntxLg854H3iOM8j8quZP940ZP940AV0jWNAi5wOnOaimtRPIpkYmNR9z
+pk+tXcn+8aMn+8aAKlvCYY9hcuAflyOg9KlxU2T/AHjSZb+/+lAFW0b/AEOH/rmv8qSa4I3JGMsB
+kn+7UVs3+ixf7g/lSksrsygHd1Gamd7aCZYjkYoC4wacz4Un0FVo2cZLnJPb0pWb5D9KcdgRNKzI
+PvqfUDgj8zVZJFMqqJnQgjIdw2/2HNT/AGmNASd5J54Qn+lVPPe4uh8rrGnPzKRk9utYxnPmtYuy
+sX99UFvJ7V9t58yH7siirO+qIt3nunkuuY1J2JnrW0k+hpScdebb8fkXbWaWYmZ/kjYfImOfqan3
+1TtlMKtFu3IOY/UDuP8AD8am300tCJtOWmxNvo31Dvo307EE2+jfUO+jfRYCbfRvqHfRvosBNvo3
+1Dvo30WAm30b6h30b6LATb6N9Q76N9FgJt9G+od9G+iwE2+jfUO+jfRYCtAHNtEUjdxsHKqfSn4m
+/wCeEv8A3zVrT2KaNGw6iMkfrUjy7Q+2WYsoJ5j4498UrgUcTf8APCX/AL5oxN/zwl/75rYYZUgE
+gnuO1Zto85v7qOS7leO3K4BVPmyM84Wi4EOJv+eEv/fNGJv+eEv/AHzVlNVjezF0IJViY4BdkXP5
+tTf7agZIWSKZ/NDEBQvG3rnnFFwIMTf88Jf++aMTf88Jf++asHWbffEipK5kRXAUDOD7ZyfwzTYr
+6RLrUPNJeOBk2qNq4BHPJI/U0XAhxN/zwl/75oxN/wA8Jf8AvmnS60Gjje2iZsziJwdp7Z4IOKdD
+rMH2dWC3E2I/Mdiq5Vc4ycYH5UXAjxN/zwl/75oxN/zwl/75qxbaxb3MqJHHKFdyiyEDaSBn1z+l
+UrzWJrTVbqJyTEI/3Y2jh9uR+dHMBLib/nhL/wB80Ym/54S/981FZa8iWSfbGaSfBZ8bVwM46EjJ
+9hVlddgcr5dvcOGZlUqFw23k45p3AjxN/wA8Jf8AvmjE3/PCX/vmpl1y1aPzVSUxDaHkwMIT2POf
+ypg1mBzFKwuIonRmG5U2sB1zyTSuAzE3/PCX/vmjE3/PCX/vmnf8JDZ5C4fccYGU7++7A/E1pQSi
+eBJQjoGGdrjBH1p3Ay8Tf88Jf++aMTf88Jf++a2KKVwMfE3/ADwl/wC+aMTf88Jf++a2KKLgY+Jv
++eEv/fNGJv8AnhL/AN81sUUXAx8Tf88Jf++aTen/AD0X8j/hWzXO07ga2mKH0qJT0KEGpjbAggyu
+Qeo4/wAKi0r/AJBkH+7/AFq3UgFQR2scc88oLbp8bsngYGOKnooAojS4VtbeBJJV+ztuRwRnPPqM
+d/Skj0iCPy8SSkxhwCSOd3XPFX6r303lW8jbdwRDIwzjIAzj8f5ZpMCvJo8MkCQtNP5Sqq7NwIOO
+/I4P0xT5dLglM5ZpAZ2Vjgjgr0xx/OpLGbzbeNsbQ6CRRnOARnH4fyxS3rukK+W5QtIi7gATgsAe
+tNO4MrnSIirAzzl2l84vlc7sY9MfpTV0S3SLy0lmQFPLfBHzrnODx/LFOt5nknbdcXORK42CH5MA
+kAbtvoPWm215K0VqJnAdiC5wAGUoxB9un6UBYkg0m3tzH5ZkAjkMijIxkjGOnSnPpltLcyTyqXZ2
+VsE8AqMDGKZc3SvLD5NzIInVyWt0EmSCPY+pplxOyTlGurlEWFWykIYk5OS3ynHQelACx6NDCSYZ
+7iJiCrMjAFgTn0/UU6PSbeNkZXlOxnYZbPLDBzxUls8xmAmckmFWK4GA3fGP8aYL/wAqNvMSSQgy
+ElAPlVWI9R7UARJoVqkXlLJN5RILpuGHI7nj+VP/ALGtfKhjYyMkSMgBI5Ddc8VKb8Ahfs8xcttC
+YXJ4znrjGPWl+3xkArHIVABdgB+7+vP8s0ARjTBtCm8uztAAy4xgDGCMYP4irFpbR2dskEWdidM9
+fWoRfM8kQjgk2PIULHb2zkjn1FWZkZ4yEleI9dygZ/UGgB9FUoJ3it4Gkaa4knxgYUYOMn04obVI
+UkljdWDRKWIDKxIHsCSPxxQBdoqnJqKRr88UiuX2BCVBJxkck4/XNDXZjkmdgxjSNGCnCkZznOSP
+1NAFyis86ksih0VxEY3YupUlSCB6kH9e1WPta+ds2Pt3bDJxtDenXP6YoAsVztdFXO00Br6V/wAg
+yD/d/rVuqmlf8gyD/d/rVukBnXGpyRXj28dq0xQA/K3sO2Pem/2ndf8AQNm/X/CiD/kYbn/rmP8A
+2WtOoV31M1zO+pmf2ndf9A2b9f8ACoJrq5mjlVtOlPmKV5DYxjHp/X1raqvfTeVbyNt3BEMjDOMg
+DOPx/lmlKN1qykpdzNhurmGOJV06UeWoXgNgjGPT/PFF1qczhUeyeMh1fknnBz6e1aNjN5tvG2No
+dBIoznAIzj8P5YqvfKrXo3DcBETj6Zq6VO+iZE+ZLcoR6jLG5KJcBCxbZuXHJyf4M/rQt8qm2Is5
+M24wp8zqMY54qaRAsYxHHygOS/PT0z/SnSwIHk2L8oBwPQggf5+tb+xX835GfPPuNOrsZll+xvuV
+So+fjnHt7Ug1Y+c0v2N8soUjfxgZ9veliiIR98Y3AjAkO319xSpGGjyIoyxcjBfA7dOeaPYr+b8h
+c8+5FDqbQupW1chYwgBbnAPrimm+BV1+yS4dXU/P/eOT/DUkyxiNig6OQDz0pTb7iNrKoIUc55JF
+P2H94Oefchnv3lmWRIZYmDZJVgexHdfek+2AcLbTKpADqHGJPr8v8sVN9nOCfMTaBknnHXHpR9mb
+OCygk4UZ+99KPYL+YXPMYNRKrGFtpV8uQuCHHOc5H3enJqc625GPsbf99/8A1qj+zgKxaRchAwAz
+7e3vUSEBuVDexz/Sj6vf7Qe0mupINSwIALST9x935+vGOeKgN1u3BoZyhDAJvGF3dcfLn86syRq0
+sioEjWPOTk+uPehbV2VWBGGIHQjr+FHsFu5D55kcuoNIWIgmjL9drggjGMYKkUz7YoTalrKmFRVI
+cfLt6dV96mW2Zj8rqRjORk/0zR5IKIARuLMMjJzjHpS9gv5g55kButybWhnOQwYlxlt3XPy+3apP
+7QPnb/s0u3dvMe8bS3r93P64qYWpU4Yru3KADkA5/DNReS2zOVzjdt749aaoL+YHOZP/AG2//Pm3
+/ff/ANas7zn/AOeLVNRUVKThazKpylPqa+lf8gyD/d/rVuqOnsU0aNh1EZI/Wla4IklQSS5RNwJT
+gnn29uveszoIYP8AkYbn/rmP/Za06o3OlQXM7TO8gZsZAIx0x6ViR2yNp9ncEtvnnEbDsBkjj34q
+FzLoZrmV9DqaozjzreYFGLyKQAyNjpgA4H8vesyC306e4eJDdfIWDOSuBj1xyPxAqJP7KkDFXucK
+jOPmQ7gPYcj8cVMk5IpSkuhsQDybeEBGDxqAQqNjpggZ/r7Ul4rfbAwjdl8sqSq565rLurKBNIe9
+iWdTgFVlK8gkc8fWlubK3tbwpI0rQ+QZflxuGOv1qqfNT6Ey5pLYsMkzKAbUkgY3bWz/ADpSLk+Z
++5fEnUbDVdrax3Ksa3krGMSERhSVU9M/4DNVoBZbpFuhcR4d9rDbjC+vfNdHt5fymXs5F4RThGTy
+XwSD909v/wBdHlXHlhPJfAOfumqrLp6SJG0d8JZNuyP5MkHofShxpqQiVvtQU56vGDwcHjOT+Gaf
+1iX8ovZMuyJK8Z/cybi24/IcUYufl/cN8pU/cPbpVNU05iPlvAhl8oSEpjd/PH4VGZdIAyXuefu/
+Mnzc4/D8cUvby/lH7ORoxiZY2Vrd2BHA2n1B/pRm5zk27Eg5U7D8v0pLTS7O6h81DcoMkYYrz7jA
+wR7ipv7Ctf8AnpN+Y/wpe2l/KP2ciELOWJaB8MoU/IenH+FNa2YD5EmJ94sf1qx/YVr/AM9JvzH+
+FH9hWv8Az0m/Mf4U/rEuwvZMgKXBMh8h/wB51+Q+uaeDcjBFsd3GTsbnFSf2Fa/89JvzH+FH9hWv
+/PSb8x/hR7eX8oezkQqtwoANuzAdMoaXNyTkwMckkjYec9al/sK1/wCek35j/Cj+wrX/AJ6TfmP8
+KPby/lD2ciMG4BBFsRjGBsbjFM23GzH2ds427thzj0qf+wrX/npN+Y/wo/sK1/56TfmP8KPby/lD
+2cip9nn/AOeMn/fJqOr/APYVr/z0m/Mf4VlfZU9WqJ1ZT6FQjKHQ3NMUPpUSnoUINSm1U5zI5yMH
+gcj8qj0r/kGQf7v9at1JuFUl0yJXjPmytHG5kSIkbVP5Z7+tXaKAKQ0yL7Us8kkspXdtV2BAB6jO
+M4+ppq6VEsDQfaLgxFGQIXGFB/Dn8c1fooArTWUU1h9jZnEe0LkEZ4x/hUZ0yJ/OMsssryx+WXYj
+Kr6DAA/SrtFAFJtMj3K0c08TCMRkxsAWUdM8fqMVF/YlqZWdnlYMXOwsMfN17Z/WtKigDOGjQefF
+M8s0kkRXazEdB0HA6Uz+wrfEgWadRKCHwV+YZz3FalFAFBdHtljWPdIVWYzckcn06dKE0pY4xGl3
+dqi/cVZMBec+nP45q/RQBXsrOOyjZIix3uXYtjkn6ACrFFFABRRRQAUUUUAFFFFABRRRQAVztdFX
+O00Br6V/yDIP93+tW6qaV/yDIP8Ad/rVukAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABXO10Vc7TQGvpX/ACDIP93+tW6qaV/yDIP93+tW6QBRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFc7XRVztNAa+lf8gyD/AHf61bqppX/IMg/3
+f61bpAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVztdFXO00Br
+6V/yDIP93+tW6qaV/wAgyD/d/rVukAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABXO10Vc7TQGvpX/IMg/3f61bqppX/IMg/wB3+tW6QBRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFc7XRVztNAa+lf8AIMg/3f61bqppX/IMg/3f61bp
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVztdFXO00Br6V/yD
+IP8Ad/rVuqmlf8gyD/d/rVukAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABXO10Vc7TQGvpX/IMg/3f61bqppX/ACDIP93+tW6QBRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFc7XRVztNAf/Z
+			</helperscreenshot>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				[EN-FR] Import_Translation_memory_in_TXT_format
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="DictionaryManagerRepository"
+	id="1690ff42-4e44-4ddc-9c10-920ebe70dfad"
+	rxversion="6.0"
+	relativepath="DictionaryManagerRepository.rxrep">
+		<codegen
+		classname="DictionaryManagerRepository"
+		namespace="DictionaryManager"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="623ccc2d-6519-4df5-aa39-655f8d9d3a18"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateImportTXTTranslationMemory.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

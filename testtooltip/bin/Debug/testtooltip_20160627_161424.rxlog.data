@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="146740095cb154d2"
+		totalerrorcount="2"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/27/2016 4:14:24 PM"
+		timestampiso="2016-06-27T14:14:24"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="317ms"
+			durationms="317"
+			type="test suite"
+			rid="cd2729751c1c160"
+			totalerrorcount="2"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="testtooltip"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="304ms"
+				durationms="304"
+				type="folder"
+				rid="12ee9553502746be"
+				totalerrorcount="2"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				foldername="Systran_Language_Manager">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="300ms"
+					durationms="300"
+					type="test case"
+					rid="27f1c78a702bc3f"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					testcasename="Profile_with_TM"
+					testcaseid="18f17348-b65d-4a73-a7c5-15c27317a215"
+					maxchildren="0">
+					<params/>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="164ms"
+						durationms="164"
+						type="test case setup"
+						rid="128dcedc4d8d7385"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="135ms"
+							durationms="135"
+							type="test module"
+							rid="28ced2ee564a1eb7"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="StartIEAndSystranLangManager"
+							moduleid="0f6afdb7-5eff-4213-a1a5-949cd5fb4ac7"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<errmsg>
+								The module 'StartIEAndSystranLangManager' (with ID {0f6afdb7-5eff-4213-a1a5-949cd5fb4ac7}) could not be found. The following errors occurred loading the assemblies: Could not load file or assembly 'file:///C:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\bin\Debug\DictionaryManager.csproj' or one of its dependencies. The system cannot find the file specified., Could not load file or assembly 'file:///C:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\bin\Debug\LanguageManager.csproj' or one of its dependencies. The system cannot find the file specified., Could not load file or assembly 'file:///C:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\bin\Debug\testAutomation.csproj' or one of its dependencies. The system cannot find the file specified..
+							</errmsg>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.229"
+								timeRelativeToTestModuleStartTime="00:00.025"
+								timeWallClock="16:14:24"
+								time="00:00.229"
+								level="Error"
+								category="Module"
+								errimg="images_testtooltip_20160627_161424\testtooltip_20160627_161424_63ff658d_trace.jpg"
+								errthumb="images_testtooltip_20160627_161424\testtooltip_20160627_161424_63ff658d_trace_thumb.jpg">
+								<message>
+									The module 'StartIEAndSystranLangManager' (with ID {0f6afdb7-5eff-4213-a1a5-949cd5fb4ac7}) could not be found. The following errors occurred loading the assemblies: Could not load file or assembly 'file:///C:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\bin\Debug\DictionaryManager.csproj' or one of its dependencies. The system cannot find the file specified., Could not load file or assembly 'file:///C:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\bin\Debug\LanguageManager.csproj' or one of its dependencies. The system cannot find the file specified., Could not load file or assembly 'file:///C:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\bin\Debug\testAutomation.csproj' or one of its dependencies. The system cannot find the file specified..
+								</message>
+								<metainfo
+									stacktrace="   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+									loglvl="Error"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Failed"
+						duration="133ms"
+						durationms="133"
+						type="test case teardown"
+						rid="69102b1561bb84a"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="117ms"
+							durationms="117"
+							type="test module"
+							rid="ad68926a2f74fcc"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="EndIEAndSystranLanguageManager"
+							moduleid="6f9db614-ebc6-447e-a7fb-847f056689b2"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<errmsg>
+								The module 'EndIEAndSystranLanguageManager' (with ID {6f9db614-ebc6-447e-a7fb-847f056689b2}) could not be found. The following errors occurred loading the assemblies: Could not load file or assembly 'file:///C:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\bin\Debug\DictionaryManager.csproj' or one of its dependencies. The system cannot find the file specified., Could not load file or assembly 'file:///C:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\bin\Debug\LanguageManager.csproj' or one of its dependencies. The system cannot find the file specified., Could not load file or assembly 'file:///C:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\bin\Debug\testAutomation.csproj' or one of its dependencies. The system cannot find the file specified..
+							</errmsg>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.374"
+								timeRelativeToTestModuleStartTime="00:00.018"
+								timeWallClock="16:14:24"
+								time="00:00.374"
+								level="Error"
+								category="Module"
+								errimg="images_testtooltip_20160627_161424\testtooltip_20160627_161424_30885170_trace.jpg"
+								errthumb="images_testtooltip_20160627_161424\testtooltip_20160627_161424_30885170_trace_thumb.jpg">
+								<message>
+									The module 'EndIEAndSystranLanguageManager' (with ID {6f9db614-ebc6-447e-a7fb-847f056689b2}) could not be found. The following errors occurred loading the assemblies: Could not load file or assembly 'file:///C:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\bin\Debug\DictionaryManager.csproj' or one of its dependencies. The system cannot find the file specified., Could not load file or assembly 'file:///C:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\bin\Debug\LanguageManager.csproj' or one of its dependencies. The system cannot find the file specified., Could not load file or assembly 'file:///C:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\testtooltip\bin\Debug\testAutomation.csproj' or one of its dependencies. The system cannot find the file specified..
+								</message>
+								<metainfo
+									stacktrace="   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+									loglvl="Error"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

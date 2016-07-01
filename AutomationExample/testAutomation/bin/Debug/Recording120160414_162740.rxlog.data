@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1c388811ec2ca607"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.5.19886"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="4/14/2016 4:27:45 PM"
+		timestampiso="2016-04-14T14:27:45"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errmsg>
+			Failed to find item 'testAutomationRepository.TranslationResources.Packages'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.315"
+			timeRelativeToTestModuleStartTime="00:00.315"
+			timeWallClock="16:27:45"
+			time="00:00.315"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>testVar
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.349"
+			timeRelativeToTestModuleStartTime="00:00.349"
+			timeWallClock="16:27:45"
+			time="00:00.349"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://trs.systran.net' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="95"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.460"
+			timeRelativeToTestModuleStartTime="00:00.460"
+			timeWallClock="16:27:45"
+			time="00:00.460"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SignIn.ContinueWith' at 235;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='Sign in']//div[#'main']//a[@innertext='Continue with ']"
+				fullname="testAutomationRepository.SignIn.ContinueWith"
+				id="68966b3e4b1e44f694b776f357257b84"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.363"
+			timeRelativeToTestModuleStartTime="00:03.363"
+			timeWallClock="16:27:48"
+			time="00:03.363"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANAccountsSignIn.Usrnm' at 9;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='login.systran.net']//input[#'usrnm']"
+				fullname="testAutomationRepository.SYSTRANAccountsSignIn.Usrnm"
+				id="4b032f82d43743419d5df64776c034c8"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.241"
+			timeRelativeToTestModuleStartTime="00:04.241"
+			timeWallClock="16:27:49"
+			time="00:04.241"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'sujit{RShiftKey down}.{RShiftKey up}pandey{LControlKey down}{RMenu down}{D0}{LControlKey up}{RMenu up}{LControlKey up}systrangroup{RShiftKey down}.{RShiftKey up}com' with focus on 'SYSTRANAccountsSignIn.Usrnm'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='login.systran.net']//input[#'usrnm']"
+				fullname="testAutomationRepository.SYSTRANAccountsSignIn.Usrnm"
+				id="4b032f82d43743419d5df64776c034c8"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="107"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.499"
+			timeRelativeToTestModuleStartTime="00:07.499"
+			timeWallClock="16:27:52"
+			time="00:07.499"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANAccountsSignIn.Psswd' at 24;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='login.systran.net']//input[#'psswd']"
+				fullname="testAutomationRepository.SYSTRANAccountsSignIn.Psswd"
+				id="165130f5d0d5439195f10f016f4c88c5"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="111"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.348"
+			timeRelativeToTestModuleStartTime="00:08.348"
+			timeWallClock="16:27:53"
+			time="00:08.348"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}SES{LShiftKey up}password' with focus on 'SYSTRANAccountsSignIn.Psswd'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='login.systran.net']//input[#'psswd']"
+				fullname="testAutomationRepository.SYSTRANAccountsSignIn.Psswd"
+				id="165130f5d0d5439195f10f016f4c88c5"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="115"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.778"
+			timeRelativeToTestModuleStartTime="00:09.778"
+			timeWallClock="16:27:55"
+			time="00:09.778"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SYSTRANAccountsSignIn.SubmitLogin' at 50;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='login.systran.net']//input[#'submit_login']"
+				fullname="testAutomationRepository.SYSTRANAccountsSignIn.SubmitLogin"
+				id="919b7359893c40bda5d1052cda767882"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="119"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.626"
+			timeRelativeToTestModuleStartTime="00:10.626"
+			timeWallClock="16:27:56"
+			time="00:10.626"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recording120160414_162740_c19c3d6c_trace.jpg"
+			errthumb=".\Recording120160414_162740_c19c3d6c_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'TranslationResources.Packages' at 46;24.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='Translation Resources']//div[#'navBar']//a[@innertext='Packages']"
+				fullname="testAutomationRepository.TranslationResources.Packages"
+				id="bef985b811a546419827896c77b0ec8b"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="123"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.926"
+			timeRelativeToTestModuleStartTime="00:16.926"
+			timeWallClock="16:28:02"
+			time="00:16.926"
+			level="Info"
+			category="Invoke Action"
+			errimg=".\Recording120160414_162740_ef83b400_trace.jpg"
+			errthumb=".\Recording120160414_162740_ef83b400_trace_thumb.jpg">
+			<message>
+				Invoking EnsureVisible() on item 'TranslationResources.Packages'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='Translation Resources']//div[#'navBar']//a[@innertext='Packages']"
+				fullname="testAutomationRepository.TranslationResources.Packages"
+				id="bef985b811a546419827896c77b0ec8b"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="127"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.970"
+			timeRelativeToTestModuleStartTime="00:25.970"
+			timeWallClock="16:28:11"
+			time="00:25.970"
+			level="Error"
+			category="Module"
+			errimg=".\Recording120160414_162740_ba8e8b12_trace.jpg"
+			errthumb=".\Recording120160414_162740_ba8e8b12_trace_thumb.jpg">
+			<message>
+				Failed to find item 'testAutomationRepository.TranslationResources.Packages'.<br/>No element found for path '/dom[@caption='Translation Resources']//div[#'navBar']//a[@innertext='Packages']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testAutomation.testAutomationRepositoryFolders.TranslationResourcesAppFolder.get_Packages() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\testAutomationRepository.cs:line 348
+   at testAutomation.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs:line 128
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\AutomationExample\testAutomation\Recording1.cs"
+				codeline="128"
+				type="repoitem"
+				path="/dom[@caption='Translation Resources']//div[#'navBar']//a[@innertext='Packages']"
+				fullname="testAutomationRepository.TranslationResources.Packages"
+				id="bef985b811a546419827896c77b0ec8b"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="8"/>
+		</item>
+	</activity>
+</report>

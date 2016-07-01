@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="847fa8ccca007e6"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="7/1/2016 10:31:13 AM"
+		timestampiso="2016-07-01T08:31:13"
+		timeoutfactor="1"
+		module="ClickOnDictionary">
+		<detail>
+			ClickOnDictionary
+		</detail>
+		<errmsg>
+			Failed to find item 'DictionaryManagerRepository.DictionaryMenu.DictionaryChangeEntryType'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.287"
+			timeRelativeToTestModuleStartTime="00:00.288"
+			timeWallClock="10:31:14"
+			time="00:00.287"
+			level="Info"
+			category="Mouse"
+			errimg=".\ClickOnDictionary20160701_103111_1b560f50_trace.jpg"
+			errthumb=".\ClickOnDictionary20160701_103111_1b560f50_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'DictionaryMenu.Dictionary' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='Dictionary']"
+				fullname="DictionaryManagerRepository.DictionaryMenu.Dictionary"
+				id="ddf6a625a9bd4fabba6a7a21b84be43d"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ClickOnDictionary.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.498"
+			timeRelativeToTestModuleStartTime="00:02.499"
+			timeWallClock="10:31:16"
+			time="00:02.498"
+			level="Info"
+			category="Mouse"
+			errimg=".\ClickOnDictionary20160701_103111_2500fe27_trace.jpg"
+			errthumb=".\ClickOnDictionary20160701_103111_2500fe27_trace_thumb.jpg">
+			<message>
+				Mouse Left Move item 'DictionaryMenu.DictionaryChangeEntryType' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='Change Entry Type']"
+				fullname="DictionaryManagerRepository.DictionaryMenu.DictionaryChangeEntryType"
+				id="d78c5470be334f0b9079afa10973fdb6"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ClickOnDictionary.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.831"
+			timeRelativeToTestModuleStartTime="00:33.832"
+			timeWallClock="10:31:47"
+			time="00:33.831"
+			level="Error"
+			category="Module"
+			errimg=".\ClickOnDictionary20160701_103111_34406092_trace.jpg"
+			errthumb=".\ClickOnDictionary20160701_103111_34406092_trace_thumb.jpg">
+			<message>
+				Failed to find item 'DictionaryManagerRepository.DictionaryMenu.DictionaryChangeEntryType'.<br/>No element found for path 'menuitem[@accessiblename='Change Entry Type']' within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at DictionaryManager.DictionaryManagerRepositoryFolders.DictionaryMenuAppFolder.get_DictionaryChangeEntryType() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\DictionaryManagerRepository.cs:line 3083
+   at DictionaryManager.ClickOnDictionary.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ClickOnDictionary.cs:line 87
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\ClickOnDictionary.cs"
+				codeline="87"
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='Change Entry Type']"
+				fullname="DictionaryManagerRepository.DictionaryMenu.DictionaryChangeEntryType"
+				id="d78c5470be334f0b9079afa10973fdb6"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="1"/>
+		</item>
+	</activity>
+</report>

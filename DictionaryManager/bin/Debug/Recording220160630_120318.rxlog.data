@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="17a8290b2b380018"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/30/2016 12:03:20 PM"
+		timestampiso="2016-06-30T10:03:20"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.312"
+			timeRelativeToTestModuleStartTime="00:00.312"
+			timeWallClock="12:03:20"
+			time="00:00.312"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FileMenu.File' at 18;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']//menubar[@accessiblename='Toolbar']/menuitem[@accessiblename='File']"
+				fullname="DictionaryManagerRepository.FileMenu.File"
+				id="3985b1f5ad68465592932cd5cce723d7"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\Recording2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.511"
+			timeRelativeToTestModuleStartTime="00:02.511"
+			timeWallClock="12:03:22"
+			time="00:02.511"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SelectDictType.MenuPopup' at 47;254.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='SystranDictionaryManager' and @controltypename='DropDownForm']/?/?/contextmenu[@accessiblerole='MenuPopup']"
+				fullname="DictionaryManagerRepository.SelectDictType.MenuPopup"
+				id="4c7d6e50fdd24657b48898450942b781"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\Recording2.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.369"
+			timeRelativeToTestModuleStartTime="00:03.369"
+			timeWallClock="12:03:23"
+			time="00:03.369"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'C:\Users\pandey\Desktop\user dict\Test_en_fr.tmx'.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\Recording2.cs"
+				codeline="90"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.736"
+			timeRelativeToTestModuleStartTime="00:08.736"
+			timeWallClock="12:03:29"
+			time="00:08.736"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Import.ButtonOpen' at 29;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Import']/button[@text='&amp;Open']"
+				fullname="DictionaryManagerRepository.Import.ButtonOpen"
+				id="6064a763ccf14576af9b6bb68f49e117"
+				timeout="60000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\Recording2.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

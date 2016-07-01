@@ -58,7 +58,7 @@ namespace testtooltip
         /// <summary>
         /// Starts the replay of the static recording <see cref="Instance"/>.
         /// </summary>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "5.4.5")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "6.0")]
         public static void Start()
         {
             TestModuleRunner.Run(Instance);
@@ -70,12 +70,12 @@ namespace testtooltip
         /// <remarks>You should not call this method directly, instead pass the module
         /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
         /// that will in turn invoke this method.</remarks>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "5.4.5")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "6.0")]
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;
             Keyboard.DefaultKeyPressTime = 100;
-            Delay.SpeedFactor = 1.0;
+            Delay.SpeedFactor = 1.00;
 
             Init();
 
@@ -83,27 +83,23 @@ namespace testtooltip
             repo.SYSTRANInteractiveTranslator1.History.Click("6;5");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse None Move item 'SYSTRANInteractiveTranslator1.SomeContainer1.HeaderSite1' at 1760;11.", repo.SYSTRANInteractiveTranslator1.SomeContainer1.HeaderSite1Info, new RecordItemIndex(1));
-            repo.SYSTRANInteractiveTranslator1.SomeContainer1.HeaderSite1.MoveTo("1760;11");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse None Move item 'SYSTRANInteractiveTranslator1.SomeContainer1.Purge' at 12;3.", repo.SYSTRANInteractiveTranslator1.SomeContainer1.PurgeInfo, new RecordItemIndex(1));
+            repo.SYSTRANInteractiveTranslator1.SomeContainer1.Purge.MoveTo("12;3");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse None Move item 'SYSTRANInteractiveTranslator1.SomeContainer1.Purge' at 18;6.", repo.SYSTRANInteractiveTranslator1.SomeContainer1.PurgeInfo, new RecordItemIndex(2));
-            repo.SYSTRANInteractiveTranslator1.SomeContainer1.Purge.MoveTo("18;6");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Purge old translations') on item 'PurgeOldTranslations'.", repo.PurgeOldTranslations.SelfInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Purge old translations') on item 'PurgeOldTranslations'.", repo.PurgeOldTranslations.SelfInfo, new RecordItemIndex(2));
             Validate.Attribute(repo.PurgeOldTranslations.SelfInfo, "Text", "Purge old translations");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse None Move item 'SYSTRANInteractiveTranslator1.SomeContainer1.Grid' at 458;11.", repo.SYSTRANInteractiveTranslator1.SomeContainer1.GridInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse None Move item 'SYSTRANInteractiveTranslator1.SomeContainer1.Grid' at 458;11.", repo.SYSTRANInteractiveTranslator1.SomeContainer1.GridInfo, new RecordItemIndex(3));
             repo.SYSTRANInteractiveTranslator1.SomeContainer1.Grid.MoveTo("458;11");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse None Move item 'SYSTRANInteractiveTranslator1.SomeContainer1.Background6' at 5;17.", repo.SYSTRANInteractiveTranslator1.SomeContainer1.Background6Info, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse None Move item 'SYSTRANInteractiveTranslator1.SomeContainer1.Background6' at 5;17.", repo.SYSTRANInteractiveTranslator1.SomeContainer1.Background6Info, new RecordItemIndex(4));
             repo.SYSTRANInteractiveTranslator1.SomeContainer1.Background6.MoveTo("5;17");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Refresh') on item 'Refresh'.", repo.Refresh.SelfInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Refresh') on item 'Refresh'.", repo.Refresh.SelfInfo, new RecordItemIndex(5));
             Validate.Attribute(repo.Refresh.SelfInfo, "Text", "Refresh");
             Delay.Milliseconds(100);
             

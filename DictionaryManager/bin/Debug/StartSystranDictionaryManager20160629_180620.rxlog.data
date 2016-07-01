@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="6c9493fe8576e38"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="64bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/29/2016 6:06:22 PM"
+		timestampiso="2016-06-29T16:06:22"
+		timeoutfactor="1"
+		module="StartSystranDictionaryManager">
+		<detail>
+			StartSystranDictionaryManager
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.290"
+			timeRelativeToTestModuleStartTime="00:00.291"
+			timeWallClock="18:06:22"
+			time="00:00.290"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Program Files (x86)\SYSTRAN 8 TRANSLATOR\applications\SystranDictionaryManager.exe' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\StartSystranDictionaryManager.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.345"
+			timeRelativeToTestModuleStartTime="00:00.346"
+			timeWallClock="18:06:23"
+			time="00:00.345"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'SYSTRANDictionaryManager'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^SYSTRAN\ Dictionary\ Manage']"
+				fullname="DictionaryManagerRepository.SYSTRANDictionaryManager.Self"
+				id="819b32cddcbf459793e7c5e27440e8e1"
+				timeout="30000"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testtooltip\DictionaryManager\StartSystranDictionaryManager.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

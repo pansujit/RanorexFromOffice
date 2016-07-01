@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="d0b22cb5f73eda0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="pandey"
+		host="FLR1622"
+		rxversion="5.4.6.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3200x1080"
+		timestamp="6/27/2016 4:34:46 PM"
+		timestampiso="2016-06-27T14:34:46"
+		timeoutfactor="1"
+		module="Add_Licence">
+		<detail>
+			Add_Licence
+		</detail>
+		<errmsg>
+			Failed to find item 'testSolutionRepository.SYSTRANLanguageManager.Self'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.367"
+			timeRelativeToTestModuleStartTime="00:30.368"
+			timeWallClock="16:35:16"
+			time="00:30.367"
+			level="Error"
+			category="Module"
+			errimg=".\Add_Licence.cs_20160627_163443_2334d0de_trace.jpg"
+			errthumb=".\Add_Licence.cs_20160627_163443_2334d0de_trace_thumb.jpg">
+			<message>
+				Failed to find item 'testSolutionRepository.SYSTRANLanguageManager.Self'.<br/>No element found for path '/form[@title='SYSTRAN Language Manager']' within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at testSolution.testSolutionRepositoryFolders.SYSTRANLanguageManagerAppFolder.get_Self() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testSolution\testSolution\testSolutionRepository.cs:line 107
+   at testSolution.Add_Licence.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testSolution\testSolution\Add_Licence.cs:line 51
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\pandey\Documents\Ranorex\RanorexStudio Projects\testSolution\testSolution\Add_Licence.cs"
+				codeline="51"
+				type="repoitem"
+				path="/form[@title='SYSTRAN Language Manager']"
+				fullname="testSolutionRepository.SYSTRANLanguageManager.Self"
+				id="960b2f849e134d27ae55d76cf08f10c2"
+				timeout="30000"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>
